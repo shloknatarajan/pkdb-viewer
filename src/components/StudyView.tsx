@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { loadPaper, loadStudy } from "../data";
@@ -9,6 +9,35 @@ export default function StudyView({ sid }: { sid: string }) {
   const [study, setStudy] = useState<Study | null>(null);
   const [paper, setPaper] = useState<string>("");
   const [err, setErr] = useState<string | null>(null);
+
+  // resizable split: percentage width of the left (paper) pane
+  const splitRef = useRef<HTMLDivElement>(null);
+  const [leftPct, setLeftPct] = useState(50);
+  const draggingRef = useRef(false);
+
+  const onDividerDown = useCallback((e: React.PointerEvent) => {
+    e.preventDefault();
+    draggingRef.current = true;
+    (e.target as HTMLElement).setPointerCapture(e.pointerId);
+  }, []);
+
+  useEffect(() => {
+    const onMove = (e: PointerEvent) => {
+      if (!draggingRef.current || !splitRef.current) return;
+      const rect = splitRef.current.getBoundingClientRect();
+      const pct = ((e.clientX - rect.left) / rect.width) * 100;
+      setLeftPct(Math.min(80, Math.max(20, pct)));
+    };
+    const onUp = () => {
+      draggingRef.current = false;
+    };
+    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointerup", onUp);
+    return () => {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onUp);
+    };
+  }, []);
 
   useEffect(() => {
     setStudy(null);
@@ -67,8 +96,8 @@ export default function StudyView({ sid }: { sid: string }) {
         </div>
       </div>
 
-      <div className="split">
-        <section className="pane pane-paper">
+      <div className="split" ref={splitRef}>
+        <section className="pane pane-paper" style={{ width: `${leftPct}%` }}>
           <div className="pane-label">
             Original paper
             {study.paper.source === "abstract" ? (
@@ -84,6 +113,14 @@ export default function StudyView({ sid }: { sid: string }) {
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{paper}</ReactMarkdown>
           </article>
         </section>
+
+        <div
+          className="split-divider"
+          role="separator"
+          aria-orientation="vertical"
+          onPointerDown={onDividerDown}
+          onDoubleClick={() => setLeftPct(50)}
+        />
 
         <section className="pane pane-data">
           <div className="pane-label">Extracted data</div>
