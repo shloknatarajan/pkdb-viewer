@@ -4,12 +4,14 @@
   "licence": "open",
   "access": "public",
   "date": "2019-05-14",
+  "snapshot": "2021-12-03",
   "counts": {
     "groups": 3,
     "individuals": 0,
     "interventions": 2,
     "outputs": 130,
-    "timecourses": 6
+    "timecourses": 6,
+    "scatters": 0
   },
   "reference": {
     "pmid": "760753",
@@ -25,13 +27,10 @@
   },
   "curators": [
     "Matthias König",
-    "Dimitra Eleftheriadou",
+    "dimitra",
     "Janosch Brandhorst"
   ],
-  "descriptions": [
-    "The serum concentration profile of paracetamol has been determined after administration of single 1000 mg intravenous and oral doses in six normal subjects and six epileptic patients on chronic antiepileptic drug therapy.",
-    "The kinetics of paracetamol after oral and intravenous dosing have been compared in healthy subjects and epileptic patients treated with known enzyme-inducing agents."
-  ],
+  "descriptions": [],
   "substances": [
     {
       "sid": "apap",
@@ -66,17 +65,13 @@
   ],
   "groups": [
     {
-      "pk": 1229,
+      "pk": 203,
       "name": "all",
       "parent": null,
       "count": 12,
-      "study": {
-        "sid": "PKDB00124",
-        "name": "Perucca1979"
-      },
       "characteristica": [
         {
-          "pk": 32603,
+          "pk": 4230,
           "count": 12,
           "measurement_type": {
             "sid": "species",
@@ -84,14 +79,14 @@
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -102,11 +97,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         },
         {
-          "pk": 32604,
+          "pk": 4231,
           "count": 12,
           "measurement_type": {
             "sid": "healthy",
@@ -114,14 +108,14 @@
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -132,26 +126,25 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         },
         {
-          "pk": 32605,
+          "pk": 4232,
           "count": 12,
           "measurement_type": {
-            "sid": "overnight-fast",
+            "sid": "overnight fast",
             "name": "overnight fast",
             "label": "overnight fast"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "overnight-fast"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -162,11 +155,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         },
         {
-          "pk": 32606,
+          "pk": 4233,
           "count": 12,
           "measurement_type": {
             "sid": "age",
@@ -174,7 +166,7 @@
             "label": "age"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -183,16 +175,15 @@
           "value": null,
           "mean": null,
           "median": null,
-          "min": 19.0,
-          "max": 42.0,
+          "min": 19,
+          "max": 42,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": 12
+          "unit": "year"
         },
         {
-          "pk": 32607,
+          "pk": 4234,
           "count": 12,
           "measurement_type": {
             "sid": "sex",
@@ -200,14 +191,14 @@
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "sex-not-reported",
+            "sid": "NR",
             "name": "NR",
-            "label": "Not reported sex"
+            "label": "NR"
           },
           "substance": null,
           "value": null,
@@ -218,95 +209,28 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         }
       ]
     },
     {
-      "pk": 1230,
+      "pk": 204,
       "name": "control",
       "parent": {
-        "pk": 1229,
-        "name": "all",
-        "count": 12
+        "pk": 203
       },
       "count": 6,
-      "study": {
-        "sid": "PKDB00124",
-        "name": "Perucca1979"
-      },
       "characteristica": [
         {
-          "pk": 32611,
+          "pk": 4240,
           "count": 6,
           "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-yes",
-            "name": "Y",
-            "label": "healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 6
-        },
-        {
-          "pk": 32612,
-          "count": 6,
-          "measurement_type": {
-            "sid": "medication",
-            "name": "medication",
-            "label": "medication"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "medication-no",
-            "name": "N",
-            "label": "No medication"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 6
-        },
-        {
-          "pk": 32613,
-          "count": 6,
-          "measurement_type": {
-            "sid": "abstinence-medication",
+            "sid": "abstinence medication",
             "name": "abstinence medication",
             "label": "abstinence medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -320,11 +244,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "day",
-          "group_count": 6
+          "unit": "day"
         },
         {
-          "pk": 32603,
+          "pk": 4230,
           "count": 12,
           "measurement_type": {
             "sid": "species",
@@ -332,14 +255,14 @@
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -350,26 +273,25 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         },
         {
-          "pk": 32605,
+          "pk": 4232,
           "count": 12,
           "measurement_type": {
-            "sid": "overnight-fast",
+            "sid": "overnight fast",
             "name": "overnight fast",
             "label": "overnight fast"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "overnight-fast"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -380,11 +302,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         },
         {
-          "pk": 32606,
+          "pk": 4233,
           "count": 12,
           "measurement_type": {
             "sid": "age",
@@ -392,7 +313,7 @@
             "label": "age"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -401,16 +322,15 @@
           "value": null,
           "mean": null,
           "median": null,
-          "min": 19.0,
-          "max": 42.0,
+          "min": 19,
+          "max": 42,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": 12
+          "unit": "year"
         },
         {
-          "pk": 32607,
+          "pk": 4234,
           "count": 12,
           "measurement_type": {
             "sid": "sex",
@@ -418,14 +338,14 @@
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "sex-not-reported",
+            "sid": "NR",
             "name": "NR",
-            "label": "Not reported sex"
+            "label": "NR"
           },
           "substance": null,
           "value": null,
@@ -436,57 +356,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
-        }
-      ]
-    },
-    {
-      "pk": 1231,
-      "name": "epileptic",
-      "parent": {
-        "pk": 1229,
-        "name": "all",
-        "count": 12
-      },
-      "count": 6,
-      "study": {
-        "sid": "PKDB00124",
-        "name": "Perucca1979"
-      },
-      "characteristica": [
-        {
-          "pk": 32603,
-          "count": 12,
-          "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         },
         {
-          "pk": 32617,
+          "pk": 4238,
           "count": 6,
           "measurement_type": {
             "sid": "healthy",
@@ -494,14 +367,14 @@
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-no",
-            "name": "N",
-            "label": "No healthy"
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -512,11 +385,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 32618,
+          "pk": 4239,
           "count": 6,
           "measurement_type": {
             "sid": "medication",
@@ -524,14 +396,14 @@
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-yes",
-            "name": "Y",
-            "label": "medication"
+            "sid": "N",
+            "name": "N",
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -542,11 +414,107 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 205,
+      "name": "epileptic",
+      "parent": {
+        "pk": 203
+      },
+      "count": 6,
+      "characteristica": [
+        {
+          "pk": 4244,
+          "count": 6,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         },
         {
-          "pk": 32619,
+          "pk": 4245,
+          "count": 6,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 4230,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 4246,
           "count": 6,
           "measurement_type": {
             "sid": "disease",
@@ -554,7 +522,7 @@
             "label": "disease"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -572,26 +540,25 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 32605,
+          "pk": 4232,
           "count": 12,
           "measurement_type": {
-            "sid": "overnight-fast",
+            "sid": "overnight fast",
             "name": "overnight fast",
             "label": "overnight fast"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "overnight-fast"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -602,11 +569,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         },
         {
-          "pk": 32606,
+          "pk": 4233,
           "count": 12,
           "measurement_type": {
             "sid": "age",
@@ -614,7 +580,7 @@
             "label": "age"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -623,16 +589,15 @@
           "value": null,
           "mean": null,
           "median": null,
-          "min": 19.0,
-          "max": 42.0,
+          "min": 19,
+          "max": 42,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": 12
+          "unit": "year"
         },
         {
-          "pk": 32607,
+          "pk": 4234,
           "count": 12,
           "measurement_type": {
             "sid": "sex",
@@ -640,14 +605,14 @@
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "sex-not-reported",
+            "sid": "NR",
             "name": "NR",
-            "label": "Not reported sex"
+            "label": "NR"
           },
           "substance": null,
           "value": null,
@@ -658,8 +623,7 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
         }
       ]
     }
@@ -667,7 +631,7 @@
   "individuals": [],
   "interventions": [
     {
-      "pk": 2662,
+      "pk": 362,
       "normed": true,
       "name": "paracetamol oral",
       "route": {
@@ -682,29 +646,24 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00124",
-        "name": "Perucca1979"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "apap",
-        "name": "paracetamol",
+        "name": "apap",
         "label": "paracetamol"
       },
-      "value": 1.0,
+      "value": 1,
       "mean": null,
       "median": null,
       "min": null,
@@ -715,7 +674,7 @@
       "unit": "gram"
     },
     {
-      "pk": 2664,
+      "pk": 364,
       "normed": true,
       "name": "paracetamol iv",
       "route": {
@@ -730,29 +689,24 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00124",
-        "name": "Perucca1979"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "apap",
-        "name": "paracetamol",
+        "name": "apap",
         "label": "paracetamol"
       },
-      "value": 1.0,
+      "value": 1,
       "mean": null,
       "median": null,
       "min": null,
@@ -763,6 +717,5354 @@
       "unit": "gram"
     }
   ],
+  "outputs": [
+    {
+      "pk": 15356,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0149,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.005143928459844674,
+      "se": 0.0021000000000000003,
+      "cv": 0.3452300979761526,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15358,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.96,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2694438717061496,
+      "se": 0.11,
+      "cv": 0.28067069969390585,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 15379,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.83,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.04898979485566356,
+      "se": 0.02,
+      "cv": 0.059023849223691034,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 15380,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.73,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.09797958971132711,
+      "se": 0.04,
+      "cv": 0.13421861604291385,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 15410,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0050592803999999995,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0016417964646917,
+      "se": 0.000670260600000001,
+      "cv": 0.32451185443125474,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15411,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0039234471000000005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00118836627447664,
+      "se": 0.0004851485,
+      "cv": 0.3028883133091408,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15416,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.006979222,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00226312276519326,
+      "se": 0.000923916,
+      "cv": 0.3242657656101583,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15418,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0028665385,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00164159291209407,
+      "se": 0.0006701774999999999,
+      "cv": 0.5726742941335238,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15419,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0020250812,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0013034259112154202,
+      "se": 0.0005321214,
+      "cv": 0.6436413074277813,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15458,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.014431597000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0032443405911022198,
+      "se": 0.0013244965,
+      "cv": 0.22480814778171948,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15459,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.012537578,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0021054172670836604,
+      "se": 0.000859533000000001,
+      "cv": 0.1679285478490072,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15362,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00635,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0011430952132988163,
+      "se": 0.00046666666666666666,
+      "cv": 0.18001499422028605,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15460,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.011216007,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00184129123760909,
+      "se": 0.0007517040000000001,
+      "cv": 0.16416637735774328,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15364,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.88,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.41641325627314024,
+      "se": 0.17,
+      "cv": 0.22149641291124483,
+      "unit": "hour"
+    },
+    {
+      "pk": 15469,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.010356733,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00377027420800981,
+      "se": 0.001539208,
+      "cv": 0.36404088123250933,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15366,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0383,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.015676734353812338,
+      "se": 0.0064,
+      "cv": 0.4093142128932725,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15471,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.006749845,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00105249773247498,
+      "se": 0.00042968040000000105,
+      "cv": 0.1559291705920625,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15473,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004220127,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00122682448818321,
+      "se": 0.000500849000000001,
+      "cv": 0.2907079545670569,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15375,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0494,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.004409081537009721,
+      "se": 0.0018000000000000002,
+      "cv": 0.08925266269250448,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15474,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.003080308,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00122766760255268,
+      "se": 0.0005011932,
+      "cv": 0.39855352209995887,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15484,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15488,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0070930495,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00288689880038658,
+      "se": 0.0011785715000000002,
+      "cv": 0.40700389873024007,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15414,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0089989,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00410986044324543,
+      "se": 0.0016778435,
+      "cv": 0.45670698010261584,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15415,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0077728224,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00286152233160032,
+      "se": 0.0011682116,
+      "cv": 0.36814456632899784,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15502,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.025548910120000004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15420,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0014642884000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0008381678698793929,
+      "se": 0.0003421806,
+      "cv": 0.572406275894416,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15509,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 86.15791241663594,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15528,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 64.31532825958753,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15544,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15560,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.005026930155701044,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15563,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 65.32123385431082,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15461,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.008426312,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00219162950807065,
+      "se": 0.0008947289999999991,
+      "cv": 0.2600935626488373,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15468,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.012072098,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.000876905080467666,
+      "se": 0.00035799500000000103,
+      "cv": 0.07263899617677608,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15470,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.009142474999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00157821848872392,
+      "se": 0.000644305000000001,
+      "cv": 0.17262486238397373,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15576,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 20.92685800428234,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15478,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.006631653,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0031493457046424702,
+      "se": 0.001285715,
+      "cv": 0.47489603340863434,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15582,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 62.924765336405564,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15479,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.005628589,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00218683022281761,
+      "se": 0.0008927697,
+      "cv": 0.38852192313519607,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15597,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.8328005416376283,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15489,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004515669,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0021872588835226,
+      "se": 0.0008929447,
+      "cv": 0.4843709500237063,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15599,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 85.73831896228877,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15492,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0013193277000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00140056630574087,
+      "se": 0.0005717788000000001,
+      "cv": 1.0615757599426356,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15510,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 76.47560245383745,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15521,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.05115702451030951,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15523,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.015147673,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15543,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.7264217734910603,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15556,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.041492764705000004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15562,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15593,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.03084002910673147,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15595,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.012655071,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15359,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.96,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2694438717061496,
+      "se": 0.11,
+      "cv": 0.28067069969390585,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 15363,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.52,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6123724356957945,
+      "se": 0.25,
+      "cv": 0.24300493479991844,
+      "unit": "hour"
+    },
+    {
+      "pk": 15367,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 19.3,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6.123724356957945,
+      "se": 2.5,
+      "cv": 0.3172914174589609,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15376,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0293,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.012492397688194205,
+      "se": 0.0050999999999999995,
+      "cv": 0.42636169584280564,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15377,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.89,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.04898979485566356,
+      "se": 0.02,
+      "cv": 0.05504471332097029,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 15407,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.01060903,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00232351738429132,
+      "se": 0.000948571999999999,
+      "cv": 0.2190131788006368,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15408,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0084775715,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00257086318428296,
+      "se": 0.0010495505000000002,
+      "cv": 0.3032546743230606,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15476,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.009637692,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00489983558223146,
+      "se": 0.0020003495,
+      "cv": 0.5084034208845292,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15485,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.013316001000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00437473234234667,
+      "se": 0.001785977,
+      "cv": 0.3285319926265153,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15503,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.028047033219369365,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15504,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 35.654394965004606,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15505,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.009637692,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15506,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00689710207008997,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15507,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.6749720233126437,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15508,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15524,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0044639740164123575,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15526,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15527,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 72.98301748029319,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15538,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.027989298675,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15539,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.031275348350351596,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15540,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 31.974064326888882,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15557,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.05075648269808182,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15561,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.298112894254315,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15575,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04778548216819583,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15578,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004810238265047196,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15579,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.401638416391225,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15592,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.02696819835,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15357,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.94,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.19595917942265423,
+      "se": 0.08,
+      "cv": 0.20846721215175984,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 15361,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004866666666666667,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0014696938456699065,
+      "se": 0.0006,
+      "cv": 0.30199188609655614,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15365,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.055299999999999995,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.004654030511288038,
+      "se": 0.0019,
+      "cv": 0.08415968374842746,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15378,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.77,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.07348469228349533,
+      "se": 0.03,
+      "cv": 0.09543466530324068,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 15386,
+      "measurement_type": {
+        "sid": "cumulative-amount",
+        "name": "cumulative-amount",
+        "label": "cumulative amount"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol iv_epileptic",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.682,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.12982295636750843,
+      "se": 0.053,
+      "cv": 0.19035624100807685,
+      "unit": "gram"
+    },
+    {
+      "pk": 15387,
+      "measurement_type": {
+        "sid": "cumulative-amount",
+        "name": "cumulative-amount",
+        "label": "cumulative amount"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol oral_control",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.601,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.17636326148038883,
+      "se": 0.07200000000000001,
+      "cv": 0.2934496863234423,
+      "unit": "gram"
+    },
+    {
+      "pk": 15388,
+      "measurement_type": {
+        "sid": "cumulative-amount",
+        "name": "cumulative-amount",
+        "label": "cumulative amount"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol oral_epileptic",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.677,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.08083316151184487,
+      "se": 0.033,
+      "cv": 0.11939905688603378,
+      "unit": "gram"
+    },
+    {
+      "pk": 15406,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.011999622000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00262239922372624,
+      "se": 0.00107059,
+      "cv": 0.21854015265866206,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15409,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0066250834000000005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00131161749481324,
+      "se": 0.000535465599999999,
+      "cv": 0.19797750694176014,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15412,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0027286966000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00216087322496232,
+      "se": 0.0008821728,
+      "cv": 0.7919067385367503,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15413,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.012655071,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0027686362108601398,
+      "se": 0.001130291,
+      "cv": 0.21877682162827372,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15417,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004560389,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0017809806360092,
+      "se": 0.0007270823,
+      "cv": 0.3905326137768511,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15457,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00014491922,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15464,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0036472485,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.000876905815314587,
+      "se": 0.0003579953,
+      "cv": 0.2404294128339725,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15477,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.008741684,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00253654215875195,
+      "se": 0.001035539,
+      "cv": 0.29016630648647906,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15480,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0039797795,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00218704479811908,
+      "se": 0.0008928572999999999,
+      "cv": 0.5495391888216621,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15481,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0026167717,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0019241702129541,
+      "se": 0.0007855392,
+      "cv": 0.735322157815334,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15482,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0016823354,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00139906501347752,
+      "se": 0.0005711659,
+      "cv": 0.8316207419029047,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15483,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0010337886,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.000962299755263212,
+      "se": 0.00039285723,
+      "cv": 0.9308477141876124,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15520,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.039656405,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15542,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.006691558914929453,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15545,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 79.63780621072705,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15546,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 66.0215169691805,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15558,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 19.7019168161901,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15559,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.014431597000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15574,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.038331007325,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 15580,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15594,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 32.42539092745958,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15600,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 72.62165692143982,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15355,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.016,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.003429285639896449,
+      "se": 0.0014,
+      "cv": 0.21433035249352805,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15360,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.11,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.34292856398964494,
+      "se": 0.14,
+      "cv": 0.30894465224292333,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 15368,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 29.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10.777754868245983,
+      "se": 4.4,
+      "cv": 0.36659030164101986,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15385,
+      "measurement_type": {
+        "sid": "cumulative-amount",
+        "name": "cumulative-amount",
+        "label": "cumulative amount"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol iv_control",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.657,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.21065611787935332,
+      "se": 0.08600000000000001,
+      "cv": 0.3206333605469609,
+      "unit": "gram"
+    },
+    {
+      "pk": 15405,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.014785373999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0026306564536491602,
+      "se": 0.001073961,
+      "cv": 0.17792288877164422,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15462,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0061770525,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00157864102570455,
+      "se": 0.000644477500000001,
+      "cv": 0.2555654214861457,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15463,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004822867,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00184171254984484,
+      "se": 0.000751875999999999,
+      "cv": 0.38187089750657444,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15465,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol oral",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0027940838,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.000789214572420897,
+      "se": 0.0003221955,
+      "cv": 0.2824591633296385,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15466,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15467,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.015147673,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00254323906370872,
+      "se": 0.001038273,
+      "cv": 0.16789635369793893,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15472,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "control_paracetamol iv",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.005288089,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0017538101609353301,
+      "se": 0.00071599,
+      "cv": 0.33165292054186873,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15475,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol oral",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 362,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00010469188,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15486,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0096345415,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0031493444798976,
+      "se": 0.0012857145,
+      "cv": 0.32688057650668695,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15487,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.008381915,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0027112912064918403,
+      "se": 0.0011068800000000002,
+      "cv": 0.32346918412938336,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15490,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.003081495,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0015738145511153701,
+      "se": 0.0006425071,
+      "cv": 0.510730846915335,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15491,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "epileptic_paracetamol iv",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0020754552,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0015746718725253399,
+      "se": 0.0006428571,
+      "cv": 0.758711569647632,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15522,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 19.54765762028386,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 15525,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.5879301642120645,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 15541,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.013316001000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15564,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 362,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 60.98863407464292,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15577,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.014785373999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 15581,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 204,
+      "individual_pk": null,
+      "value": null,
+      "mean": 72.50804378494065,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 15596,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.006303169792284201,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 15598,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 364,
+      "group_pk": 205,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 371,
+      "name": "epileptic_paracetamol iv",
+      "label": "epileptic_paracetamol iv",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 205,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        null,
+        0.013316001000000001,
+        0.0096345415,
+        0.008381915,
+        0.0070930495,
+        0.004515669,
+        0.003081495,
+        0.0020754552,
+        0.0013193277000000002
+      ],
+      "sd": [
+        null,
+        0.00437473234234667,
+        0.0031493444798976,
+        0.0027112912064918403,
+        0.00288689880038658,
+        0.0021872588835226,
+        0.0015738145511153701,
+        0.0015746718725253399,
+        0.00140056630574087
+      ]
+    },
+    {
+      "pk": 373,
+      "name": "control",
+      "label": "control",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 204,
+      "individual_pk": null,
+      "time": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.014785373999999999,
+        0.011999622000000001,
+        0.01060903,
+        0.0084775715,
+        0.0066250834000000005,
+        0.0050592803999999995,
+        0.0039234471000000005,
+        0.0027286966000000003
+      ],
+      "sd": [
+        0.0026306564536491602,
+        0.00262239922372624,
+        0.00232351738429132,
+        0.00257086318428296,
+        0.00131161749481324,
+        0.0016417964646917,
+        0.00118836627447664,
+        0.00216087322496232
+      ]
+    },
+    {
+      "pk": 374,
+      "name": "epileptic",
+      "label": "epileptic",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 205,
+      "individual_pk": null,
+      "time": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.012655071,
+        0.0089989,
+        0.0077728224,
+        0.006979222,
+        0.004560389,
+        0.0028665385,
+        0.0020250812,
+        0.0014642884000000001
+      ],
+      "sd": [
+        0.0027686362108601398,
+        0.00410986044324543,
+        0.00286152233160032,
+        0.00226312276519326,
+        0.0017809806360092,
+        0.00164159291209407,
+        0.0013034259112154202,
+        0.0008381678698793929
+      ]
+    },
+    {
+      "pk": 369,
+      "name": "epileptic_paracetamol oral",
+      "label": "epileptic_paracetamol oral",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 205,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.00010469188,
+        0.009637692,
+        0.008741684,
+        0.006631653,
+        0.005628589,
+        0.0039797795,
+        0.0026167717,
+        0.0016823354,
+        0.0010337886
+      ],
+      "sd": [
+        null,
+        0.00489983558223146,
+        0.00253654215875195,
+        0.0031493457046424702,
+        0.00218683022281761,
+        0.00218704479811908,
+        0.0019241702129541,
+        0.00139906501347752,
+        0.000962299755263212
+      ]
+    },
+    {
+      "pk": 372,
+      "name": "control_paracetamol oral",
+      "label": "control_paracetamol oral",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 204,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.00014491922,
+        0.014431597000000001,
+        0.012537578,
+        0.011216007,
+        0.008426312,
+        0.0061770525,
+        0.004822867,
+        0.0036472485,
+        0.0027940838
+      ],
+      "sd": [
+        null,
+        0.0032443405911022198,
+        0.0021054172670836604,
+        0.00184129123760909,
+        0.00219162950807065,
+        0.00157864102570455,
+        0.00184171254984484,
+        0.000876905815314587,
+        0.000789214572420897
+      ]
+    },
+    {
+      "pk": 370,
+      "name": "control_paracetamol iv",
+      "label": "control_paracetamol iv",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "serum",
+        "name": "serum",
+        "label": "serum"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 204,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        null,
+        0.015147673,
+        0.012072098,
+        0.010356733,
+        0.009142474999999999,
+        0.006749845,
+        0.005288089,
+        0.004220127,
+        0.003080308
+      ],
+      "sd": [
+        null,
+        0.00254323906370872,
+        0.000876905080467666,
+        0.00377027420800981,
+        0.00157821848872392,
+        0.00105249773247498,
+        0.0017538101609353301,
+        0.00122682448818321,
+        0.00122766760255268
+      ]
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1429435"
+  },
   "_index": {
     "sid": "PKDB00124",
     "name": "Perucca1979",
@@ -781,12 +6083,9 @@
     "n_groups": 3,
     "n_individuals": 0,
     "n_interventions": 2,
+    "n_outputs": 130,
+    "n_timecourses": 6,
     "paper_source": "pubmed-markdown",
     "paper_licence": null
-  },
-  "paper": {
-    "source": "pubmed-markdown",
-    "licence": null,
-    "pmcid": "PMC1429435"
   }
 }

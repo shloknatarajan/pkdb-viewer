@@ -1,0 +1,6045 @@
+{
+  "sid": "PKDB00131",
+  "name": "Divoll1982",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-06-12",
+  "snapshot": "2021-12-03",
+  "counts": {
+    "groups": 7,
+    "individuals": 1,
+    "interventions": 3,
+    "outputs": 99,
+    "timecourses": 3,
+    "scatters": 0
+  },
+  "reference": {
+    "pmid": "7069091",
+    "doi": "10.1111/j.1532-5415.1982.tb07093.x",
+    "title": "Age does not alter acetaminophen absorption.",
+    "abstract": null,
+    "journal": "Journal of the American Geriatrics Society",
+    "date": "1982-06-24",
+    "authors": [
+      "Divoll M",
+      "Ameer B",
+      "Abernethy DR",
+      "Greenblatt DJ"
+    ]
+  },
+  "curators": [
+    "Janosch Brandhorst",
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "paracetamol",
+      "name": "paracetamol",
+      "label": "paracetamol"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 52,
+      "name": "all",
+      "parent": null,
+      "count": 28,
+      "characteristica": [
+        {
+          "pk": 624,
+          "count": 28,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 619,
+          "count": 28,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 620,
+          "count": 28,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 621,
+          "count": 28,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 22,
+          "max": 78,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 622,
+          "count": 14,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 623,
+          "count": 14,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 53,
+      "name": "young subjects",
+      "parent": {
+        "pk": 52
+      },
+      "count": 16,
+      "characteristica": [
+        {
+          "pk": 619,
+          "count": 28,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 624,
+          "count": 28,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 632,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 633,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 634,
+          "count": 16,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 28.4,
+          "median": null,
+          "min": 22,
+          "max": 39,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 635,
+          "count": 16,
+          "measurement_type": {
+            "sid": "age (categorial)",
+            "name": "age (categorial)",
+            "label": "age (categorial)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "young",
+            "name": "young",
+            "label": "young"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 636,
+          "count": 16,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 47.4,
+          "max": 86.4,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 637,
+          "count": 16,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 638,
+          "count": 16,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 54,
+      "name": "elderly subjects",
+      "parent": {
+        "pk": 52
+      },
+      "count": 12,
+      "characteristica": [
+        {
+          "pk": 647,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 70.7,
+          "median": null,
+          "min": 61,
+          "max": 78,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 648,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age (categorial)",
+            "name": "age (categorial)",
+            "label": "age (categorial)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "elder",
+            "name": "elder",
+            "label": "elder"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 649,
+          "count": 12,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 45.5,
+          "max": 90.9,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 650,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 619,
+          "count": 28,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 651,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 652,
+          "count": 9,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 653,
+          "count": 3,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 654,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 624,
+          "count": 28,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 55,
+      "name": "young women",
+      "parent": {
+        "pk": 53
+      },
+      "count": 8,
+      "characteristica": [
+        {
+          "pk": 619,
+          "count": 28,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 624,
+          "count": 28,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 656,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 634,
+          "count": 16,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 28.4,
+          "median": null,
+          "min": 22,
+          "max": 39,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 635,
+          "count": 16,
+          "measurement_type": {
+            "sid": "age (categorial)",
+            "name": "age (categorial)",
+            "label": "age (categorial)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "young",
+            "name": "young",
+            "label": "young"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 636,
+          "count": 16,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 47.4,
+          "max": 86.4,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 637,
+          "count": 16,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 638,
+          "count": 16,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 56,
+      "name": "young men",
+      "parent": {
+        "pk": 53
+      },
+      "count": 8,
+      "characteristica": [
+        {
+          "pk": 619,
+          "count": 28,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 624,
+          "count": 28,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 659,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 660,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 28.4,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 635,
+          "count": 16,
+          "measurement_type": {
+            "sid": "age (categorial)",
+            "name": "age (categorial)",
+            "label": "age (categorial)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "young",
+            "name": "young",
+            "label": "young"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 636,
+          "count": 16,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 47.4,
+          "max": 86.4,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 637,
+          "count": 16,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 638,
+          "count": 16,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 57,
+      "name": "elderly women",
+      "parent": {
+        "pk": 54
+      },
+      "count": 6,
+      "characteristica": [
+        {
+          "pk": 647,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 70.7,
+          "median": null,
+          "min": 61,
+          "max": 78,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 648,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age (categorial)",
+            "name": "age (categorial)",
+            "label": "age (categorial)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "elder",
+            "name": "elder",
+            "label": "elder"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 649,
+          "count": 12,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 45.5,
+          "max": 90.9,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 619,
+          "count": 28,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 652,
+          "count": 9,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 653,
+          "count": 3,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 654,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 624,
+          "count": 28,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 662,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 58,
+      "name": "elderly men",
+      "parent": {
+        "pk": 54
+      },
+      "count": 6,
+      "characteristica": [
+        {
+          "pk": 648,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age (categorial)",
+            "name": "age (categorial)",
+            "label": "age (categorial)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "elder",
+            "name": "elder",
+            "label": "elder"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 649,
+          "count": 12,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 45.5,
+          "max": 90.9,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 619,
+          "count": 28,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 652,
+          "count": 9,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 653,
+          "count": 3,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 654,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 624,
+          "count": 28,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 665,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 666,
+          "count": 6,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 70.7,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 95,
+      "name": "elderly male volunteer",
+      "group": {
+        "pk": 58
+      },
+      "characteristica": [
+        {
+          "pk": 648,
+          "measurement_type": {
+            "sid": "age (categorial)",
+            "name": "age (categorial)",
+            "label": "age (categorial)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "elder",
+            "name": "elder",
+            "label": "elder"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 649,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 45.5,
+          "max": 90.9,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 619,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 652,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 653,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 654,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 624,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 666,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 70.7,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 668,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 62,
+      "normed": true,
+      "name": "iv",
+      "route": {
+        "sid": "iv",
+        "name": "iv",
+        "label": "intravenous (iv)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single-dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "value": 0.65,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 63,
+      "normed": true,
+      "name": "tablet",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single-dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "value": 0.65,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 64,
+      "normed": true,
+      "name": "elixir",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single-dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "value": 0.65,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "outputs": [
+    {
+      "pk": 1512,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 15.979698764933302,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 1498,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.167,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1497,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 2.7485104668252847,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1496,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0042031686430782575,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 1495,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.017558782999999998,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1492,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0389884835216,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 1464,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.00063853735,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1457,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.006195249,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1453,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 0.25,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.014808195,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1452,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 0.167,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.017558782999999998,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1438,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 0.167,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.002355054,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1516,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.5,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1437,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 0.083,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": null,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1513,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.016618195,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1431,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 2.5,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.005695642000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1430,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0068881207,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1429,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.007472501,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1428,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.008740906000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1482,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 56.06927425827394,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 1423,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 0.083,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": null,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1478,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.003994048746852015,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 1475,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.047190986881403205,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 1461,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.003206536,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1460,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0040111117,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1458,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0055203147,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1449,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0013696034,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1448,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0021473553,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1376,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0137,
+      "median": null,
+      "min": 0.0050999999999999995,
+      "max": 0.028,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1447,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.003833433,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1371,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0109,
+      "median": null,
+      "min": 0.0053,
+      "max": 0.0192,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1446,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.004638762500000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1362,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.79,
+      "median": null,
+      "min": 0.17,
+      "max": 2,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1445,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 2.5,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0049653,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1439,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 0.25,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.00553186,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1434,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0024512997,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1380,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.6,
+      "median": null,
+      "min": 1.6,
+      "max": 3.8,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1377,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.54,
+      "median": null,
+      "min": 0.17,
+      "max": 2,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1373,
+      "measurement_type": {
+        "sid": "thalf-absorption",
+        "name": "thalf-absorption",
+        "label": "absorption half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.13666666666666666,
+      "median": null,
+      "min": 0.0155,
+      "max": 0.21666666666666667,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1368,
+      "measurement_type": {
+        "sid": "thalf-absorption",
+        "name": "thalf-absorption",
+        "label": "absorption half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.1433333333333333,
+      "median": null,
+      "min": 0.005,
+      "max": 0.2966666666666667,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1340,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.8,
+      "median": null,
+      "min": 1.9,
+      "max": 4.3,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1336,
+      "measurement_type": {
+        "sid": "age",
+        "name": "age",
+        "label": "age"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 70.7,
+      "median": null,
+      "min": 61,
+      "max": 75,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "year"
+    },
+    {
+      "pk": 1333,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.02,
+      "median": null,
+      "min": 0.66,
+      "max": 1.36,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 1332,
+      "measurement_type": {
+        "sid": "weight",
+        "name": "weight",
+        "label": "weight"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 64.5,
+      "median": null,
+      "min": 47.4,
+      "max": 86.4,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "kilogram"
+    },
+    {
+      "pk": 1331,
+      "measurement_type": {
+        "sid": "age",
+        "name": "age",
+        "label": "age"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 28.4,
+      "median": null,
+      "min": 22,
+      "max": 39,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "year"
+    },
+    {
+      "pk": 1518,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 62.20293068882393,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 1517,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 63.04793351705986,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 1515,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 2.73481359069057,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1511,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.04067661159085142,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 1499,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 62.07592810169528,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 1480,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.167,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1479,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 2.892416628224106,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1456,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.008023057,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1455,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 0.75,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.009976315500000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1451,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 0.083,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0025840833,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1444,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0054251122,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1442,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.008452522,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1441,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 0.75,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.011811852999999999,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1440,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.016618195,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1427,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 0.75,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.009042706499999999,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1424,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 0.167,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.039257072000000004,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1378,
+      "measurement_type": {
+        "sid": "thalf-absorption",
+        "name": "thalf-absorption",
+        "label": "absorption half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.10166666666666666,
+      "median": null,
+      "min": 0.0015,
+      "max": 0.36333333333333334,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1372,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.69,
+      "median": null,
+      "min": 0.25,
+      "max": 1.5,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1366,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0126,
+      "median": null,
+      "min": 0.0043,
+      "max": 0.0235,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1365,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.6,
+      "median": null,
+      "min": 1.3,
+      "max": 4,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1364,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.79,
+      "median": null,
+      "min": 0.59,
+      "max": 0.92,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 1361,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.011800000000000001,
+      "median": null,
+      "min": 0.006200000000000001,
+      "max": 0.023899999999999998,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1339,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.22440000000000002,
+      "median": null,
+      "min": 0.1398,
+      "max": 0.3264,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 1335,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.6,
+      "median": null,
+      "min": 1.9,
+      "max": 3.1,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1510,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.038552136506,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 1494,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 15.654935669221564,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 1493,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.04152045167952587,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 1477,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.039257072000000004,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1476,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 13.773816632263497,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 1474,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.043785500153,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 1436,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0008161008,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1435,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0016085733,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1433,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0038916976,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1426,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.011719324,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1425,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 0.25,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.017896159999999998,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1375,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.5,
+      "median": null,
+      "min": 1.4,
+      "max": 3.5,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1370,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.7,
+      "median": null,
+      "min": 1.8,
+      "max": 3.7,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1367,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.52,
+      "median": null,
+      "min": 0.17,
+      "max": 1,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1338,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.86,
+      "median": null,
+      "min": 0.64,
+      "max": 1.14,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 1337,
+      "measurement_type": {
+        "sid": "weight",
+        "name": "weight",
+        "label": "weight"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 70.4,
+      "median": null,
+      "min": 45.5,
+      "max": 90.9,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "kilogram"
+    },
+    {
+      "pk": 1514,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.004224219540467949,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 1500,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 60.53788774433504,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 1481,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 57.47641681105165,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 1463,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0014805529,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1462,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0021938362,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1459,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 2.5,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.004594555,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1454,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "elixir",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 64,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.013463604,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1450,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.00053845495,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1443,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "tablet",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 63,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.0067025623,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1432,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": "iv",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 62,
+      "group_pk": null,
+      "individual_pk": 95,
+      "value": 0.004642766,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 1379,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.8,
+      "median": null,
+      "min": 0.64,
+      "max": 0.94,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 1374,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 54,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.72,
+      "median": null,
+      "min": 0.57,
+      "max": 0.95,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 1369,
+      "measurement_type": {
+        "sid": "fraction-absorbed",
+        "name": "fraction-absorbed",
+        "label": "fraction absorbed"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 64,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.87,
+      "median": null,
+      "min": 0.7,
+      "max": 1.06,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 1363,
+      "measurement_type": {
+        "sid": "thalf-absorption",
+        "name": "thalf-absorption",
+        "label": "absorption half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 63,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.21,
+      "median": null,
+      "min": 0.004666666666666667,
+      "max": 0.5916666666666667,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 1334,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 62,
+      "group_pk": 53,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.2784,
+      "median": null,
+      "min": 0.1638,
+      "max": 0.4164,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour / kilogram"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 24,
+      "name": "elixir",
+      "label": "elixir",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 95,
+      "time": [
+        0.083,
+        0.167,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        12.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.0025840833,
+        0.017558782999999998,
+        0.014808195,
+        0.013463604,
+        0.009976315500000001,
+        0.008023057,
+        0.006195249,
+        0.0055203147,
+        0.004594555,
+        0.0040111117,
+        0.003206536,
+        0.0021938362,
+        0.0014805529,
+        0.00063853735
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 25,
+      "name": "tablet",
+      "label": "tablet",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 95,
+      "time": [
+        0.083,
+        0.167,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        12.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        null,
+        0.002355054,
+        0.00553186,
+        0.016618195,
+        0.011811852999999999,
+        0.008452522,
+        0.0067025623,
+        0.0054251122,
+        0.0049653,
+        0.004638762500000001,
+        0.003833433,
+        0.0021473553,
+        0.0013696034,
+        0.00053845495
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 23,
+      "name": "iv",
+      "label": "iv",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 95,
+      "time": [
+        0.083,
+        0.167,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        12.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        null,
+        0.039257072000000004,
+        0.017896159999999998,
+        0.011719324,
+        0.009042706499999999,
+        0.008740906000000001,
+        0.007472501,
+        0.0068881207,
+        0.005695642000000001,
+        0.004642766,
+        0.0038916976,
+        0.0024512997,
+        0.0016085733,
+        0.0008161008
+      ],
+      "mean": null,
+      "sd": null
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  },
+  "_index": {
+    "sid": "PKDB00131",
+    "name": "Divoll1982",
+    "title": "Age does not alter acetaminophen absorption.",
+    "pmid": "7069091",
+    "journal": "Journal of the American Geriatrics Society",
+    "year": "1982",
+    "substances": [
+      "paracetamol"
+    ],
+    "n_groups": 7,
+    "n_individuals": 1,
+    "n_interventions": 3,
+    "n_outputs": 99,
+    "n_timecourses": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  }
+}

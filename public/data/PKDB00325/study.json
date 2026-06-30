@@ -1,0 +1,2044 @@
+{
+  "sid": "PKDB00325",
+  "name": "Ma2009",
+  "licence": "open",
+  "access": "public",
+  "date": "2020-07-19",
+  "snapshot": "2021-12-03",
+  "counts": {
+    "groups": 3,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 32,
+    "timecourses": 2,
+    "scatters": 0
+  },
+  "reference": {
+    "pmid": "19220276",
+    "doi": "10.1111/j.1365-2125.2008.03361.x",
+    "title": "Lack of effect of subject posture on intravenous midazolam clearance: implications for hepatic cytochrome P450 3A phenotyping.",
+    "abstract": null,
+    "journal": "British journal of clinical pharmacology",
+    "date": "2009-12-14",
+    "authors": [
+      "Ma JD",
+      "Nafziger AN",
+      "Mylott W",
+      "Haughey DB",
+      "Rocci ML Jr",
+      "Bertino JS Jr"
+    ]
+  },
+  "curators": [
+    "Yannick Duport",
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "midazolam",
+      "name": "midazolam",
+      "label": "midazolam"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 1897,
+      "name": "all",
+      "parent": null,
+      "count": 13,
+      "characteristica": [
+        {
+          "pk": 40359,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40360,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40361,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40362,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40363,
+          "count": 13,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40364,
+          "count": 13,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 1898,
+      "name": "supine",
+      "parent": {
+        "pk": 1897
+      },
+      "count": 13,
+      "characteristica": [
+        {
+          "pk": 40359,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40360,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40361,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40362,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40363,
+          "count": 13,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40364,
+          "count": 13,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40366,
+          "count": 13,
+          "measurement_type": {
+            "sid": "body position",
+            "name": "body position",
+            "label": "body position"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "supine",
+            "name": "supine",
+            "label": "supine"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 1899,
+      "name": "ambulant",
+      "parent": {
+        "pk": 1897
+      },
+      "count": 13,
+      "characteristica": [
+        {
+          "pk": 40368,
+          "count": 13,
+          "measurement_type": {
+            "sid": "body position",
+            "name": "body position",
+            "label": "body position"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "ambulant",
+            "name": "ambulant",
+            "label": "ambulant"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40359,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40360,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40361,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40362,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40363,
+          "count": 13,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 40364,
+          "count": 13,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 3480,
+      "normed": true,
+      "name": "mid_iv",
+      "route": {
+        "sid": "iv",
+        "name": "iv",
+        "label": "intravenous (iv)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single-dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "choice": null,
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "value": 2.5e-05,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / kilogram"
+    }
+  ],
+  "outputs": [
+    {
+      "pk": 182354,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.08333333333333333,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 182338,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ambulant",
+      "time": 360,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.7100370000000003e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7051535000000003e-06,
+      "se": 4.729244905220681e-07,
+      "cv": 0.9971442138386479,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182328,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "supine",
+      "time": 120,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.052750600000002e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.9275586e-06,
+      "se": 5.346085668278141e-07,
+      "cv": 0.27330593541759435,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182336,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ambulant",
+      "time": 240,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.0592600000000007e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.5074600000000003e-06,
+      "se": 4.1809417890084206e-07,
+      "cv": 0.49275314945444326,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182334,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ambulant",
+      "time": 60,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4275912000000003e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.7068000000000007e-06,
+      "se": 1.0280813436838403e-06,
+      "cv": 0.25965416430137706,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182355,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.2804088490679517,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 182329,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "supine",
+      "time": 240,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.2323122000000006e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.2850313000000002e-06,
+      "se": 3.5640355713278107e-07,
+      "cv": 0.39755791535235985,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182349,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.094951833879091e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 182331,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "supine",
+      "time": 360,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.3278760000000004e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 9.885145000000002e-07,
+      "se": 2.7416459356074206e-07,
+      "cv": 0.42464224898577074,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182351,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.380505000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182368,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.47930267675160254,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 182350,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.49068177315752975,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 182373,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.0235419483914099,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 182327,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "supine",
+      "time": 60,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.3089846000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.2619900000000004e-06,
+      "se": 9.047132465423671e-07,
+      "cv": 0.24920002878567096,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182326,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "supine",
+      "time": 30,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.9073784000000003e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.151588000000001e-06,
+      "se": 1.1514433391231502e-06,
+      "cv": 0.21765938001604715,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182335,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ambulant",
+      "time": 120,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.967071500000002e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.8418565000000004e-06,
+      "se": 7.88189179096971e-07,
+      "cv": 0.35670026307658964,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182333,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ambulant",
+      "time": 30,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.2286232e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6.276815000000001e-06,
+      "se": 1.7408752560847304e-06,
+      "cv": 0.2816454122886274,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182371,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4802029075252114,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 182348,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 360,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.487504565000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 182356,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.337680886178305,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 182367,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.215910783022017e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 182337,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ambulant",
+      "time": 300,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.0881433000000003e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7792533000000003e-06,
+      "se": 4.934760773221931e-07,
+      "cv": 0.8520743284237245,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182366,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 360,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.8507355633333344e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 182352,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00638704548049518,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 182325,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "supine",
+      "time": 5,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.380505000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8.945704e-06,
+      "se": 2.4810918820864103e-06,
+      "cv": 0.26462626146093554,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182372,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.08333333333333333,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 182332,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ambulant",
+      "time": 5,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.8895550000000004e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.1861645000000002e-05,
+      "se": 3.2898284045270006e-06,
+      "cv": 0.3049614930242663,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182374,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.0727369770648953,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 182330,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "supine",
+      "time": 300,
+      "time_unit": "min",
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.6812592000000003e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.2850077000000002e-06,
+      "se": 3.5639701167046506e-07,
+      "cv": 0.4792553066111624,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182369,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.8895550000000004e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 182370,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.007804641478949165,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 182353,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 3480,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.8087319159713848,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 3610,
+      "name": "supine",
+      "label": "supine",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1898,
+      "individual_pk": null,
+      "time": [
+        5.0,
+        30.0,
+        60.0,
+        120.0,
+        240.0,
+        300.0,
+        360.0
+      ],
+      "time_unit": "min",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        3.380505000000001e-05,
+        1.9073784000000003e-05,
+        1.3089846000000002e-05,
+        7.052750600000002e-06,
+        3.2323122000000006e-06,
+        2.6812592000000003e-06,
+        2.3278760000000004e-06
+      ],
+      "sd": [
+        8.945704e-06,
+        4.151588000000001e-06,
+        3.2619900000000004e-06,
+        1.9275586e-06,
+        1.2850313000000002e-06,
+        1.2850077000000002e-06,
+        9.885145000000002e-07
+      ]
+    },
+    {
+      "pk": 3611,
+      "name": "ambulant",
+      "label": "ambulant",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1899,
+      "individual_pk": null,
+      "time": [
+        5.0,
+        30.0,
+        60.0,
+        120.0,
+        240.0,
+        300.0,
+        360.0
+      ],
+      "time_unit": "min",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        3.8895550000000004e-05,
+        2.2286232e-05,
+        1.4275912000000003e-05,
+        7.967071500000002e-06,
+        3.0592600000000007e-06,
+        2.0881433000000003e-06,
+        1.7100370000000003e-06
+      ],
+      "sd": [
+        1.1861645000000002e-05,
+        6.276815000000001e-06,
+        3.7068000000000007e-06,
+        2.8418565000000004e-06,
+        1.5074600000000003e-06,
+        1.7792533000000003e-06,
+        1.7051535000000003e-06
+      ]
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": "PMC2675050"
+  },
+  "_index": {
+    "sid": "PKDB00325",
+    "name": "Ma2009",
+    "title": "Lack of effect of subject posture on intravenous midazolam clearance: implications for hepatic cytochrome P450 3A phenotyping.",
+    "pmid": "19220276",
+    "journal": "British journal of clinical pharmacology",
+    "year": "2009",
+    "substances": [
+      "midazolam"
+    ],
+    "n_groups": 3,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "n_outputs": 32,
+    "n_timecourses": 2,
+    "paper_source": "abstract",
+    "paper_licence": null
+  }
+}

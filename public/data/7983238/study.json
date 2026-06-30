@@ -3,13 +3,15 @@
   "name": "Band1994",
   "licence": "open",
   "access": "public",
-  "date": "2025-10-07",
+  "date": "2021-07-13",
+  "snapshot": "2021-12-03",
   "counts": {
     "groups": 1,
     "individuals": 13,
     "interventions": 4,
-    "outputs": 66,
-    "timecourses": 3
+    "outputs": 54,
+    "timecourses": 3,
+    "scatters": 0
   },
   "reference": {
     "pmid": "7983238",
@@ -27,7 +29,7 @@
     ]
   },
   "curators": [
-    "Jan Grzegorzewski"
+    "janekg"
   ],
   "descriptions": [],
   "substances": [
@@ -44,32 +46,28 @@
   ],
   "groups": [
     {
-      "pk": 2313,
+      "pk": 1088,
       "name": "all",
       "parent": null,
       "count": 13,
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "characteristica": [
         {
-          "pk": 53792,
+          "pk": 21555,
           "count": 13,
           "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
+            "sid": "species",
+            "name": "species",
+            "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -80,11 +78,184 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53793,
+          "pk": 21556,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21557,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21558,
+          "count": 13,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21559,
+          "count": 13,
+          "measurement_type": {
+            "sid": "alcohol",
+            "name": "alcohol",
+            "label": "alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21560,
+          "count": 13,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "count": 13,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21562,
           "count": 13,
           "measurement_type": {
             "sid": "age",
@@ -92,7 +263,7 @@
             "label": "age"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -106,223 +277,35 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": 13
-        },
-        {
-          "pk": 53786,
-          "count": 13,
-          "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53787,
-          "count": 13,
-          "measurement_type": {
-            "sid": "sex",
-            "name": "sex",
-            "label": "sex"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "male",
-            "name": "M",
-            "label": "male"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53788,
-          "count": 13,
-          "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-yes",
-            "name": "Y",
-            "label": "healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53789,
-          "count": 13,
-          "measurement_type": {
-            "sid": "smoking",
-            "name": "smoking",
-            "label": "smoking"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "smoking-no",
-            "name": "N",
-            "label": "No smoking"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53790,
-          "count": 13,
-          "measurement_type": {
-            "sid": "alcohol",
-            "name": "alcohol",
-            "label": "alcohol"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "alcohol-no",
-            "name": "N",
-            "label": "No alcohol"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53791,
-          "count": 13,
-          "measurement_type": {
-            "sid": "medication",
-            "name": "medication",
-            "label": "medication"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "medication-no",
-            "name": "N",
-            "label": "No medication"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": "year"
         }
       ]
     }
   ],
   "individuals": [
     {
-      "pk": 15493,
+      "pk": 6535,
       "name": "P1",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
+            "sid": "species",
+            "name": "species",
+            "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -333,12 +316,150 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53796,
-          "count": 1,
+          "pk": 21557,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21558,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21559,
+          "measurement_type": {
+            "sid": "alcohol",
+            "name": "alcohol",
+            "label": "alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21560,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21565,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -347,7 +468,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 33.0,
+          "value": 33,
           "mean": null,
           "median": null,
           "min": null,
@@ -355,12 +476,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53797,
-          "count": 1,
+          "pk": 21566,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -368,9 +487,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -381,207 +500,19 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
-        },
-        {
-          "pk": 53786,
-          "count": 13,
-          "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53788,
-          "count": 13,
-          "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-yes",
-            "name": "Y",
-            "label": "healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53789,
-          "count": 13,
-          "measurement_type": {
-            "sid": "smoking",
-            "name": "smoking",
-            "label": "smoking"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "smoking-no",
-            "name": "N",
-            "label": "No smoking"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53790,
-          "count": 13,
-          "measurement_type": {
-            "sid": "alcohol",
-            "name": "alcohol",
-            "label": "alcohol"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "alcohol-no",
-            "name": "N",
-            "label": "No alcohol"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53791,
-          "count": 13,
-          "measurement_type": {
-            "sid": "medication",
-            "name": "medication",
-            "label": "medication"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "medication-no",
-            "name": "N",
-            "label": "No medication"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15494,
+      "pk": 6536,
       "name": "P2",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53800,
-          "count": 1,
+          "pk": 21569,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -590,7 +521,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 40.0,
+          "value": 40,
           "mean": null,
           "median": null,
           "min": null,
@@ -598,12 +529,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53801,
-          "count": 1,
+          "pk": 21570,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -611,9 +540,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -624,26 +553,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -654,26 +581,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -684,26 +609,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -714,26 +637,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -744,26 +665,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -774,57 +693,47 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15495,
+      "pk": 6537,
       "name": "P3",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53804,
-          "count": 1,
+          "pk": 21573,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -833,7 +742,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 42.0,
+          "value": 42,
           "mean": null,
           "median": null,
           "min": null,
@@ -841,12 +750,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53805,
-          "count": 1,
+          "pk": 21574,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -854,9 +761,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -867,26 +774,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -897,26 +802,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -927,26 +830,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -957,26 +858,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -987,26 +886,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1017,57 +914,47 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15496,
+      "pk": 6538,
       "name": "P4",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53808,
-          "count": 1,
+          "pk": 21577,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -1076,7 +963,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 43.0,
+          "value": 43,
           "mean": null,
           "median": null,
           "min": null,
@@ -1084,12 +971,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53809,
-          "count": 1,
+          "pk": 21578,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -1097,9 +982,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -1110,26 +995,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -1140,26 +1023,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -1170,26 +1051,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1200,26 +1079,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1230,26 +1107,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1260,57 +1135,47 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15497,
+      "pk": 6539,
       "name": "P5",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53812,
-          "count": 1,
+          "pk": 21581,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -1319,7 +1184,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 25.0,
+          "value": 25,
           "mean": null,
           "median": null,
           "min": null,
@@ -1327,12 +1192,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53813,
-          "count": 1,
+          "pk": 21582,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -1340,9 +1203,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -1353,26 +1216,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -1383,26 +1244,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -1413,26 +1272,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1443,26 +1300,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1473,26 +1328,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1503,57 +1356,47 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15498,
+      "pk": 6540,
       "name": "P6",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53816,
-          "count": 1,
+          "pk": 21585,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -1562,7 +1405,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 30.0,
+          "value": 30,
           "mean": null,
           "median": null,
           "min": null,
@@ -1570,12 +1413,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53817,
-          "count": 1,
+          "pk": 21586,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -1583,9 +1424,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -1596,26 +1437,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -1626,26 +1465,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -1656,26 +1493,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1686,26 +1521,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1716,26 +1549,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -1746,41 +1577,61 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15499,
+      "pk": 6541,
       "name": "P7",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
+            "sid": "species",
+            "name": "species",
+            "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -1791,22 +1642,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53821,
-          "count": 1,
+          "pk": 21557,
           "measurement_type": {
-            "sid": "sex",
-            "name": "sex",
-            "label": "sex"
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
           },
-          "calculation_type": null,
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
           "choice": {
-            "sid": "female",
-            "name": "F",
-            "label": "female"
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -1817,12 +1670,122 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53820,
-          "count": 1,
+          "pk": 21558,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21559,
+          "measurement_type": {
+            "sid": "alcohol",
+            "name": "alcohol",
+            "label": "alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21560,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21589,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -1831,7 +1794,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 24.0,
+          "value": 24,
           "mean": null,
           "median": null,
           "min": null,
@@ -1839,26 +1802,20 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21590,
           "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
           },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
+          "calculation_type": null,
           "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "sid": "F",
+            "name": "F",
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -1869,177 +1826,19 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53788,
-          "count": 13,
-          "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-yes",
-            "name": "Y",
-            "label": "healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53789,
-          "count": 13,
-          "measurement_type": {
-            "sid": "smoking",
-            "name": "smoking",
-            "label": "smoking"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "smoking-no",
-            "name": "N",
-            "label": "No smoking"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53790,
-          "count": 13,
-          "measurement_type": {
-            "sid": "alcohol",
-            "name": "alcohol",
-            "label": "alcohol"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "alcohol-no",
-            "name": "N",
-            "label": "No alcohol"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53791,
-          "count": 13,
-          "measurement_type": {
-            "sid": "medication",
-            "name": "medication",
-            "label": "medication"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "medication-no",
-            "name": "N",
-            "label": "No medication"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15500,
+      "pk": 6542,
       "name": "P8",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53824,
-          "count": 1,
+          "pk": 21593,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -2048,7 +1847,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 44.0,
+          "value": 44,
           "mean": null,
           "median": null,
           "min": null,
@@ -2056,12 +1855,178 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53825,
-          "count": 1,
+          "pk": 21555,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21557,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21558,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21559,
+          "measurement_type": {
+            "sid": "alcohol",
+            "name": "alcohol",
+            "label": "alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21560,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21594,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -2069,9 +2034,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -2082,191 +2047,33 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
-        },
-        {
-          "pk": 53786,
-          "count": 13,
-          "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53788,
-          "count": 13,
-          "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-yes",
-            "name": "Y",
-            "label": "healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53789,
-          "count": 13,
-          "measurement_type": {
-            "sid": "smoking",
-            "name": "smoking",
-            "label": "smoking"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "smoking-no",
-            "name": "N",
-            "label": "No smoking"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53790,
-          "count": 13,
-          "measurement_type": {
-            "sid": "alcohol",
-            "name": "alcohol",
-            "label": "alcohol"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "alcohol-no",
-            "name": "N",
-            "label": "No alcohol"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53791,
-          "count": 13,
-          "measurement_type": {
-            "sid": "medication",
-            "name": "medication",
-            "label": "medication"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "medication-no",
-            "name": "N",
-            "label": "No medication"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15501,
+      "pk": 6543,
       "name": "P9",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
+            "sid": "species",
+            "name": "species",
+            "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -2277,12 +2084,150 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53828,
-          "count": 1,
+          "pk": 21557,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21558,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21559,
+          "measurement_type": {
+            "sid": "alcohol",
+            "name": "alcohol",
+            "label": "alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21560,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 21597,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -2291,7 +2236,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 42.0,
+          "value": 42,
           "mean": null,
           "median": null,
           "min": null,
@@ -2299,12 +2244,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53829,
-          "count": 1,
+          "pk": 21598,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -2312,9 +2255,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -2325,207 +2268,19 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
-        },
-        {
-          "pk": 53786,
-          "count": 13,
-          "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53788,
-          "count": 13,
-          "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-yes",
-            "name": "Y",
-            "label": "healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53789,
-          "count": 13,
-          "measurement_type": {
-            "sid": "smoking",
-            "name": "smoking",
-            "label": "smoking"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "smoking-no",
-            "name": "N",
-            "label": "No smoking"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53790,
-          "count": 13,
-          "measurement_type": {
-            "sid": "alcohol",
-            "name": "alcohol",
-            "label": "alcohol"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "alcohol-no",
-            "name": "N",
-            "label": "No alcohol"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53791,
-          "count": 13,
-          "measurement_type": {
-            "sid": "medication",
-            "name": "medication",
-            "label": "medication"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "medication-no",
-            "name": "N",
-            "label": "No medication"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15502,
+      "pk": 6544,
       "name": "P10",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53832,
-          "count": 1,
+          "pk": 21601,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -2534,7 +2289,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 33.0,
+          "value": 33,
           "mean": null,
           "median": null,
           "min": null,
@@ -2542,12 +2297,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53833,
-          "count": 1,
+          "pk": 21602,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -2555,9 +2308,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -2568,26 +2321,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -2598,26 +2349,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -2628,26 +2377,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -2658,26 +2405,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -2688,26 +2433,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -2718,57 +2461,47 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15503,
+      "pk": 6545,
       "name": "P11",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53836,
-          "count": 1,
+          "pk": 21605,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -2777,7 +2510,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 38.0,
+          "value": 38,
           "mean": null,
           "median": null,
           "min": null,
@@ -2785,12 +2518,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53837,
-          "count": 1,
+          "pk": 21606,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -2798,9 +2529,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -2811,26 +2542,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -2841,26 +2570,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -2871,26 +2598,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -2901,26 +2626,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -2931,26 +2654,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -2961,57 +2682,47 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15504,
+      "pk": 6546,
       "name": "P12",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53840,
-          "count": 1,
+          "pk": 21609,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -3020,7 +2731,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 39.0,
+          "value": 39,
           "mean": null,
           "median": null,
           "min": null,
@@ -3028,12 +2739,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53841,
-          "count": 1,
+          "pk": 21610,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -3041,9 +2750,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -3054,26 +2763,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -3084,26 +2791,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -3114,26 +2819,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -3144,26 +2847,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -3174,26 +2875,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -3204,57 +2903,47 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     },
     {
-      "pk": 15505,
+      "pk": 6547,
       "name": "P13",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "group": {
-        "pk": 2313,
-        "name": "all",
-        "count": 13
+        "pk": 1088
       },
       "characteristica": [
         {
-          "pk": 53792,
-          "count": 13,
-          "measurement_type": {
-            "sid": "overnight-fast",
-            "name": "overnight fast",
-            "label": "overnight fast"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "overnight-fast-no",
-            "name": "N",
-            "label": "No overnight-fast"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 13
-        },
-        {
-          "pk": 53844,
-          "count": 1,
+          "pk": 21613,
           "measurement_type": {
             "sid": "age",
             "name": "age",
@@ -3263,7 +2952,7 @@
           "calculation_type": null,
           "choice": null,
           "substance": null,
-          "value": 43.0,
+          "value": 43,
           "mean": null,
           "median": null,
           "min": null,
@@ -3271,12 +2960,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": null
+          "unit": "year"
         },
         {
-          "pk": 53845,
-          "count": 1,
+          "pk": 21614,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
@@ -3284,9 +2971,9 @@
           },
           "calculation_type": null,
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -3297,26 +2984,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": null
+          "unit": null
         },
         {
-          "pk": 53786,
-          "count": 13,
+          "pk": 21555,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -3327,26 +3012,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53788,
-          "count": 13,
+          "pk": 21557,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -3357,26 +3040,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53789,
-          "count": 13,
+          "pk": 21558,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -3387,26 +3068,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53790,
-          "count": 13,
+          "pk": 21559,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-no",
+            "sid": "N",
             "name": "N",
-            "label": "No alcohol"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -3417,26 +3096,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
         },
         {
-          "pk": 53791,
-          "count": 13,
+          "pk": 21560,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -3447,15 +3124,42 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 13
+          "unit": null
+        },
+        {
+          "pk": 21561,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
         }
       ]
     }
   ],
   "interventions": [
     {
-      "pk": 4773,
+      "pk": 2109,
       "normed": true,
       "name": "COD_IRC_1",
       "route": {
@@ -3470,26 +3174,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0.0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "cod-p",
-        "name": "codeine phosphate",
+        "name": "cod-p",
         "label": "codeine phosphate"
       },
       "value": 0.06,
@@ -3503,7 +3202,7 @@
       "unit": "gram"
     },
     {
-      "pk": 4774,
+      "pk": 2110,
       "normed": true,
       "name": "COD_IRC",
       "route": {
@@ -3518,26 +3217,21 @@
       },
       "application": {
         "sid": "multiple-dose",
-        "name": "multiple dose",
+        "name": "multiple-dose",
         "label": "multiple dose"
       },
       "time": null,
       "time_end": null,
       "time_unit": null,
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "measurement_type": {
         "sid": "qualitative-dosing",
-        "name": "qualitative dosing",
+        "name": "qualitative-dosing",
         "label": "qualitative dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "cod-p",
-        "name": "codeine phosphate",
+        "name": "cod-p",
         "label": "codeine phosphate"
       },
       "value": 0.54,
@@ -3551,7 +3245,7 @@
       "unit": "gram"
     },
     {
-      "pk": 4775,
+      "pk": 2111,
       "normed": true,
       "name": "COD_SRC_1",
       "route": {
@@ -3566,26 +3260,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0.0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "cod",
-        "name": "codeine",
+        "name": "cod",
         "label": "codeine"
       },
       "value": 0.15,
@@ -3599,7 +3288,7 @@
       "unit": "gram"
     },
     {
-      "pk": 4776,
+      "pk": 2112,
       "normed": true,
       "name": "COD_SRC",
       "route": {
@@ -3614,26 +3303,21 @@
       },
       "application": {
         "sid": "multiple-dose",
-        "name": "multiple dose",
+        "name": "multiple-dose",
         "label": "multiple dose"
       },
       "time": null,
       "time_end": null,
       "time_unit": null,
-      "study": {
-        "sid": "7983238",
-        "name": "Band1994"
-      },
       "measurement_type": {
         "sid": "qualitative-dosing",
-        "name": "qualitative dosing",
+        "name": "qualitative-dosing",
         "label": "qualitative dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "cod",
-        "name": "codeine",
+        "name": "cod",
         "label": "codeine"
       },
       "value": 0.75,
@@ -3647,6 +3331,2374 @@
       "unit": "gram"
     }
   ],
+  "outputs": [
+    {
+      "pk": 110841,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC_1",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 2109,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.483168000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8.462296000000002e-05,
+      "se": 2.3470186258579863e-05,
+      "cv": 0.892349054661902,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110842,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC_1",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 2109,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00010079034400000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.682260600000001e-05,
+      "se": 1.29862543679883e-05,
+      "cv": 0.4645544815285083,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110844,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC_1",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 2109,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.0922615e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.7062599000000005e-05,
+      "se": 7.505814487832346e-06,
+      "cv": 0.3344256608613056,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110845,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC_1",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 2109,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.578148000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.4913390000000004e-05,
+      "se": 6.909731160817832e-06,
+      "cv": 0.3787295451546544,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110852,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.578148000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.4913390000000004e-05,
+      "se": 6.909731160817832e-06,
+      "cv": 0.3787295451546544,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110853,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.591236500000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.1048685000000003e-05,
+      "se": 5.83785484989152e-06,
+      "cv": 0.4584535124688088,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110855,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.692287400000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5.627165600000001e-05,
+      "se": 1.56069493125593e-05,
+      "cv": 0.5805817933133102,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110859,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.4382286e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.6203468000000007e-05,
+      "se": 7.267534420690758e-06,
+      "cv": 0.4069980988248849,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110864,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 11,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.768654000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.6083464e-05,
+      "se": 1.0007752280642996e-05,
+      "cv": 0.4115051637343656,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110865,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.352177e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.0069560000000005e-05,
+      "se": 8.339795416203153e-06,
+      "cv": 0.47337408891471383,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110867,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.713752000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5.884904500000001e-05,
+      "se": 1.6321788404583672e-05,
+      "cv": 1.2484544159302398,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110879,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 8.5,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.271910500000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.6203475000000006e-05,
+      "se": 7.267536362141445e-06,
+      "cv": 0.4970394508783865,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110880,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 9,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.407531700000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.6634413000000003e-05,
+      "se": 7.387057058721898e-06,
+      "cv": 0.6042931693491846,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110847,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110856,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 5.5,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.257197600000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.897042400000001e-05,
+      "se": 1.3581951901016338e-05,
+      "cv": 0.5289983655528753,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110858,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 7,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.436864000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.9210420000000006e-05,
+      "se": 8.10151285291068e-06,
+      "cv": 0.3927787303895836,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110863,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00010884296400000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.810991600000001e-05,
+      "se": 1.3343289922789648e-05,
+      "cv": 0.44201218188067726,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110866,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110869,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00015785759000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8.419339000000001e-05,
+      "se": 2.3351044976933626e-05,
+      "cv": 0.5333502810982989,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110872,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00015801505000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6.056869000000001e-05,
+      "se": 1.679873211405254e-05,
+      "cv": 0.3833096277854546,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110873,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 4.5,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00015280779000000004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 7.689353000000001e-05,
+      "se": 2.1326428089725275e-05,
+      "cv": 0.5032042541810204,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110878,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.792775700000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.3937027000000004e-05,
+      "se": 9.412437768100452e-06,
+      "cv": 0.585850872838042,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110883,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 11,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.7965933000000003e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.4607977000000002e-05,
+      "se": 4.051523854176818e-06,
+      "cv": 0.5223489951148779,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110884,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.1416101000000006e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.2031966000000003e-05,
+      "se": 3.3370669505876435e-06,
+      "cv": 0.5618186989312387,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110897,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00018862468000000005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110899,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.690212337264828,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 110900,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 110843,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC_1",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 2109,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.772952000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.2526950000000005e-05,
+      "se": 1.1794853754930255e-05,
+      "cv": 0.4351494819579591,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110846,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC_1",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 2109,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.591236500000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.1048685000000003e-05,
+      "se": 5.83785484989152e-06,
+      "cv": 0.4584535124688088,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110854,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 4.5,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.8315884000000005e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.8659481000000006e-05,
+      "se": 1.0722210848332761e-05,
+      "cv": 0.6629322638751391,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110871,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00018862468000000005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6.185462000000001e-05,
+      "se": 1.7155384925718494e-05,
+      "cv": 0.3279243204017629,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110840,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC_1",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 2109,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110850,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.772952000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.2526950000000005e-05,
+      "se": 1.1794853754930255e-05,
+      "cv": 0.4351494819579591,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110851,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.0922615e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.7062599000000005e-05,
+      "se": 7.505814487832346e-06,
+      "cv": 0.3344256608613056,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110868,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00011495356000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 7.560346e-05,
+      "se": 2.0968627048653134e-05,
+      "cv": 0.6576869824649189,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110874,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 5,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00013815146000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5.842085000000001e-05,
+      "se": 1.6203028479322342e-05,
+      "cv": 0.4228753717115983,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110895,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0012162174395980024,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 110901,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 478.6754249133013,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 110902,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 317.2196005994194,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 110848,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.483168000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8.462296000000002e-05,
+      "se": 2.3470186258579863e-05,
+      "cv": 0.892349054661902,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110849,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00010079034400000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.682260600000001e-05,
+      "se": 1.29862543679883e-05,
+      "cv": 0.4645544815285083,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110857,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.822384000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.0497740000000004e-05,
+      "se": 8.45855118121301e-06,
+      "cv": 0.3456859279759303,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110860,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 8.5,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.065327000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.123687400000001e-05,
+      "se": 1.1437051049757528e-05,
+      "cv": 0.5112858288324825,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110861,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 9,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00011324635000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.896905000000001e-05,
+      "se": 1.3581570821981531e-05,
+      "cv": 0.4324117289431403,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110862,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_IRC",
+      "time": 9.5,
+      "time_unit": "hr",
+      "intervention_pk": 2110,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00012435979500000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6.099962500000001e-05,
+      "se": 1.69182519785827e-05,
+      "cv": 0.49050921159849137,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110870,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00017197798000000004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5.6274420000000006e-05,
+      "se": 1.5607715908230482e-05,
+      "cv": 0.3272187520751203,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110875,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 5.5,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00011489970000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6.700939000000001e-05,
+      "se": 1.8585060890966456e-05,
+      "cv": 0.583198998778935,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110876,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.809279000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.596208000000001e-05,
+      "se": 1.2747587397459844e-05,
+      "cv": 0.46855716918644075,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110877,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 7,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.166157500000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.2216005000000005e-05,
+      "se": 8.935112147546483e-06,
+      "cv": 0.3945062901370688,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110881,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 9.5,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.358912000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.6633040000000007e-05,
+      "se": 7.38667625703719e-06,
+      "cv": 0.6110020115111294,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110882,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "COD_SRC_1",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.5376278e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7186748000000004e-05,
+      "se": 4.766746244036783e-06,
+      "cv": 0.48582691486085683,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 110894,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 12,
+      "time_unit": "hr",
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0011330982107500003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 110896,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 123.33320927348291,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 110898,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2111,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004294253226523354,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 2301,
+      "name": "COD_IRC",
+      "label": "COD_IRC",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        6.0,
+        7.0,
+        8.0,
+        8.5,
+        9.0,
+        9.5,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        9.483168000000002e-05,
+        0.00010079034400000002,
+        9.772952000000001e-05,
+        8.0922615e-05,
+        6.578148000000002e-05,
+        4.591236500000001e-05,
+        5.8315884000000005e-05,
+        9.692287400000001e-05,
+        9.257197600000002e-05,
+        8.822384000000002e-05,
+        7.436864000000001e-05,
+        6.4382286e-05,
+        8.065327000000002e-05,
+        0.00011324635000000003,
+        0.00012435979500000001,
+        0.00010884296400000001,
+        8.768654000000001e-05,
+        6.352177e-05
+      ],
+      "sd": [
+        null,
+        8.462296000000002e-05,
+        4.682260600000001e-05,
+        4.2526950000000005e-05,
+        2.7062599000000005e-05,
+        2.4913390000000004e-05,
+        2.1048685000000003e-05,
+        3.8659481000000006e-05,
+        5.627165600000001e-05,
+        4.897042400000001e-05,
+        3.0497740000000004e-05,
+        2.9210420000000006e-05,
+        2.6203468000000007e-05,
+        4.123687400000001e-05,
+        4.896905000000001e-05,
+        6.099962500000001e-05,
+        4.810991600000001e-05,
+        3.6083464e-05,
+        3.0069560000000005e-05
+      ]
+    },
+    {
+      "pk": 2300,
+      "name": "COD_SRC_1",
+      "label": "COD_SRC_1",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        11.0,
+        12.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        6.0,
+        7.0,
+        8.0,
+        8.5,
+        9.0,
+        9.5,
+        10.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        2.7965933000000003e-05,
+        2.1416101000000006e-05,
+        4.713752000000001e-05,
+        0.00011495356000000002,
+        0.00015785759000000002,
+        0.00017197798000000004,
+        0.00018862468000000005,
+        0.00015801505000000003,
+        0.00015280779000000004,
+        0.00013815146000000002,
+        0.00011489970000000002,
+        9.809279000000001e-05,
+        8.166157500000001e-05,
+        5.792775700000001e-05,
+        5.271910500000001e-05,
+        4.407531700000001e-05,
+        4.358912000000001e-05,
+        3.5376278e-05
+      ],
+      "sd": [
+        null,
+        1.4607977000000002e-05,
+        1.2031966000000003e-05,
+        5.884904500000001e-05,
+        7.560346e-05,
+        8.419339000000001e-05,
+        5.6274420000000006e-05,
+        6.185462000000001e-05,
+        6.056869000000001e-05,
+        7.689353000000001e-05,
+        5.842085000000001e-05,
+        6.700939000000001e-05,
+        4.596208000000001e-05,
+        3.2216005000000005e-05,
+        3.3937027000000004e-05,
+        2.6203475000000006e-05,
+        2.6634413000000003e-05,
+        2.6633040000000007e-05,
+        1.7186748000000004e-05
+      ]
+    },
+    {
+      "pk": 2302,
+      "name": "COD_IRC_1",
+      "label": "COD_IRC_1",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1088,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        9.483168000000002e-05,
+        0.00010079034400000002,
+        9.772952000000001e-05,
+        8.0922615e-05,
+        6.578148000000002e-05,
+        4.591236500000001e-05
+      ],
+      "sd": [
+        null,
+        8.462296000000002e-05,
+        4.682260600000001e-05,
+        4.2526950000000005e-05,
+        2.7062599000000005e-05,
+        2.4913390000000004e-05,
+        2.1048685000000003e-05
+      ]
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  },
   "_index": {
     "sid": "7983238",
     "name": "Band1994",
@@ -3661,12 +5713,9 @@
     "n_groups": 1,
     "n_individuals": 13,
     "n_interventions": 4,
+    "n_outputs": 54,
+    "n_timecourses": 3,
     "paper_source": "abstract",
     "paper_licence": null
-  },
-  "paper": {
-    "source": "abstract",
-    "licence": null,
-    "pmcid": null
   }
 }

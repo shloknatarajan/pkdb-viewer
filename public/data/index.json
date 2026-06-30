@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-30",
-  "count": 88,
-  "note": "Open-access PK-DB studies. Outputs/timecourses are not available via the anonymous PK-DB API.",
+  "generated": "2021-12-03",
+  "count": 56,
+  "note": "Open-access PK-DB studies from the curated CSV dump (matthiaskoenig/pkdb_analysis, 2021-12-03). Includes outputs, timecourses and scatters — unavailable from the live anonymous API.",
   "studies": [
     {
       "sid": "PKDB00427",
@@ -16,71 +16,26 @@
       "n_groups": 3,
       "n_individuals": 197,
       "n_interventions": 1,
+      "n_outputs": 244,
+      "n_timecourses": 2,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00811",
-      "name": "Anuta2021",
-      "title": "Square root law model for the delivery and intestinal absorption of drugs: a case of hydrophilic captopril.",
-      "pmid": "34355621",
-      "journal": "Drug delivery",
-      "year": "2021",
+      "sid": "PKDB00022",
+      "name": "Albert1974",
+      "title": "Bioavailability studies of acetaminophen and nitrofurantoin.",
+      "pmid": "4829520",
+      "journal": "Journal of clinical pharmacology",
+      "year": "1974",
       "substances": [
-        "hydrochlorothiazide",
-        "captopril"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 5,
-      "paper_source": "bioc",
-      "paper_licence": "CC BY"
-    },
-    {
-      "sid": "PKDB00748",
-      "name": "Arroyo1997",
-      "title": "Determination of captopril in plasma by high-performance liquid chromatography for pharmacokinetic studies.",
-      "pmid": "9061473",
-      "journal": "Journal of chromatography. B, Biomedical sciences and applications",
-      "year": "1997",
-      "substances": [
-        "captopril"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "2079531",
-      "name": "Azumaya1990",
-      "title": "Sensitive liquid chromatographic method for the determination of hydrochlorothiazide in human plasma.",
-      "pmid": "2079531",
-      "journal": "Journal of chromatography",
-      "year": "1991",
-      "substances": [
-        "hydrochlorothiazide"
+        "paracetamol"
       ],
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB01061",
-      "name": "Bahmaei1997",
-      "title": "Determination of captopril in human serum by high performance liquid chromatography using solid-phase extraction.",
-      "pmid": "9215971",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
-      "year": "1997",
-      "substances": [
-        "captopril"
-      ],
-      "n_groups": 1,
-      "n_individuals": 3,
-      "n_interventions": 1,
+      "n_outputs": 48,
+      "n_timecourses": 2,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -98,6 +53,8 @@
       "n_groups": 1,
       "n_individuals": 13,
       "n_interventions": 4,
+      "n_outputs": 54,
+      "n_timecourses": 3,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -120,26 +77,28 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 3,
+      "n_outputs": 87,
+      "n_timecourses": 2,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00768",
-      "name": "Biollaz1982",
-      "title": "Enalapril maleate and a lysine analogue (MK-521) in normal volunteers; relationship between plasma drug levels and the renin angiotensin system.",
-      "pmid": "6289859",
-      "journal": "British journal of clinical pharmacology",
+      "sid": "PKDB00067",
+      "name": "Bergman1981",
+      "title": "Physiologic evaluation of factors controlling glucose tolerance in man: measurement of insulin sensitivity and beta-cell glucose sensitivity from the response to intravenous glucose.",
+      "pmid": "7033284",
+      "journal": "The Journal of clinical investigation",
       "year": "1982",
       "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat",
-        "lisinopril"
+        "D-glucose",
+        "insulin"
       ],
-      "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 2,
-      "paper_source": "pubmed-markdown",
+      "n_groups": 5,
+      "n_individuals": 18,
+      "n_interventions": 1,
+      "n_outputs": 290,
+      "n_timecourses": 8,
+      "paper_source": "abstract",
       "paper_licence": null
     },
     {
@@ -155,6 +114,8 @@
       "n_groups": 1,
       "n_individuals": 41,
       "n_interventions": 1,
+      "n_outputs": 94,
+      "n_timecourses": 0,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -180,22 +141,8 @@
       "n_groups": 3,
       "n_individuals": 39,
       "n_interventions": 9,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB01069",
-      "name": "Chik2014",
-      "title": "A Bioequivalence comparison of two captopril formulations (25 mg tablets): An open-label, randomized, two-treatment, two-way crossover study in healthy volunteers",
-      "pmid": null,
-      "journal": "Journal of Bioequivalence & Bioavailability",
-      "year": "2014",
-      "substances": [
-        "captopril"
-      ],
-      "n_groups": 1,
-      "n_individuals": 24,
-      "n_interventions": 2,
+      "n_outputs": 1846,
+      "n_timecourses": 4,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -216,23 +163,9 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 5,
+      "n_outputs": 144,
+      "n_timecourses": 4,
       "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB01088",
-      "name": "Cohen1982",
-      "title": "Determination of captopril in human blood and urine by GLC-selected ion monitoring mass spectrometry after oral coadministration with its isotopomer.",
-      "pmid": "6757410",
-      "journal": "Journal of pharmaceutical sciences",
-      "year": "1983",
-      "substances": [
-        "captopril"
-      ],
-      "n_groups": 2,
-      "n_individuals": 4,
-      "n_interventions": 2,
-      "paper_source": "abstract",
       "paper_licence": null
     },
     {
@@ -248,6 +181,8 @@
       "n_groups": 3,
       "n_individuals": 19,
       "n_interventions": 1,
+      "n_outputs": 38,
+      "n_timecourses": 0,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -273,6 +208,8 @@
       "n_groups": 1,
       "n_individuals": 2,
       "n_interventions": 3,
+      "n_outputs": 60,
+      "n_timecourses": 0,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -293,77 +230,52 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 5,
+      "n_outputs": 336,
+      "n_timecourses": 6,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00769",
-      "name": "Dayyih2017",
-      "title": "A Liquid Chromatography-Tandem Mass Spectrometry Method for Evaluation of Two Brands of Enalapril 20 mg Tablets in Healthy Human Volunteers.",
-      "pmid": "28894622",
-      "journal": "Journal of analytical methods in chemistry",
-      "year": "2017",
+      "sid": "PKDB00070",
+      "name": "Degn2004",
+      "title": "Effect of intravenous infusion of exenatide (synthetic exendin-4) on glucose-dependent insulin secretion and counterregulation during hypoglycemia.",
+      "pmid": "15331551",
+      "journal": "Diabetes",
+      "year": "2004",
       "substances": [
-        "enalapril",
-        "enalaprilat"
+        "D-glucose",
+        "insulin",
+        "C-peptide",
+        "cortisol",
+        "epinephrine",
+        "norepinephrine",
+        "growth hormone",
+        "glucagon",
+        "exenatide"
       ],
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 2,
-      "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00770",
-      "name": "Dickstein1987",
-      "title": "The pharmacokinetics of enalapril in hospitalized patients with congestive heart failure.",
-      "pmid": "3034316",
-      "journal": "British journal of clinical pharmacology",
-      "year": "1987",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 3,
-      "n_individuals": 12,
-      "n_interventions": 3,
-      "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00771",
-      "name": "Donnelly1990",
-      "title": "Kinetic-dynamic relations and individual responses to enalapril.",
-      "pmid": "2154407",
-      "journal": "Hypertension (Dallas, Tex. : 1979)",
-      "year": "1990",
-      "substances": [
-        "placebo",
-        "enalapril maleate",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 13,
-      "n_interventions": 3,
+      "n_outputs": 722,
+      "n_timecourses": 20,
       "paper_source": "abstract",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00816",
-      "name": "Drummer1987",
-      "title": "The pharmacokinetics of captopril and captopril disulfide conjugates in uraemic patients on maintenance dialysis: comparison with patients with normal renal function.",
-      "pmid": "3297733",
-      "journal": "European journal of clinical pharmacology",
-      "year": "1987",
+      "sid": "PKDB00131",
+      "name": "Divoll1982",
+      "title": "Age does not alter acetaminophen absorption.",
+      "pmid": "7069091",
+      "journal": "Journal of the American Geriatrics Society",
+      "year": "1982",
       "substances": [
-        "captopril",
-        "captopril disulfide",
-        "total captopril"
+        "paracetamol"
       ],
-      "n_groups": 4,
-      "n_individuals": 0,
-      "n_interventions": 1,
+      "n_groups": 7,
+      "n_individuals": 1,
+      "n_interventions": 3,
+      "n_outputs": 99,
+      "n_timecourses": 3,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -381,22 +293,48 @@
       "n_groups": 1,
       "n_individuals": 8,
       "n_interventions": 2,
+      "n_outputs": 24,
+      "n_timecourses": 0,
       "paper_source": "bioc",
       "paper_licence": "CC BY-NC"
     },
     {
-      "sid": "PKDB01063",
-      "name": "Franklin1998",
-      "title": "Improved analytical procedure for the measurement of captopril in human plasma by gas chromatography--mass spectrometry and its application to pharmacokinetic studies.",
-      "pmid": "9498669",
-      "journal": "Journal of chromatography. B, Biomedical sciences and applications",
-      "year": "1998",
+      "sid": "PKDB00072",
+      "name": "Ferrannini1979",
+      "title": "Pattern of insulin delivery after intravenous glucose injection in man and its relation to plasma glucose disappearance.",
+      "pmid": "447855",
+      "journal": "The Journal of clinical investigation",
+      "year": "1979",
       "substances": [
-        "captopril"
+        "D-glucose",
+        "insulin"
       ],
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 1,
+      "n_outputs": 148,
+      "n_timecourses": 3,
+      "paper_source": "abstract",
+      "paper_licence": null
+    },
+    {
+      "sid": "PKDB00075",
+      "name": "Firth1986",
+      "title": "Postprandial hyperglycemia in patients with noninsulin-dependent diabetes mellitus. Role of hepatic and extrahepatic tissues.",
+      "pmid": "3517067",
+      "journal": "The Journal of clinical investigation",
+      "year": "1986",
+      "substances": [
+        "D-glucose",
+        "insulin",
+        "C-peptide",
+        "glucagon"
+      ],
+      "n_groups": 3,
+      "n_individuals": 0,
+      "n_interventions": 1,
+      "n_outputs": 318,
+      "n_timecourses": 20,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -414,6 +352,8 @@
       "n_groups": 3,
       "n_individuals": 12,
       "n_interventions": 2,
+      "n_outputs": 152,
+      "n_timecourses": 0,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -434,62 +374,10 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 2,
+      "n_outputs": 120,
+      "n_timecourses": 10,
       "paper_source": "bioc",
       "paper_licence": "author_manuscript"
-    },
-    {
-      "sid": "PKDB00746",
-      "name": "Ghosh2012",
-      "title": "Rapid and sensitive liquid chromatography/tandem mass spectrometry method for simultaneous determination of enalapril and its major metabolite enalaprilat, in human plasma: application to a bioequivalence study.",
-      "pmid": "21341376",
-      "journal": "Drug testing and analysis",
-      "year": "2012",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00747",
-      "name": "Gu2004",
-      "title": "Simultaneous determination of enalapril and enalaprilat in human plasma by liquid chromatography-tandem mass spectrometry.",
-      "pmid": "15556550",
-      "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
-      "year": "2005",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00774",
-      "name": "He2014",
-      "title": "Lack of effect of colesevelam HCl on the single-dose pharmacokinetics of aspirin, atenolol, enalapril, phenytoin, rosiglitazone, and sitagliptin.",
-      "pmid": "24721587",
-      "journal": "Diabetes research and clinical practice",
-      "year": "2014",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
     },
     {
       "sid": "PKDB00040",
@@ -506,115 +394,90 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 4,
+      "n_outputs": 50,
+      "n_timecourses": 0,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00777",
-      "name": "Howes1991",
-      "title": "Pharmacokinetic comparison of a combination tablet of enalapril and hydrochlorothiazide with enalapril and hydrochlorothiazide tablets administered together and separately.",
-      "pmid": "1932608",
-      "journal": "Biopharmaceutics & drug disposition",
+      "sid": "PKDB00041",
+      "name": "Healy1991",
+      "title": "Lack of interaction between lomefloxacin and caffeine in normal volunteers.",
+      "pmid": "2069371",
+      "journal": "Antimicrobial agents and chemotherapy",
       "year": "1991",
       "substances": [
-        "hydrochlorothiazide",
-        "enalapril",
-        "enalaprilat"
+        "caffeine (137X)",
+        "paraxanthine (17X)",
+        "lomefloxacin"
       ],
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 2,
+      "n_outputs": 209,
+      "n_timecourses": 6,
       "paper_source": "abstract",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00750",
-      "name": "Ishizaki1988",
-      "title": "Effect of cimetidine on the pharmacokinetics and pharmacodynamics of enalapril in normal volunteers.",
-      "pmid": "2468049",
-      "journal": "Journal of cardiovascular pharmacology",
-      "year": "1989",
+      "sid": "PKDB00178",
+      "name": "Heizmann1983",
+      "title": "Pharmacokinetics and bioavailability of midazolam in man.",
+      "pmid": "6138080",
+      "journal": "British journal of clinical pharmacology",
+      "year": "1983",
       "substances": [
-        "cimetidine",
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat",
-        "atrial natriuretic peptide (ANP)",
-        "aldosterone",
-        "angiotensin converting enzyme (ACE)"
-      ],
-      "n_groups": 1,
-      "n_individuals": 56,
-      "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00822",
-      "name": "Jankowski1995",
-      "title": "Captopril: determination in blood and pharmacokinetics after single oral dose.",
-      "pmid": "9696583",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
-      "year": "1998",
-      "substances": [
-        "captopril"
+        "midazolam",
+        "1-hydroxymidazolam"
       ],
       "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 2,
+      "n_individuals": 6,
+      "n_interventions": 4,
+      "n_outputs": 811,
+      "n_timecourses": 36,
       "paper_source": "abstract",
       "paper_licence": null
     },
     {
-      "sid": "13674517",
-      "name": "Januszewicz1959",
-      "title": "A clinical study of the effects of hydrochlorothiazide on the renal excretion of electrolytes and free water.",
-      "pmid": "13674517",
-      "journal": "The New England journal of medicine",
-      "year": "2000",
+      "sid": "PKDB00077",
+      "name": "Hovorka2002",
+      "title": "Partitioning glucose distribution/transport, disposal, and endogenous production during IVGTT.",
+      "pmid": "11934663",
+      "journal": "American journal of physiology. Endocrinology and metabolism",
+      "year": "2002",
       "substances": [
-        "inulin",
-        "water",
-        "sodium",
-        "potassium",
-        "chloride",
-        "hydrochlorothiazide"
-      ],
-      "n_groups": 4,
-      "n_individuals": 0,
-      "n_interventions": 3,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB01064",
-      "name": "Jarrott1982",
-      "title": "Pharmacokinetic properties of captopril after acute and chronic administration to hypertensive subjects.",
-      "pmid": "6803565",
-      "journal": "The American journal of cardiology",
-      "year": "1982",
-      "substances": [
-        "captopril"
-      ],
-      "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00823",
-      "name": "Jehanli1996",
-      "title": "Determination of captopril in human blood by an enzyme-linked immunosorbent assay.",
-      "pmid": "8910853",
-      "journal": "The Journal of pharmacy and pharmacology",
-      "year": "1997",
-      "substances": [
-        "captopril"
+        "D-glucose",
+        "[U-13C]glucose",
+        "[3-OMG]glucose",
+        "insulin"
       ],
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 1,
+      "n_outputs": 233,
+      "n_timecourses": 4,
+      "paper_source": "abstract",
+      "paper_licence": null
+    },
+    {
+      "sid": "PKDB00079",
+      "name": "Jones1998",
+      "title": "Decreased epinephrine responses to hypoglycemia during sleep.",
+      "pmid": "9614256",
+      "journal": "The New England journal of medicine",
+      "year": "1998",
+      "substances": [
+        "D-glucose",
+        "cortisol",
+        "epinephrine",
+        "norepinephrine",
+        "growth hormone"
+      ],
+      "n_groups": 3,
+      "n_individuals": 0,
+      "n_interventions": 5,
+      "n_outputs": 1146,
+      "n_timecourses": 23,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -633,24 +496,31 @@
       "n_groups": 1,
       "n_individuals": 55,
       "n_interventions": 3,
+      "n_outputs": 275,
+      "n_timecourses": 6,
       "paper_source": "bioc",
       "paper_licence": "author_manuscript"
     },
     {
-      "sid": "PKDB00779",
-      "name": "Kelly1986",
-      "title": "Pharmacokinetics of enalapril in normal subjects and patients with renal impairment.",
-      "pmid": "3004546",
-      "journal": "British journal of clinical pharmacology",
-      "year": "1986",
+      "sid": "PKDB00245",
+      "name": "Kharasch1997",
+      "title": "The role of cytochrome P450 3A4 in alfentanil clearance. Implications for interindividual variability in disposition and perioperative drug interactions.",
+      "pmid": "9232132",
+      "journal": "Anesthesiology",
+      "year": "1997",
       "substances": [
-        "enalapril maleate",
-        "enalaprilat"
+        "midazolam",
+        "1-hydroxymidazolam",
+        "rifampicin",
+        "alfentanil",
+        "troleandomycin"
       ],
-      "n_groups": 9,
-      "n_individuals": 36,
-      "n_interventions": 3,
-      "paper_source": "pubmed-markdown",
+      "n_groups": 1,
+      "n_individuals": 9,
+      "n_interventions": 4,
+      "n_outputs": 603,
+      "n_timecourses": 12,
+      "paper_source": "abstract",
       "paper_licence": null
     },
     {
@@ -668,44 +538,31 @@
       "n_groups": 5,
       "n_individuals": 0,
       "n_interventions": 2,
+      "n_outputs": 92,
+      "n_timecourses": 8,
       "paper_source": "abstract",
       "paper_licence": null
     },
     {
-      "sid": "PKDB01065",
-      "name": "Lang1996",
-      "title": "Angiotensin converting enzyme inhibition and sympathetic activity in healthy subjects.",
-      "pmid": "8681492",
-      "journal": "Clinical pharmacology and therapeutics",
-      "year": "1996",
+      "sid": "PKDB00081",
+      "name": "Knop2007",
+      "title": "Inappropriate glucagon response after oral compared with isoglycemic intravenous glucose administration in patients with type 1 diabetes.",
+      "pmid": "20103744",
+      "journal": "American journal of physiology. Endocrinology and metabolism",
+      "year": "2010",
       "substances": [
-        "placebo",
-        "sodium",
-        "captopril",
-        "renin",
-        "norepinephrine"
+        "D-glucose",
+        "insulin",
+        "C-peptide",
+        "glucagon",
+        "gastric inhibitory polypeptide (GIP)",
+        "glucagon-like peptide-1 (GLP-1)"
       ],
-      "n_groups": 1,
+      "n_groups": 3,
       "n_individuals": 0,
       "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00780",
-      "name": "Lee2003",
-      "title": "Simultaneous quantitation of enalapril and enalaprilat in human plasma by 96-well solid-phase extraction and liquid chromatography/tandem mass spectrometry.",
-      "pmid": "12772271",
-      "journal": "Rapid communications in mass spectrometry : RCM",
-      "year": "2003",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 1,
+      "n_outputs": 658,
+      "n_timecourses": 32,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -725,6 +582,8 @@
       "n_groups": 1,
       "n_individuals": 1,
       "n_interventions": 4,
+      "n_outputs": 151,
+      "n_timecourses": 8,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -747,6 +606,30 @@
       "n_groups": 1,
       "n_individuals": 3,
       "n_interventions": 10,
+      "n_outputs": 1059,
+      "n_timecourses": 26,
+      "paper_source": "abstract",
+      "paper_licence": null
+    },
+    {
+      "sid": "PKDB00248",
+      "name": "Link2008",
+      "title": "Pharmacokinetics of intravenous and oral midazolam in plasma and saliva in humans: usefulness of saliva as matrix for CYP3A phenotyping.",
+      "pmid": "18537963",
+      "journal": "British journal of clinical pharmacology",
+      "year": "2008",
+      "substances": [
+        "midazolam",
+        "1-hydroxymidazolam",
+        "4-hydroxymidazolam",
+        "1-hydroxymidazolam glucuronide",
+        "rifampicin"
+      ],
+      "n_groups": 1,
+      "n_individuals": 9,
+      "n_interventions": 3,
+      "n_outputs": 716,
+      "n_timecourses": 18,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -765,42 +648,26 @@
       "n_groups": 5,
       "n_individuals": 238,
       "n_interventions": 1,
+      "n_outputs": 567,
+      "n_timecourses": 12,
       "paper_source": "abstract",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00782",
-      "name": "Lowenthal1985",
-      "title": "The effect of renal function on enalapril kinetics.",
-      "pmid": "2998676",
-      "journal": "Clinical pharmacology and therapeutics",
-      "year": "1986",
-      "substances": [
-        "creatinine",
-        "enalapril maleate",
-        "enalaprilat"
-      ],
-      "n_groups": 4,
-      "n_individuals": 29,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00745",
-      "name": "Lu2009",
-      "title": "Simultaneous quantification of enalapril and enalaprilat in human plasma by high-performance liquid chromatography-tandem mass spectrometry and its application in a pharmacokinetic study.",
-      "pmid": "19046843",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
+      "sid": "PKDB00325",
+      "name": "Ma2009",
+      "title": "Lack of effect of subject posture on intravenous midazolam clearance: implications for hepatic cytochrome P450 3A phenotyping.",
+      "pmid": "19220276",
+      "journal": "British journal of clinical pharmacology",
       "year": "2009",
       "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
+        "midazolam"
       ],
-      "n_groups": 1,
+      "n_groups": 3,
       "n_individuals": 0,
       "n_interventions": 1,
+      "n_outputs": 32,
+      "n_timecourses": 2,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -817,66 +684,31 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 3,
+      "n_outputs": 81,
+      "n_timecourses": 3,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
     {
-      "sid": "2992562",
-      "name": "Manhem1985",
-      "title": "A dose-response study of HOE 498, a new non-sulphydryl converting enzyme inhibitor, on blood pressure, pulse rate and the renin-angiotensin-aldosterone system in normal man.",
-      "pmid": "2992562",
+      "sid": "PKDB00150",
+      "name": "Miners1983",
+      "title": "Influence of sex and oral contraceptive steroids on paracetamol metabolism.",
+      "pmid": "6416284",
       "journal": "British journal of clinical pharmacology",
-      "year": "1985",
+      "year": "1984",
       "substances": [
-        "ramipril",
-        "ramiprilat",
-        "aldosterone",
-        "angiotensin I",
-        "angiotensin II",
-        "angiotensin I/angiotensin II",
-        "renin",
-        "angiotensin converting enzyme (ACE)"
+        "paracetamol",
+        "paracetamol glucuronide",
+        "paracetamol sulfate",
+        "paracetamol cysteine",
+        "paracetamol glutathione",
+        "paracetamol mercapturate"
       ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 4,
-      "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB01067",
-      "name": "Massana1997",
-      "title": "No sex-related pharmacokinetic and pharmacodynamic differences of captopril.",
-      "pmid": "9368913",
-      "journal": "Pharmacological research",
-      "year": "1998",
-      "substances": [
-        "captopril"
-      ],
-      "n_groups": 3,
+      "n_groups": 4,
       "n_individuals": 0,
       "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00656",
-      "name": "Meyer1987",
-      "title": "Pharmacokinetics of ramipril in the elderly.",
-      "pmid": "3034031",
-      "journal": "The American journal of cardiology",
-      "year": "1987",
-      "substances": [
-        "ramipril",
-        "ramiprilat",
-        "ramipril glucuronide",
-        "ramiprilat glucuronide",
-        "ramipril diketopiperazine",
-        "ramipril diketopiperazine acid"
-      ],
-      "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 1,
+      "n_outputs": 41,
+      "n_timecourses": 0,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -900,6 +732,8 @@
       "n_groups": 5,
       "n_individuals": 0,
       "n_interventions": 4,
+      "n_outputs": 99,
+      "n_timecourses": 0,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -920,82 +754,28 @@
       "n_groups": 3,
       "n_individuals": 16,
       "n_interventions": 1,
+      "n_outputs": 108,
+      "n_timecourses": 0,
       "paper_source": "abstract",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00786",
-      "name": "Moffett2014",
-      "title": "Bioequivalence of enalapril oral solution for treatment of pediatric hypertension and enalapril tablets.",
-      "pmid": "27129124",
-      "journal": "Clinical pharmacology in drug development",
-      "year": "2018",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 3,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00787",
-      "name": "Mujais1992",
-      "title": "Renal handling of enalaprilat.",
-      "pmid": "1310827",
-      "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+      "sid": "PKDB00083",
+      "name": "Mitrakou1992",
+      "title": "Role of reduced suppression of glucose production and diminished early insulin release in impaired glucose tolerance.",
+      "pmid": "1727062",
+      "journal": "The New England journal of medicine",
       "year": "1992",
       "substances": [
-        "creatinine",
-        "inulin",
-        "enalaprilat"
+        "D-glucose",
+        "insulin",
+        "glucagon"
       ],
-      "n_groups": 1,
-      "n_individuals": 15,
-      "n_interventions": 3,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00788",
-      "name": "Najib2003a",
-      "title": "Bioequivalence evaluation of two brands of enalapril 20 mg tablets (Narapril and Renitec) in healthy human volunteers.",
-      "pmid": "14520685",
-      "journal": "Biopharmaceutics & drug disposition",
-      "year": "2004",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
+      "n_groups": 5,
       "n_individuals": 0,
-      "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB01068",
-      "name": "Nishida1990",
-      "title": "Effect of captopril on congestive heart failure.",
-      "pmid": "2077146",
-      "journal": "Japanese circulation journal",
-      "year": "1991",
-      "substances": [
-        "captopril",
-        "aldosterone",
-        "angiotensin I",
-        "angiotensin II",
-        "renin",
-        "norepinephrine",
-        "epinephrine"
-      ],
-      "n_groups": 3,
-      "n_individuals": 12,
       "n_interventions": 1,
+      "n_outputs": 452,
+      "n_timecourses": 32,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -1017,7 +797,27 @@
       "n_groups": 3,
       "n_individuals": 0,
       "n_interventions": 2,
+      "n_outputs": 130,
+      "n_timecourses": 6,
       "paper_source": "pubmed-markdown",
+      "paper_licence": null
+    },
+    {
+      "sid": "PKDB00084",
+      "name": "Polonsky1986",
+      "title": "Use of biosynthetic human C-peptide in the measurement of insulin secretion rates in normal volunteers and type I diabetic patients.",
+      "pmid": "3511094",
+      "journal": "The Journal of clinical investigation",
+      "year": "1986",
+      "substances": [
+        "C-peptide"
+      ],
+      "n_groups": 3,
+      "n_individuals": 18,
+      "n_interventions": 4,
+      "n_outputs": 180,
+      "n_timecourses": 5,
+      "paper_source": "abstract",
       "paper_licence": null
     },
     {
@@ -1031,6 +831,8 @@
       "n_groups": 0,
       "n_individuals": 0,
       "n_interventions": 0,
+      "n_outputs": 0,
+      "n_timecourses": 0,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -1053,111 +855,27 @@
       "n_groups": 3,
       "n_individuals": 0,
       "n_interventions": 3,
+      "n_outputs": 138,
+      "n_timecourses": 6,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00831",
-      "name": "Rezende2007",
-      "title": "Determination of captopril in human plasma, using solid phase extraction and high-performance liquid chromatography, coupled to mass spectrometry: application to bioequivalence study.",
-      "pmid": "17145205",
-      "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+      "sid": "PKDB00125",
+      "name": "Renner2007",
+      "title": "Caffeine accelerates absorption and enhances the analgesic effect of acetaminophen.",
+      "pmid": "17442681",
+      "journal": "Journal of clinical pharmacology",
       "year": "2007",
       "substances": [
-        "captopril",
-        "total captopril"
+        "paracetamol",
+        "caffeine (137X)"
       ],
-      "n_groups": 1,
+      "n_groups": 3,
       "n_individuals": 0,
       "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00793",
-      "name": "Ribeiro1996",
-      "title": "Bioequivalence study of two enalapril maleate tablet formulations in healthy male volunteers. Pharmacokinetic versus pharmacodynamic approach.",
-      "pmid": "8839663",
-      "journal": "European journal of clinical pharmacology",
-      "year": "1996",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00832",
-      "name": "Richer1984",
-      "title": "Captopril: pharmacokinetics, antihypertensive and biological effects in hypertensive patients.",
-      "pmid": "6324834",
-      "journal": "British journal of clinical pharmacology",
-      "year": "1984",
-      "substances": [
-        "captopril",
-        "renin",
-        "angiotensin converting enzyme (ACE)"
-      ],
-      "n_groups": 1,
-      "n_individuals": 10,
-      "n_interventions": 1,
-      "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00833",
-      "name": "Salem2005",
-      "title": "A selective and rapid method for the quantification of captopril in human plasma using liquid chromatography/selected reaction monitoring mass spectrometry.",
-      "pmid": "15862687",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
-      "year": "2006",
-      "substances": [
-        "captopril",
-        "total captopril"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00834",
-      "name": "Schaefer1998",
-      "title": "Ferrous sulphate interacts with captopril.",
-      "pmid": "9803987",
-      "journal": "British journal of clinical pharmacology",
-      "year": "1999",
-      "substances": [
-        "captopril",
-        "total captopril",
-        "ferrous sulfate"
-      ],
-      "n_groups": 1,
-      "n_individuals": 7,
-      "n_interventions": 2,
-      "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "Schunkert1989",
-      "name": "Schunkert1989",
-      "title": "Steady-state kinetics of ramipril in renal failure.",
-      "pmid": "2474104",
-      "journal": "Journal of cardiovascular pharmacology",
-      "year": "1989",
-      "substances": [
-        "ramipril",
-        "ramiprilat"
-      ],
-      "n_groups": 4,
-      "n_individuals": 0,
-      "n_interventions": 1,
+      "n_outputs": 75,
+      "n_timecourses": 2,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -1174,6 +892,8 @@
       "n_groups": 1,
       "n_individuals": 52,
       "n_interventions": 1,
+      "n_outputs": 104,
+      "n_timecourses": 0,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -1193,8 +913,31 @@
       "n_groups": 3,
       "n_individuals": 10,
       "n_interventions": 3,
+      "n_outputs": 111,
+      "n_timecourses": 4,
       "paper_source": "abstract",
       "paper_licence": null
+    },
+    {
+      "sid": "PKDB00106",
+      "name": "Shord2009",
+      "title": "The pharmacokinetics of codeine and its metabolites in Blacks with sickle cell disease.",
+      "pmid": "19357842",
+      "journal": "European journal of clinical pharmacology",
+      "year": "2009",
+      "substances": [
+        "codeine",
+        "codeine sulfate anhydrous",
+        "morphine",
+        "morphine-3-glucuronide"
+      ],
+      "n_groups": 3,
+      "n_individuals": 0,
+      "n_interventions": 1,
+      "n_outputs": 38,
+      "n_timecourses": 2,
+      "paper_source": "bioc",
+      "paper_licence": "author_manuscript"
     },
     {
       "sid": "PKDB00323",
@@ -1211,6 +954,8 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 3,
+      "n_outputs": 171,
+      "n_timecourses": 8,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -1233,6 +978,8 @@
       "n_groups": 1,
       "n_individuals": 144,
       "n_interventions": 3,
+      "n_outputs": 215,
+      "n_timecourses": 3,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -1255,64 +1002,8 @@
       "n_groups": 1,
       "n_individuals": 17,
       "n_interventions": 3,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00797",
-      "name": "Stage2017",
-      "title": "The Pharmacokinetics of Enalapril in Relation to CES1 Genotype in Healthy Danish Volunteers.",
-      "pmid": "28639420",
-      "journal": "Basic & clinical pharmacology & toxicology",
-      "year": "2018",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 7,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00798",
-      "name": "Sunaga1995",
-      "title": "Chronopharmacology of enalapril in hypertensive patients.",
-      "pmid": "8582461",
-      "journal": "European journal of clinical pharmacology",
-      "year": "1996",
-      "substances": [
-        "placebo",
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat",
-        "prostaglandin E2 (PGE2)",
-        "substance P",
-        "bradykinin"
-      ],
-      "n_groups": 3,
-      "n_individuals": 2,
-      "n_interventions": 2,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00799",
-      "name": "Swanson1984",
-      "title": "Influence of food on the bioavailability of enalapril.",
-      "pmid": "6097665",
-      "journal": "Journal of pharmaceutical sciences",
-      "year": "1985",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 1,
+      "n_outputs": 190,
+      "n_timecourses": 0,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -1338,76 +1029,8 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 5,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00800",
-      "name": "Tarkiainen2015",
-      "title": "Effect of carboxylesterase 1 c.428G > A single nucleotide variation on the pharmacokinetics of quinapril and enalapril.",
-      "pmid": "25919042",
-      "journal": "British journal of clinical pharmacology",
-      "year": "2016",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00801",
-      "name": "Thongnopnua2005",
-      "title": "High-performance liquid chromatographic determination of enalapril in human plasma by enzyme kinetic analytical method.",
-      "pmid": "15797799",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
-      "year": "2005",
-      "substances": [
-        "enalapril maleate",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00802",
-      "name": "Till1984",
-      "title": "Pharmacokinetics of repeated single oral doses of enalapril maleate (MK-421) in normal volunteers.",
-      "pmid": "6091806",
-      "journal": "Biopharmaceutics & drug disposition",
-      "year": "1984",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00803",
-      "name": "Tsuruoka2007",
-      "title": "Clearance of imidapril, an Angiotensin-converting enzyme inhibitor, during hemodialysis in hypertensive renal failure patients: comparison with quinapril and enalapril.",
-      "pmid": "17244777",
-      "journal": "Journal of clinical pharmacology",
-      "year": "2007",
-      "substances": [
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 4,
-      "n_individuals": 0,
-      "n_interventions": 1,
+      "n_outputs": 690,
+      "n_timecourses": 11,
       "paper_source": "abstract",
       "paper_licence": null
     },
@@ -1429,41 +1052,9 @@
       "n_groups": 1,
       "n_individuals": 0,
       "n_interventions": 5,
+      "n_outputs": 810,
+      "n_timecourses": 14,
       "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00805",
-      "name": "VanHecken2020",
-      "title": "Relative Bioavailability of Enalapril Administered as Orodispersible Minitablets in Healthy Adults.",
-      "pmid": "31411383",
-      "journal": "Clinical pharmacology in drug development",
-      "year": "2021",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 1,
-      "n_individuals": 0,
-      "n_interventions": 3,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00837",
-      "name": "Vancea2009",
-      "title": "Determination of free captopril in human plasma by liquid chromatography with mass spectrometry detection.",
-      "pmid": "19559901",
-      "journal": "Talanta",
-      "year": "2009",
-      "substances": [
-        "captopril"
-      ],
-      "n_groups": 1,
-      "n_individuals": 1,
-      "n_interventions": 1,
-      "paper_source": "abstract",
       "paper_licence": null
     },
     {
@@ -1483,86 +1074,29 @@
       "n_groups": 1,
       "n_individuals": 8,
       "n_interventions": 5,
+      "n_outputs": 2739,
+      "n_timecourses": 41,
       "paper_source": "abstract",
       "paper_licence": null
     },
     {
-      "sid": "PKDB00806",
-      "name": "Wade1992",
-      "title": "The effect of saturation of ACE binding sites on the pharmacokinetics of enalaprilat in man.",
-      "pmid": "1312853",
-      "journal": "British journal of clinical pharmacology",
-      "year": "1992",
+      "sid": "PKDB00086",
+      "name": "Yang2015",
+      "title": "The Insulin Resistance but Not the Insulin Secretion Parameters Have Changed in the Korean Population during the Last Decade.",
+      "pmid": "25922805",
+      "journal": "Diabetes & metabolism journal",
+      "year": "2015",
       "substances": [
-        "placebo",
-        "creatinine",
-        "captopril",
-        "enalapril maleate",
-        "enalaprilat"
+        "D-glucose",
+        "insulin"
       ],
-      "n_groups": 1,
-      "n_individuals": 8,
-      "n_interventions": 3,
-      "paper_source": "pubmed-markdown",
-      "paper_licence": null
-    },
-    {
-      "sid": "12771613",
-      "name": "Wagner2003",
-      "title": "Beneficial hemodynamic and renal effects of intravenous enalaprilat following coronary artery bypass surgery complicated by left ventricular dysfunction.",
-      "pmid": "12771613",
-      "journal": "Critical care medicine",
-      "year": "2003",
-      "substances": [
-        "creatinine",
-        "urea",
-        "sodium",
-        "potassium",
-        "enalaprilat",
-        "aldosterone",
-        "norepinephrine",
-        "epinephrine"
-      ],
-      "n_groups": 3,
+      "n_groups": 7,
       "n_individuals": 0,
       "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00807",
-      "name": "Weisser1991",
-      "title": "Pharmacokinetics and converting enzyme inhibition after morning and evening administration of oral enalapril to healthy subjects.",
-      "pmid": "1647954",
-      "journal": "European journal of clinical pharmacology",
-      "year": "1991",
-      "substances": [
-        "enalapril maleate",
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
-    },
-    {
-      "sid": "PKDB00809",
-      "name": "Witte1993",
-      "title": "Cardiovascular effects, pharmacokinetics, and converting enzyme inhibition of enalapril after morning versus evening administration.",
-      "pmid": "8394796",
-      "journal": "Clinical pharmacology and therapeutics",
-      "year": "1993",
-      "substances": [
-        "enalapril",
-        "enalaprilat"
-      ],
-      "n_groups": 3,
-      "n_individuals": 0,
-      "n_interventions": 1,
-      "paper_source": "abstract",
-      "paper_licence": null
+      "n_outputs": 150,
+      "n_timecourses": 18,
+      "paper_source": "bioc",
+      "paper_licence": "CC BY-NC"
     },
     {
       "sid": "PKDB00113",
@@ -1587,6 +1121,8 @@
       "n_groups": 3,
       "n_individuals": 132,
       "n_interventions": 2,
+      "n_outputs": 301,
+      "n_timecourses": 0,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -1611,6 +1147,8 @@
       "n_groups": 17,
       "n_individuals": 0,
       "n_interventions": 1,
+      "n_outputs": 52,
+      "n_timecourses": 0,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -1637,6 +1175,8 @@
       "n_groups": 1,
       "n_individuals": 9,
       "n_interventions": 2,
+      "n_outputs": 121,
+      "n_timecourses": 7,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     },
@@ -1663,6 +1203,8 @@
       "n_groups": 5,
       "n_individuals": 16,
       "n_interventions": 11,
+      "n_outputs": 1072,
+      "n_timecourses": 11,
       "paper_source": "pubmed-markdown",
       "paper_licence": null
     }

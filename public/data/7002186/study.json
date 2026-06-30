@@ -3,13 +3,15 @@
   "name": "Prescott1980",
   "licence": "open",
   "access": "public",
-  "date": "2025-10-06",
+  "date": "2021-07-13",
+  "snapshot": "2021-12-03",
   "counts": {
     "groups": 0,
     "individuals": 0,
     "interventions": 0,
     "outputs": 0,
-    "timecourses": 0
+    "timecourses": 0,
+    "scatters": 0
   },
   "reference": {
     "pmid": "7002186",
@@ -24,13 +26,21 @@
   },
   "curators": [
     "Matthias König",
-    "Dimitra Eleftheriadou"
+    "dimitra"
   ],
   "descriptions": [],
   "substances": [],
   "groups": [],
   "individuals": [],
   "interventions": [],
+  "outputs": [],
+  "timecourses": [],
+  "scatters": [],
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1430174"
+  },
   "_index": {
     "sid": "7002186",
     "name": "Prescott1980",
@@ -42,12 +52,9 @@
     "n_groups": 0,
     "n_individuals": 0,
     "n_interventions": 0,
+    "n_outputs": 0,
+    "n_timecourses": 0,
     "paper_source": "pubmed-markdown",
     "paper_licence": null
-  },
-  "paper": {
-    "source": "pubmed-markdown",
-    "licence": null,
-    "pmcid": "PMC1430174"
   }
 }

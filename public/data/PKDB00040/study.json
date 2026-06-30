@@ -4,12 +4,14 @@
   "licence": "open",
   "access": "public",
   "date": "2019-05-07",
+  "snapshot": "2021-12-03",
   "counts": {
     "groups": 1,
     "individuals": 0,
     "interventions": 4,
-    "outputs": 20,
-    "timecourses": 0
+    "outputs": 50,
+    "timecourses": 0,
+    "scatters": 0
   },
   "reference": {
     "pmid": "2729942",
@@ -28,7 +30,7 @@
   },
   "curators": [
     "Matthias König",
-    "Jan Grzegorzewski"
+    "janekg"
   ],
   "descriptions": [],
   "substances": [
@@ -50,17 +52,13 @@
   ],
   "groups": [
     {
-      "pk": 2817,
+      "pk": 545,
       "name": "all",
       "parent": null,
       "count": 10,
-      "study": {
-        "sid": "PKDB00040",
-        "name": "Healy1989"
-      },
       "characteristica": [
         {
-          "pk": 62646,
+          "pk": 10089,
           "count": 10,
           "measurement_type": {
             "sid": "age",
@@ -68,7 +66,7 @@
             "label": "age"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -82,11 +80,10 @@
           "sd": 1.6,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": 10
+          "unit": "year"
         },
         {
-          "pk": 62647,
+          "pk": 10090,
           "count": 10,
           "measurement_type": {
             "sid": "healthy",
@@ -94,14 +91,14 @@
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -112,11 +109,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 10
+          "unit": null
         },
         {
-          "pk": 62648,
+          "pk": 10091,
           "count": 10,
           "measurement_type": {
             "sid": "smoking",
@@ -124,14 +120,14 @@
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -142,11 +138,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 10
+          "unit": null
         },
         {
-          "pk": 62649,
+          "pk": 10092,
           "count": 10,
           "measurement_type": {
             "sid": "species",
@@ -154,14 +149,14 @@
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -172,11 +167,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 10
+          "unit": null
         },
         {
-          "pk": 62650,
+          "pk": 10093,
           "count": 10,
           "measurement_type": {
             "sid": "weight",
@@ -184,7 +178,7 @@
             "label": "weight"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -198,11 +192,10 @@
           "sd": 8.6,
           "se": null,
           "cv": null,
-          "unit": "kg",
-          "group_count": 10
+          "unit": "kilogram"
         },
         {
-          "pk": 62651,
+          "pk": 10094,
           "count": 10,
           "measurement_type": {
             "sid": "sex",
@@ -210,14 +203,14 @@
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -228,8 +221,7 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 10
+          "unit": null
         }
       ]
     }
@@ -237,7 +229,7 @@
   "individuals": [],
   "interventions": [
     {
-      "pk": 5824,
+      "pk": 1220,
       "normed": true,
       "name": "D_CAF",
       "route": {
@@ -252,26 +244,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00040",
-        "name": "Healy1989"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "caf",
-        "name": "caffeine",
+        "name": "caf",
         "label": "caffeine (137X)"
       },
       "value": 0.1,
@@ -285,7 +272,7 @@
       "unit": "gram"
     },
     {
-      "pk": 5828,
+      "pk": 1224,
       "normed": true,
       "name": "D_CIP_A",
       "route": {
@@ -300,22 +287,17 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "24",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00040",
-        "name": "Healy1989"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "ciprofloxacin",
@@ -333,7 +315,7 @@
       "unit": "gram"
     },
     {
-      "pk": 5829,
+      "pk": 1225,
       "normed": true,
       "name": "D_CIP_B",
       "route": {
@@ -348,22 +330,17 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "36",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00040",
-        "name": "Healy1989"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "ciprofloxacin",
@@ -381,7 +358,7 @@
       "unit": "gram"
     },
     {
-      "pk": 5830,
+      "pk": 1226,
       "normed": true,
       "name": "D_CIP_C",
       "route": {
@@ -396,22 +373,17 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "48",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00040",
-        "name": "Healy1989"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "ciprofloxacin",
@@ -429,6 +401,2215 @@
       "unit": "gram"
     }
   ],
+  "outputs": [
+    {
+      "pk": 47266,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 61.27167630057804,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 24.046242774566476,
+      "se": 7.604089633699687,
+      "cv": 0.39245283018867927,
+      "unit": "milliliter / meter ** 2 / minute"
+    },
+    {
+      "pk": 47280,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0023,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0004,
+      "se": 0.00012649110640673518,
+      "cv": 0.1739130434782609,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47282,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0016666666666666668,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0006666666666666666,
+      "se": 0.00021081851067789194,
+      "cv": 0.39999999999999997,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 47283,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.5,
+      "se": 0.7905694150420948,
+      "cv": 0.30487804878048785,
+      "unit": "hour"
+    },
+    {
+      "pk": 47290,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0006,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0002,
+      "se": 6.324555320336759e-05,
+      "cv": 0.33333333333333337,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47261,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.4,
+      "se": 0.12649110640673517,
+      "cv": 0.33333333333333337,
+      "unit": "hour"
+    },
+    {
+      "pk": 47265,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.016300000000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0066,
+      "se": 0.00208710325571113,
+      "cv": 0.40490797546012264,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47280,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0023,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0004,
+      "se": 0.00012649110640673518,
+      "cv": 0.1739130434782609,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47280,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0023,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0004,
+      "se": 0.00012649110640673518,
+      "cv": 0.1739130434782609,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47280,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0023,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0004,
+      "se": 0.00012649110640673518,
+      "cv": 0.1739130434782609,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47283,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.5,
+      "se": 0.7905694150420948,
+      "cv": 0.30487804878048785,
+      "unit": "hour"
+    },
+    {
+      "pk": 47284,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.62,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.16,
+      "se": 0.05059644256269407,
+      "cv": 0.25806451612903225,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 47285,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0259,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0078,
+      "se": 0.0024665765749313355,
+      "cv": 0.30115830115830117,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47285,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0259,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0078,
+      "se": 0.0024665765749313355,
+      "cv": 0.30115830115830117,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47292,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0008,
+      "se": 0.00025298221281347036,
+      "cv": 0.32,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47292,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0008,
+      "se": 0.00025298221281347036,
+      "cv": 0.32,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47260,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0021000000000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0005,
+      "se": 0.00015811388300841897,
+      "cv": 0.23809523809523805,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47263,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.2,
+      "se": 0.3794733192202055,
+      "cv": 0.23076923076923075,
+      "unit": "hour"
+    },
+    {
+      "pk": 47281,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6,
+      "se": 0.18973665961010275,
+      "cv": 0.4285714285714286,
+      "unit": "hour"
+    },
+    {
+      "pk": 47282,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0016666666666666668,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0006666666666666666,
+      "se": 0.00021081851067789194,
+      "cv": 0.39999999999999997,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 47285,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0259,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0078,
+      "se": 0.0024665765749313355,
+      "cv": 0.30115830115830117,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47286,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33.64161849710983,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 16.647398843930638,
+      "se": 5.264369746407476,
+      "cv": 0.4948453608247423,
+      "unit": "milliliter / meter ** 2 / minute"
+    },
+    {
+      "pk": 47290,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0006,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0002,
+      "se": 6.324555320336759e-05,
+      "cv": 0.33333333333333337,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47290,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0006,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0002,
+      "se": 6.324555320336759e-05,
+      "cv": 0.33333333333333337,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47291,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.7,
+      "se": 0.8538149682454624,
+      "cv": 0.25961538461538464,
+      "unit": "hour"
+    },
+    {
+      "pk": 47262,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0023333333333333335,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0005,
+      "se": 0.00015811388300841897,
+      "cv": 0.21428571428571427,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 47264,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.67,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.19,
+      "se": 0.060083275543199206,
+      "cv": 0.2835820895522388,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 47281,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6,
+      "se": 0.18973665961010275,
+      "cv": 0.4285714285714286,
+      "unit": "hour"
+    },
+    {
+      "pk": 47281,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6,
+      "se": 0.18973665961010275,
+      "cv": 0.4285714285714286,
+      "unit": "hour"
+    },
+    {
+      "pk": 47281,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6,
+      "se": 0.18973665961010275,
+      "cv": 0.4285714285714286,
+      "unit": "hour"
+    },
+    {
+      "pk": 47282,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0016666666666666668,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0006666666666666666,
+      "se": 0.00021081851067789194,
+      "cv": 0.39999999999999997,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 47284,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.62,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.16,
+      "se": 0.05059644256269407,
+      "cv": 0.25806451612903225,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 47286,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33.64161849710983,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 16.647398843930638,
+      "se": 5.264369746407476,
+      "cv": 0.4948453608247423,
+      "unit": "milliliter / meter ** 2 / minute"
+    },
+    {
+      "pk": 47290,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0006,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0002,
+      "se": 6.324555320336759e-05,
+      "cv": 0.33333333333333337,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47291,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.7,
+      "se": 0.8538149682454624,
+      "cv": 0.25961538461538464,
+      "unit": "hour"
+    },
+    {
+      "pk": 47291,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.7,
+      "se": 0.8538149682454624,
+      "cv": 0.25961538461538464,
+      "unit": "hour"
+    },
+    {
+      "pk": 47292,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0008,
+      "se": 0.00025298221281347036,
+      "cv": 0.32,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47292,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0008,
+      "se": 0.00025298221281347036,
+      "cv": 0.32,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47270,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0006,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0002,
+      "se": 6.324555320336759e-05,
+      "cv": 0.33333333333333337,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 47271,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7,
+      "se": 0.5375872022286244,
+      "cv": 0.27419354838709675,
+      "unit": "hour"
+    },
+    {
+      "pk": 47272,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0046,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0013000000000000002,
+      "se": 0.00041109609582188933,
+      "cv": 0.28260869565217395,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47282,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0016666666666666668,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0006666666666666666,
+      "se": 0.00021081851067789194,
+      "cv": 0.39999999999999997,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 47283,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.5,
+      "se": 0.7905694150420948,
+      "cv": 0.30487804878048785,
+      "unit": "hour"
+    },
+    {
+      "pk": 47283,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.5,
+      "se": 0.7905694150420948,
+      "cv": 0.30487804878048785,
+      "unit": "hour"
+    },
+    {
+      "pk": 47284,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.62,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.16,
+      "se": 0.05059644256269407,
+      "cv": 0.25806451612903225,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 47284,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1226,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.62,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.16,
+      "se": 0.05059644256269407,
+      "cv": 0.25806451612903225,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 47285,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1220,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0259,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0078,
+      "se": 0.0024665765749313355,
+      "cv": 0.30115830115830117,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 47286,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33.64161849710983,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 16.647398843930638,
+      "se": 5.264369746407476,
+      "cv": 0.4948453608247423,
+      "unit": "milliliter / meter ** 2 / minute"
+    },
+    {
+      "pk": 47286,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1225,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33.64161849710983,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 16.647398843930638,
+      "se": 5.264369746407476,
+      "cv": 0.4948453608247423,
+      "unit": "milliliter / meter ** 2 / minute"
+    },
+    {
+      "pk": 47291,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "rp-hplc",
+        "name": "rp-hplc",
+        "label": "Reversed-phase high-performance liquid chromatography (RP-HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1224,
+      "group_pk": 545,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.7,
+      "se": 0.8538149682454624,
+      "cv": 0.25961538461538464,
+      "unit": "hour"
+    }
+  ],
+  "timecourses": [],
+  "scatters": [],
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC172463"
+  },
   "_index": {
     "sid": "PKDB00040",
     "name": "Healy1989",
@@ -444,12 +2625,9 @@
     "n_groups": 1,
     "n_individuals": 0,
     "n_interventions": 4,
+    "n_outputs": 50,
+    "n_timecourses": 0,
     "paper_source": "pubmed-markdown",
     "paper_licence": null
-  },
-  "paper": {
-    "source": "pubmed-markdown",
-    "licence": null,
-    "pmcid": "PMC172463"
   }
 }

@@ -4,12 +4,14 @@
   "licence": "open",
   "access": "public",
   "date": "2019-07-28",
+  "snapshot": "2021-12-03",
   "counts": {
     "groups": 3,
     "individuals": 0,
     "interventions": 3,
-    "outputs": 126,
-    "timecourses": 6
+    "outputs": 138,
+    "timecourses": 6,
+    "scatters": 0
   },
   "reference": {
     "pmid": "7306429",
@@ -69,17 +71,13 @@
   ],
   "groups": [
     {
-      "pk": 1232,
+      "pk": 3168,
       "name": "all",
       "parent": null,
       "count": 27,
-      "study": {
-        "sid": "PKDB00151",
-        "name": "Prescott1981"
-      },
       "characteristica": [
         {
-          "pk": 32624,
+          "pk": 88897,
           "count": 27,
           "measurement_type": {
             "sid": "species",
@@ -87,14 +85,14 @@
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -105,11 +103,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 27
+          "unit": null
         },
         {
-          "pk": 32625,
+          "pk": 88898,
           "count": 27,
           "measurement_type": {
             "sid": "healthy",
@@ -117,14 +114,14 @@
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-not-reported",
+            "sid": "NR",
             "name": "NR",
-            "label": "Not reported healthy"
+            "label": "NR"
           },
           "substance": null,
           "value": null,
@@ -135,11 +132,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 27
+          "unit": null
         },
         {
-          "pk": 32626,
+          "pk": 88899,
           "count": 23,
           "measurement_type": {
             "sid": "sex",
@@ -147,14 +143,14 @@
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -165,11 +161,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 27
+          "unit": null
         },
         {
-          "pk": 32627,
+          "pk": 88900,
           "count": 4,
           "measurement_type": {
             "sid": "sex",
@@ -177,14 +172,14 @@
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "female",
+            "sid": "F",
             "name": "F",
-            "label": "female"
+            "label": "F"
           },
           "substance": null,
           "value": null,
@@ -195,27 +190,161 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 27
+          "unit": null
         }
       ]
     },
     {
-      "pk": 1233,
+      "pk": 3169,
       "name": "patients",
       "parent": {
-        "pk": 1232,
-        "name": "all",
-        "count": 27
+        "pk": 3168
       },
       "count": 15,
-      "study": {
-        "sid": "PKDB00151",
-        "name": "Prescott1981"
-      },
       "characteristica": [
         {
-          "pk": 32640,
+          "pk": 88898,
+          "count": 27,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "NR",
+            "name": "NR",
+            "label": "NR"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88909,
+          "count": 15,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88910,
+          "count": 12,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88911,
+          "count": 3,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88912,
+          "count": 15,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 41,
+          "median": null,
+          "min": 22,
+          "max": 72,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 88913,
           "count": 15,
           "measurement_type": {
             "sid": "weight",
@@ -223,25 +352,24 @@
             "label": "weight"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": null,
           "substance": null,
           "value": null,
-          "mean": 71.0,
+          "mean": 71,
           "median": null,
-          "min": 53.0,
-          "max": 99.0,
+          "min": 53,
+          "max": 99,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "kg",
-          "group_count": 15
+          "unit": "kilogram"
         },
         {
-          "pk": 32641,
+          "pk": 88914,
           "count": 12,
           "measurement_type": {
             "sid": "medication",
@@ -249,14 +377,14 @@
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "medication"
+            "label": "Y"
           },
           "substance": {
             "sid": "anticonvulsants",
@@ -271,11 +399,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 15
+          "unit": null
         },
         {
-          "pk": 32642,
+          "pk": 88915,
           "count": 3,
           "measurement_type": {
             "sid": "medication",
@@ -283,14 +410,14 @@
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": {
             "sid": "anticonvulsants",
@@ -305,11 +432,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 15
+          "unit": null
         },
         {
-          "pk": 32643,
+          "pk": 88916,
           "count": 15,
           "measurement_type": {
             "sid": "fasting",
@@ -317,14 +443,14 @@
             "label": "fasting"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "fasting-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "fasting"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -335,345 +461,20 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 15
-        },
-        {
-          "pk": 32625,
-          "count": 27,
-          "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-not-reported",
-            "name": "NR",
-            "label": "Not reported healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 27
-        },
-        {
-          "pk": 32636,
-          "count": 15,
-          "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 15
-        },
-        {
-          "pk": 32637,
-          "count": 12,
-          "measurement_type": {
-            "sid": "sex",
-            "name": "sex",
-            "label": "sex"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "male",
-            "name": "M",
-            "label": "male"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 15
-        },
-        {
-          "pk": 32638,
-          "count": 3,
-          "measurement_type": {
-            "sid": "sex",
-            "name": "sex",
-            "label": "sex"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "female",
-            "name": "F",
-            "label": "female"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 15
-        },
-        {
-          "pk": 32639,
-          "count": 15,
-          "measurement_type": {
-            "sid": "age",
-            "name": "age",
-            "label": "age"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": null,
-          "substance": null,
-          "value": null,
-          "mean": 41.0,
-          "median": null,
-          "min": 22.0,
-          "max": 72.0,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": "yr",
-          "group_count": 15
+          "unit": null
         }
       ]
     },
     {
-      "pk": 1234,
+      "pk": 3170,
       "name": "volunteers",
       "parent": {
-        "pk": 1232,
-        "name": "all",
-        "count": 27
+        "pk": 3168
       },
       "count": 12,
-      "study": {
-        "sid": "PKDB00151",
-        "name": "Prescott1981"
-      },
       "characteristica": [
         {
-          "pk": 32625,
-          "count": 27,
-          "measurement_type": {
-            "sid": "healthy",
-            "name": "healthy",
-            "label": "healthy"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "healthy-not-reported",
-            "name": "NR",
-            "label": "Not reported healthy"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 27
-        },
-        {
-          "pk": 32650,
-          "count": 12,
-          "measurement_type": {
-            "sid": "species",
-            "name": "species",
-            "label": "species"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "homo-sapiens",
-            "name": "homo sapiens",
-            "label": "Homo sapiens"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 12
-        },
-        {
-          "pk": 32651,
-          "count": 11,
-          "measurement_type": {
-            "sid": "sex",
-            "name": "sex",
-            "label": "sex"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "male",
-            "name": "M",
-            "label": "male"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 12
-        },
-        {
-          "pk": 32652,
-          "count": 1,
-          "measurement_type": {
-            "sid": "sex",
-            "name": "sex",
-            "label": "sex"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": {
-            "sid": "female",
-            "name": "F",
-            "label": "female"
-          },
-          "substance": null,
-          "value": null,
-          "mean": null,
-          "median": null,
-          "min": null,
-          "max": null,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": null,
-          "group_count": 12
-        },
-        {
-          "pk": 32653,
-          "count": 12,
-          "measurement_type": {
-            "sid": "age",
-            "name": "age",
-            "label": "age"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": null,
-          "substance": null,
-          "value": null,
-          "mean": 31.0,
-          "median": null,
-          "min": 21.0,
-          "max": 45.0,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": "yr",
-          "group_count": 12
-        },
-        {
-          "pk": 32654,
-          "count": 12,
-          "measurement_type": {
-            "sid": "weight",
-            "name": "weight",
-            "label": "weight"
-          },
-          "calculation_type": {
-            "sid": "sample-mean",
-            "name": "sample mean",
-            "label": "sample mean"
-          },
-          "choice": null,
-          "substance": null,
-          "value": null,
-          "mean": 67.0,
-          "median": null,
-          "min": 55.0,
-          "max": 82.0,
-          "sd": null,
-          "se": null,
-          "cv": null,
-          "unit": "kg",
-          "group_count": 12
-        },
-        {
-          "pk": 32655,
+          "pk": 88928,
           "count": 12,
           "measurement_type": {
             "sid": "medication",
@@ -681,14 +482,14 @@
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -699,8 +500,173 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 12
+          "unit": null
+        },
+        {
+          "pk": 88898,
+          "count": 27,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "NR",
+            "name": "NR",
+            "label": "NR"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88923,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88924,
+          "count": 11,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88925,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 88926,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 31,
+          "median": null,
+          "min": 21,
+          "max": 45,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 88927,
+          "count": 12,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 67,
+          "median": null,
+          "min": 55,
+          "max": 82,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
         }
       ]
     }
@@ -708,7 +674,7 @@
   "individuals": [],
   "interventions": [
     {
-      "pk": 2666,
+      "pk": 6302,
       "normed": true,
       "name": "paracetamol",
       "route": {
@@ -723,26 +689,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00151",
-        "name": "Prescott1981"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "apap",
-        "name": "paracetamol",
+        "name": "apap",
         "label": "paracetamol"
       },
       "value": 0.02,
@@ -756,7 +717,7 @@
       "unit": "gram / kilogram"
     },
     {
-      "pk": 2668,
+      "pk": 6304,
       "normed": true,
       "name": "antipyrine",
       "route": {
@@ -771,22 +732,17 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00151",
-        "name": "Prescott1981"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "antipyrine",
@@ -804,7 +760,7 @@
       "unit": "gram / kilogram"
     },
     {
-      "pk": 2670,
+      "pk": 6306,
       "normed": true,
       "name": "coca cola",
       "route": null,
@@ -817,20 +773,15 @@
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00151",
-        "name": "Prescott1981"
-      },
       "measurement_type": {
         "sid": "qualitative-dosing",
-        "name": "qualitative dosing",
+        "name": "qualitative-dosing",
         "label": "qualitative dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "caf",
-        "name": "caffeine",
+        "name": "caf",
         "label": "caffeine (137X)"
       },
       "value": null,
@@ -844,6 +795,6340 @@
       "unit": null
     }
   ],
+  "outputs": [
+    {
+      "pk": 314993,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.088,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.028,
+      "se": 0.007229568912920511,
+      "cv": 0.31818181818181823,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315133,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.018506327,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315138,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315146,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0011155636,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315005,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.048,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.016,
+      "se": 0.004618802153517006,
+      "cv": 0.3333333333333333,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 314988,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.065,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.009000000000000001,
+      "se": 0.0025980762113533163,
+      "cv": 0.13846153846153847,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315012,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.22,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.04,
+      "se": 0.010327955589886445,
+      "cv": 0.18181818181818182,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315012,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.22,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.04,
+      "se": 0.010327955589886445,
+      "cv": 0.18181818181818182,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315144,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0029881167,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315009,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapcys",
+        "name": "apapcys",
+        "label": "paracetamol cysteine"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.037,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.011,
+      "se": 0.0031754264805429417,
+      "cv": 0.2972972972972973,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315024,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.54,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.32999999999999996,
+      "se": 0.08520563361656316,
+      "cv": 0.611111111111111,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 314994,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.008,
+      "se": 0.002065591117977289,
+      "cv": 0.32,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315011,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.686,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.224,
+      "se": 0.05783655130336409,
+      "cv": 0.32653061224489793,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315011,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.686,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.224,
+      "se": 0.05783655130336409,
+      "cv": 0.32653061224489793,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315023,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.959999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.74,
+      "se": 0.5022947341949744,
+      "cv": 0.1746987951807229,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315034,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "antipyrine",
+        "name": "antipyrine",
+        "label": "antipyrine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.46,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6,
+      "se": 0.17320508075688773,
+      "cv": 0.24390243902439024,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315123,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.009736723,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315124,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.008187517,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315036,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "antipyrine",
+        "name": "antipyrine",
+        "label": "antipyrine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.1,
+      "se": 0.5422176684690384,
+      "cv": 0.328125,
+      "unit": "hour"
+    },
+    {
+      "pk": 315013,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.042,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.021,
+      "se": 0.005422176684690384,
+      "cv": 0.5,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315101,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0024058561,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315103,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0035532598000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315105,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.011171258,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315116,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0046584144,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315127,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.001453986,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315008,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapmer",
+        "name": "apapmer",
+        "label": "paracetamol mercapturate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.045,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.012,
+      "se": 0.0034641016151377548,
+      "cv": 0.26666666666666666,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315137,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004342576,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315160,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.006636130196375606,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 314990,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.028,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.007,
+      "se": 0.0020207259421636905,
+      "cv": 0.25,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315026,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.28,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.76,
+      "se": 0.7126289357021647,
+      "cv": 0.3333333333333333,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315026,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.28,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.76,
+      "se": 0.7126289357021647,
+      "cv": 0.3333333333333333,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315033,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "antipyrine",
+        "name": "antipyrine",
+        "label": "antipyrine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 12.8,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.9,
+      "se": 1.1258330249197703,
+      "cv": 0.3046875,
+      "unit": "hour"
+    },
+    {
+      "pk": 314992,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.009000000000000001,
+      "se": 0.0023237900077244505,
+      "cv": 0.22500000000000003,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315022,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.859999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.3199999999999998,
+      "se": 0.381051177665153,
+      "cv": 0.16793893129770993,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315022,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.859999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.3199999999999998,
+      "se": 0.381051177665153,
+      "cv": 0.16793893129770993,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315025,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.959999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7999999999999998,
+      "se": 0.46475800154488994,
+      "cv": 0.18072289156626506,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315110,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004654294000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315114,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.005576557,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315178,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.004712685593883453,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 315157,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04133366352681812,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315005,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.048,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.016,
+      "se": 0.004618802153517006,
+      "cv": 0.3333333333333333,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315122,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.012361035,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315012,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.22,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.04,
+      "se": 0.010327955589886445,
+      "cv": 0.18181818181818182,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315038,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "antipyrine",
+        "name": "antipyrine",
+        "label": "antipyrine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.66,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 315175,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0725226037488928,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315010,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.24,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.09,
+      "se": 0.0232379000772445,
+      "cv": 0.375,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315010,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.24,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.09,
+      "se": 0.0232379000772445,
+      "cv": 0.375,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315009,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapcys",
+        "name": "apapcys",
+        "label": "paracetamol cysteine"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.037,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.011,
+      "se": 0.0031754264805429417,
+      "cv": 0.2972972972972973,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315024,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.54,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.32999999999999996,
+      "se": 0.08520563361656316,
+      "cv": 0.611111111111111,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315118,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0024656172000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315035,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "antipyrine",
+        "name": "antipyrine",
+        "label": "antipyrine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.65,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 315117,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.003821647,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315126,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00358574,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315179,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.451352372058563,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 315011,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.686,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.224,
+      "se": 0.05783655130336409,
+      "cv": 0.32653061224489793,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315140,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.005627966,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315142,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.005198785,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315014,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapcys",
+        "name": "apapcys",
+        "label": "paracetamol cysteine"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.037,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013,
+      "se": 0.0033565855667130945,
+      "cv": 0.35135135135135137,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315021,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.714,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.294,
+      "se": 0.084870489570875,
+      "cv": 0.4117647058823529,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315129,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315099,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0070810646999999996,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315125,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0050500326,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 314989,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.069,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.024,
+      "se": 0.0069282032302755096,
+      "cv": 0.34782608695652173,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 314990,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.028,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.007,
+      "se": 0.0020207259421636905,
+      "cv": 0.25,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315134,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.016086143,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315158,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.4838671023444026,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 315025,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.959999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7999999999999998,
+      "se": 0.46475800154488994,
+      "cv": 0.18072289156626506,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315180,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 315121,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.016021074,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315107,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.012006877,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315161,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.740841826105509,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 315163,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.215234099859061,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 315128,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0007965234500000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315097,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.013067124,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 314991,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.9,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2,
+      "se": 0.051639777949432225,
+      "cv": 0.10526315789473685,
+      "unit": "hour"
+    },
+    {
+      "pk": 314991,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.9,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2,
+      "se": 0.051639777949432225,
+      "cv": 0.10526315789473685,
+      "unit": "hour"
+    },
+    {
+      "pk": 315024,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.54,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.32999999999999996,
+      "se": 0.08520563361656316,
+      "cv": 0.611111111111111,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315093,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315120,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_patients",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315139,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0037501826,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315141,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0055136714,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315164,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.1340573804615306,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 315136,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0073106947,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315013,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.042,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.021,
+      "se": 0.005422176684690384,
+      "cv": 0.5,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315014,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapcys",
+        "name": "apapcys",
+        "label": "paracetamol cysteine"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.037,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013,
+      "se": 0.0033565855667130945,
+      "cv": 0.35135135135135137,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315014,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapcys",
+        "name": "apapcys",
+        "label": "paracetamol cysteine"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.037,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013,
+      "se": 0.0033565855667130945,
+      "cv": 0.35135135135135137,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315132,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.017345844,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315026,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.28,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.76,
+      "se": 0.7126289357021647,
+      "cv": 0.3333333333333333,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 314987,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3,
+      "se": 0.08660254037844387,
+      "cv": 0.125,
+      "unit": "hour"
+    },
+    {
+      "pk": 314992,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.009000000000000001,
+      "se": 0.0023237900077244505,
+      "cv": 0.22500000000000003,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315006,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.57,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.11,
+      "se": 0.03175426480542942,
+      "cv": 0.1929824561403509,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315181,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.9752970047477862,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 314993,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.088,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.028,
+      "se": 0.007229568912920511,
+      "cv": 0.31818181818181823,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315130,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.006618621,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315010,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.24,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.09,
+      "se": 0.0232379000772445,
+      "cv": 0.375,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 314994,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.008,
+      "se": 0.002065591117977289,
+      "cv": 0.32,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 314994,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.008,
+      "se": 0.002065591117977289,
+      "cv": 0.32,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315109,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00720886,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315013,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.042,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.021,
+      "se": 0.005422176684690384,
+      "cv": 0.5,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315021,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.714,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.294,
+      "se": 0.084870489570875,
+      "cv": 0.4117647058823529,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315008,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapmer",
+        "name": "apapmer",
+        "label": "paracetamol mercapturate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.045,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.012,
+      "se": 0.0034641016151377548,
+      "cv": 0.26666666666666666,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315104,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.008092188,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 314992,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.009000000000000001,
+      "se": 0.0023237900077244505,
+      "cv": 0.22500000000000003,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315007,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.3,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.1,
+      "se": 0.02886751345948129,
+      "cv": 0.33333333333333337,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315037,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "antipyrine",
+        "name": "antipyrine",
+        "label": "antipyrine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6304,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.76,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.2399999999999998,
+      "se": 0.8365644027808019,
+      "cv": 0.5625,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315145,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0017727185000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315113,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0054598374,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315156,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0393331918,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315177,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.01668938,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315106,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.012120754,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 314993,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.088,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.028,
+      "se": 0.007229568912920511,
+      "cv": 0.31818181818181823,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315115,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0052176539999999995,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315112,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0037990055,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315143,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_patients",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00405384,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315100,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0038558154,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 314988,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.065,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.009000000000000001,
+      "se": 0.0025980762113533163,
+      "cv": 0.13846153846153847,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 314991,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.9,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2,
+      "se": 0.051639777949432225,
+      "cv": 0.10526315789473685,
+      "unit": "hour"
+    },
+    {
+      "pk": 315096,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.014563974,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315135,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.01270961,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315174,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.06401416395000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315176,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.27577608864195446,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 315094,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 0.5,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.01668938,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315023,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.959999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.74,
+      "se": 0.5022947341949744,
+      "cv": 0.1746987951807229,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315102,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4885882e-07,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315095,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.01657342,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315111,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 0,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315162,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 315098,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol_volunteers",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00956135,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315159,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.016021074,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 314989,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.069,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.024,
+      "se": 0.0069282032302755096,
+      "cv": 0.34782608695652173,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 315131,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_patients",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.013954851,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 314987,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.4,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3,
+      "se": 0.08660254037844387,
+      "cv": 0.125,
+      "unit": "hour"
+    },
+    {
+      "pk": 315006,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.57,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.11,
+      "se": 0.03175426480542942,
+      "cv": 0.1929824561403509,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315007,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.3,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.1,
+      "se": 0.02886751345948129,
+      "cv": 0.33333333333333337,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 315025,
+      "measurement_type": {
+        "sid": "clearance-renal",
+        "name": "clearance-renal",
+        "label": "clearance renal"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6306,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.959999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7999999999999998,
+      "se": 0.46475800154488994,
+      "cv": 0.18072289156626506,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 315108,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol glucuronide_volunteers",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0109466305,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 315182,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.8997619735927502,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 315119,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "paracetamol sulfate_volunteers",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 6302,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0015053297000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 6300,
+      "name": "paracetamol sulfate_volunteers",
+      "label": "paracetamol sulfate_volunteers",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        0.0037990055,
+        0.0054598374,
+        0.005576557,
+        0.0052176539999999995,
+        0.0046584144,
+        0.003821647,
+        0.0024656172000000003,
+        0.0015053297000000002
+      ],
+      "sd": null
+    },
+    {
+      "pk": 6301,
+      "name": "paracetamol_volunteers",
+      "label": "paracetamol_volunteers",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        0.01668938,
+        0.01657342,
+        0.014563974,
+        0.013067124,
+        0.00956135,
+        0.0070810646999999996,
+        0.0038558154,
+        0.0024058561
+      ],
+      "sd": null
+    },
+    {
+      "pk": 6298,
+      "name": "paracetamol_patients",
+      "label": "paracetamol_patients",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        0.016021074,
+        0.012361035,
+        0.009736723,
+        0.008187517,
+        0.0050500326,
+        0.00358574,
+        0.001453986,
+        0.0007965234500000001
+      ],
+      "sd": null
+    },
+    {
+      "pk": 6299,
+      "name": "paracetamol sulfate_patients",
+      "label": "paracetamol sulfate_patients",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        0.0037501826,
+        0.005627966,
+        0.0055136714,
+        0.005198785,
+        0.00405384,
+        0.0029881167,
+        0.0017727185000000001,
+        0.0011155636
+      ],
+      "sd": null
+    },
+    {
+      "pk": 6296,
+      "name": "paracetamol glucuronide_patients",
+      "label": "paracetamol glucuronide_patients",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": 3169,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        0.0,
+        0.006618621,
+        0.013954851,
+        0.017345844,
+        0.018506327,
+        0.016086143,
+        0.01270961,
+        0.0073106947,
+        0.004342576
+      ],
+      "sd": null
+    },
+    {
+      "pk": 6297,
+      "name": "paracetamol glucuronide_volunteers",
+      "label": "paracetamol glucuronide_volunteers",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": 3170,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        1.4885882e-07,
+        0.0035532598000000003,
+        0.008092188,
+        0.011171258,
+        0.012120754,
+        0.012006877,
+        0.0109466305,
+        0.00720886,
+        0.004654294000000001
+      ],
+      "sd": null
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1401868"
+  },
   "_index": {
     "sid": "PKDB00151",
     "name": "Prescott1981",
@@ -863,12 +7148,9 @@
     "n_groups": 3,
     "n_individuals": 0,
     "n_interventions": 3,
-    "paper_source": "abstract",
+    "n_outputs": 138,
+    "n_timecourses": 6,
+    "paper_source": "pubmed-markdown",
     "paper_licence": null
-  },
-  "paper": {
-    "source": "pubmed-markdown",
-    "licence": null,
-    "pmcid": "PMC1401868"
   }
 }

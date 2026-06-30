@@ -1,0 +1,2741 @@
+{
+  "sid": "PKDB00150",
+  "name": "Miners1983",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-07-28",
+  "snapshot": "2021-12-03",
+  "counts": {
+    "groups": 4,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 41,
+    "timecourses": 0,
+    "scatters": 0
+  },
+  "reference": {
+    "pmid": "6416284",
+    "doi": "10.1111/j.1365-2125.1983.tb02207.x",
+    "title": "Influence of sex and oral contraceptive steroids on paracetamol metabolism.",
+    "abstract": null,
+    "journal": "British journal of clinical pharmacology",
+    "date": "1984-01-07",
+    "authors": [
+      "Miners JO",
+      "Attwood J",
+      "Birkett DJ"
+    ]
+  },
+  "curators": [
+    "Janosch Brandhorst",
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "paracetamol",
+      "name": "paracetamol",
+      "label": "paracetamol"
+    },
+    {
+      "sid": "paracetamol glucuronide",
+      "name": "paracetamol glucuronide",
+      "label": "paracetamol glucuronide"
+    },
+    {
+      "sid": "paracetamol sulfate",
+      "name": "paracetamol sulfate",
+      "label": "paracetamol sulfate"
+    },
+    {
+      "sid": "paracetamol cysteine",
+      "name": "paracetamol cysteine",
+      "label": "paracetamol cysteine"
+    },
+    {
+      "sid": "paracetamol glutathione",
+      "name": "paracetamol glutathione",
+      "label": "paracetamol glutathione"
+    },
+    {
+      "sid": "paracetamol mercapturate",
+      "name": "paracetamol mercapturate",
+      "label": "paracetamol mercapturate"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 12,
+      "name": "all",
+      "parent": null,
+      "count": 24,
+      "characteristica": [
+        {
+          "pk": 50,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 51,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 52,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 53,
+          "count": 16,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 54,
+          "count": 24,
+          "measurement_type": {
+            "sid": "abstinence medication",
+            "name": "abstinence medication",
+            "label": "abstinence medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 7,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day"
+        },
+        {
+          "pk": 55,
+          "count": 24,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 56,
+          "count": 24,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 13,
+      "name": "Males",
+      "parent": {
+        "pk": 12
+      },
+      "count": 8,
+      "characteristica": [
+        {
+          "pk": 50,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 51,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 54,
+          "count": 24,
+          "measurement_type": {
+            "sid": "abstinence medication",
+            "name": "abstinence medication",
+            "label": "abstinence medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 7,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day"
+        },
+        {
+          "pk": 55,
+          "count": 24,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 56,
+          "count": 24,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 60,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 61,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 24.8,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 2.1,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 62,
+          "count": 8,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 73.8,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 4.8,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        }
+      ]
+    },
+    {
+      "pk": 14,
+      "name": "Females",
+      "parent": {
+        "pk": 12
+      },
+      "count": 8,
+      "characteristica": [
+        {
+          "pk": 67,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 68,
+          "count": 8,
+          "measurement_type": {
+            "sid": "oral contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 69,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 22.5,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 2.6,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 70,
+          "count": 8,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 64.9,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 4.2,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 50,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 51,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 54,
+          "count": 24,
+          "measurement_type": {
+            "sid": "abstinence medication",
+            "name": "abstinence medication",
+            "label": "abstinence medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 7,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day"
+        },
+        {
+          "pk": 55,
+          "count": 24,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 56,
+          "count": 24,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 15,
+      "name": "OCS-Females",
+      "parent": {
+        "pk": 12
+      },
+      "count": 8,
+      "characteristica": [
+        {
+          "pk": 75,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 76,
+          "count": 8,
+          "measurement_type": {
+            "sid": "oral contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 77,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 22.2,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 1.3,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 78,
+          "count": 8,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 61.7,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 4,
+          "se": null,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 50,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 51,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 54,
+          "count": 24,
+          "measurement_type": {
+            "sid": "abstinence medication",
+            "name": "abstinence medication",
+            "label": "abstinence medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 7,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day"
+        },
+        {
+          "pk": 55,
+          "count": 24,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 56,
+          "count": 24,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 4,
+      "normed": true,
+      "name": "paracetamol1000mg",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single-dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "value": 1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "outputs": [
+    {
+      "pk": 14,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.16,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.17,
+      "se": 0.06010407640085654,
+      "cv": 0.0787037037037037,
+      "unit": "hour"
+    },
+    {
+      "pk": 81,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapgsh",
+        "name": "apapgsh",
+        "label": "paracetamol glutathione"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 12,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.084,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013999999999999999,
+      "se": 0.0028577380332470413,
+      "cv": 0.16666666666666663,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 10,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.3372,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.010799999999999999,
+      "se": 0.0038183766184073558,
+      "cv": 0.032028469750889674,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 65,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.254,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013000000000000001,
+      "se": 0.004596194077712559,
+      "cv": 0.05118110236220473,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 64,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.605,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.016,
+      "se": 0.00565685424949238,
+      "cv": 0.02644628099173554,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 78,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 12,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.049,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.006999999999999999,
+      "se": 0.0014288690166235206,
+      "cv": 0.14285714285714285,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 77,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.042,
+      "se": 0.014849242404917497,
+      "cv": 0.042,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 72,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.983,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.035,
+      "se": 0.012374368670764581,
+      "cv": 0.035605289928789426,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 67,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.0150000000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.023,
+      "se": 0.008131727983645295,
+      "cv": 0.022660098522167483,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 39,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0192,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0024,
+      "se": 0.0008485281374238569,
+      "cv": 0.125,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 38,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapgsh",
+        "name": "apapgsh",
+        "label": "paracetamol glutathione"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0264,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.003,
+      "se": 0.0010606601717798212,
+      "cv": 0.11363636363636363,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 33,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.08579999999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0078,
+      "se": 0.002757716446627535,
+      "cv": 0.09090909090909091,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 32,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.2052,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0078,
+      "se": 0.002757716446627535,
+      "cv": 0.038011695906432746,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 31,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0162,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0024,
+      "se": 0.0008485281374238569,
+      "cv": 0.14814814814814814,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 18,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.85,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.05,
+      "se": 0.017677669529663688,
+      "cv": 0.05882352941176471,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 15,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.83,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.05,
+      "se": 0.017677669529663688,
+      "cv": 0.06024096385542169,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 12,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.06,
+      "se": 0.021213203435596423,
+      "cv": 0.06,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 82,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "name": "apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh",
+        "label": "apap+apapsul+apapglu+apapcys+apapmer+apapgsh"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 12,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.9990000000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.028999999999999998,
+      "se": 0.005919600211726014,
+      "cv": 0.029029029029029024,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 79,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 12,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5905,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0175,
+      "se": 0.003572172541558802,
+      "cv": 0.02963590177815411,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 74,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.688,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.023,
+      "se": 0.008131727983645295,
+      "cv": 0.03343023255813954,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 70,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.269,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.019,
+      "se": 0.006717514421272201,
+      "cv": 0.07063197026022304,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 69,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.5760000000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.019,
+      "se": 0.006717514421272201,
+      "cv": 0.032986111111111105,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 66,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapgsh",
+        "name": "apapgsh",
+        "label": "paracetamol glutathione"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.081,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013000000000000001,
+      "se": 0.004596194077712559,
+      "cv": 0.16049382716049385,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 63,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.049,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.006,
+      "se": 0.0021213203435596424,
+      "cv": 0.12244897959183673,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 40,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.2682,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0306,
+      "se": 0.010818733752154176,
+      "cv": 0.11409395973154363,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 34,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapgsh",
+        "name": "apapgsh",
+        "label": "paracetamol glutathione"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0306,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.003,
+      "se": 0.0010606601717798212,
+      "cv": 0.09803921568627452,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 17,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.49,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.12,
+      "se": 0.04242640687119285,
+      "cv": 0.08053691275167785,
+      "unit": "hour"
+    },
+    {
+      "pk": 16,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.4128,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.039,
+      "se": 0.013788582233137676,
+      "cv": 0.09447674418604651,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 13,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.2784,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.010799999999999999,
+      "se": 0.0038183766184073558,
+      "cv": 0.03879310344827586,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 11,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "saliva",
+        "name": "saliva",
+        "label": "saliva"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 4,
+      "group_pk": 13,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.09,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.09,
+      "se": 0.03181980515339464,
+      "cv": 0.0430622009569378,
+      "unit": "hour"
+    },
+    {
+      "pk": 80,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 12,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.2615,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.016,
+      "se": 0.0032659863237109047,
+      "cv": 0.06118546845124283,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 76,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapgsh",
+        "name": "apapgsh",
+        "label": "paracetamol glutathione"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.091,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.009000000000000001,
+      "se": 0.003181980515339464,
+      "cv": 0.09890109890109891,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 75,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.17600000000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.016,
+      "se": 0.00565685424949238,
+      "cv": 0.0909090909090909,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 73,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.044000000000000004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.006999999999999999,
+      "se": 0.002474873734152916,
+      "cv": 0.15909090909090906,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 42,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapgsh",
+        "name": "apapgsh",
+        "label": "paracetamol glutathione"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.036,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.005399999999999999,
+      "se": 0.0019091883092036779,
+      "cv": 0.15,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 41,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 15,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0726,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0096,
+      "se": 0.0033941125496954275,
+      "cv": 0.1322314049586777,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 37,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapsul",
+        "name": "apapsul",
+        "label": "paracetamol sulfate"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0744,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0072,
+      "se": 0.0025455844122715707,
+      "cv": 0.09677419354838711,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 36,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apapglu",
+        "name": "apapglu",
+        "label": "paracetamol glucuronide"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.16019999999999998,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.012,
+      "se": 0.004242640687119285,
+      "cv": 0.07490636704119852,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 35,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0162,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0018,
+      "se": 0.0006363961030678927,
+      "cv": 0.11111111111111112,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 71,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apapgsh",
+        "name": "apapgsh",
+        "label": "paracetamol glutathione"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.087,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.015,
+      "se": 0.005303300858899106,
+      "cv": 0.1724137931034483,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 68,
+      "measurement_type": {
+        "sid": "recovery",
+        "name": "recovery",
+        "label": "recovery"
+      },
+      "substance": {
+        "sid": "apap",
+        "name": "apap",
+        "label": "paracetamol"
+      },
+      "tissue": {
+        "sid": "urine",
+        "name": "urine",
+        "label": "urine"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 24,
+      "time_unit": "hr",
+      "intervention_pk": 4,
+      "group_pk": 14,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.049,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.008,
+      "se": 0.00282842712474619,
+      "cv": 0.16326530612244897,
+      "unit": "dimensionless"
+    }
+  ],
+  "timecourses": [],
+  "scatters": [],
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": "PMC1428054"
+  },
+  "_index": {
+    "sid": "PKDB00150",
+    "name": "Miners1983",
+    "title": "Influence of sex and oral contraceptive steroids on paracetamol metabolism.",
+    "pmid": "6416284",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1984",
+    "substances": [
+      "paracetamol",
+      "paracetamol glucuronide",
+      "paracetamol sulfate",
+      "paracetamol cysteine",
+      "paracetamol glutathione",
+      "paracetamol mercapturate"
+    ],
+    "n_groups": 4,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "n_outputs": 41,
+    "n_timecourses": 0,
+    "paper_source": "abstract",
+    "paper_licence": null
+  }
+}

@@ -6,3 +6,6 @@ __pycache__/
 .DS_Store
 .vite/
 *.tsbuildinfo
+
+# cached PK-DB CSV dump (re-downloaded by ingest_dump.py)
+ingest/.cache_*.zip

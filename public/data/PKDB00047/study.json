@@ -4,12 +4,14 @@
   "licence": "open",
   "access": "public",
   "date": "2019-05-07",
+  "snapshot": "2021-12-03",
   "counts": {
     "groups": 1,
     "individuals": 1,
     "interventions": 4,
-    "outputs": 163,
-    "timecourses": 8
+    "outputs": 151,
+    "timecourses": 8,
+    "scatters": 0
   },
   "reference": {
     "pmid": "3756065",
@@ -27,7 +29,7 @@
   },
   "curators": [
     "Matthias König",
-    "Dimitra Eleftheriadou"
+    "dimitra"
   ],
   "descriptions": [],
   "substances": [
@@ -54,17 +56,13 @@
   ],
   "groups": [
     {
-      "pk": 2885,
+      "pk": 798,
       "name": "all",
       "parent": null,
       "count": 6,
-      "study": {
-        "sid": "PKDB00047",
-        "name": "Lelo1986a"
-      },
       "characteristica": [
         {
-          "pk": 66246,
+          "pk": 17473,
           "count": 6,
           "measurement_type": {
             "sid": "species",
@@ -72,14 +70,14 @@
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -90,11 +88,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66247,
+          "pk": 17474,
           "count": 6,
           "measurement_type": {
             "sid": "healthy",
@@ -102,14 +99,14 @@
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -120,11 +117,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66248,
+          "pk": 17475,
           "count": 6,
           "measurement_type": {
             "sid": "sex",
@@ -132,14 +128,14 @@
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -150,11 +146,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66249,
+          "pk": 17476,
           "count": 6,
           "measurement_type": {
             "sid": "smoking",
@@ -162,14 +157,14 @@
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -180,11 +175,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66250,
+          "pk": 17477,
           "count": 6,
           "measurement_type": {
             "sid": "alcohol",
@@ -192,14 +186,14 @@
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "alcohol"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -210,11 +204,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66251,
+          "pk": 17478,
           "count": 6,
           "measurement_type": {
             "sid": "abstinence",
@@ -222,29 +215,28 @@
             "label": "abstinence"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": null,
           "substance": {
-            "sid": "mx",
+            "sid": "methylxanthine",
             "name": "methylxanthine",
             "label": "methylxanthine"
           },
           "value": null,
           "mean": null,
           "median": null,
-          "min": 4.0,
+          "min": 4,
           "max": null,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "day",
-          "group_count": 6
+          "unit": "day"
         },
         {
-          "pk": 66252,
+          "pk": 17479,
           "count": 6,
           "measurement_type": {
             "sid": "medication",
@@ -252,14 +244,14 @@
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -270,26 +262,25 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66253,
+          "pk": 17480,
           "count": 6,
           "measurement_type": {
-            "sid": "overnight-fast",
+            "sid": "overnight fast",
             "name": "overnight fast",
             "label": "overnight fast"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "overnight-fast"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -300,11 +291,10 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66254,
+          "pk": 17481,
           "count": 6,
           "measurement_type": {
             "sid": "age",
@@ -312,7 +302,7 @@
             "label": "age"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -321,16 +311,15 @@
           "value": null,
           "mean": null,
           "median": null,
-          "min": 19.0,
-          "max": 21.0,
+          "min": 19,
+          "max": 21,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": 6
+          "unit": "year"
         },
         {
-          "pk": 66255,
+          "pk": 17482,
           "count": 6,
           "measurement_type": {
             "sid": "weight",
@@ -338,7 +327,7 @@
             "label": "weight"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -347,48 +336,40 @@
           "value": null,
           "mean": null,
           "median": null,
-          "min": 62.0,
-          "max": 104.0,
+          "min": 62,
+          "max": 104,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "kg",
-          "group_count": 6
+          "unit": "kilogram"
         }
       ]
     }
   ],
   "individuals": [
     {
-      "pk": 19077,
+      "pk": 4788,
       "name": "A",
-      "study": {
-        "sid": "PKDB00047",
-        "name": "Lelo1986a"
-      },
       "group": {
-        "pk": 2885,
-        "name": "all",
-        "count": 6
+        "pk": 798
       },
       "characteristica": [
         {
-          "pk": 66246,
-          "count": 6,
+          "pk": 17473,
           "measurement_type": {
             "sid": "species",
             "name": "species",
             "label": "species"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "homo-sapiens",
+            "sid": "homo sapiens",
             "name": "homo sapiens",
-            "label": "Homo sapiens"
+            "label": "homo sapiens"
           },
           "substance": null,
           "value": null,
@@ -399,26 +380,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66247,
-          "count": 6,
+          "pk": 17474,
           "measurement_type": {
             "sid": "healthy",
             "name": "healthy",
             "label": "healthy"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "healthy-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "healthy"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -429,26 +408,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66248,
-          "count": 6,
+          "pk": 17475,
           "measurement_type": {
             "sid": "sex",
             "name": "sex",
             "label": "sex"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "male",
+            "sid": "M",
             "name": "M",
-            "label": "male"
+            "label": "M"
           },
           "substance": null,
           "value": null,
@@ -459,26 +436,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66249,
-          "count": 6,
+          "pk": 17476,
           "measurement_type": {
             "sid": "smoking",
             "name": "smoking",
             "label": "smoking"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "smoking-no",
+            "sid": "N",
             "name": "N",
-            "label": "No smoking"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -489,26 +464,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66250,
-          "count": 6,
+          "pk": 17477,
           "measurement_type": {
             "sid": "alcohol",
             "name": "alcohol",
             "label": "alcohol"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "alcohol-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "alcohol"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -519,56 +492,52 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66251,
-          "count": 6,
+          "pk": 17478,
           "measurement_type": {
             "sid": "abstinence",
             "name": "abstinence",
             "label": "abstinence"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": null,
           "substance": {
-            "sid": "mx",
+            "sid": "methylxanthine",
             "name": "methylxanthine",
             "label": "methylxanthine"
           },
           "value": null,
           "mean": null,
           "median": null,
-          "min": 4.0,
+          "min": 4,
           "max": null,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "day",
-          "group_count": 6
+          "unit": "day"
         },
         {
-          "pk": 66252,
-          "count": 6,
+          "pk": 17479,
           "measurement_type": {
             "sid": "medication",
             "name": "medication",
             "label": "medication"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "medication-no",
+            "sid": "N",
             "name": "N",
-            "label": "No medication"
+            "label": "N"
           },
           "substance": null,
           "value": null,
@@ -579,26 +548,24 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66253,
-          "count": 6,
+          "pk": 17480,
           "measurement_type": {
-            "sid": "overnight-fast",
+            "sid": "overnight fast",
             "name": "overnight fast",
             "label": "overnight fast"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
           "choice": {
-            "sid": "overnight-fast-yes",
+            "sid": "Y",
             "name": "Y",
-            "label": "overnight-fast"
+            "label": "Y"
           },
           "substance": null,
           "value": null,
@@ -609,19 +576,17 @@
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": null,
-          "group_count": 6
+          "unit": null
         },
         {
-          "pk": 66254,
-          "count": 6,
+          "pk": 17481,
           "measurement_type": {
             "sid": "age",
             "name": "age",
             "label": "age"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -630,24 +595,22 @@
           "value": null,
           "mean": null,
           "median": null,
-          "min": 19.0,
-          "max": 21.0,
+          "min": 19,
+          "max": 21,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "yr",
-          "group_count": 6
+          "unit": "year"
         },
         {
-          "pk": 66255,
-          "count": 6,
+          "pk": 17482,
           "measurement_type": {
             "sid": "weight",
             "name": "weight",
             "label": "weight"
           },
           "calculation_type": {
-            "sid": "sample-mean",
+            "sid": "sample mean",
             "name": "sample mean",
             "label": "sample mean"
           },
@@ -656,20 +619,19 @@
           "value": null,
           "mean": null,
           "median": null,
-          "min": 62.0,
-          "max": 104.0,
+          "min": 62,
+          "max": 104,
           "sd": null,
           "se": null,
           "cv": null,
-          "unit": "kg",
-          "group_count": 6
+          "unit": "kilogram"
         }
       ]
     }
   ],
   "interventions": [
     {
-      "pk": 5958,
+      "pk": 1626,
       "normed": true,
       "name": "Dcaf",
       "route": {
@@ -684,26 +646,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00047",
-        "name": "Lelo1986a"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "caf",
-        "name": "caffeine",
+        "name": "caf",
         "label": "caffeine (137X)"
       },
       "value": 0.27,
@@ -717,7 +674,7 @@
       "unit": "gram"
     },
     {
-      "pk": 5960,
+      "pk": 1628,
       "normed": true,
       "name": "Dpx",
       "route": {
@@ -732,26 +689,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00047",
-        "name": "Lelo1986a"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "px",
-        "name": "paraxanthine",
+        "name": "px",
         "label": "paraxanthine (17X)"
       },
       "value": 0.25,
@@ -765,7 +717,7 @@
       "unit": "gram"
     },
     {
-      "pk": 5962,
+      "pk": 1630,
       "normed": true,
       "name": "Dtp",
       "route": {
@@ -780,26 +732,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00047",
-        "name": "Lelo1986a"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "tp",
-        "name": "theophylline",
+        "name": "tp",
         "label": "theophylline (13X)"
       },
       "value": 0.25,
@@ -813,7 +760,7 @@
       "unit": "gram"
     },
     {
-      "pk": 5964,
+      "pk": 1632,
       "normed": true,
       "name": "Dtb",
       "route": {
@@ -828,26 +775,21 @@
       },
       "application": {
         "sid": "single-dose",
-        "name": "single dose",
+        "name": "single-dose",
         "label": "single dose"
       },
       "time": "0",
       "time_end": null,
       "time_unit": "hr",
-      "study": {
-        "sid": "PKDB00047",
-        "name": "Lelo1986a"
-      },
       "measurement_type": {
         "sid": "dosing",
         "name": "dosing",
         "label": "dosing"
       },
-      "calculation_type": null,
       "choice": null,
       "substance": {
         "sid": "tb",
-        "name": "theobromine",
+        "name": "tb",
         "label": "theobromine (37X)"
       },
       "value": 0.25,
@@ -861,6 +803,6604 @@
       "unit": "gram"
     }
   ],
+  "outputs": [
+    {
+      "pk": 86424,
+      "measurement_type": {
+        "sid": "clearance-unbound",
+        "name": "clearance-unbound",
+        "label": "clearance unbound"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.24760359599999995,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.111778824,
+      "se": 0.04563351380806103,
+      "cv": 0.45144265190720423,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86427,
+      "measurement_type": {
+        "sid": "vd-unbound",
+        "name": "vd-unbound",
+        "label": "volume of distribution unbound"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.0709951,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.250986,
+      "se": 0.10246460543036312,
+      "cv": 0.23434841111784732,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86515,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 0.5128673,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.001912924,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86519,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004195966000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86520,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0036102402,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86534,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0016750952,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86543,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0026395955,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86546,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 32,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00021662553000000002,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86412,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.13282433999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.055568484,
+      "se": 0.022685738596668528,
+      "cv": 0.4183607010582549,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86549,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 0.6,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.005334388,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86413,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.074202306,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.02256522,
+      "se": 0.009212212488940972,
+      "cv": 0.30410402609320525,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86555,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0028526216,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86418,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.43043253,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.08901062,
+      "se": 0.03633843344812854,
+      "cv": 0.2067934317139088,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86564,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004499039,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86422,
+      "measurement_type": {
+        "sid": "fraction-unbound",
+        "name": "fraction-unbound",
+        "label": "fraction unbound"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.58452896,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.060330640000000005,
+      "se": 0.024629880642590758,
+      "cv": 0.10321240542128145,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 86567,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0028891094,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86429,
+      "measurement_type": {
+        "sid": "vd-unbound",
+        "name": "vd-unbound",
+        "label": "volume of distribution unbound"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.79897344,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.14719492,
+      "se": 0.06009207445496509,
+      "cv": 0.1842300540052996,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86568,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0019157128000000002,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86569,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0014960179,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86572,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 1.01,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0004246971,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86583,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0001494229,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86586,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00025172332,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86588,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00028787932,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86594,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dcaf_all",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00013686024,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86604,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.04170791267172344,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86606,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 6.262940944120824,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 86524,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00019592530999999999,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86608,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0023277481906183823,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 86525,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 0.3,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0012553545,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86528,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 1.1,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004271914,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86626,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.002327603793501199,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 86529,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0043173804,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86628,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 2,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86563,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004339703,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86575,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0011250564999999999,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86579,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0013791333,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86581,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 28,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00016120236,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86641,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.05629289081716656,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86590,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00012138692,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86647,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 43.736883329466664,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86609,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 4.962930722443578,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86622,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.04032741574661233,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86659,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.031943823719389836,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86625,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004499039,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86663,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 4.457598131960576,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86648,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 42.92385349043884,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86665,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 50.3301888320265,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86660,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 7.826239031248176,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 86678,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 3.92648548882778,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 86661,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0043173804,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86679,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0056037073,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86411,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.12758425799999998,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0561474,
+      "se": 0.022922080063990706,
+      "cv": 0.44008093851202246,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86423,
+      "measurement_type": {
+        "sid": "clearance-unbound",
+        "name": "clearance-unbound",
+        "label": "clearance unbound"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.18498639,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.08766326999999999,
+      "se": 0.03578838011397205,
+      "cv": 0.47389037647580445,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86521,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.002936962,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86526,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 0.8,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0022461898,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86531,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0036731343000000003,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86537,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 1,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00233468,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86538,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0030460224,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86539,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004246171000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86540,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0040139403,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86541,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0039016013,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86548,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 0.5128673,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0048818755,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86551,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0056037073,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86552,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0053263825999999995,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86554,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0037278850000000002,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86557,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00040508863000000004,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86558,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 32,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0002649975,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86560,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 0.56557804,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00080348,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86565,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004109397999999999,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86570,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00019204703,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86571,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 0.69343835,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0002891415,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86574,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0008505004,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86577,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0015395247,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86589,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00029347298,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86593,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dcaf_all",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00014458081000000002,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86612,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 42.72758448451061,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86640,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 32,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.05415949709194364,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86642,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 4.441058122454111,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 86644,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0016923390452096433,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 86662,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.002591631786298181,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 86664,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 1.5,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86682,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 2,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86683,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 36.725779501820824,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86408,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.3856442,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.8129761,
+      "se": 0.33189610301297856,
+      "cv": 0.2401244938850928,
+      "unit": "hour"
+    },
+    {
+      "pk": 86409,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.2517242,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.7015568,
+      "se": 0.6946576547271613,
+      "cv": 0.2346416870073465,
+      "unit": "hour"
+    },
+    {
+      "pk": 86410,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.283924,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.415103,
+      "se": 0.577713380580284,
+      "cv": 0.22519416211908355,
+      "unit": "hour"
+    },
+    {
+      "pk": 86415,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.70318764,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.17083306,
+      "se": 0.06974230469971054,
+      "cv": 0.24294093110055234,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86416,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.6291074,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.18045713,
+      "se": 0.0736713148245151,
+      "cv": 0.2868463000117309,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86417,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.67533386,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.12030074,
+      "se": 0.04911257144653767,
+      "cv": 0.178135211523379,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86426,
+      "measurement_type": {
+        "sid": "clearance-unbound",
+        "name": "clearance-unbound",
+        "label": "clearance unbound"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.098873922,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.023559498,
+      "se": 0.009618124782686801,
+      "cv": 0.23827817814286764,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86430,
+      "measurement_type": {
+        "sid": "vd-unbound",
+        "name": "vd-unbound",
+        "label": "volume of distribution unbound"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.783629,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.1761729,
+      "se": 0.07192228525106109,
+      "cv": 0.22481671811533263,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86513,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 0.04066966,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0002718528,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86517,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004514422,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86518,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0045883436,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86522,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0019895204,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86523,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0014726803,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86527,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 0.9353351,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0039315922,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86532,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.002844198,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86535,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0011348802,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86536,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 0.5128673,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0016746138,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86542,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.003299762,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86547,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 0.3,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0013342901000000002,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86556,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.002158911,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86561,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 0.9066296,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0018540263,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86576,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.001434035,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86580,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00024161293000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86582,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 0.8327246,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.000118883446,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86584,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00016319159,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86591,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dcaf_all",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0001050425,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86592,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dcaf_all",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00012698448000000002,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86607,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0045883436,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86610,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 2,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86624,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 6.474423150071893,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour"
+    },
+    {
+      "pk": 86629,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 46.35971671917738,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86643,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004246171000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86645,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 6.826323036174662,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86658,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 10,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.02464546054141029,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86677,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0636701703626149,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86680,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0017818934193228443,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 86681,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 6.483245790156511,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86407,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4.218802,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.9940057,
+      "se": 0.40580112773633553,
+      "cv": 0.23561326177431413,
+      "unit": "hour"
+    },
+    {
+      "pk": 86414,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.058490217,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013227939000000001,
+      "se": 0.005400283483110262,
+      "cv": 0.2261564356993239,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86419,
+      "measurement_type": {
+        "sid": "fraction-unbound",
+        "name": "fraction-unbound",
+        "label": "fraction unbound"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.6867518,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0361795000000001,
+      "se": 0.014770219024837375,
+      "cv": 0.05268206068043811,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 86420,
+      "measurement_type": {
+        "sid": "fraction-unbound",
+        "name": "fraction-unbound",
+        "label": "fraction unbound"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.53607586,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.04219379,
+      "se": 0.017225542635691243,
+      "cv": 0.0787086178437507,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 86421,
+      "measurement_type": {
+        "sid": "fraction-unbound",
+        "name": "fraction-unbound",
+        "label": "fraction unbound"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.8619370000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0316735999999999,
+      "se": 0.012930693052836171,
+      "cv": 0.03674700123094831,
+      "unit": "dimensionless"
+    },
+    {
+      "pk": 86425,
+      "measurement_type": {
+        "sid": "clearance-unbound",
+        "name": "clearance-unbound",
+        "label": "clearance unbound"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.085027614,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.025759278,
+      "se": 0.010516181207083397,
+      "cv": 0.3029519092468007,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 86428,
+      "measurement_type": {
+        "sid": "vd-unbound",
+        "name": "vd-unbound",
+        "label": "volume of distribution unbound"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": 798,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.190797,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3668077,
+      "se": 0.14974861645398155,
+      "cv": 0.30803545860461523,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 86514,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 0.44253424,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0008328480000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86516,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf",
+      "time": 0.9353351,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0034227707,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86530,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 2,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0039720006,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86533,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dpx",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.002237959,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86544,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 25,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00047052225,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86545,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dtb",
+      "time": 28,
+      "time_unit": "hr",
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00034604615,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86550,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 1.1,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0055131207000000005,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86553,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theophylline_Dtp",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.004897969,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86559,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 0.20104,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00026476935,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86562,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 1.1171005,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0032777910000000004,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86566,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "caffeine_Dcaf_all",
+      "time": 4,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0035642433,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86573,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 1.5,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0006328886000000001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86578,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "paraxanthine_Dcaf_all",
+      "time": 8,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.0015571827,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86585,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 3,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.000196013,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86587,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": "theobromine_Dcaf_all",
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.00027227238,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 86605,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.04311073701779923,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86611,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 44.84262923686367,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86623,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.041702556929261246,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86627,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 4.963238606840013,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86630,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1626,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 43.392536747596516,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86646,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1632,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 2,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 86666,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1628,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 44.878678017299,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    },
+    {
+      "pk": 86676,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 32,
+      "time_unit": "hr",
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 0.06119155691014567,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 86684,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1630,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "value": 35.967637836039835,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 1581,
+      "name": "caffeine_Dcaf_all",
+      "label": "caffeine_Dcaf_all",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        0.20104,
+        0.56557804,
+        0.9066296,
+        1.1171005,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        25.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.00026476935,
+        0.00080348,
+        0.0018540263,
+        0.0032777910000000004,
+        0.004339703,
+        0.004499039,
+        0.004109397999999999,
+        0.0035642433,
+        0.0028891094,
+        0.0019157128000000002,
+        0.0014960179,
+        0.00019204703
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 1579,
+      "name": "caffeine_Dcaf",
+      "label": "caffeine_Dcaf",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "caf",
+        "name": "caf",
+        "label": "caffeine (137X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        0.04066966,
+        0.44253424,
+        0.5128673,
+        0.9353351,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        25.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.0002718528,
+        0.0008328480000000001,
+        0.001912924,
+        0.0034227707,
+        0.004514422,
+        0.0045883436,
+        0.004195966000000001,
+        0.0036102402,
+        0.002936962,
+        0.0019895204,
+        0.0014726803,
+        0.00019592530999999999
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 1582,
+      "name": "theobromine_Dtb",
+      "label": "theobromine_Dtb",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        0.5128673,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        25.0,
+        28.0,
+        32.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.0016746138,
+        0.00233468,
+        0.0030460224,
+        0.004246171000000001,
+        0.0040139403,
+        0.0039016013,
+        0.003299762,
+        0.0026395955,
+        0.00047052225,
+        0.00034604615,
+        0.00021662553000000002
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 1584,
+      "name": "theophylline_Dcaf_all",
+      "label": "theophylline_Dcaf_all",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        4.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.0001050425,
+        0.00012698448000000002,
+        0.00014458081000000002,
+        0.00013686024
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 1580,
+      "name": "theobromine_Dcaf_all",
+      "label": "theobromine_Dcaf_all",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tb",
+        "name": "tb",
+        "label": "theobromine (37X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        0.8327246,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        25.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.000118883446,
+        0.0001494229,
+        0.00016319159,
+        0.000196013,
+        0.00025172332,
+        0.00027227238,
+        0.00028787932,
+        0.00029347298,
+        0.00012138692
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 1585,
+      "name": "paraxanthine_Dcaf_all",
+      "label": "paraxanthine_Dcaf_all",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        0.69343835,
+        1.01,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        25.0,
+        28.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.0002891415,
+        0.0004246971,
+        0.0006328886000000001,
+        0.0008505004,
+        0.0011250564999999999,
+        0.001434035,
+        0.0015395247,
+        0.0015571827,
+        0.0013791333,
+        0.00024161293000000001,
+        0.00016120236
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 1586,
+      "name": "theophylline_Dtp",
+      "label": "theophylline_Dtp",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "tp",
+        "name": "tp",
+        "label": "theophylline (13X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        25.0,
+        32.0,
+        0.3,
+        0.5128673,
+        0.6,
+        1.1,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.00040508863000000004,
+        0.0002649975,
+        0.0013342901000000002,
+        0.0048818755,
+        0.005334388,
+        0.0055131207000000005,
+        0.0056037073,
+        0.0053263825999999995,
+        0.004897969,
+        0.0037278850000000002,
+        0.0028526216,
+        0.002158911
+      ],
+      "mean": null,
+      "sd": null
+    },
+    {
+      "pk": 1583,
+      "name": "paraxanthine_Dpx",
+      "label": "paraxanthine_Dpx",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "px",
+        "name": "px",
+        "label": "paraxanthine (17X)"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": {
+        "sid": "hplc",
+        "name": "hplc",
+        "label": "High-performance liquid chromatography (HPLC)"
+      },
+      "intervention_pk": null,
+      "group_pk": null,
+      "individual_pk": 4788,
+      "time": [
+        10.0,
+        0.3,
+        0.8,
+        0.9353351,
+        1.1,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "time_unit": "hr",
+      "unit": "gram / liter",
+      "values": [
+        0.0011348802,
+        0.0012553545,
+        0.0022461898,
+        0.0039315922,
+        0.004271914,
+        0.0043173804,
+        0.0039720006,
+        0.0036731343000000003,
+        0.002844198,
+        0.002237959,
+        0.0016750952
+      ],
+      "mean": null,
+      "sd": null
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1401099"
+  },
   "_index": {
     "sid": "PKDB00047",
     "name": "Lelo1986a",
@@ -877,12 +7417,9 @@
     "n_groups": 1,
     "n_individuals": 1,
     "n_interventions": 4,
+    "n_outputs": 151,
+    "n_timecourses": 8,
     "paper_source": "pubmed-markdown",
     "paper_licence": null
-  },
-  "paper": {
-    "source": "pubmed-markdown",
-    "licence": null,
-    "pmcid": "PMC1401099"
   }
 }

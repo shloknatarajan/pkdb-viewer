@@ -1,0 +1,6804 @@
+{
+  "sid": "PKDB00072",
+  "name": "Ferrannini1979",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-08",
+  "snapshot": "2021-12-03",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 148,
+    "timecourses": 3,
+    "scatters": 0
+  },
+  "reference": {
+    "pmid": "447855",
+    "doi": "10.1172/JCI109445",
+    "title": "Pattern of insulin delivery after intravenous glucose injection in man and its relation to plasma glucose disappearance.",
+    "abstract": null,
+    "journal": "The Journal of clinical investigation",
+    "date": "1979-08-29",
+    "authors": [
+      "Ferrannini E",
+      "Pilo A"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "Kathleen Green"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "D-glucose",
+      "name": "D-glucose",
+      "label": "D-glucose"
+    },
+    {
+      "sid": "insulin",
+      "name": "insulin",
+      "label": "insulin"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 1367,
+      "name": "all",
+      "parent": null,
+      "count": 17,
+      "characteristica": [
+        {
+          "pk": 29248,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 29249,
+          "count": 17,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 25,
+          "median": null,
+          "min": 16,
+          "max": 57,
+          "sd": null,
+          "se": 3,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 29250,
+          "count": 17,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.62,
+          "median": null,
+          "min": 1.47,
+          "max": 1.74,
+          "sd": null,
+          "se": 0.02,
+          "cv": null,
+          "unit": "meter"
+        },
+        {
+          "pk": 29251,
+          "count": 17,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 58,
+          "median": null,
+          "min": 41,
+          "max": 78,
+          "sd": null,
+          "se": 3,
+          "cv": null,
+          "unit": "kilogram"
+        },
+        {
+          "pk": 29252,
+          "count": 17,
+          "measurement_type": {
+            "sid": "body surface area",
+            "name": "body surface area",
+            "label": "body surface area"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.6,
+          "median": null,
+          "min": 1.3,
+          "max": 1.9,
+          "sd": null,
+          "se": 0.04,
+          "cv": null,
+          "unit": "meter ** 2"
+        },
+        {
+          "pk": 29243,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 29244,
+          "count": 17,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 29245,
+          "count": 17,
+          "measurement_type": {
+            "sid": "overnight fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 29246,
+          "count": 3,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 29247,
+          "count": 14,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 2584,
+      "normed": true,
+      "name": "glciv",
+      "route": {
+        "sid": "iv",
+        "name": "iv",
+        "label": "intravenous (iv)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single-dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "choice": null,
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "value": 0.33,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "g/kg"
+    }
+  ],
+  "outputs": [
+    {
+      "pk": 137999,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 22.564848,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 16099.453000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 9647.052879961424,
+      "se": 2339.754,
+      "cv": 0.5992161895165894,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138002,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 25.43261,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 14294.235,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 11332.4300279114,
+      "se": 2748.5179999999996,
+      "cv": 0.7927972380411683,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138003,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 26.66009,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 14203.605,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10480.212956835609,
+      "se": 2541.825,
+      "cv": 0.7378558441209544,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138004,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 27.68303,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 14111.124,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10062.682542551811,
+      "se": 2440.5589999999997,
+      "cv": 0.7131028359294278,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138012,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 35.513702,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11130.018,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8800.554556388364,
+      "se": 2134.448,
+      "cv": 0.7907044316000535,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138017,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 40.524498,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11378.791,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6714.80735976841,
+      "se": 1628.58,
+      "cv": 0.5901160641555337,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138019,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 42.5727,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10176.545,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6710.993487064713,
+      "se": 1627.655,
+      "cv": 0.6594569657054249,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138023,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 46.563347,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9297.055999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5872.118785793421,
+      "se": 1424.198,
+      "cv": 0.6316105642252151,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138026,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 49.631466,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9324.8005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5872.120847346234,
+      "se": 1424.1985,
+      "cv": 0.6297315258751364,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138039,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 62.422264,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6388.5474,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3780.653253981297,
+      "se": 916.9431,
+      "cv": 0.5917860535841523,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138040,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 63.49843,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5380.973,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3778.747966871699,
+      "se": 916.481,
+      "cv": 0.7022425064893838,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138041,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 64.62387,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5187.688999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4611.902271398009,
+      "se": 1118.5506,
+      "cv": 0.8890090117965842,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138052,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 75.41598,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4166.2426000000005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3357.403679884205,
+      "se": 814.29,
+      "cv": 0.8058589002676427,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138065,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 88.70721,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6015.851,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3355.4988050851694,
+      "se": 813.828,
+      "cv": 0.5577762489604828,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138066,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 89.73038,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5821.6424,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3355.4971558429193,
+      "se": 813.8276,
+      "cv": 0.576383248109317,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138077,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.0720348261655706,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 138080,
+      "measurement_type": {
+        "sid": "kel",
+        "name": "kel",
+        "label": "elimination rate (Kel)"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.013120404586095698,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "1 / minute"
+    },
+    {
+      "pk": 137840,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 3,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.5301102,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3113076686721341,
+      "se": 0.0755031999999997,
+      "cv": 0.12304115001478358,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137845,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 8,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.1595236,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2075389955288399,
+      "se": 0.0503355999999999,
+      "cv": 0.09610406458574469,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137846,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 9,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.1592197,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2422538956542916,
+      "se": 0.0587552000000002,
+      "cv": 0.11219511180557105,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137847,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 10,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.1589461,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.2420032108322532,
+      "se": 0.0586944,
+      "cv": 0.11209321568160187,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137853,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 17,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.7207591,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.1728236830928281,
+      "se": 0.0419159000000002,
+      "cv": 0.1004345600106535,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137860,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 90,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.8110106,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.17307436791486486,
+      "se": 0.0419767,
+      "cv": 0.21340580248256294,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137861,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 0,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00563051,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137870,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 9,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04257308,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.024981979447729917,
+      "se": 0.00605902,
+      "cv": 0.5868022573825976,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137979,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 2.3389754,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 95062.935,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 46561.30413133448,
+      "se": 11292.775000000001,
+      "cv": 0.4897945148793742,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137992,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 15.490512,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 23767.004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 12161.772108976265,
+      "se": 2949.663,
+      "cv": 0.5117082535508584,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138000,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 23.488306,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 14785.306999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10912.990615722943,
+      "se": 2646.789,
+      "cv": 0.7380969915418695,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138001,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 24.40944,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 14488.444,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10918.7134863313,
+      "se": 2648.177,
+      "cv": 0.7536153286254411,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138008,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 31.520267,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 13230.248,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 7971.212475323499,
+      "se": 1933.3029999999999,
+      "cv": 0.6024990971691158,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138009,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 32.545067,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 12323.94,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 12167.490856478997,
+      "se": 2951.0499999999997,
+      "cv": 0.9873052657250032,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138010,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 33.568237,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 12129.731,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10907.275991325836,
+      "se": 2645.403,
+      "cv": 0.8992182919246796,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138016,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 39.501793,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11369.542,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6716.716357673071,
+      "se": 1629.0430000000001,
+      "cv": 0.5907640217761693,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138018,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 41.444935,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11387.114,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5037.057957225825,
+      "se": 1221.666,
+      "cv": 0.4423471967722309,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138028,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 51.57693,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8325.088,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5456.493246308658,
+      "se": 1323.394,
+      "cv": 0.6554276959365064,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138031,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 54.440273,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8452.71,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6710.993487064713,
+      "se": 1627.655,
+      "cv": 0.7939457862702866,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138061,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 84.82139,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5777.2517,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4609.9961596672865,
+      "se": 1118.0883,
+      "cv": 0.7979566061951717,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138078,
+      "measurement_type": {
+        "sid": "clearance",
+        "name": "clearance",
+        "label": "clearance (Cl)"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.10742065721041873,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / hour / kilogram"
+    },
+    {
+      "pk": 138083,
+      "measurement_type": {
+        "sid": "vd",
+        "name": "vd",
+        "label": "volume of distribution"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.13645496029425974,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 137839,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 1,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.6058871,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.5188474888221009,
+      "se": 0.125839,
+      "cv": 0.1991058971135399,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137842,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 5,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.4288615,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.44954220636109354,
+      "se": 0.10903,
+      "cv": 0.1850835077920637,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137854,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 20,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.795381,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.38073870585472436,
+      "se": 0.0923427000000001,
+      "cv": 0.21206568736926834,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137856,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 30,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4234875,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3804876087221243,
+      "se": 0.09228180000000011,
+      "cv": 0.2672925534801846,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137859,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 75,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.9246,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.20753858321827814,
+      "se": 0.050335500000000095,
+      "cv": 0.22446310103642456,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137864,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 3,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.06349579,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.026707128072544602,
+      "se": 0.00647743,
+      "cv": 0.42061258033870597,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137874,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 13,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.03482225,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013784325496508706,
+      "se": 0.00334319,
+      "cv": 0.3958482147623633,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137876,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 15,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.03418631,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.017228314394530885,
+      "se": 0.004178480000000001,
+      "cv": 0.5039536116805495,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137881,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 38,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.016945850000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.005164973186154988,
+      "se": 0.00125269,
+      "cv": 0.30479280686156124,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137884,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 90,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00646631,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0025824659775493656,
+      "se": 0.00062634,
+      "cv": 0.39937243614199835,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137984,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 7.4408846,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33053.424999999996,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 18039.60964227246,
+      "se": 4375.24800000001,
+      "cv": 0.5457712670403282,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137985,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 8.514494,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33164.864,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 21387.493071267072,
+      "se": 5187.229,
+      "cv": 0.6448840879090314,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137986,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 9.536735,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33377.57,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6293.454826569664,
+      "se": 1526.387,
+      "cv": 0.18855341555930116,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137993,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 16.41327,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 22758.043,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 13429.61471953682,
+      "se": 3257.16,
+      "cv": 0.590104110425348,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137994,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 17.540108,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 21954.39,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10909.176743019247,
+      "se": 2645.864,
+      "cv": 0.4969018379931871,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137995,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 18.516792,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 19725.147,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 14678.396212790143,
+      "se": 3560.034,
+      "cv": 0.7441463535247743,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137998,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 21.540283,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 16904.034,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10482.113708529017,
+      "se": 2542.2859999999996,
+      "cv": 0.6200953990348704,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138006,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 29.62617,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 14128.6955,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 9643.241068810541,
+      "se": 2338.8295000000003,
+      "cv": 0.6825287634524038,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138011,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 34.43893,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11527.222,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 7969.303477418839,
+      "se": 1932.84,
+      "cv": 0.6913464039660934,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138015,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 38.53022,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11360.757,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5870.211849441573,
+      "se": 1423.7355,
+      "cv": 0.5167095686882109,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138024,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 47.534916,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9305.842,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5033.248207627754,
+      "se": 1220.742,
+      "cv": 0.5408697254507172,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138032,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 55.721447,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7243.5289999999995,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5027.525337019397,
+      "se": 1219.354,
+      "cv": 0.6940712651277294,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138045,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 68.61289,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5020.2994,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2934.1549304082378,
+      "se": 711.6371,
+      "cv": 0.5844581561028487,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138049,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 72.655136,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3937.8161,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4604.2769998539925,
+      "se": 1116.7012,
+      "cv": 1.1692463240865902,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138051,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 74.54691,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4056.6535000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3769.214522044146,
+      "se": 914.1688,
+      "cv": 0.9291438181851484,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138053,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 76.43868,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4175.491,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4617.621843521866,
+      "se": 1119.9378,
+      "cv": 1.105887150402639,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138055,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 78.48409,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4193.987,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2936.0593928967105,
+      "se": 712.099,
+      "cv": 0.7000640185333694,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138056,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 79.60884,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4305.888000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2939.8745025320945,
+      "se": 713.0243,
+      "cv": 0.6827568442402807,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138058,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 81.65007,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6155.4966,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5450.777384979864,
+      "se": 1322.0076999999999,
+      "cv": 0.8855138324631459,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138060,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 83.59298,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6274.7964999999995,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3353.5898071805086,
+      "se": 813.365,
+      "cv": 0.5344539551490648,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138063,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 86.6618,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5997.355,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3361.217552587901,
+      "se": 815.215,
+      "cv": 0.5604499904687819,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138064,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 87.63313,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6107.869,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2520.437976517573,
+      "se": 611.2959999999999,
+      "cv": 0.412654229571324,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138079,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.6058871,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 138081,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.8804951808860446,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 137837,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 0,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.7271787999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137838,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 1,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.2705598,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.7612263145768478,
+      "se": 0.1846245,
+      "cv": 0.3352593111957887,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137851,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 14,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.9145329000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.38061295113314186,
+      "se": 0.09231219999999982,
+      "cv": 0.19880199036179624,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137862,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 1,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0350878,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137863,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 1,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.05535132,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.025847666704884604,
+      "se": 0.00626898,
+      "cv": 0.46697471180243944,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137866,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 5,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.056801330000000004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.031010537107170524,
+      "se": 0.00752116,
+      "cv": 0.5459473767105545,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137867,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 6,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04509361,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.022399513470180595,
+      "se": 0.00543268000000001,
+      "cv": 0.49673364962753247,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137869,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 8,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.043204479999999996,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.01895131900442025,
+      "se": 0.004596370000000001,
+      "cv": 0.43864245107035776,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137873,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 12,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.03587206,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.01981700626157493,
+      "se": 0.00480633,
+      "cv": 0.5524356912197106,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137877,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 17,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.03125142,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0180918988678165,
+      "se": 0.00438793,
+      "cv": 0.5789144578971611,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137981,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 4.3788095,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 52761.467000000004,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 34815.18642358236,
+      "se": 8443.923,
+      "cv": 0.6598600911453496,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137983,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 6.414924,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 34468.376,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 23915.55467008641,
+      "se": 5800.374,
+      "cv": 0.6938404835228215,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137988,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 11.382022,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 31461.376,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 17202.643938905785,
+      "se": 4172.254,
+      "cv": 0.5467861271835595,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137996,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 19.388649,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 18613.997000000003,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 13002.547561940968,
+      "se": 3153.581,
+      "cv": 0.6985360297383182,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138005,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 28.552095,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 14220.714,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 9639.429257659658,
+      "se": 2337.905,
+      "cv": 0.6778442529439561,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138007,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 30.445498,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 13627.452,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10072.211039652613,
+      "se": 2442.87,
+      "cv": 0.7391118339402416,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138020,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 43.493366,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10083.139,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 7134.250895062494,
+      "se": 1730.31,
+      "cv": 0.7075426506629031,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138021,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 44.617878,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10296.77,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5875.932658497117,
+      "se": 1425.1229999999998,
+      "cv": 0.5706578527535447,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138022,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 45.486713,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 10508.087,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5874.027783698082,
+      "se": 1424.661,
+      "cv": 0.5590006804947544,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138025,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 48.660126,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9214.287,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5875.932658497117,
+      "se": 1425.1229999999998,
+      "cv": 0.6376980289953109,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138027,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 50.44963,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9332.198999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5452.683496710588,
+      "se": 1322.47,
+      "cv": 0.5842871006834068,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138029,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 52.753044,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8335.722,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5445.057812856007,
+      "se": 1320.6205,
+      "cv": 0.6532196986483003,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138030,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 53.570744,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8546.577,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4609.999045841225,
+      "se": 1118.0890000000002,
+      "cv": 0.5393971230635639,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138034,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 57.612988,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7464.0946,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5443.148402640784,
+      "se": 1320.1574,
+      "cv": 0.7292442947656081,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138038,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 61.655235,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6381.6113000000005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5872.1196104145465,
+      "se": 1424.1982,
+      "cv": 0.9201625317440669,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138043,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 66.51565,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5306.526,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2939.8745025320945,
+      "se": 713.0243,
+      "cv": 0.5540111369532712,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138047,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 70.557655,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4325.7713,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2936.0622790706484,
+      "se": 712.0997,
+      "cv": 0.6787372876302195,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138048,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 71.68287,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4234.2157,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4186.746997880758,
+      "se": 1015.4353000000001,
+      "cv": 0.9887892574487308,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138057,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 80.627594,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6044.52,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4190.558396721078,
+      "se": 1016.3597,
+      "cv": 0.6932822451941721,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138082,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.016666666666666666,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 137841,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 4,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.4794402,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3460238057292727,
+      "se": 0.0839230999999998,
+      "cv": 0.13955722978488158,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137848,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 11,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.0915889,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.17294902550384567,
+      "se": 0.0419462999999999,
+      "cv": 0.08268786734517747,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137849,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 12,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.9738657000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.24187745611067188,
+      "se": 0.0586639,
+      "cv": 0.12253997630673245,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137871,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 10,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04047803,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.018953421788289355,
+      "se": 0.004596880000000011,
+      "cv": 0.46823972876865194,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137875,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 14,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0369077,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.02584350236820273,
+      "se": 0.00626797,
+      "cv": 0.7002198015103279,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137882,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 55,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.01499305,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.006892183363782482,
+      "se": 0.0016716,
+      "cv": 0.4596918814905894,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137977,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 0.49275842,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 52624.596,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 19292.20088512381,
+      "se": 4679.045999999999,
+      "cv": 0.3666004558994393,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137982,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 5.3785048,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 40461.11,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 34820.896924873836,
+      "se": 8445.308,
+      "cv": 0.8606016227650165,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137987,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 10.354668,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 33486.7,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 13841.409893895385,
+      "se": 3357.0350000000003,
+      "cv": 0.4133405170976951,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137991,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 14.463854,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 25487.14,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 18872.769719146607,
+      "se": 4577.319,
+      "cv": 0.740482051699273,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137997,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 20.413214,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 17809.415999999997,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 10491.650451841073,
+      "se": 2544.5989999999997,
+      "cv": 0.589106933761392,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138013,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 36.74095,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11141.116,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8379.21026940087,
+      "se": 2032.257,
+      "cv": 0.7520979289149193,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138014,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 37.660923,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 11352.895999999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 6283.930452574487,
+      "se": 1524.077,
+      "cv": 0.5535090299932711,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138033,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 56.590282,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7454.8464,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5454.590845372998,
+      "se": 1322.9325999999999,
+      "cv": 0.7316838674735133,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138035,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 58.533424,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7472.418000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5027.525337019397,
+      "se": 1219.354,
+      "cv": 0.6728110414887652,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138036,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 59.507553,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6362.1902,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 5454.589608441311,
+      "se": 1322.9323,
+      "cv": 0.8573446308539017,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138037,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 60.479122,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6370.976,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 7132.337774052207,
+      "se": 1729.846,
+      "cv": 1.1195047311514292,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138042,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 65.544075,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5297.741,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2514.715105909216,
+      "se": 609.908,
+      "cv": 0.4746768681045782,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138044,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 67.59019,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5011.051,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4609.996571977849,
+      "se": 1118.0884,
+      "cv": 0.9199660055301471,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138046,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 69.48219,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5028.16,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4194.373506356462,
+      "se": 1017.285,
+      "cv": 0.8341766185555873,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138050,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 73.62624,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4150.0587,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3767.307585692298,
+      "se": 913.7062999999999,
+      "cv": 0.9077721203539357,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138054,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 77.46139,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 4184.7390000000005,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2934.1532811659877,
+      "se": 711.6367,
+      "cv": 0.7011556231263139,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138059,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 82.72321,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6470.392000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3353.592693354442,
+      "se": 813.3656999999989,
+      "cv": 0.518298225726423,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138062,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 85.63909,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5988.107,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3782.561839575396,
+      "se": 917.4060000000001,
+      "cv": 0.6316790664521185,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 138076,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": 90,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.04181939,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 138084,
+      "measurement_type": {
+        "sid": "vd-ss",
+        "name": "vd-ss",
+        "label": "volume of distribution steady state"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": null,
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.13885373857517347,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "liter / kilogram"
+    },
+    {
+      "pk": 137843,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 6,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.3278864,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.41507799105768056,
+      "se": 0.10067119999999999,
+      "cv": 0.1783068070064246,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137844,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 7,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.2353006,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.20766392562929736,
+      "se": 0.0503659000000002,
+      "cv": 0.09290201310253188,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137850,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 13,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.8980583,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3458984633182552,
+      "se": 0.08389270000000011,
+      "cv": 0.18223806050544136,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137852,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 15,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.8722826000000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3806133634437044,
+      "se": 0.0923122999999998,
+      "cv": 0.20328841567170702,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137855,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 25,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.6010602,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.3111831508822421,
+      "se": 0.0754730000000001,
+      "cv": 0.19436068105511714,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137857,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 38,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.2702619,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.27646783844622824,
+      "se": 0.0670532999999999,
+      "cv": 0.2176463282463469,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137858,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "glc",
+      "time": 55,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.1400459,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.20753899552884075,
+      "se": 0.050335600000000105,
+      "cv": 0.18204442078063765,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 137865,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 4,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.05743121,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.02498408223159898,
+      "se": 0.00605953,
+      "cv": 0.4350262206141744,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137868,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 7,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.04488011,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.022399513470180554,
+      "se": 0.0054326800000000005,
+      "cv": 0.4990966704444475,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137872,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 11,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.0371308,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.020674406076422125,
+      "se": 0.00501428,
+      "cv": 0.55679937077634,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137878,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 20,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.029984590000000002,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.013780119928770576,
+      "se": 0.0033421699999999998,
+      "cv": 0.4595733984947126,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137879,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 25,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.02390131,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.012059218102750277,
+      "se": 0.00292479,
+      "cv": 0.504542140273913,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137880,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 30,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.02011597,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.009480875230826531,
+      "se": 0.00229945,
+      "cv": 0.47131086548779555,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137883,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "ins",
+      "time": 75,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00862907,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00344815323470405,
+      "se": 0.0008363000000000001,
+      "cv": 0.3995973186802343,
+      "unit": "IU / liter"
+    },
+    {
+      "pk": 137976,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": -0.46626103,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2361.025,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3349.7779960296252,
+      "se": 812.4405,
+      "cv": 1.4187812479874737,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137978,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 1.317199,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 94646.77399999999,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 42784.502270318066,
+      "se": 10376.766,
+      "cv": 0.4520439573600054,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137980,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 3.4135141,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 72386.73400000001,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 49074.13497797279,
+      "se": 11902.226,
+      "cv": 0.6779437649165493,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137989,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 12.460977,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 29233.059999999998,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 15938.606954837678,
+      "se": 3865.68,
+      "cv": 0.5452254042114537,
+      "unit": "microIU / minute"
+    },
+    {
+      "pk": 137990,
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "rins",
+      "time": 13.436731,
+      "time_unit": "min",
+      "intervention_pk": 2584,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "value": null,
+      "mean": 27410.734,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 17618.2612321793,
+      "se": 4273.0560000000005,
+      "cv": 0.6427504360948268,
+      "unit": "microIU / minute"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 2708,
+      "name": "rins",
+      "label": "rins",
+      "measurement_type": {
+        "sid": "secretion-rate",
+        "name": "secretion-rate",
+        "label": "secretion rate"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "time": [
+        -0.46626103,
+        0.49275842,
+        1.317199,
+        2.3389754,
+        3.4135141,
+        4.3788095,
+        5.3785048,
+        6.414924,
+        7.4408846,
+        8.514494,
+        9.536735,
+        10.354668,
+        11.382022,
+        12.460977,
+        13.436731,
+        14.463854,
+        15.490512,
+        16.41327,
+        17.540108,
+        18.516792,
+        19.388649,
+        20.413214,
+        21.540283,
+        22.564848,
+        23.488306,
+        24.40944,
+        25.43261,
+        26.66009,
+        27.68303,
+        28.552095,
+        29.62617,
+        30.445498,
+        31.520267,
+        32.545067,
+        33.568237,
+        34.43893,
+        35.513702,
+        36.74095,
+        37.660923,
+        38.53022,
+        39.501793,
+        40.524498,
+        41.444935,
+        42.5727,
+        43.493366,
+        44.617878,
+        45.486713,
+        46.563347,
+        47.534916,
+        48.660126,
+        49.631466,
+        50.44963,
+        51.57693,
+        52.753044,
+        53.570744,
+        54.440273,
+        55.721447,
+        56.590282,
+        57.612988,
+        58.533424,
+        59.507553,
+        60.479122,
+        61.655235,
+        62.422264,
+        63.49843,
+        64.62387,
+        65.544075,
+        66.51565,
+        67.59019,
+        68.61289,
+        69.48219,
+        70.557655,
+        71.68287,
+        72.655136,
+        73.62624,
+        74.54691,
+        75.41598,
+        76.43868,
+        77.46139,
+        78.48409,
+        79.60884,
+        80.627594,
+        81.65007,
+        82.72321,
+        83.59298,
+        84.82139,
+        85.63909,
+        86.6618,
+        87.63313,
+        88.70721,
+        89.73038
+      ],
+      "time_unit": "min",
+      "unit": "microIU / minute",
+      "values": null,
+      "mean": [
+        2361.025,
+        52624.596,
+        94646.77399999999,
+        95062.935,
+        72386.73400000001,
+        52761.467000000004,
+        40461.11,
+        34468.376,
+        33053.424999999996,
+        33164.864,
+        33377.57,
+        33486.7,
+        31461.376,
+        29233.059999999998,
+        27410.734,
+        25487.14,
+        23767.004,
+        22758.043,
+        21954.39,
+        19725.147,
+        18613.997000000003,
+        17809.415999999997,
+        16904.034,
+        16099.453000000001,
+        14785.306999999999,
+        14488.444,
+        14294.235,
+        14203.605,
+        14111.124,
+        14220.714,
+        14128.6955,
+        13627.452,
+        13230.248,
+        12323.94,
+        12129.731,
+        11527.222,
+        11130.018,
+        11141.116,
+        11352.895999999999,
+        11360.757,
+        11369.542,
+        11378.791,
+        11387.114,
+        10176.545,
+        10083.139,
+        10296.77,
+        10508.087,
+        9297.055999999999,
+        9305.842,
+        9214.287,
+        9324.8005,
+        9332.198999999999,
+        8325.088,
+        8335.722,
+        8546.577,
+        8452.71,
+        7243.5289999999995,
+        7454.8464,
+        7464.0946,
+        7472.418000000001,
+        6362.1902,
+        6370.976,
+        6381.6113000000005,
+        6388.5474,
+        5380.973,
+        5187.688999999999,
+        5297.741,
+        5306.526,
+        5011.051,
+        5020.2994,
+        5028.16,
+        4325.7713,
+        4234.2157,
+        3937.8161,
+        4150.0587,
+        4056.6535000000003,
+        4166.2426000000005,
+        4175.491,
+        4184.7390000000005,
+        4193.987,
+        4305.888000000001,
+        6044.52,
+        6155.4966,
+        6470.392000000001,
+        6274.7964999999995,
+        5777.2517,
+        5988.107,
+        5997.355,
+        6107.869,
+        6015.851,
+        5821.6424
+      ],
+      "sd": [
+        3349.7779960296252,
+        19292.20088512381,
+        42784.502270318066,
+        46561.30413133448,
+        49074.13497797279,
+        34815.18642358236,
+        34820.896924873836,
+        23915.55467008641,
+        18039.60964227246,
+        21387.493071267072,
+        6293.454826569664,
+        13841.409893895385,
+        17202.643938905785,
+        15938.606954837678,
+        17618.2612321793,
+        18872.769719146607,
+        12161.772108976265,
+        13429.61471953682,
+        10909.176743019247,
+        14678.396212790143,
+        13002.547561940968,
+        10491.650451841073,
+        10482.113708529017,
+        9647.052879961424,
+        10912.990615722943,
+        10918.7134863313,
+        11332.4300279114,
+        10480.212956835609,
+        10062.682542551811,
+        9639.429257659658,
+        9643.241068810541,
+        10072.211039652613,
+        7971.212475323499,
+        12167.490856478997,
+        10907.275991325836,
+        7969.303477418839,
+        8800.554556388364,
+        8379.21026940087,
+        6283.930452574487,
+        5870.211849441573,
+        6716.716357673071,
+        6714.80735976841,
+        5037.057957225825,
+        6710.993487064713,
+        7134.250895062494,
+        5875.932658497117,
+        5874.027783698082,
+        5872.118785793421,
+        5033.248207627754,
+        5875.932658497117,
+        5872.120847346234,
+        5452.683496710588,
+        5456.493246308658,
+        5445.057812856007,
+        4609.999045841225,
+        6710.993487064713,
+        5027.525337019397,
+        5454.590845372998,
+        5443.148402640784,
+        5027.525337019397,
+        5454.589608441311,
+        7132.337774052207,
+        5872.1196104145465,
+        3780.653253981297,
+        3778.747966871699,
+        4611.902271398009,
+        2514.715105909216,
+        2939.8745025320945,
+        4609.996571977849,
+        2934.1549304082378,
+        4194.373506356462,
+        2936.0622790706484,
+        4186.746997880758,
+        4604.2769998539925,
+        3767.307585692298,
+        3769.214522044146,
+        3357.403679884205,
+        4617.621843521866,
+        2934.1532811659877,
+        2936.0593928967105,
+        2939.8745025320945,
+        4190.558396721078,
+        5450.777384979864,
+        3353.592693354442,
+        3353.5898071805086,
+        4609.9961596672865,
+        3782.561839575396,
+        3361.217552587901,
+        2520.437976517573,
+        3355.4988050851694,
+        3355.4971558429193
+      ]
+    },
+    {
+      "pk": 2706,
+      "name": "ins",
+      "label": "ins",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "insulin",
+        "name": "insulin",
+        "label": "insulin"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        1.0,
+        1.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        17.0,
+        20.0,
+        25.0,
+        30.0,
+        38.0,
+        55.0,
+        75.0,
+        90.0
+      ],
+      "time_unit": "min",
+      "unit": "IU / liter",
+      "values": null,
+      "mean": [
+        0.00563051,
+        0.0350878,
+        0.05535132,
+        0.06349579,
+        0.05743121,
+        0.056801330000000004,
+        0.04509361,
+        0.04488011,
+        0.043204479999999996,
+        0.04257308,
+        0.04047803,
+        0.0371308,
+        0.03587206,
+        0.03482225,
+        0.0369077,
+        0.03418631,
+        0.03125142,
+        0.029984590000000002,
+        0.02390131,
+        0.02011597,
+        0.016945850000000002,
+        0.01499305,
+        0.00862907,
+        0.00646631
+      ],
+      "sd": [
+        null,
+        null,
+        0.025847666704884604,
+        0.026707128072544602,
+        0.02498408223159898,
+        0.031010537107170524,
+        0.022399513470180595,
+        0.022399513470180554,
+        0.01895131900442025,
+        0.024981979447729917,
+        0.018953421788289355,
+        0.020674406076422125,
+        0.01981700626157493,
+        0.013784325496508706,
+        0.02584350236820273,
+        0.017228314394530885,
+        0.0180918988678165,
+        0.013780119928770576,
+        0.012059218102750277,
+        0.009480875230826531,
+        0.005164973186154988,
+        0.006892183363782482,
+        0.00344815323470405,
+        0.0025824659775493656
+      ]
+    },
+    {
+      "pk": 2707,
+      "name": "glc",
+      "label": "glc",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "glucose",
+        "name": "glucose",
+        "label": "D-glucose"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1367,
+      "individual_pk": null,
+      "time": [
+        17.0,
+        20.0,
+        25.0,
+        30.0,
+        38.0,
+        55.0,
+        75.0,
+        90.0,
+        0.0,
+        1.0,
+        1.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0
+      ],
+      "time_unit": "min",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        1.7207591,
+        1.795381,
+        1.6010602,
+        1.4234875,
+        1.2702619,
+        1.1400459,
+        0.9246,
+        0.8110106,
+        0.7271787999999999,
+        2.2705598,
+        2.6058871,
+        2.5301102,
+        2.4794402,
+        2.4288615,
+        2.3278864,
+        2.2353006,
+        2.1595236,
+        2.1592197,
+        2.1589461,
+        2.0915889,
+        1.9738657000000002,
+        1.8980583,
+        1.9145329000000002,
+        1.8722826000000001
+      ],
+      "sd": [
+        0.1728236830928281,
+        0.38073870585472436,
+        0.3111831508822421,
+        0.3804876087221243,
+        0.27646783844622824,
+        0.20753899552884075,
+        0.20753858321827814,
+        0.17307436791486486,
+        null,
+        0.7612263145768478,
+        0.5188474888221009,
+        0.3113076686721341,
+        0.3460238057292727,
+        0.44954220636109354,
+        0.41507799105768056,
+        0.20766392562929736,
+        0.2075389955288399,
+        0.2422538956542916,
+        0.2420032108322532,
+        0.17294902550384567,
+        0.24187745611067188,
+        0.3458984633182552,
+        0.38061295113314186,
+        0.3806133634437044
+      ]
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": "PMC372111"
+  },
+  "_index": {
+    "sid": "PKDB00072",
+    "name": "Ferrannini1979",
+    "title": "Pattern of insulin delivery after intravenous glucose injection in man and its relation to plasma glucose disappearance.",
+    "pmid": "447855",
+    "journal": "The Journal of clinical investigation",
+    "year": "1979",
+    "substances": [
+      "D-glucose",
+      "insulin"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "n_outputs": 148,
+    "n_timecourses": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  }
+}

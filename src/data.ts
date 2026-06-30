@@ -1,4 +1,10 @@
-import type { Characteristica, IndexFile, Intervention, Study } from "./types";
+import type {
+  Characteristica,
+  IndexFile,
+  Intervention,
+  Output,
+  Study,
+} from "./types";
 
 const BASE = import.meta.env.BASE_URL; // "./" in this build
 
@@ -28,7 +34,9 @@ const num = (n: number) =>
  * interventions into one compact human-readable string, e.g.
  *   "54 (41–78) yr", "0.0075 gram", "Homo sapiens".
  */
-export function formatValue(c: Characteristica | Intervention): string {
+export function formatValue(
+  c: Characteristica | Intervention | Output
+): string {
   if (c.choice) return c.choice.label || c.choice.name;
   const unit = c.unit ? ` ${c.unit}` : "";
   const central = c.value ?? c.mean ?? c.median;

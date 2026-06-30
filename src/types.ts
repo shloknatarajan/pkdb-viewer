@@ -61,6 +61,66 @@ export interface Intervention {
   unit?: string | null;
 }
 
+export interface Output {
+  pk: number;
+  measurement_type?: Node | null;
+  substance?: Node | null;
+  tissue?: Node | null;
+  method?: Node | null;
+  calculation_type?: Node | null;
+  choice?: Node | null;
+  label?: string | null;
+  time?: number | null;
+  time_unit?: string | null;
+  intervention_pk?: number | null;
+  group_pk?: number | null;
+  individual_pk?: number | null;
+  value?: number | null;
+  mean?: number | null;
+  median?: number | null;
+  min?: number | null;
+  max?: number | null;
+  sd?: number | null;
+  se?: number | null;
+  cv?: number | null;
+  unit?: string | null;
+}
+
+export interface Timecourse {
+  pk: number;
+  name?: string | null;
+  label?: string | null;
+  measurement_type?: Node | null;
+  substance?: Node | null;
+  tissue?: Node | null;
+  method?: Node | null;
+  intervention_pk?: number | null;
+  group_pk?: number | null;
+  individual_pk?: number | null;
+  time: (number | null)[];
+  time_unit?: string | null;
+  unit?: string | null;
+  values?: (number | null)[] | null;
+  mean?: (number | null)[] | null;
+  sd?: (number | null)[] | null;
+}
+
+export interface ScatterAxis {
+  measurement_type?: Node | null;
+  substance?: Node | null;
+  tissue?: Node | null;
+  label?: string | null;
+  unit?: string | null;
+  values?: (number | null)[] | null;
+}
+
+export interface Scatter {
+  pk: number;
+  name?: string | null;
+  x: ScatterAxis;
+  y: ScatterAxis;
+}
+
 export interface Reference {
   pmid?: string | null;
   doi?: string | null;
@@ -77,6 +137,7 @@ export interface Study {
   licence: string;
   access: string;
   date?: string;
+  snapshot?: string;
   counts: Record<string, number | null>;
   reference: Reference;
   curators: string[];
@@ -85,6 +146,9 @@ export interface Study {
   groups: Group[];
   individuals: Individual[];
   interventions: Intervention[];
+  outputs?: Output[];
+  timecourses?: Timecourse[];
+  scatters?: Scatter[];
   paper: { source: string; licence: string | null; pmcid: string | null };
 }
 
@@ -99,6 +163,8 @@ export interface IndexEntry {
   n_groups?: number | null;
   n_individuals?: number | null;
   n_interventions?: number | null;
+  n_outputs?: number | null;
+  n_timecourses?: number | null;
   paper_source: string;
   paper_licence?: string | null;
 }
