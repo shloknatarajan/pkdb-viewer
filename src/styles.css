@@ -152,6 +152,41 @@ code {
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
+.list-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.filter-toggle {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: #fff;
+  color: var(--ink-soft);
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    border-color 0.15s,
+    background 0.15s,
+    color 0.15s,
+    box-shadow 0.15s;
+}
+.filter-toggle:hover {
+  border-color: var(--accent);
+}
+.filter-toggle.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.filter-toggle.is-active:hover {
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));

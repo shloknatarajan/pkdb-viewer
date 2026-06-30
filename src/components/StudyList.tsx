@@ -6,6 +6,7 @@ export default function StudyList() {
   const [idx, setIdx] = useState<IndexFile | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [q, setQ] = useState("");
+  const [fullTextOnly, setFullTextOnly] = useState(false);
 
   useEffect(() => {
     loadIndex()
@@ -16,15 +17,16 @@ export default function StudyList() {
   const studies = useMemo(() => {
     if (!idx) return [];
     const needle = q.trim().toLowerCase();
-    if (!needle) return idx.studies;
-    return idx.studies.filter((s) =>
-      [s.name, s.title, s.journal, s.pmid, ...(s.substances || [])]
+    return idx.studies.filter((s) => {
+      if (fullTextOnly && s.paper_source === "abstract") return false;
+      if (!needle) return true;
+      return [s.name, s.title, s.journal, s.pmid, ...(s.substances || [])]
         .filter(Boolean)
         .join(" ")
         .toLowerCase()
-        .includes(needle)
-    );
-  }, [idx, q]);
+        .includes(needle);
+    });
+  }, [idx, q, fullTextOnly]);
 
   if (err)
     return (
@@ -51,13 +53,24 @@ export default function StudyList() {
             {idx.count} open-access PK-DB studies · generated {idx.generated}
           </p>
         </div>
-        <input
-          className="search"
-          placeholder="Search title, drug, journal, PMID…"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          autoFocus
-        />
+        <div className="list-controls">
+          <input
+            className="search"
+            placeholder="Search title, drug, journal, PMID…"
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            autoFocus
+          />
+          <button
+            type="button"
+            className={`filter-toggle${fullTextOnly ? " is-active" : ""}`}
+            aria-pressed={fullTextOnly}
+            onClick={() => setFullTextOnly((v) => !v)}
+            title="Show only studies with full paper text available"
+          >
+            Full text only
+          </button>
+        </div>
       </div>
 
       <div className="grid">
