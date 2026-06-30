@@ -40,28 +40,41 @@ export default function StudyView({ sid }: { sid: string }) {
   }, []);
 
   useEffect(() => {
-    setStudy(null);
-    setPaper("");
-    setErr(null);
+    let cancelled = false;
     Promise.all([loadStudy(sid), loadPaper(sid)])
       .then(([s, p]) => {
+        if (cancelled) return;
         setStudy(s);
         setPaper(p);
       })
-      .catch((e) => setErr(String(e)));
+      .catch((e) => {
+        if (!cancelled) setErr(String(e));
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [sid]);
 
   if (err)
     return (
       <main className="page">
-        <a className="back" href="#/">← all studies</a>
+        <a className="back" href="#/">
+          ← all studies
+        </a>
         <div className="error">{err}</div>
       </main>
     );
-  if (!study) return <main className="page"><div className="loading">Loading study…</div></main>;
+  if (!study)
+    return (
+      <main className="page">
+        <div className="loading">Loading study…</div>
+      </main>
+    );
 
   const ref = study.reference;
-  const pmidUrl = ref.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${ref.pmid}/` : null;
+  const pmidUrl = ref.pmid
+    ? `https://pubmed.ncbi.nlm.nih.gov/${ref.pmid}/`
+    : null;
   const pmcUrl = study.paper.pmcid
     ? `https://www.ncbi.nlm.nih.gov/pmc/articles/${study.paper.pmcid}/`
     : null;
@@ -70,7 +83,9 @@ export default function StudyView({ sid }: { sid: string }) {
   return (
     <div className="study">
       <div className="study-head">
-        <a className="back" href="#/">← all studies</a>
+        <a className="back" href="#/">
+          ← all studies
+        </a>
         <div className="study-titlewrap">
           <h1 className="study-title">{ref.title || study.name}</h1>
           <div className="study-meta">
@@ -84,14 +99,28 @@ export default function StudyView({ sid }: { sid: string }) {
           </div>
           <div className="study-links">
             <span className="tag">{study.name}</span>
-            {pmidUrl && <a href={pmidUrl} target="_blank" rel="noreferrer">PubMed {ref.pmid}</a>}
-            {pmcUrl && <a href={pmcUrl} target="_blank" rel="noreferrer">{study.paper.pmcid}</a>}
+            {pmidUrl && (
+              <a href={pmidUrl} target="_blank" rel="noreferrer">
+                PubMed {ref.pmid}
+              </a>
+            )}
+            {pmcUrl && (
+              <a href={pmcUrl} target="_blank" rel="noreferrer">
+                {study.paper.pmcid}
+              </a>
+            )}
             {ref.doi && (
-              <a href={`https://doi.org/${ref.doi}`} target="_blank" rel="noreferrer">
+              <a
+                href={`https://doi.org/${ref.doi}`}
+                target="_blank"
+                rel="noreferrer"
+              >
                 doi:{ref.doi}
               </a>
             )}
-            <a href={pkdbUrl} target="_blank" rel="noreferrer">PK-DB ↗</a>
+            <a href={pkdbUrl} target="_blank" rel="noreferrer">
+              PK-DB ↗
+            </a>
           </div>
         </div>
       </div>
@@ -101,7 +130,9 @@ export default function StudyView({ sid }: { sid: string }) {
           <div className="pane-label">
             Original paper
             {study.paper.source === "abstract" ? (
-              <span className="pane-note">abstract only — full text not in PMC OA</span>
+              <span className="pane-note">
+                abstract only — full text not in PMC OA
+              </span>
             ) : (
               <span className="pane-note">
                 full text via {study.paper.source}

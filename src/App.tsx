@@ -11,7 +11,9 @@ function useRoute() {
     return () => window.removeEventListener("hashchange", on);
   }, []);
   const m = hash.match(/^#\/study\/(.+)$/);
-  return m ? { name: "study" as const, sid: decodeURIComponent(m[1]) } : { name: "list" as const };
+  return m
+    ? { name: "study" as const, sid: decodeURIComponent(m[1]) }
+    : { name: "list" as const };
 }
 
 export default function App() {
@@ -29,7 +31,11 @@ export default function App() {
           paper &nbsp;·&nbsp; extracted data, side&nbsp;by&nbsp;side
         </div>
       </header>
-      {route.name === "list" ? <StudyList /> : <StudyView sid={route.sid} />}
+      {route.name === "list" ? (
+        <StudyList />
+      ) : (
+        <StudyView key={route.sid} sid={route.sid} />
+      )}
     </div>
   );
 }

@@ -26,7 +26,7 @@ static and makes no API calls at runtime.
 
 - **Extracted data** comes from the anonymous PK-DB REST API
   (`https://pk-db.com/api/v1/`). Note that **outputs** (PK parameters such as
-  AUC, clearance, half-life), **time-courses**, and **scatters** are *not* served
+  AUC, clearance, half-life), **time-courses**, and **scatters** are _not_ served
   by the anonymous API — they require a curator login, and the official data
   export returns them empty for anonymous users — so they are not shown.
 - **Paper text** is fetched per the project goal with
@@ -35,7 +35,7 @@ static and makes no API calls at runtime.
   browser/reCAPTCHA check, the ingester falls back to NCBI's official **BioC**
   full-text API and then to **efetch NXML**, and finally to the abstract so the
   paper pane is never empty.
-- `licence=open` in PK-DB means the *data* is open — not that the *paper*
+- `licence=open` in PK-DB means the _data_ is open — not that the _paper_
   full text is in the PMC Open Access subset. Of the 88 open-access studies,
   ~31 have retrievable full text; the rest (mostly pre-2000 papers not in PMC)
   show their abstract. Each card/pane labels its source ("full text" vs

@@ -9,7 +9,11 @@ export default function DataPanel({ study }: { study: Study }) {
     { id: "overview", label: "Overview", n: 0 },
     { id: "groups", label: "Groups", n: study.groups.length },
     { id: "individuals", label: "Individuals", n: study.individuals.length },
-    { id: "interventions", label: "Interventions", n: study.interventions.length },
+    {
+      id: "interventions",
+      label: "Interventions",
+      n: study.interventions.length,
+    },
   ];
   const [tab, setTab] = useState<Tab>("overview");
 
@@ -55,7 +59,9 @@ function Overview({ study }: { study: Study }) {
           <h3>Substances</h3>
           <div className="chips">
             {study.substances.map((s) => (
-              <span className="chip" key={s.sid}>{s.label || s.name}</span>
+              <span className="chip" key={s.sid}>
+                {s.label || s.name}
+              </span>
             ))}
           </div>
         </section>
@@ -80,14 +86,23 @@ function Overview({ study }: { study: Study }) {
       )}
 
       <p className="api-note">
-        Outputs (PK parameters such as AUC, clearance, half-life) and time-courses
-        are not served by the anonymous PK-DB API and are therefore not shown here.
+        Outputs (PK parameters such as AUC, clearance, half-life) and
+        time-courses are not served by the anonymous PK-DB API and are therefore
+        not shown here.
       </p>
     </div>
   );
 }
 
-function Stat({ n, label, muted }: { n?: number | null; label: string; muted?: boolean }) {
+function Stat({
+  n,
+  label,
+  muted,
+}: {
+  n?: number | null;
+  label: string;
+  muted?: boolean;
+}) {
   return (
     <div className={`stat ${muted ? "stat-muted" : ""}`}>
       <span className="stat-n">{n ?? 0}</span>
@@ -113,7 +128,9 @@ function CharaTable({ chara }: { chara: Characteristica[] }) {
           <tr key={ch.pk}>
             <td>
               {label(ch.measurement_type)}
-              {ch.substance && <span className="sub"> · {label(ch.substance)}</span>}
+              {ch.substance && (
+                <span className="sub"> · {label(ch.substance)}</span>
+              )}
             </td>
             <td className="val">{formatValue(ch)}</td>
             <td className="muted small">{ch.count ?? ""}</td>
@@ -133,7 +150,9 @@ function Groups({ study }: { study: Study }) {
         <div className="group-card" key={g.pk}>
           <div className="group-head">
             <span className="group-name">{g.name}</span>
-            {g.count != null && <span className="group-count">n = {g.count}</span>}
+            {g.count != null && (
+              <span className="group-count">n = {g.count}</span>
+            )}
             {g.parent && <span className="muted small">⊂ {g.parent.name}</span>}
           </div>
           <CharaTable chara={g.characteristica} />
@@ -169,7 +188,9 @@ function Interventions({ study }: { study: Study }) {
             <td>{label(iv.form) || "—"}</td>
             <td>{label(iv.application) || "—"}</td>
             <td className="muted small">
-              {iv.time != null ? `${iv.time}${iv.time_unit ? " " + iv.time_unit : ""}` : "—"}
+              {iv.time != null
+                ? `${iv.time}${iv.time_unit ? " " + iv.time_unit : ""}`
+                : "—"}
             </td>
           </tr>
         ))}
@@ -212,7 +233,7 @@ function Individuals({ study }: { study: Study }) {
             const byType = new Map(
               (ind.characteristica || [])
                 .filter((ch) => ch.measurement_type?.sid)
-                .map((ch) => [ch.measurement_type!.sid, ch]),
+                .map((ch) => [ch.measurement_type!.sid, ch])
             );
             return (
               <tr key={ind.pk}>

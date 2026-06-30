@@ -8,7 +8,9 @@ export default function StudyList() {
   const [q, setQ] = useState("");
 
   useEffect(() => {
-    loadIndex().then(setIdx).catch((e) => setErr(String(e)));
+    loadIndex()
+      .then(setIdx)
+      .catch((e) => setErr(String(e)));
   }, []);
 
   const studies = useMemo(() => {
@@ -20,7 +22,7 @@ export default function StudyList() {
         .filter(Boolean)
         .join(" ")
         .toLowerCase()
-        .includes(needle),
+        .includes(needle)
     );
   }, [idx, q]);
 
@@ -33,7 +35,12 @@ export default function StudyList() {
         </p>
       </main>
     );
-  if (!idx) return <main className="page"><div className="loading">Loading studies…</div></main>;
+  if (!idx)
+    return (
+      <main className="page">
+        <div className="loading">Loading studies…</div>
+      </main>
+    );
 
   return (
     <main className="page">
@@ -55,7 +62,11 @@ export default function StudyList() {
 
       <div className="grid">
         {studies.map((s) => (
-          <a className="card" key={s.sid} href={`#/study/${encodeURIComponent(s.sid)}`}>
+          <a
+            className="card"
+            key={s.sid}
+            href={`#/study/${encodeURIComponent(s.sid)}`}
+          >
             <div className="card-top">
               <span className="card-name">{s.name}</span>
               {s.year && <span className="card-year">{s.year}</span>}
@@ -65,14 +76,20 @@ export default function StudyList() {
             {s.substances?.length > 0 && (
               <div className="chips">
                 {s.substances.slice(0, 6).map((sub) => (
-                  <span className="chip" key={sub}>{sub}</span>
+                  <span className="chip" key={sub}>
+                    {sub}
+                  </span>
                 ))}
               </div>
             )}
             <div className="card-foot">
               <span title="subject groups">{s.n_groups ?? 0} groups</span>
-              <span title="individuals">{s.n_individuals ?? 0} individuals</span>
-              <span title="interventions">{s.n_interventions ?? 0} interventions</span>
+              <span title="individuals">
+                {s.n_individuals ?? 0} individuals
+              </span>
+              <span title="interventions">
+                {s.n_interventions ?? 0} interventions
+              </span>
               <span
                 className={`src src-${s.paper_source}`}
                 title={`Paper text source: ${s.paper_source}`}
@@ -82,7 +99,9 @@ export default function StudyList() {
             </div>
           </a>
         ))}
-        {studies.length === 0 && <p className="muted">No studies match “{q}”.</p>}
+        {studies.length === 0 && (
+          <p className="muted">No studies match “{q}”.</p>
+        )}
       </div>
     </main>
   );
