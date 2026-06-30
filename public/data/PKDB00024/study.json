@@ -1,0 +1,554 @@
+{
+  "sid": "PKDB00024",
+  "name": "Baraka1990",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-07",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 3,
+    "outputs": 58,
+    "timecourses": 2
+  },
+  "reference": {
+    "pmid": "2306420",
+    "doi": null,
+    "title": "The effect of propranolol on paracetamol metabolism in man.",
+    "abstract": "Ten healthy volunteers were treated for 4 days with 160 mg propranolol HCl and placebo in random order. At the end of each treatment salivary antipyrine kinetics and the plasma kinetics and urinary excretion of paracetamol and its major metabolites were measured following a 1500 mg oral dose. Propranolol prolonged the half-life of antipyrine by 11 +/- 5% (mean +/- s.e. mean) and lowered its clearance by 14 +/- 3% (P less than 0.05). Propranolol increased the half-life of paracetamol by 25 +/- 12% (P less than 0.05) and lowered its clearance by 14 +/- 3% (P less than 0.05). Propranolol decreased the partial clearance of paracetamol to its cysteine and mercapturate derivatives by 16 +/- 3% (P less than 0.05) and 32 +/- 7% (P less than 0.05), respectively. The partial clearance to the glucuronide conjugate was decreased by 27 +/- 6% (P less than 0.05), whereas that to sulphate was not changed significantly. Propranolol inhibits paracetamol metabolism predominantly through inhibition of the oxidation and glucuronidation pathways.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "1990-04-12",
+    "authors": [
+      "O Z Baraka",
+      "C A Truman",
+      "J M Ford",
+      "C J Roberts"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "Dimitra Eleftheriadou",
+    "Jan Grzegorzewski",
+    "Janosch Brandhorst"
+  ],
+  "descriptions": [
+    "Ten healthy volunteers were treated for 4 days with 160 mg propranolol HCl and placebo in random order. At the end of each treatment salivary antipyrine kinetics and the plasma kinetics and urinary excretion of paracetamol and its major metabolites were measured following a 1500 mg oral dose."
+  ],
+  "substances": [
+    {
+      "sid": "apap",
+      "name": "paracetamol",
+      "label": "paracetamol"
+    },
+    {
+      "sid": "apapglu",
+      "name": "paracetamol glucuronide",
+      "label": "paracetamol glucuronide"
+    },
+    {
+      "sid": "apapsul",
+      "name": "paracetamol sulfate",
+      "label": "paracetamol sulfate"
+    },
+    {
+      "sid": "apapcys",
+      "name": "paracetamol cysteine",
+      "label": "paracetamol cysteine"
+    },
+    {
+      "sid": "apapmer",
+      "name": "paracetamol mercapturate",
+      "label": "paracetamol mercapturate"
+    },
+    {
+      "sid": "propanolol",
+      "name": "propanolol",
+      "label": "propanolol"
+    },
+    {
+      "sid": "antipyrine",
+      "name": "antipyrine",
+      "label": "antipyrine"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 1008,
+      "name": "all",
+      "parent": null,
+      "count": 10,
+      "study": {
+        "sid": "PKDB00024",
+        "name": "Baraka1990"
+      },
+      "characteristica": [
+        {
+          "pk": 28362,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 28363,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 28364,
+          "count": 10,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 28365,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 28366,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 28367,
+          "count": 10,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 28368,
+          "count": 10,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 28369,
+          "count": 10,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 21.0,
+          "max": 32.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 10
+        },
+        {
+          "pk": 28370,
+          "count": 10,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": 68.0,
+          "min": 51.0,
+          "max": 85.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 10
+        },
+        {
+          "pk": 28371,
+          "count": 10,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 2262,
+      "normed": true,
+      "name": "paracetamol",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00024",
+        "name": "Baraka1990"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 1.5,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 2264,
+      "normed": true,
+      "name": "antipyrine",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00024",
+        "name": "Baraka1990"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "antipyrine",
+        "name": "antipyrine",
+        "label": "antipyrine"
+      },
+      "value": 0.6,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 2266,
+      "normed": true,
+      "name": "propanolol",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00024",
+        "name": "Baraka1990"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "propanolol",
+        "name": "propanolol",
+        "label": "propanolol"
+      },
+      "value": 0.006666666666666666,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / hour"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00024",
+    "name": "Baraka1990",
+    "title": "The effect of propranolol on paracetamol metabolism in man.",
+    "pmid": "2306420",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1990",
+    "substances": [
+      "paracetamol",
+      "paracetamol glucuronide",
+      "paracetamol sulfate",
+      "paracetamol cysteine",
+      "paracetamol mercapturate",
+      "propanolol",
+      "antipyrine"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 3,
+    "paper_source": "pubmed-markdown",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1380095"
+  }
+}

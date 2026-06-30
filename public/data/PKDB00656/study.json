@@ -1,0 +1,738 @@
+{
+  "sid": "PKDB00656",
+  "name": "Meyer1987",
+  "licence": "open",
+  "access": "public",
+  "date": "2023-02-07",
+  "counts": {
+    "groups": 3,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 210,
+    "timecourses": 11
+  },
+  "reference": {
+    "pmid": "3034031",
+    "doi": null,
+    "title": "Pharmacokinetics of ramipril in the elderly.",
+    "abstract": "Ramipril (HOE 498) is a pro-drug of which the main metabolite (HOE 498 diacid or ramiprilat) is a potent angiotensin converting enzyme inhibitor. Thirteen healthy white volunteers (5 females and 8 males, ages 65 to 76 years) participated in a study to investigate the pharmacokinetics of HOE 498 in the elderly. After administration of 10 mg of HOE 498, sequential urine and serum specimens were obtained for assay of HOE 498 and metabolites (HOE 498-glucuronide, diacid, diacid-glucuronide, diketopiperazine and diketopiperazine acid). Side effects, clinical chemistry and hematology were monitored. HOE 498 reached peak concentrations of 62.4 +/- 23.3 ng/ml in serum after 0.7 +/- 0.3 hours. Serum levels decreased with an apparent half-life of 0.9 +/- 0.4 hours. The diacid was rapidly formed in serum, reaching peak concentrations of 40.6 +/- 14.0 ng/ml after 2.0 +/- 0.6 hours and declining with a half-life of 2.2 +/- 0.5 hours. A prolonged terminal phase of serum concentration versus time curve was observed at concentrations less than 1 ng/ml. The mean recovery of HOE 498 and metabolites in urine, up to 26 hours after administration, was 35 +/- 14% of the dose. The apparent half-lives, calculated from urine parameters, for HOE 498 and the diacid were 2.6 +/- 0.9 and 4.0 +/- 1.1 hours, respectively. The mean peak concentration and half-life of HOE 498 in serum are slightly higher in the elderly than in younger volunteers. Complete urinary collection was not possible, but urinary recovery did not seem different from younger volunteers.",
+    "journal": "The American journal of cardiology",
+    "date": "1987-05-27",
+    "authors": [
+      "B H Meyer",
+      "F O Müller",
+      "M Badian",
+      "H G Eckert",
+      "P Hajdú",
+      "R Irmisch",
+      "D Schmidt"
+    ]
+  },
+  "curators": [
+    "Lucia Link",
+    "Matthias König",
+    "XResearch Group"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "ramipril",
+      "name": "ramipril",
+      "label": "ramipril"
+    },
+    {
+      "sid": "ramiprilat",
+      "name": "ramiprilat",
+      "label": "ramiprilat"
+    },
+    {
+      "sid": "ramipril-glucuronide",
+      "name": "ramipril glucuronide",
+      "label": "ramipril glucuronide"
+    },
+    {
+      "sid": "ramiprilat-glucuronide",
+      "name": "ramiprilat glucuronide",
+      "label": "ramiprilat glucuronide"
+    },
+    {
+      "sid": "ramipril-diketopiperazine",
+      "name": "ramipril diketopiperazine",
+      "label": "ramipril diketopiperazine"
+    },
+    {
+      "sid": "ramipril-diketopiperazine-acid",
+      "name": "ramipril diketopiperazine acid",
+      "label": "ramipril diketopiperazine acid"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2194,
+      "name": "all",
+      "parent": null,
+      "count": 23,
+      "study": {
+        "sid": "PKDB00656",
+        "name": "Meyer1987"
+      },
+      "characteristica": [
+        {
+          "pk": 50824,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50825,
+          "count": 23,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "mixed-sex",
+            "name": "MF",
+            "label": "male and female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50823,
+          "count": 23,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        }
+      ]
+    },
+    {
+      "pk": 2195,
+      "name": "elderly",
+      "parent": {
+        "pk": 2194,
+        "name": "all",
+        "count": 23
+      },
+      "count": 13,
+      "study": {
+        "sid": "PKDB00656",
+        "name": "Meyer1987"
+      },
+      "characteristica": [
+        {
+          "pk": 50823,
+          "count": 23,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50824,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50837,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 50838,
+          "count": 5,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 50839,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 138.0,
+          "median": null,
+          "min": 120.0,
+          "max": 170.0,
+          "sd": 15.0,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 50840,
+          "count": 13,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.2666666666666666,
+          "median": null,
+          "min": 1.0666666666666667,
+          "max": 1.4,
+          "sd": 0.11666666666666667,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": 13
+        },
+        {
+          "pk": 50841,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 84.0,
+          "median": null,
+          "min": 70.0,
+          "max": 100.0,
+          "sd": 8.0,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 50842,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 71.0,
+          "median": null,
+          "min": 65.0,
+          "max": 76.0,
+          "sd": 4.0,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 50843,
+          "count": 13,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 75.3,
+          "median": null,
+          "min": 62.0,
+          "max": 86.0,
+          "sd": 8.4,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 13
+        },
+        {
+          "pk": 50844,
+          "count": 13,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.74,
+          "median": null,
+          "min": 1.61,
+          "max": 1.96,
+          "sd": 0.1,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": 13
+        },
+        {
+          "pk": 50845,
+          "count": 13,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 50846,
+          "count": 13,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 50847,
+          "count": 13,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 2196,
+      "name": "young",
+      "parent": {
+        "pk": 2194,
+        "name": "all",
+        "count": 23
+      },
+      "count": 10,
+      "study": {
+        "sid": "PKDB00656",
+        "name": "Meyer1987"
+      },
+      "characteristica": [
+        {
+          "pk": 50824,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50825,
+          "count": 23,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "mixed-sex",
+            "name": "MF",
+            "label": "male and female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50849,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 4518,
+      "normed": true,
+      "name": "RIL10",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00656",
+        "name": "Meyer1987"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "ramipril",
+        "name": "ramipril",
+        "label": "ramipril"
+      },
+      "value": 0.01,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00656",
+    "name": "Meyer1987",
+    "title": "Pharmacokinetics of ramipril in the elderly.",
+    "pmid": "3034031",
+    "journal": "The American journal of cardiology",
+    "year": "1987",
+    "substances": [
+      "ramipril",
+      "ramiprilat",
+      "ramipril glucuronide",
+      "ramiprilat glucuronide",
+      "ramipril diketopiperazine",
+      "ramipril diketopiperazine acid"
+    ],
+    "n_groups": 3,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

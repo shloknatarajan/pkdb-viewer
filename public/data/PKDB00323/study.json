@@ -1,0 +1,608 @@
+{
+  "sid": "PKDB00323",
+  "name": "Shord2010",
+  "licence": "open",
+  "access": "public",
+  "date": "2020-07-19",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 3,
+    "outputs": 138,
+    "timecourses": 8
+  },
+  "reference": {
+    "pmid": "20233179",
+    "doi": "10.1111/j.1365-2125.2009.03559.x",
+    "title": "Effects of oral clotrimazole troches on the pharmacokinetics of oral and intravenous midazolam.",
+    "abstract": "Oral clotrimazole troches decreased the apparent oral clearance of midazolam; no significant differences in the systemic clearance of midazolam were found.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "2010-10-15",
+    "authors": [
+      "Stacy S Shord",
+      "Lingtak-Neander Chan",
+      "Joseph R Camp",
+      "Eva M Vasquez",
+      "Hyun-Young Jeong",
+      "Robert E Molokie",
+      "Charles L Baum",
+      "Hui Xie"
+    ]
+  },
+  "curators": [
+    "Yannick Duport",
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "midazolam",
+      "name": "midazolam",
+      "label": "midazolam"
+    },
+    {
+      "sid": "1-hydroxymidazolam",
+      "name": "1-hydroxymidazolam",
+      "label": "1-hydroxymidazolam"
+    },
+    {
+      "sid": "clotrimazole",
+      "name": "clotrimazole",
+      "label": "clotrimazole"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 1701,
+      "name": "all",
+      "parent": null,
+      "count": 10,
+      "study": {
+        "sid": "PKDB00323",
+        "name": "Shord2010"
+      },
+      "characteristica": [
+        {
+          "pk": 40461,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 40462,
+          "count": 2,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "caucasian",
+            "name": "caucasian",
+            "label": "Caucasian"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 40463,
+          "count": 7,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "asian",
+            "name": "asian",
+            "label": "Asian"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 40464,
+          "count": 1,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hispanic",
+            "name": "hispanic",
+            "label": "Hispanic"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 40465,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 40466,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 40467,
+          "count": 10,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 21.0,
+          "max": 26.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 10
+        },
+        {
+          "pk": 40468,
+          "count": 10,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 70.4,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 10.7,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 10
+        },
+        {
+          "pk": 40469,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 40470,
+          "count": 10,
+          "measurement_type": {
+            "sid": "abstinence-alcohol",
+            "name": "abstinence alcohol",
+            "label": "abstinence alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 7.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 10
+        },
+        {
+          "pk": 40471,
+          "count": 10,
+          "measurement_type": {
+            "sid": "abstinence-medication",
+            "name": "abstinence medication",
+            "label": "abstinence medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 7.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 10
+        },
+        {
+          "pk": 40472,
+          "count": 10,
+          "measurement_type": {
+            "sid": "abstinence-smoking",
+            "name": "abstinence smoking",
+            "label": "abstinence smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.019164955509924708,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "year",
+          "group_count": 10
+        },
+        {
+          "pk": 40473,
+          "count": 10,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 7.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 10
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 3779,
+      "normed": true,
+      "name": "MID_po",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "day",
+      "study": {
+        "sid": "PKDB00323",
+        "name": "Shord2010"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "value": 0.002,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 3780,
+      "normed": true,
+      "name": "MID_iv",
+      "route": {
+        "sid": "iv",
+        "name": "iv",
+        "label": "intravenous (iv)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "day",
+      "study": {
+        "sid": "PKDB00323",
+        "name": "Shord2010"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "value": 2.5e-05,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / kilogram"
+    },
+    {
+      "pk": 3782,
+      "normed": true,
+      "name": "CLOT",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "-5",
+      "time_end": null,
+      "time_unit": "day",
+      "study": {
+        "sid": "PKDB00323",
+        "name": "Shord2010"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "clotrimazole",
+        "name": "clotrimazole",
+        "label": "clotrimazole"
+      },
+      "value": 0.03,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00323",
+    "name": "Shord2010",
+    "title": "Effects of oral clotrimazole troches on the pharmacokinetics of oral and intravenous midazolam.",
+    "pmid": "20233179",
+    "journal": "British journal of clinical pharmacology",
+    "year": "2010",
+    "substances": [
+      "midazolam",
+      "1-hydroxymidazolam",
+      "clotrimazole"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC2824477"
+  }
+}

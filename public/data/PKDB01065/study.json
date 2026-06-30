@@ -1,0 +1,376 @@
+{
+  "sid": "PKDB01065",
+  "name": "Lang1996",
+  "licence": "open",
+  "access": "public",
+  "date": "2025-08-13",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 2,
+    "outputs": 20,
+    "timecourses": 0
+  },
+  "reference": {
+    "pmid": "8681492",
+    "doi": null,
+    "title": "Angiotensin converting enzyme inhibition and sympathetic activity in healthy subjects.",
+    "abstract": "One suggested mechanism for the reduction in mortality rates resulting from the use of angiotensin converting enzyme inhibitors in congestive heart failure is the inhibition of the angiotensin II-mediated norepinephrine release. Direct evidence for this mechanism is lacking in humans.",
+    "journal": "Clinical pharmacology and therapeutics",
+    "date": "1996-08-21",
+    "authors": [
+      "C C Lang",
+      "C M Stein",
+      "H B He",
+      "A J Wood"
+    ]
+  },
+  "curators": [
+    "Mariia Myshkina",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "Examination of the ability of ACE inhibition, of modulation sympathetic activity both at rest and during isometrichandgrip exercise by captopril."
+  ],
+  "substances": [
+    {
+      "sid": "placebo",
+      "name": "placebo",
+      "label": "placebo"
+    },
+    {
+      "sid": "sodium",
+      "name": "sodium",
+      "label": "sodium"
+    },
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    },
+    {
+      "sid": "renin",
+      "name": "renin",
+      "label": "renin"
+    },
+    {
+      "sid": "norepinephrine",
+      "name": "norepinephrine",
+      "label": "norepinephrine"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3674,
+      "name": "all",
+      "parent": null,
+      "count": 7,
+      "study": {
+        "sid": "PKDB01065",
+        "name": "Lang1996"
+      },
+      "characteristica": [
+        {
+          "pk": 82080,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 82081,
+          "count": 7,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 30.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 7.93725393319377,
+          "se": 3.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 7
+        },
+        {
+          "pk": 82082,
+          "count": 7,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 82083,
+          "count": 7,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 82078,
+          "count": 7,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 82079,
+          "count": 7,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 6963,
+      "normed": true,
+      "name": "CAP25",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "multiple-dose",
+        "name": "multiple dose",
+        "label": "multiple dose"
+      },
+      "time": "S0T6R3 | S24T6R3 | S48T6R3 | S72T6R3 | S96T6R3 | S120T6R3 | 144",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB01065",
+        "name": "Lang1996"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.025,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 6964,
+      "normed": true,
+      "name": "PL25",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "multiple-dose",
+        "name": "multiple dose",
+        "label": "multiple dose"
+      },
+      "time": "S0T6R3 | S24T6R3 | S48T6R3 | S72T6R3 | S96T6R3 | S120T6R3 | 144",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB01065",
+        "name": "Lang1996"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "placebo",
+        "name": "placebo",
+        "label": "placebo"
+      },
+      "value": 0.025,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB01065",
+    "name": "Lang1996",
+    "title": "Angiotensin converting enzyme inhibition and sympathetic activity in healthy subjects.",
+    "pmid": "8681492",
+    "journal": "Clinical pharmacology and therapeutics",
+    "year": "1996",
+    "substances": [
+      "placebo",
+      "sodium",
+      "captopril",
+      "renin",
+      "norepinephrine"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 2,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

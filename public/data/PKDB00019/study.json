@@ -1,0 +1,575 @@
+{
+  "sid": "PKDB00019",
+  "name": "CulmMerdek2005",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-07",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 5,
+    "outputs": 124,
+    "timecourses": 6
+  },
+  "reference": {
+    "pmid": "16236038",
+    "doi": "10.1111/j.1365-2125.2005.02467.x",
+    "title": "Fluvoxamine impairs single-dose caffeine clearance without altering caffeine pharmacodynamics.",
+    "abstract": "Fluvoxamine greatly impaired caffeine clearance, but without detectable changes in caffeine pharmacodynamics. However, this study does not rule out possible adverse effects due to extensive accumulation of caffeine with daily ingestion in fluvoxamine-treated individuals.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "2006-05-03",
+    "authors": [
+      "Kerry E Culm-Merdek",
+      "Lisa L von Moltke",
+      "Jerold S Harmatz",
+      "David J Greenblatt"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "Dimitra Eleftheriadou",
+    "Jan Grzegorzewski"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "caf",
+      "name": "caffeine",
+      "label": "caffeine (137X)"
+    },
+    {
+      "sid": "px",
+      "name": "paraxanthine",
+      "label": "paraxanthine (17X)"
+    },
+    {
+      "sid": "tp",
+      "name": "theophylline",
+      "label": "theophylline (13X)"
+    },
+    {
+      "sid": "tb",
+      "name": "theobromine",
+      "label": "theobromine (37X)"
+    },
+    {
+      "sid": "fluvoxamine",
+      "name": "fluvoxamine",
+      "label": "fluvoxamine"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2766,
+      "name": "all",
+      "parent": null,
+      "count": 7,
+      "study": {
+        "sid": "PKDB00019",
+        "name": "CulmMerdek2005"
+      },
+      "characteristica": [
+        {
+          "pk": 61858,
+          "count": 7,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 50.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 7
+        },
+        {
+          "pk": 61859,
+          "count": 7,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 61860,
+          "count": 7,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 61861,
+          "count": 7,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 1.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 7
+        },
+        {
+          "pk": 61862,
+          "count": 7,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 61863,
+          "count": 7,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 82.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 7
+        },
+        {
+          "pk": 61864,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        },
+        {
+          "pk": 61865,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 5650,
+      "normed": true,
+      "name": "Dcaf",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00019",
+        "name": "CulmMerdek2005"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "caf",
+        "name": "caffeine",
+        "label": "caffeine (137X)"
+      },
+      "value": 0.25,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5655,
+      "normed": true,
+      "name": "Dflux_A",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "-26",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00019",
+        "name": "CulmMerdek2005"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "fluvoxamine",
+        "name": "fluvoxamine",
+        "label": "fluvoxamine"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5656,
+      "normed": true,
+      "name": "Dflux_B",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "-18",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00019",
+        "name": "CulmMerdek2005"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "fluvoxamine",
+        "name": "fluvoxamine",
+        "label": "fluvoxamine"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5657,
+      "normed": true,
+      "name": "Dflux_C",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "-2.5",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00019",
+        "name": "CulmMerdek2005"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "fluvoxamine",
+        "name": "fluvoxamine",
+        "label": "fluvoxamine"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5658,
+      "normed": true,
+      "name": "Dflux_D",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "8",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00019",
+        "name": "CulmMerdek2005"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "fluvoxamine",
+        "name": "fluvoxamine",
+        "label": "fluvoxamine"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00019",
+    "name": "CulmMerdek2005",
+    "title": "Fluvoxamine impairs single-dose caffeine clearance without altering caffeine pharmacodynamics.",
+    "pmid": "16236038",
+    "journal": "British journal of clinical pharmacology",
+    "year": "2006",
+    "substances": [
+      "caffeine (137X)",
+      "paraxanthine (17X)",
+      "theophylline (13X)",
+      "theobromine (37X)",
+      "fluvoxamine"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 5,
+    "paper_source": "pubmed-markdown",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1884944"
+  }
+}

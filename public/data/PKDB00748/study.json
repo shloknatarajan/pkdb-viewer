@@ -1,0 +1,218 @@
+{
+  "sid": "PKDB00748",
+  "name": "Arroyo1997",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-02-01",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 22,
+    "timecourses": 1
+  },
+  "reference": {
+    "pmid": "9061473",
+    "doi": null,
+    "title": "Determination of captopril in plasma by high-performance liquid chromatography for pharmacokinetic studies.",
+    "abstract": "A high-performance liquid chromatographic method is described for the determination of free captopril in human plasma N-Acetyl-L-cysteine (NAC) was used as an internal standard. Plasma samples were immediately derivatized with N-(1-pyrenyl)maleimide (NPM) and stabilized with 11 M HCl. The drug of interest was isolated using a liquid-liquid extraction with ethyl acetate and separation was obtained using a reversed-phase column under isocratic conditions with fluorescence detection. The sample volume was 150 microliters plasma. The intra- and inter-day accuracy and precision, determined as relative error and coefficient of variation respectively, were less than 10%. The lower limit of quantitation, based on standards with acceptable coefficients of variation, was 25 ng/ml. No endogenous compounds were found to interfere. The linearity was assessed in the range of 25-600 ng/ml. This method has been demonstrated to be suitable for pharmacokinetic studies in humans.",
+    "journal": "Journal of chromatography. B, Biomedical sciences and applications",
+    "date": "1997-06-02",
+    "authors": [
+      "C Arroyo",
+      "C López-Calull",
+      "L García-Capdevila",
+      "I Gich",
+      "M Barbanoj",
+      "J Bonal"
+    ]
+  },
+  "curators": [
+    "Mariia Myshkina",
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3622,
+      "name": "all",
+      "parent": null,
+      "count": 24,
+      "study": {
+        "sid": "PKDB00748",
+        "name": "Arroyo1997"
+      },
+      "characteristica": [
+        {
+          "pk": 80305,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 80306,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 80307,
+          "count": 24,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 6898,
+      "normed": true,
+      "name": "CAP100",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00748",
+        "name": "Arroyo1997"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00748",
+    "name": "Arroyo1997",
+    "title": "Determination of captopril in plasma by high-performance liquid chromatography for pharmacokinetic studies.",
+    "pmid": "9061473",
+    "journal": "Journal of chromatography. B, Biomedical sciences and applications",
+    "year": "1997",
+    "substances": [
+      "captopril"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

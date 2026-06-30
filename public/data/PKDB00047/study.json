@@ -1,0 +1,888 @@
+{
+  "sid": "PKDB00047",
+  "name": "Lelo1986a",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-07",
+  "counts": {
+    "groups": 1,
+    "individuals": 1,
+    "interventions": 4,
+    "outputs": 163,
+    "timecourses": 8
+  },
+  "reference": {
+    "pmid": "3756065",
+    "doi": null,
+    "title": "Comparative pharmacokinetics of caffeine and its primary demethylated metabolites paraxanthine, theobromine and theophylline in man.",
+    "abstract": "The pharmacokinetics of caffeine (CA), paraxanthine (PX), theobromine (TB) and theophylline (TP) were studied in six healthy male volunteers after oral administration of each compound on separate occasions. The total plasma clearances of CA and PX were similar in value (2.07 and 2.20 ml min-1 kg-1, respectively) as were those for TP and TB (0.93 and 1.20 ml min-1 kg-1, respectively). The unbound plasma clearances of CA and PX were also similar in magnitude (3.11 and 4.14 ml min-1 kg-1, respectively) as were those of TP and TB (1.61 and 1.39 ml min-1 kg-1, respectively). The half-lives of TP and TB (6.2 and 7.2 h, respectively) were significantly longer than those of CA and PX (4.1 and 3.1 h, respectively). The volume of distribution at steady state of TP (0.44 l kg-1) was lower than that of the other methylxanthines (0.63-0.72 l kg-1). The unbound volume of distribution of TP (0.77 l kg-1) was however the same as that of TB (0.79 l kg-1) whereas the unbound volume of distribution of PX (1.18 l kg-1) was similar to that of CA (1.06 l kg-1).",
+    "journal": "British journal of clinical pharmacology",
+    "date": "1986-11-12",
+    "authors": [
+      "A Lelo",
+      "D J Birkett",
+      "R A Robson",
+      "J O Miners"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "Dimitra Eleftheriadou"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "caf",
+      "name": "caffeine",
+      "label": "caffeine (137X)"
+    },
+    {
+      "sid": "px",
+      "name": "paraxanthine",
+      "label": "paraxanthine (17X)"
+    },
+    {
+      "sid": "tp",
+      "name": "theophylline",
+      "label": "theophylline (13X)"
+    },
+    {
+      "sid": "tb",
+      "name": "theobromine",
+      "label": "theobromine (37X)"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2885,
+      "name": "all",
+      "parent": null,
+      "count": 6,
+      "study": {
+        "sid": "PKDB00047",
+        "name": "Lelo1986a"
+      },
+      "characteristica": [
+        {
+          "pk": 66246,
+          "count": 6,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66247,
+          "count": 6,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66248,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66249,
+          "count": 6,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66250,
+          "count": 6,
+          "measurement_type": {
+            "sid": "alcohol",
+            "name": "alcohol",
+            "label": "alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "alcohol-yes",
+            "name": "Y",
+            "label": "alcohol"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66251,
+          "count": 6,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 4.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 6
+        },
+        {
+          "pk": 66252,
+          "count": 6,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66253,
+          "count": 6,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66254,
+          "count": 6,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 19.0,
+          "max": 21.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 6
+        },
+        {
+          "pk": 66255,
+          "count": 6,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 62.0,
+          "max": 104.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 6
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 19077,
+      "name": "A",
+      "study": {
+        "sid": "PKDB00047",
+        "name": "Lelo1986a"
+      },
+      "group": {
+        "pk": 2885,
+        "name": "all",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 66246,
+          "count": 6,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66247,
+          "count": 6,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66248,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66249,
+          "count": 6,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66250,
+          "count": 6,
+          "measurement_type": {
+            "sid": "alcohol",
+            "name": "alcohol",
+            "label": "alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "alcohol-yes",
+            "name": "Y",
+            "label": "alcohol"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66251,
+          "count": 6,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 4.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 6
+        },
+        {
+          "pk": 66252,
+          "count": 6,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66253,
+          "count": 6,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 66254,
+          "count": 6,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 19.0,
+          "max": 21.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 6
+        },
+        {
+          "pk": 66255,
+          "count": 6,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 62.0,
+          "max": 104.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 6
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 5958,
+      "normed": true,
+      "name": "Dcaf",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "capsule",
+        "name": "capsule",
+        "label": "capsule"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00047",
+        "name": "Lelo1986a"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "caf",
+        "name": "caffeine",
+        "label": "caffeine (137X)"
+      },
+      "value": 0.27,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5960,
+      "normed": true,
+      "name": "Dpx",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "capsule",
+        "name": "capsule",
+        "label": "capsule"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00047",
+        "name": "Lelo1986a"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "px",
+        "name": "paraxanthine",
+        "label": "paraxanthine (17X)"
+      },
+      "value": 0.25,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5962,
+      "normed": true,
+      "name": "Dtp",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00047",
+        "name": "Lelo1986a"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "tp",
+        "name": "theophylline",
+        "label": "theophylline (13X)"
+      },
+      "value": 0.25,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5964,
+      "normed": true,
+      "name": "Dtb",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "capsule",
+        "name": "capsule",
+        "label": "capsule"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00047",
+        "name": "Lelo1986a"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "tb",
+        "name": "theobromine",
+        "label": "theobromine (37X)"
+      },
+      "value": 0.25,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00047",
+    "name": "Lelo1986a",
+    "title": "Comparative pharmacokinetics of caffeine and its primary demethylated metabolites paraxanthine, theobromine and theophylline in man.",
+    "pmid": "3756065",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1986",
+    "substances": [
+      "caffeine (137X)",
+      "paraxanthine (17X)",
+      "theophylline (13X)",
+      "theobromine (37X)"
+    ],
+    "n_groups": 1,
+    "n_individuals": 1,
+    "n_interventions": 4,
+    "paper_source": "pubmed-markdown",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1401099"
+  }
+}

@@ -1,0 +1,3389 @@
+{
+  "sid": "PKDB00107",
+  "name": "Sindrup1996",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-08",
+  "counts": {
+    "groups": 1,
+    "individuals": 17,
+    "interventions": 3,
+    "outputs": 136,
+    "timecourses": 0
+  },
+  "reference": {
+    "pmid": "8706777",
+    "doi": null,
+    "title": "Impact of quinidine on plasma and cerebrospinal fluid concentrations of codeine and morphine after codeine intake.",
+    "abstract": "Quinidine penetrates the blood brain barrier poorly, but quinidine pre-treatment leads to pronounced lowering of the cerebrospinal fluid concentration of morphine after codeine intake. However, the O-demethylation of codeine in CNS may not be totally blocked by quinidine.",
+    "journal": "European journal of clinical pharmacology",
+    "date": "1996-09-09",
+    "authors": [
+      "S H Sindrup",
+      "U Hofmann",
+      "J Asmussen",
+      "G Mikus",
+      "K Brøsen",
+      "F Nielsen",
+      "S H Ingwersen",
+      "C Broen Christensen"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "Jan Grzegorzewski",
+    "Dimitra Eleftheriadou"
+  ],
+  "descriptions": [
+    "The study comprised 16 extensive and onepoor metaboliser of sparteine, who underwent spinal anaesthesia for urinary tract surgery or examination. Eight patients were given an oral dose of 125 mg codeine and 9 patients (including the poor metaboliser) were given 200 mg quinidine 2 h before the same dose of codeine. Plasma and spinal fluid samples were collected 2 h after codeine intake."
+  ],
+  "substances": [
+    {
+      "sid": "cod",
+      "name": "codeine",
+      "label": "codeine"
+    },
+    {
+      "sid": "mor",
+      "name": "morphine",
+      "label": "morphine"
+    },
+    {
+      "sid": "qui",
+      "name": "quinidine",
+      "label": "quinidine"
+    },
+    {
+      "sid": "sparteine",
+      "name": "sparteine",
+      "label": "sparteine"
+    },
+    {
+      "sid": "sparteine-sulfate",
+      "name": "sparteine sulfate",
+      "label": "sparteine sulfate"
+    },
+    {
+      "sid": "2hspar",
+      "name": "2-dehydrosparteine",
+      "label": "2-dehydrosparteine"
+    },
+    {
+      "sid": "5hspar",
+      "name": "5-dehydrosparteine",
+      "label": "5-dehydrosparteine"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2374,
+      "name": "all",
+      "parent": null,
+      "count": 17,
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "characteristica": [
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55193,
+          "count": 2,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55194,
+          "count": 15,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 15875,
+      "name": "P23",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55312,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55313,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 65.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55314,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55315,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15876,
+      "name": "P24",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55320,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55322,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55323,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55321,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 69.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 15877,
+      "name": "P25",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55328,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55329,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 69.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55330,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55331,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15861,
+      "name": "P1",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55200,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55201,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 75.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55202,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "salbutamol",
+            "name": "salbutamol",
+            "label": "salbutamol"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55203,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "beclometasone",
+            "name": "beclometasone",
+            "label": "beclometasone"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15862,
+      "name": "P2",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55208,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55209,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 43.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55210,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55211,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 15863,
+      "name": "P3",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55216,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55217,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 48.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55218,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "enalapril",
+            "name": "enalapril",
+            "label": "enalapril"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55219,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15864,
+      "name": "P4",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55224,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55225,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 74.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55226,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55227,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 15865,
+      "name": "P5",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55232,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55233,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 71.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55234,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55235,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15866,
+      "name": "P10",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55240,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55241,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 69.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55242,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "apap",
+            "name": "paracetamol",
+            "label": "paracetamol"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55243,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 15867,
+      "name": "P14",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55248,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55249,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 75.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55250,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "acetylsalicylic-acid",
+            "name": "acetylsalicylic acid",
+            "label": "acetylsalicylic acid"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55251,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15868,
+      "name": "P15",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55256,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55257,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 64.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55258,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55259,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 15869,
+      "name": "P16",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55264,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55265,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 68.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55266,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "diltiazem",
+            "name": "diltiazem",
+            "label": "diltiazem"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55267,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15870,
+      "name": "P17",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55272,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55273,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 50.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55274,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55275,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 15871,
+      "name": "P18",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55280,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55281,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 77.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55282,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55283,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15872,
+      "name": "P19",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55288,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55289,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 72.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55290,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "hydrochlorothiazide",
+            "name": "hydrochlorothiazide",
+            "label": "hydrochlorothiazide"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55291,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "amiloride",
+            "name": "amiloride",
+            "label": "amiloride"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 15873,
+      "name": "P21",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55296,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55297,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 58.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55298,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": {
+            "sid": "chlordiazepoxide",
+            "name": "chlordiazepoxide",
+            "label": "chlordiazepoxide"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55299,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        }
+      ]
+    },
+    {
+      "pk": 15874,
+      "name": "P22",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "group": {
+        "pk": 2374,
+        "name": "all",
+        "count": 17
+      },
+      "characteristica": [
+        {
+          "pk": 55195,
+          "count": 17,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55192,
+          "count": 17,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 17
+        },
+        {
+          "pk": 55304,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55305,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 70.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 55306,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 55307,
+          "count": 1,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 4920,
+      "normed": true,
+      "name": "COD",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "cod",
+        "name": "codeine",
+        "label": "codeine"
+      },
+      "value": 0.125,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 4922,
+      "normed": true,
+      "name": "QUI",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "-2",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "qui",
+        "name": "quinidine",
+        "label": "quinidine"
+      },
+      "value": 0.2,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 4924,
+      "normed": true,
+      "name": "SPAR",
+      "route": null,
+      "form": null,
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": null,
+      "time_end": null,
+      "time_unit": null,
+      "study": {
+        "sid": "PKDB00107",
+        "name": "Sindrup1996"
+      },
+      "measurement_type": {
+        "sid": "qualitative-dosing",
+        "name": "qualitative dosing",
+        "label": "qualitative dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "sparteine-sulfate",
+        "name": "sparteine sulfate",
+        "label": "sparteine sulfate"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00107",
+    "name": "Sindrup1996",
+    "title": "Impact of quinidine on plasma and cerebrospinal fluid concentrations of codeine and morphine after codeine intake.",
+    "pmid": "8706777",
+    "journal": "European journal of clinical pharmacology",
+    "year": "1996",
+    "substances": [
+      "codeine",
+      "morphine",
+      "quinidine",
+      "sparteine",
+      "sparteine sulfate",
+      "2-dehydrosparteine",
+      "5-dehydrosparteine"
+    ],
+    "n_groups": 1,
+    "n_individuals": 17,
+    "n_interventions": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

@@ -1,0 +1,3087 @@
+{
+  "sid": "PKDB00450",
+  "name": "Cook1976",
+  "licence": "open",
+  "access": "public",
+  "date": "2021-07-08",
+  "counts": {
+    "groups": 3,
+    "individuals": 19,
+    "interventions": 1,
+    "outputs": 38,
+    "timecourses": 0
+  },
+  "reference": {
+    "pmid": "1033273",
+    "doi": null,
+    "title": "Caffeine in plasma and saliva by a radioimmunoassay procedure.",
+    "abstract": "Caffeine was analyzed in human plasma and saliva by a simple, rapid, and sensitive radioimmunoassay procedure. Immunization of rabbits with an antigen prepared by coupling 7-(5-carboxypentyl)-1,3-dimethylxanthine to bovine serum albumin resulted in the formation of antibodies selective for caffeine as opposed to various mono- and dimethylxanthines, mono-, di-, and trimethyluric acids and a variety of common drugs. The radioligand used for competitive binding studies was 7-(2,3-3H2-propyl)-1,3-dimethylxanthine. The procedure permits direct analysis of caffeine in plasma or saliva without extraction. Comparison with a high pressure liquid chromatography method for the analysis of caffeine gave satisfactory results and showed no evidence for interference by metabolites. A caffeine half-life of 4.0 hours determined by the radioimmunoassay was in agreement with previous work. Comparison of human plasma and saliva levels by the radioimmunoassay procedure indicated approximately equal concentrations in the two fluids.",
+    "journal": "The Journal of pharmacology and experimental therapeutics",
+    "date": "1977-01-29",
+    "authors": [
+      "C E Cook",
+      "C R Tallent",
+      "E W Amerson",
+      "M W Myers",
+      "J A Kepler",
+      "G F Taylor",
+      "H D Christensen"
+    ]
+  },
+  "curators": [
+    "Jan Grzegorzewski",
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "caf",
+      "name": "caffeine",
+      "label": "caffeine (137X)"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2762,
+      "name": "all",
+      "parent": null,
+      "count": 13,
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 2763,
+      "name": "cocktail_group",
+      "parent": {
+        "pk": 2762,
+        "name": "all",
+        "count": 13
+      },
+      "count": 7,
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "characteristica": [
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        },
+        {
+          "pk": 61837,
+          "count": 7,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 7
+        }
+      ]
+    },
+    {
+      "pk": 2764,
+      "name": "saliva_plasma_group",
+      "parent": {
+        "pk": 2762,
+        "name": "all",
+        "count": 13
+      },
+      "count": 6,
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 17844,
+      "name": "Fig4VirtualSubject1a",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17845,
+      "name": "Fig4VirtualSubject1b",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17846,
+      "name": "Fig4VirtualSubject1c",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17847,
+      "name": "Fig4VirtualSubject2a",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17848,
+      "name": "Fig4VirtualSubject2b",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17849,
+      "name": "Fig4VirtualSubject2c",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17850,
+      "name": "Fig4VirtualSubject3a",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17851,
+      "name": "Fig4VirtualSubject3b",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17852,
+      "name": "Fig4VirtualSubject3c",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17853,
+      "name": "Fig4VirtualSubject4a",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17854,
+      "name": "Fig4VirtualSubject4b",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17855,
+      "name": "Fig4VirtualSubject4c",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17856,
+      "name": "Fig4VirtualSubject5a",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17857,
+      "name": "Fig4VirtualSubject5b",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17858,
+      "name": "Fig4VirtualSubject5c",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17859,
+      "name": "Fig4VirtualSubject5d",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17860,
+      "name": "Fig4VirtualSubject6a",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17861,
+      "name": "Fig4VirtualSubject6b",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 17862,
+      "name": "Fig4VirtualSubject6c",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "group": {
+        "pk": 2764,
+        "name": "saliva_plasma_group",
+        "count": 6
+      },
+      "characteristica": [
+        {
+          "pk": 61832,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61833,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61834,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 61835,
+          "count": 13,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 13
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 5642,
+      "normed": true,
+      "name": "Dcaf",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00450",
+        "name": "Cook1976"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "caf",
+        "name": "caffeine",
+        "label": "caffeine (137X)"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00450",
+    "name": "Cook1976",
+    "title": "Caffeine in plasma and saliva by a radioimmunoassay procedure.",
+    "pmid": "1033273",
+    "journal": "The Journal of pharmacology and experimental therapeutics",
+    "year": "1977",
+    "substances": [
+      "caffeine (137X)"
+    ],
+    "n_groups": 3,
+    "n_individuals": 19,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

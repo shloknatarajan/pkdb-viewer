@@ -1,0 +1,480 @@
+{
+  "sid": "PKDB00805",
+  "name": "VanHecken2020",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-04-24",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 3,
+    "outputs": 167,
+    "timecourses": 6
+  },
+  "reference": {
+    "pmid": "31411383",
+    "doi": null,
+    "title": "Relative Bioavailability of Enalapril Administered as Orodispersible Minitablets in Healthy Adults.",
+    "abstract": "The angiotensin-converting enzyme inhibitor enalapril is commonly used to treat chronic heart failure in children. Because some children are unable to swallow capsules or tablets, a new, age-appropriate, orodispersible minitablet (ODMT) containing 1 mg of enalapril was developed within the EU-funded LENA (Labeling of Enalapril from Neonates up to Adolescents) consortium. In order to support the clinical evaluation of this new formulation in children, a relative bioavailability study was performed in healthy adults, comparing the bioavailability of enalapril in the ODMT with that of a reference product (RP) Renitec, a registered standard enalapril tablet formulation. In this open-label, randomized 3-way crossover study, 24 healthy subjects received a 10-mg enalapril dose administered as (1) 2 × 5-mg tablets of the RP swallowed with water, (2) 10 × 1-mg ODMT swallowed with water, and (3) 10 × 1 mg ODMT dispersed on the tongue. When the relative bioavailability of the ODMT formulation swallowed with water was compared with that of the RP, the estimated 90%CIs for the ratio of area under the concentration-time curve (AUC",
+    "journal": "Clinical pharmacology in drug development",
+    "date": "2021-05-28",
+    "authors": [
+      "Anne Van Hecken",
+      "Björn B Burckhardt",
+      "Feras Khalil",
+      "Jan de Hoon",
+      "Ingrid Klingmann",
+      "Marissa Herbots",
+      "Stephanie Laeer",
+      "Florian B Lagler",
+      "Jörg Breitkreutz"
+    ]
+  },
+  "curators": [
+    "Shubhankar Palwankar",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "The study involved 24 healthy nonsmokers, consisting of 11 nonpregnant, nonbreastfeeding female and 13 male volunteers between 18 and 55 years old with body mass index between 18.5 and 30 kg/m^2",
+    "single-center, open-label, randomized 3-way crossover, 3-treatment, 3-period study",
+    "After an overnight fast, the study subjects were administered a 10-mg enalapril maleate oral dose on 3 occasions, separated by at least 1 week of washout",
+    "Treatment A: 2 × 5-mg tablets of the RP swallowed with 240 mL of water",
+    "Treatment B: 10 × 1-mg ODMT, swallowed with 240 mL of water",
+    "Treatment C: 10 × 1-mg ODMT, dispersed on the tongue following wetting of the mouth with 20 mL of water, followed by administration of 220 mL of water at 1 hour postdose",
+    "blood samples were obtained for the determination of enalapril and enalaprilat at predose and at 10, 20, 30, 45 minutes and 1, 1.25, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 6, 8, 10, 12, 24, 36, and 48 hours",
+    "Twenty-three subjects successfully completed all 3 periods of the study. One subject had a predose positive drug screen for tetrahydrocannabinol in study period 2 and therefore did not receive treatment A; received only the 2 ODMT treatments"
+  ],
+  "substances": [
+    {
+      "sid": "enalapril-maleate",
+      "name": "enalapril maleate",
+      "label": "enalapril maleate"
+    },
+    {
+      "sid": "enalapril",
+      "name": "enalapril",
+      "label": "enalapril"
+    },
+    {
+      "sid": "enalaprilat",
+      "name": "enalaprilat",
+      "label": "enalaprilat"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3808,
+      "name": "all",
+      "parent": null,
+      "count": 24,
+      "study": {
+        "sid": "PKDB00805",
+        "name": "VanHecken2020"
+      },
+      "characteristica": [
+        {
+          "pk": 83864,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 83865,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 83866,
+          "count": 24,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "caucasian",
+            "name": "caucasian",
+            "label": "Caucasian"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 83867,
+          "count": 24,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 83868,
+          "count": 11,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 83869,
+          "count": 13,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 83870,
+          "count": 24,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.7,
+          "median": 24.4,
+          "min": 22.1,
+          "max": 47.2,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 24
+        },
+        {
+          "pk": 83871,
+          "count": 24,
+          "measurement_type": {
+            "sid": "bmi",
+            "name": "bmi",
+            "label": "body mass index (BMI)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 22.7,
+          "median": 22.2,
+          "min": 18.6,
+          "max": 28.8,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg/m^2",
+          "group_count": 24
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 7166,
+      "normed": true,
+      "name": "REN10",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00805",
+        "name": "VanHecken2020"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.01,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 7167,
+      "normed": true,
+      "name": "ENA10",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00805",
+        "name": "VanHecken2020"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.01,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 7168,
+      "normed": true,
+      "name": "ENAw10",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00805",
+        "name": "VanHecken2020"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.01,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00805",
+    "name": "VanHecken2020",
+    "title": "Relative Bioavailability of Enalapril Administered as Orodispersible Minitablets in Healthy Adults.",
+    "pmid": "31411383",
+    "journal": "Clinical pharmacology in drug development",
+    "year": "2021",
+    "substances": [
+      "enalapril maleate",
+      "enalapril",
+      "enalaprilat"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

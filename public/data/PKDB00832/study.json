@@ -1,0 +1,4234 @@
+{
+  "sid": "PKDB00832",
+  "name": "Richer1984",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-06-15",
+  "counts": {
+    "groups": 1,
+    "individuals": 10,
+    "interventions": 1,
+    "outputs": 121,
+    "timecourses": 10
+  },
+  "reference": {
+    "pmid": "6324834",
+    "doi": "10.1111/j.1365-2125.1984.tb02338.x",
+    "title": "Captopril: pharmacokinetics, antihypertensive and biological effects in hypertensive patients.",
+    "abstract": "The kinetics of captopril plasma levels and of the drug-induced plasma converting enzyme activity (PCEA), plasma renin activity (PRA) and diastolic blood pressure (DBP) modifications were studied over 24 h after oral administration of captopril, 1 mg/kg, to ten hypertensive patients. Free unchanged captopril pharmacokinetic parameters were: t1/2, alpha: 0.45 +/- 0.06 h; tmax: 0.98 +/- 0.13 h; Cmax: 1.31 +/- 0.20 mg l-1; t1/2,z: 0.66 +/- 0.13 h; V: 0.614 +/- 0.104 1 kg-1 and CLtot: 0.690 +/- 0.082 l h-1 kg-1. At 6 h captopril was no longer detectable in plasma. The onset of PCEA inhibition and of DBP decrease closely followed the rise of captopril's plasma levels, while that of PRA increase was delayed. In contrast, while captopril rapidly disappeared from plasma, its biological and antihypertensive effects were long-lasting. The lack of correlation between the relative bioavailability of captopril and the induced reduction in DBP (evaluated by the corresponding AUCs) suggests that free unchanged captopril plasma monitoring is not an adequate indicator of hypertensive patients' potential responsiveness to captopril's blood pressure lowering effects.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "1984-06-05",
+    "authors": [
+      "C Richer",
+      "B Giroux",
+      "P F Plouin",
+      "B Maarek",
+      "J F Giudicelli"
+    ]
+  },
+  "curators": [
+    "Mariia Myshkina",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "Pharmacokinetics, antihypertensive and biological effects of captopril in hypertensive patients."
+  ],
+  "substances": [
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    },
+    {
+      "sid": "renin",
+      "name": "renin",
+      "label": "renin"
+    },
+    {
+      "sid": "ace",
+      "name": "angiotensin converting enzyme",
+      "label": "angiotensin converting enzyme (ACE)"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3695,
+      "name": "all",
+      "parent": null,
+      "count": 10,
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "characteristica": [
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82515,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82516,
+          "count": 2,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82517,
+          "count": 10,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 48.4,
+          "median": null,
+          "min": 31.0,
+          "max": 73.0,
+          "sd": 12.9653384066904,
+          "se": 4.1,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 10
+        },
+        {
+          "pk": 82518,
+          "count": 10,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.637,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.08854377448471461,
+          "se": 0.027999999999999997,
+          "cv": null,
+          "unit": "meter",
+          "group_count": 10
+        },
+        {
+          "pk": 82519,
+          "count": 10,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 72.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 10.7517440445725,
+          "se": 3.4,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 10
+        },
+        {
+          "pk": 82520,
+          "count": 10,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": null,
+          "mean": 0.15248337,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.012363968064056138,
+          "se": 0.00390983,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": 10
+        },
+        {
+          "pk": 82521,
+          "count": 10,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": null,
+          "mean": 1.3809827118055555,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.6563197701974437,
+          "se": 0.2075465347222222,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": 10
+        },
+        {
+          "pk": 82522,
+          "count": 10,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 89.2,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 18.9736659610103,
+          "se": 6.0,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": 10
+        },
+        {
+          "pk": 82523,
+          "count": 10,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 177.9,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 19.2898937270271,
+          "se": 6.1,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 10
+        },
+        {
+          "pk": 82524,
+          "count": 10,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 108.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 12.6491106406735,
+          "se": 4.0,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 10
+        },
+        {
+          "pk": 82525,
+          "count": 10,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.2883333333333333,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.2266298989787333,
+          "se": 0.07166666666666666,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": 10
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 20931,
+      "name": "I1",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82538,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82539,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 33.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82540,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.67,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82541,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 67.8,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82542,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.14857354,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82543,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 2.458628180555555,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82544,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 65.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82545,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 162.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82546,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 118.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82547,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.3666666666666667,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20932,
+      "name": "I2",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82560,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.74,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82561,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 68.8,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82562,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.16421286000000002,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82563,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 1.3730001527777775,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82564,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 81.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82565,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 182.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82566,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 90.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82567,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82559,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 54.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82558,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20933,
+      "name": "I3",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82583,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 0.38316283333333334,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82578,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82579,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 36.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82580,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.6400000000000001,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82581,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 72.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82582,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.14857354,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82584,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 58.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82585,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 154.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82586,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 102.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82587,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 0.9666666666666667,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20934,
+      "name": "I4",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82598,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82599,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 31.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82600,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 4.76,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82601,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 95.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82602,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.16030303,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82603,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 1.7242327499999999,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82604,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 90.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82605,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 158.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82606,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 118.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82607,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.25,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20935,
+      "name": "I5",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82624,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 78.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82625,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 172.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82626,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 84.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82627,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.4,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82622,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.16812269000000002,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82623,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 0.3991279513888888,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82618,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82619,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 73.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82620,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.49,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82621,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 52.5,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20936,
+      "name": "I6",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82647,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.35,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82638,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82639,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 47.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82640,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.55,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82641,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 63.5,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82642,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.16030303,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82643,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 1.5805466875,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82644,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 97.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82645,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 182.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82646,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 108.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20937,
+      "name": "I7",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82658,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82659,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 45.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82660,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.68,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82661,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 75.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82662,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.15248337,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82663,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 0.9259768472222222,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82664,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 120.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82665,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 194.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82666,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 118.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82667,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.75,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20938,
+      "name": "I8",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82686,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 108.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82687,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.25,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82678,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82679,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 53.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82680,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.67,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82681,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 73.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82682,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.14857354,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82683,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 1.708267631944444,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82684,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 96.5,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82685,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 164.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20939,
+      "name": "I9",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82698,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82699,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 59.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82700,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.6500000000000001,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82701,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 76.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82702,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.13684405000000002,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82703,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 1.3410699166666664,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82704,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 102.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82705,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 214.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82706,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 120.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82707,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.4,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    },
+    {
+      "pk": 20940,
+      "name": "I10",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "group": {
+        "pk": 3695,
+        "name": "all",
+        "count": 10
+      },
+      "characteristica": [
+        {
+          "pk": 82720,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.52,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 82721,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 76.5,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 82722,
+          "count": 1,
+          "measurement_type": {
+            "sid": "concentration",
+            "name": "concentration",
+            "label": "concentration"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "potassium",
+            "name": "potassium",
+            "label": "potassium"
+          },
+          "value": 0.14857354,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "gram / liter",
+          "group_count": null
+        },
+        {
+          "pk": 82723,
+          "count": 1,
+          "measurement_type": {
+            "sid": "excretion-rate",
+            "name": "excretion rate",
+            "label": "excretion rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": {
+            "sid": "sodium",
+            "name": "sodium",
+            "label": "sodium"
+          },
+          "value": 1.9158141666666664,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milligram / minute",
+          "group_count": null
+        },
+        {
+          "pk": 82724,
+          "count": 1,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 105.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "ml/min",
+          "group_count": null
+        },
+        {
+          "pk": 82725,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 197.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82726,
+          "count": 1,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 114.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": null
+        },
+        {
+          "pk": 82727,
+          "count": 1,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.15,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": null
+        },
+        {
+          "pk": 82526,
+          "count": 10,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "arterial-hypertension",
+            "name": "arterial hypertension",
+            "label": "arterial hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82513,
+          "count": 10,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82514,
+          "count": 10,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        },
+        {
+          "pk": 82719,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 53.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 82718,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 82527,
+          "count": 10,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 10
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 6998,
+      "normed": true,
+      "name": "CAP1",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "min",
+      "study": {
+        "sid": "PKDB00832",
+        "name": "Richer1984"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / kilogram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00832",
+    "name": "Richer1984",
+    "title": "Captopril: pharmacokinetics, antihypertensive and biological effects in hypertensive patients.",
+    "pmid": "6324834",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1984",
+    "substances": [
+      "captopril",
+      "renin",
+      "angiotensin converting enzyme (ACE)"
+    ],
+    "n_groups": 1,
+    "n_individuals": 10,
+    "n_interventions": 1,
+    "paper_source": "pubmed-markdown",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1463370"
+  }
+}

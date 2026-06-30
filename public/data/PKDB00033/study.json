@@ -1,0 +1,4856 @@
+{
+  "sid": "PKDB00033",
+  "name": "Fuhr1993a",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-07",
+  "counts": {
+    "groups": 3,
+    "individuals": 12,
+    "interventions": 2,
+    "outputs": 104,
+    "timecourses": 0
+  },
+  "reference": {
+    "pmid": "8485024",
+    "doi": null,
+    "title": "Inhibitory effect of grapefruit juice and its bitter principal, naringenin, on CYP1A2 dependent metabolism of caffeine in man.",
+    "abstract": "1. The effects of grapefruit juice and naringenin on the activity of the human cytochrome P450 isoform CYP1A2 were evaluated using caffeine as a probe substrate. 2. In vitro naringin was a potent competitive inhibitor of caffeine 3-demethylation by human liver microsomes (Ki = 7-29 microM). 3. In vivo grapefruit juice (1.2 l day-1 containing 0.5 g l-1 naringin, the glycone form of naringenin) decreased the oral clearance of caffeine by 23% (95% CI: 7%-30%) and prolonged its half-life by 31% (95% CI: 20%-44%) (n = 12). 4. We conclude that grapefruit juice and naringenin inhibit CYP1A2 activity in man. However, the small effect on caffeine clearance in vivo suggests that in general the ingestion of grapefruit juice should not cause clinically significant inhibition of the metabolism of other drugs that are substrates of CYPIA2.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "1993-06-10",
+    "authors": [
+      "U Fuhr",
+      "K Klittich",
+      "A H Staib"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "Jan Grzegorzewski"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "grapefruit-juice",
+      "name": "grapefruit juice",
+      "label": "grapefruit juice"
+    },
+    {
+      "sid": "caf",
+      "name": "caffeine",
+      "label": "caffeine (137X)"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2793,
+      "name": "all",
+      "parent": null,
+      "count": 12,
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62084,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62085,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62089,
+          "count": 12,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 68.0,
+          "median": null,
+          "min": 39.0,
+          "max": 98.0,
+          "sd": 15.2,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 12
+        },
+        {
+          "pk": 62090,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 33.7,
+          "median": null,
+          "min": 21.0,
+          "max": 56.0,
+          "sd": 12.7,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 12
+        },
+        {
+          "pk": 62091,
+          "count": 12,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.7083000000000002,
+          "median": null,
+          "min": 1.58,
+          "max": 1.9000000000000001,
+          "sd": 0.09230000000000001,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": 12
+        },
+        {
+          "pk": 62092,
+          "count": 6,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62093,
+          "count": 6,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        }
+      ]
+    },
+    {
+      "pk": 2794,
+      "name": "smokers",
+      "parent": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "count": 6,
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62102,
+          "count": 2,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62103,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62104,
+          "count": 6,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.6833000000000002,
+          "median": null,
+          "min": 1.58,
+          "max": 1.75,
+          "sd": 0.0675,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": 6
+        },
+        {
+          "pk": 62105,
+          "count": 6,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62106,
+          "count": 6,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 34.5,
+          "median": null,
+          "min": 21.0,
+          "max": 56.0,
+          "sd": 14.06,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 6
+        },
+        {
+          "pk": 62107,
+          "count": 2,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62108,
+          "count": 2,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62109,
+          "count": 6,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 67.5,
+          "median": null,
+          "min": 39.0,
+          "max": 80.0,
+          "sd": 14.6,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 6
+        }
+      ]
+    },
+    {
+      "pk": 2795,
+      "name": "nonsmokers",
+      "parent": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "count": 6,
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62118,
+          "count": 6,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62119,
+          "count": 6,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 68.5,
+          "median": null,
+          "min": 55.0,
+          "max": 98.0,
+          "sd": 15.7,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 6
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62120,
+          "count": 6,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 32.83,
+          "median": null,
+          "min": 22.0,
+          "max": 56.0,
+          "sd": 11.13,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 6
+        },
+        {
+          "pk": 62121,
+          "count": 2,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62122,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62123,
+          "count": 1,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62124,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 62125,
+          "count": 6,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.7333,
+          "median": null,
+          "min": 1.62,
+          "max": 1.9000000000000001,
+          "sd": 0.1059,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": 6
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 17889,
+      "name": "1",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62132,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62133,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 22.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62134,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.69,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62135,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 55.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62136,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62137,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 0.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17890,
+      "name": "2",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62144,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62145,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 29.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62146,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.6,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62147,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 58.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62148,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62149,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 20.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17891,
+      "name": "3",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62156,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62157,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 30.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62158,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.9000000000000001,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62159,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 98.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62160,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62161,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 0.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17892,
+      "name": "4",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62168,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62169,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 56.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62170,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.74,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62171,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 80.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62172,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62173,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 4.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17893,
+      "name": "5",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62180,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62181,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 29.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62182,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.85,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62183,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 81.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62184,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62185,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 0.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17894,
+      "name": "6",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62192,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62193,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 25.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62194,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.71,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62195,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 60.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62196,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62197,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 0.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17895,
+      "name": "7",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62208,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62209,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 35.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        },
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62204,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62205,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 26.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62206,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.58,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62207,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 39.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17896,
+      "name": "8",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62216,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62217,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 35.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62218,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.6300000000000001,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62219,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 57.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62220,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62221,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 0.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17897,
+      "name": "9",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62228,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62229,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 52.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62230,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.71,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62231,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 78.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62232,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62233,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 22.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17898,
+      "name": "10",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62240,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62241,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 21.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62242,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.75,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62243,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 74.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62244,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62245,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 15.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17899,
+      "name": "11",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62252,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62253,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 23.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62254,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.72,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62255,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 76.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62256,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-yes",
+            "name": "Y",
+            "label": "smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62257,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 10.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    },
+    {
+      "pk": 17900,
+      "name": "12",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "group": {
+        "pk": 2793,
+        "name": "all",
+        "count": 12
+      },
+      "characteristica": [
+        {
+          "pk": 62082,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62083,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62086,
+          "count": 3,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-yes",
+            "name": "Y",
+            "label": "oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62087,
+          "count": 5,
+          "measurement_type": {
+            "sid": "oral-contraceptives",
+            "name": "oral contraceptives",
+            "label": "oral contraceptives"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "oral-contraceptives-no",
+            "name": "N",
+            "label": "No oral-contraceptives"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 62088,
+          "count": 12,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "mx",
+            "name": "methylxanthine",
+            "label": "methylxanthine"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.5,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 12
+        },
+        {
+          "pk": 62264,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62265,
+          "count": 1,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 56.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": null
+        },
+        {
+          "pk": 62266,
+          "count": 1,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 1.62,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "meter",
+          "group_count": null
+        },
+        {
+          "pk": 62267,
+          "count": 1,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 60.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": null
+        },
+        {
+          "pk": 62268,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        },
+        {
+          "pk": 62269,
+          "count": 1,
+          "measurement_type": {
+            "sid": "smoking-amount-cigarettes",
+            "name": "smoking amount (cigarettes)",
+            "label": "smoking amount (cigarettes)"
+          },
+          "calculation_type": null,
+          "choice": null,
+          "substance": null,
+          "value": 0.0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "1/day",
+          "group_count": null
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 5688,
+      "normed": true,
+      "name": "Dcaf",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "caf",
+        "name": "caffeine",
+        "label": "caffeine (137X)"
+      },
+      "value": 0.167,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 5690,
+      "normed": true,
+      "name": "Dgf",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00033",
+        "name": "Fuhr1993a"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "grapefruit-juice",
+        "name": "grapefruit juice",
+        "label": "grapefruit juice"
+      },
+      "value": 0.14300000000000002,
+      "mean": null,
+      "median": null,
+      "min": 0.1263,
+      "max": 0.159,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00033",
+    "name": "Fuhr1993a",
+    "title": "Inhibitory effect of grapefruit juice and its bitter principal, naringenin, on CYP1A2 dependent metabolism of caffeine in man.",
+    "pmid": "8485024",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1993",
+    "substances": [
+      "grapefruit juice",
+      "caffeine (137X)"
+    ],
+    "n_groups": 3,
+    "n_individuals": 12,
+    "n_interventions": 2,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1381556"
+  }
+}

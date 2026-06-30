@@ -1,0 +1,232 @@
+{
+  "sid": "PKDB00747",
+  "name": "Gu2004",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-01-30",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 28,
+    "timecourses": 0
+  },
+  "reference": {
+    "pmid": "15556550",
+    "doi": null,
+    "title": "Simultaneous determination of enalapril and enalaprilat in human plasma by liquid chromatography-tandem mass spectrometry.",
+    "abstract": "A rapid, sensitive, and highly selective liquid chromatography-tandem mass spectrometry method was developed and validated for simultaneous determination of enalapril and its major active metabolite enalaprilat in human plasma. The analytes were extracted from plasma samples by liquid-liquid extraction, separated on a Zorbax Extend-C(18) column, and detected by tandem mass spectrometry with a Turbo IonSpray ionization interface. The method has a lower limit of quantification (LLOQ) of 0.1 ng/ml for both enalapril and enalaprilat. The chromatographic run time was approximately 3.5 min. The standard calibration curves for both enalapril and enalaprilat were linear in the concentration ranges of 0.10-100.0 ng/ml in human plasma. The intra- and inter-run precisions, expressed as the relative standard deviation (R.S.D.), were less than 7.7 and 7.8%, determined from QC samples for enalapril and enalaprilat, and accuracy was within +/-3.9 and +/-2.7% in terms of relative error, respectively. The method was successfully applied for the evaluation of the pharmacokinetics of enalapril and enalaprilat in 20 volunteers after an oral dose of 10 mg enalapril maleate.",
+    "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+    "date": "2005-04-11",
+    "authors": [
+      "Qi Gu",
+      "Xiaoyan Chen",
+      "Dafang Zhong",
+      "Yingwu Wang"
+    ]
+  },
+  "curators": [
+    "Shubhankar Palwankar",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "A rapid, sensitive, and highly selective liquid chromatography–tandem mass spectrometry method was developed",
+    "and validated for simultaneous determination of enalapril and its major active metabolite enalaprilat in human plasma",
+    "The method was successfully applied for the evaluation of the pharmacokinetics of enalapril and enalaprilat in 20 volunteers after an oral dose of 10 mg enalapril maleate"
+  ],
+  "substances": [
+    {
+      "sid": "enalapril-maleate",
+      "name": "enalapril maleate",
+      "label": "enalapril maleate"
+    },
+    {
+      "sid": "enalapril",
+      "name": "enalapril",
+      "label": "enalapril"
+    },
+    {
+      "sid": "enalaprilat",
+      "name": "enalaprilat",
+      "label": "enalaprilat"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3722,
+      "name": "all",
+      "parent": null,
+      "count": 20,
+      "study": {
+        "sid": "PKDB00747",
+        "name": "Gu2004"
+      },
+      "characteristica": [
+        {
+          "pk": 82963,
+          "count": 20,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 82964,
+          "count": 20,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 82965,
+          "count": 20,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 7048,
+      "normed": true,
+      "name": "ENA10",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "capsule",
+        "name": "capsule",
+        "label": "capsule"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00747",
+        "name": "Gu2004"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.01,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00747",
+    "name": "Gu2004",
+    "title": "Simultaneous determination of enalapril and enalaprilat in human plasma by liquid chromatography-tandem mass spectrometry.",
+    "pmid": "15556550",
+    "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+    "year": "2005",
+    "substances": [
+      "enalapril maleate",
+      "enalapril",
+      "enalaprilat"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

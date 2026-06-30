@@ -1,0 +1,429 @@
+{
+  "sid": "PKDB00119",
+  "name": "Malan1985",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-13",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 3,
+    "outputs": 81,
+    "timecourses": 3
+  },
+  "reference": {
+    "pmid": "4027126",
+    "doi": null,
+    "title": "Chronopharmacokinetics of paracetamol in normal subjects.",
+    "abstract": "The chronopharmacokinetics of paracetamol was studied in six male volunteers. Serum concentrations of paracetamol were determined after a single oral dose of 1 g, on three occasions, spaced at least 1 week apart. Plasma drug concentration vs time curves were obtained after dosage at 08.00 h (Day 1), 14.00 h (Day 2) and 20.00 h (Day 3), under standardized conditions. Pharmacokinetic parameters compared were t1/2,alpha, t1/2,Z, tmax, Cmax and AUCpo. No statistically significant differences were found.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "1985-10-01",
+    "authors": [
+      "J Malan",
+      "J Moncrieff",
+      "E Bosch"
+    ]
+  },
+  "curators": [
+    "Janosch Brandhorst",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "The chronopharmacokinetics of paracetamol was studied in six male volunteers. Serum concentrations of paracetamol were determined after a single oral dose of 1 g, on three occasions, spaced at least 1 week apart. Plasma drug concentration vs time curves were obtained after dosage at 08.00 h (Day 1), 14.00 h (Day 2) and 20.00 h (Day 3), under standardized conditions. Pharmacokinetic parameters compared were t1/2_a, t1/2_z tmax Cmax and AUCpo. No statistically significant differences were found."
+  ],
+  "substances": [
+    {
+      "sid": "apap",
+      "name": "paracetamol",
+      "label": "paracetamol"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 1171,
+      "name": "all",
+      "parent": null,
+      "count": 6,
+      "study": {
+        "sid": "PKDB00119",
+        "name": "Malan1985"
+      },
+      "characteristica": [
+        {
+          "pk": 31701,
+          "count": 6,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 31702,
+          "count": 6,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 31703,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 31704,
+          "count": 6,
+          "measurement_type": {
+            "sid": "smoking",
+            "name": "smoking",
+            "label": "smoking"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "smoking-no",
+            "name": "N",
+            "label": "No smoking"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 31705,
+          "count": 6,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 31706,
+          "count": 6,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 31707,
+          "count": 6,
+          "measurement_type": {
+            "sid": "fasting-duration",
+            "name": "fasting (duration)",
+            "label": "fasting (duration)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.3333333333333333,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 6
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 2600,
+      "normed": true,
+      "name": "8.00h",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00119",
+        "name": "Malan1985"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 2602,
+      "normed": true,
+      "name": "14.00h",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00119",
+        "name": "Malan1985"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 2604,
+      "normed": true,
+      "name": "20.00h",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00119",
+        "name": "Malan1985"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00119",
+    "name": "Malan1985",
+    "title": "Chronopharmacokinetics of paracetamol in normal subjects.",
+    "pmid": "4027126",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1985",
+    "substances": [
+      "paracetamol"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1463861"
+  }
+}

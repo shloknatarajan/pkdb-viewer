@@ -1,0 +1,1416 @@
+{
+  "sid": "PKDB00806",
+  "name": "Wade1992",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-04-24",
+  "counts": {
+    "groups": 1,
+    "individuals": 8,
+    "interventions": 3,
+    "outputs": 115,
+    "timecourses": 4
+  },
+  "reference": {
+    "pmid": "1312853",
+    "doi": "10.1111/j.1365-2125.1992.tb04018.x",
+    "title": "The effect of saturation of ACE binding sites on the pharmacokinetics of enalaprilat in man.",
+    "abstract": "1. Eight healthy male volunteers received oral enalapril, 10 mg, in the presence and absence of pretreatment with captopril, 50 mg, twice daily for 5 days. 2. Enalaprilat pharmacokinetics were characterised after both doses of enalapril to investigate the effect of saturating ACE binding sites by pretreatment with captopril. 3. The pharmacokinetics of enalaprilat were best described by a one compartment model with zero order input incorporating saturable binding to plasma and tissue ACE. 4. Values of AUC (0.72 h) for enalaprilat were 419 +/- 97 and 450 +/- 87 ng ml-1 h in the presence and absence of captopril, respectively. The difference was not statistically significant nor were there any other differences in model parameters. 5. Induction of ACE by captopril resulting in an increase in the number of ACE binding sites, may have obscured any effect of captopril on the occupancy of ACE binding sites by enalapril.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "1992-04-29",
+    "authors": [
+      "J R Wade",
+      "P A Meredith",
+      "D M Hughes",
+      "H L Elliott"
+    ]
+  },
+  "curators": [
+    "Shubhankar Palwankar",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "Eight healthy, normotensive males, aged 27 ± 8 years",
+    "The study was conducted in two phases: in the first phase the subjects received single doses of enalapril (10 mg) and placebo in a double-blind, randomised crossover design",
+    "In the second phase, the subjects attended for a third day following pretreat- ment with captopril 50 mg twice daily for 5 days and, 2 h after the morning dose of captopril on the fifth day, a single oral dose of enalapril (10 mg) was also administered",
+    "radiochemical enzyme assay"
+  ],
+  "substances": [
+    {
+      "sid": "placebo",
+      "name": "placebo",
+      "label": "placebo"
+    },
+    {
+      "sid": "creatinine",
+      "name": "creatinine",
+      "label": "creatinine"
+    },
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    },
+    {
+      "sid": "enalapril-maleate",
+      "name": "enalapril maleate",
+      "label": "enalapril maleate"
+    },
+    {
+      "sid": "enalaprilat",
+      "name": "enalaprilat",
+      "label": "enalaprilat"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3809,
+      "name": "all",
+      "parent": null,
+      "count": 8,
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 21259,
+      "name": "I1",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    },
+    {
+      "pk": 21260,
+      "name": "I2",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    },
+    {
+      "pk": 21261,
+      "name": "I3",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    },
+    {
+      "pk": 21262,
+      "name": "I4",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    },
+    {
+      "pk": 21263,
+      "name": "I5",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    },
+    {
+      "pk": 21264,
+      "name": "I6",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    },
+    {
+      "pk": 21265,
+      "name": "I7",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    },
+    {
+      "pk": 21266,
+      "name": "I8",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "group": {
+        "pk": 3809,
+        "name": "all",
+        "count": 8
+      },
+      "characteristica": [
+        {
+          "pk": 83876,
+          "count": 8,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83877,
+          "count": 8,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83878,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 8
+        },
+        {
+          "pk": 83879,
+          "count": 8,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 27.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 8
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 7172,
+      "normed": true,
+      "name": "ENA10",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "S-120T12R10",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.01,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 7173,
+      "normed": true,
+      "name": "CAP50",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "multiple-dose",
+        "name": "multiple dose",
+        "label": "multiple dose"
+      },
+      "time": "S-122T24R5",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.05,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 7174,
+      "normed": true,
+      "name": "PLACEBO",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "NR",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00806",
+        "name": "Wade1992"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "placebo",
+        "name": "placebo",
+        "label": "placebo"
+      },
+      "value": 0.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00806",
+    "name": "Wade1992",
+    "title": "The effect of saturation of ACE binding sites on the pharmacokinetics of enalaprilat in man.",
+    "pmid": "1312853",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1992",
+    "substances": [
+      "placebo",
+      "creatinine",
+      "captopril",
+      "enalapril maleate",
+      "enalaprilat"
+    ],
+    "n_groups": 1,
+    "n_individuals": 8,
+    "n_interventions": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1381301"
+  }
+}

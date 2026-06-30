@@ -1,0 +1,307 @@
+{
+  "sid": "PKDB00831",
+  "name": "Rezende2007",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-06-15",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 2,
+    "outputs": 52,
+    "timecourses": 2
+  },
+  "reference": {
+    "pmid": "17145205",
+    "doi": null,
+    "title": "Determination of captopril in human plasma, using solid phase extraction and high-performance liquid chromatography, coupled to mass spectrometry: application to bioequivalence study.",
+    "abstract": "A specific high performance liquid chromatography-mass spectrometric (LC-MS/MS) assay was developed for the determination of captopryl in plasma. The retention time was 1.45 and 1.37 min for captopril and enalapril, respectively. The overall mean recovery, using SPE extraction with OASIS HLB cartridges, was found to be 107.2+/-9.5 and 100.04+/-2%, respectively. Calibration curves were linear in the concentration range of 10.00-2000.00 ng/ml, and the lower limit of quantification (LLOQ) was 10.00 ng/ml. The LLOQ was sensitive enough for detecting terminal phase concentrations of the drug. Inter-batch precision of the method ranged from 0.88 to 1.95%. Intra-batch accuracy ranged from 97.15 to 105.77%, while intra-batch precision ranged from 2.49 to 5.66% at concentrations of 30.00, 760.00 and 1500.00 ng/ml. The developed method was applied to study bioequivalence of captopril in a group of 25 human subjects at a single oral dose of a 50mg tablet.",
+    "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+    "date": "2007-07-24",
+    "authors": [
+      "Kênnia R Rezende",
+      "Iram M Mundim",
+      "Leonardo S Teixeira",
+      "Weidson C Souza",
+      "Douglas R Ramos",
+      "Cláudio R F Cardoso",
+      "Inácia C Souza",
+      "Mário Z Gratão",
+      "Karini B Bellório"
+    ]
+  },
+  "curators": [
+    "Mariia Myshkina",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "Pharmacokinetics of captopril: Capoten and Captozen."
+  ],
+  "substances": [
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    },
+    {
+      "sid": "total-captopril",
+      "name": "total captopril",
+      "label": "total captopril"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3694,
+      "name": "all",
+      "parent": null,
+      "count": 25,
+      "study": {
+        "sid": "PKDB00831",
+        "name": "Rezende2007"
+      },
+      "characteristica": [
+        {
+          "pk": 82496,
+          "count": 23,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 25
+        },
+        {
+          "pk": 82497,
+          "count": 23,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 25
+        },
+        {
+          "pk": 82494,
+          "count": 23,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 25
+        },
+        {
+          "pk": 82495,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 25
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 6995,
+      "normed": true,
+      "name": "CAP50_captozen",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00831",
+        "name": "Rezende2007"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.05,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 6996,
+      "normed": true,
+      "name": "CAP50_capoten",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00831",
+        "name": "Rezende2007"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.05,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00831",
+    "name": "Rezende2007",
+    "title": "Determination of captopril in human plasma, using solid phase extraction and high-performance liquid chromatography, coupled to mass spectrometry: application to bioequivalence study.",
+    "pmid": "17145205",
+    "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+    "year": "2007",
+    "substances": [
+      "captopril",
+      "total captopril"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 2,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

@@ -1,0 +1,3628 @@
+{
+  "sid": "PKDB00771",
+  "name": "Donnelly1990",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-04-24",
+  "counts": {
+    "groups": 1,
+    "individuals": 13,
+    "interventions": 3,
+    "outputs": 314,
+    "timecourses": 8
+  },
+  "reference": {
+    "pmid": "2154407",
+    "doi": null,
+    "title": "Kinetic-dynamic relations and individual responses to enalapril.",
+    "abstract": "Pharmacokinetic and pharmacodynamic variability largely account for interindividual differences in the response to antihypertensive drugs including angiotensin converting enzyme inhibitors. The factors determining the response to enalapril have been investigated in a placebo-controlled study in essential hypertension. The effects of placebo, the initial dose of enalapril, and long-term (1 and 6 weeks) treatment with enalapril were studied in 13 subjects. By using an integrated kinetic-dynamic model that incorporates a parameter for saturable protein binding, individual responses for blood pressure reduction and angiotensin converting enzyme inhibition were characterized in terms of the maximum effect (Emax) and the drug concentration required to produce 50% of Emax (Ce50). In individual subjects, plasma enalaprilat concentrations could be correlated with falls in blood pressure and changes in plasma angiotensin converting enzyme activity. For the group, Emax was -46.1 +/- 16.5 and -19.7 +/- 3.8 mm Hg for systolic and diastolic blood pressure, respectively, and the corresponding Ce50 values were 66.1 +/- 20.2 and 61.6 +/- 22.5 ng/ml. For angiotensin converting enzyme inhibition, Emax (%) and Ce50 (ng/ml) were, respectively, 102.4 +/- 5 and 19.8 +/- 13 after the first dose, 103 +/- 5 and 33.4 +/- 20.3 after 1 week, and 101.3 +/- 2.2 and 31.3 +/- 18.9 after 6 weeks. There was no relation between the responsiveness to enalapril (Emax or Ce50) and patient age or plasma renin activity, but there was a significant positive correlation between Emax and the pretreatment blood pressure. In individual subjects, Emax (first dose) was directly correlated with Emax after 1 and 6 weeks.(ABSTRACT TRUNCATED AT 250 WORDS)",
+    "journal": "Hypertension (Dallas, Tex. : 1979)",
+    "date": "1990-03-27",
+    "authors": [
+      "R Donnelly",
+      "P A Meredith",
+      "H L Elliott",
+      "J L Reid"
+    ]
+  },
+  "curators": [
+    "Shubhankar Palwankar",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "Thirteen patients (six men and seven women) with mild to moderate essential hypertension (160/ 90-210/115 mm Hg), range 41-66 years of age",
+    "single-blind design, patients received placebo for 3 weeks followed by 6 weeks of treatment with enalapril (20 mg once daily)",
+    "Each patient attended four 8-hour study days in the Clinical Pharmacology Research Unit to evaluate the effects of placebo, of the first dose of enalapril (20 mg), and of enalapril therapy (20 mg daily) after 1 week and 6 weeks",
+    "0, 0.5, 1.0, 1.5, 2.5, 3.5, 4, 5, 6, 7, 8, and 24 hours) venous blood samples were collected for measurement of plasma enalaprilat concentration and plasma ACE activity",
+    "In seven patients (patients 3, 7, 8, 9, 10, 11, and 12), blood pressure was recorded and additional blood samples were obtained at 12 and 32 hours"
+  ],
+  "substances": [
+    {
+      "sid": "placebo",
+      "name": "placebo",
+      "label": "placebo"
+    },
+    {
+      "sid": "enalapril-maleate",
+      "name": "enalapril maleate",
+      "label": "enalapril maleate"
+    },
+    {
+      "sid": "enalaprilat",
+      "name": "enalaprilat",
+      "label": "enalaprilat"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3715,
+      "name": "all",
+      "parent": null,
+      "count": 13,
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 21005,
+      "name": "P1",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21006,
+      "name": "P2",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21007,
+      "name": "P3",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21008,
+      "name": "P4",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21009,
+      "name": "P5",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21010,
+      "name": "P6",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21011,
+      "name": "P7",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21012,
+      "name": "P8",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21013,
+      "name": "P9",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21014,
+      "name": "P10",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21015,
+      "name": "P11",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21016,
+      "name": "P12",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    },
+    {
+      "pk": 21017,
+      "name": "P13",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "group": {
+        "pk": 3715,
+        "name": "all",
+        "count": 13
+      },
+      "characteristica": [
+        {
+          "pk": 82916,
+          "count": 13,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82917,
+          "count": 13,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82918,
+          "count": 13,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82919,
+          "count": 6,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82920,
+          "count": 7,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 13
+        },
+        {
+          "pk": 82921,
+          "count": 13,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 41.0,
+          "max": 66.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 13
+        },
+        {
+          "pk": 82922,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 160.0,
+          "max": 210.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        },
+        {
+          "pk": 82923,
+          "count": 13,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 90.0,
+          "max": 115.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 13
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 7034,
+      "normed": true,
+      "name": "PLAC",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "multiple-dose",
+        "name": "multiple dose",
+        "label": "multiple dose"
+      },
+      "time": "S-504T24R21",
+      "time_end": 24.0,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "placebo",
+        "name": "placebo",
+        "label": "placebo"
+      },
+      "value": 0.02,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 7035,
+      "normed": true,
+      "name": "ENAs20",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.02,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 7036,
+      "normed": true,
+      "name": "ENAm20",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "multiple-dose",
+        "name": "multiple dose",
+        "label": "multiple dose"
+      },
+      "time": "S-42T1R42",
+      "time_end": 1.0,
+      "time_unit": "days",
+      "study": {
+        "sid": "PKDB00771",
+        "name": "Donnelly1990"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.02,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00771",
+    "name": "Donnelly1990",
+    "title": "Kinetic-dynamic relations and individual responses to enalapril.",
+    "pmid": "2154407",
+    "journal": "Hypertension (Dallas, Tex. : 1979)",
+    "year": "1990",
+    "substances": [
+      "placebo",
+      "enalapril maleate",
+      "enalaprilat"
+    ],
+    "n_groups": 1,
+    "n_individuals": 13,
+    "n_interventions": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

@@ -1,0 +1,10 @@
+# Determination of free captopril in human plasma by liquid chromatography with mass spectrometry detection.
+
+*Szende Vancea, Silvia Imre, Gabriella Donáth-Nagy, Tokés Béla, Mária Nyulas, Teofil Muntean, Réka Borka-Balás*
+
+Talanta · 2009-09-09
+
+
+## Abstract
+
+A new simple, sensitive and selective liquid chromatography coupled with mass spectrometry (LC/MS) method for quantification of captopril after precolumn derivatization with p-bromo-phenacyl-bromide in human plasma was validated. Plasma samples were analysed on a monolithic column (Cromolith Performance-RP 18e, 100 mm x 4.6 mm I.D., 3 microm) under isocratic conditions using a mobile phase of a 40:60 (v/v) mixture of acetonitrile and 0.1% (v/v) formic acid in water. The flow rate was 1 mL/min at the column temperature of 30 degrees C. In these chromatographic conditions, the retention time was 4.4 min for captopril derivative. The detection of the analyte was in MRM mode using an ion trap mass spectrometer with electrospray positive ionisation. The monitored ions were 216, 253, 255, 268, 270 m/z derived from 415 m/z for derivatized captopril. The sample preparation was very simple and consisted in plasma protein precipitation from 0.2 mL plasma using 0.3 mL methanol after the derivatization reaction was completed. Calibration curves were generated over the range of 10-3000 ng/mL with values for coefficient of correlation greater than 0.993 and by using a weighted (1/y(2)) quadratic regression. The values for precision (CV %) and accuracy (relative error %) at quantification limit were less than 9.9% and 3.9%, for within- and between-run, respectively. The mean recovery of the analyte was 99%. Derivatized samples demonstrated good short-term, long-term, post-preparative and freeze-thaw stability. This is the first reported LC-MS/MS method for analysis of captopril in human plasma that uses protein precipitation as sample processing procedure. The method is very simple and allows obtaining a very good recovery of the analyte. The validated LC-MS/MS method has been applied to a pharmacokinetic study of 50mg captopril tablets on healthy volunteers.

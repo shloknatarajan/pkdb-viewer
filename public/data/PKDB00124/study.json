@@ -1,0 +1,792 @@
+{
+  "sid": "PKDB00124",
+  "name": "Perucca1979",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-14",
+  "counts": {
+    "groups": 3,
+    "individuals": 0,
+    "interventions": 2,
+    "outputs": 130,
+    "timecourses": 6
+  },
+  "reference": {
+    "pmid": "760753",
+    "doi": null,
+    "title": "Paracetamol disposition in normal subjects and in patients treated with antiepileptic drugs.",
+    "abstract": "1 The serum concentration profile of paracetamol has been determined after administration of single 1000 mg intravenous and oral doses in six normal subjects and six epileptic patients on chronic antiepileptic drug therapy. The urinary excretion of free and conjugated paracetamol has also been determined. 2 Following intravenous administration, serum paracetamol concentration declined with first-order kinetics. Both elimination rate and total body clearance were higher in the epileptic patients, although in neither case was the difference statistically significant. 3 The oral bioavailability (mean +/- s.e. mean) was significantly lower in the epileptic patients than in the normal subjects (0.77 +/- 0.03 and 0.89 +/- 0.02 respectively, P less than 0.01), whereas the urinary excretion total (free+conjugated) paracetamol was almost identical in the two groups. 4 It is suggested that the lower bioavailability of paracetamol in the epileptic patients results from enhancement of first-pass metabolism, secondary to enzyme induction.",
+    "journal": "British journal of clinical pharmacology",
+    "date": "1979-04-28",
+    "authors": [
+      "E Perucca",
+      "A Richens"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "Dimitra Eleftheriadou",
+    "Janosch Brandhorst"
+  ],
+  "descriptions": [
+    "The serum concentration profile of paracetamol has been determined after administration of single 1000 mg intravenous and oral doses in six normal subjects and six epileptic patients on chronic antiepileptic drug therapy.",
+    "The kinetics of paracetamol after oral and intravenous dosing have been compared in healthy subjects and epileptic patients treated with known enzyme-inducing agents."
+  ],
+  "substances": [
+    {
+      "sid": "apap",
+      "name": "paracetamol",
+      "label": "paracetamol"
+    },
+    {
+      "sid": "apapglu",
+      "name": "paracetamol glucuronide",
+      "label": "paracetamol glucuronide"
+    },
+    {
+      "sid": "apapsul",
+      "name": "paracetamol sulfate",
+      "label": "paracetamol sulfate"
+    },
+    {
+      "sid": "apapcys",
+      "name": "paracetamol cysteine",
+      "label": "paracetamol cysteine"
+    },
+    {
+      "sid": "apapgsh",
+      "name": "paracetamol glutathione",
+      "label": "paracetamol glutathione"
+    },
+    {
+      "sid": "apapmer",
+      "name": "paracetamol mercapturate",
+      "label": "paracetamol mercapturate"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 1229,
+      "name": "all",
+      "parent": null,
+      "count": 12,
+      "study": {
+        "sid": "PKDB00124",
+        "name": "Perucca1979"
+      },
+      "characteristica": [
+        {
+          "pk": 32603,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 32604,
+          "count": 12,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 32605,
+          "count": 12,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 32606,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 19.0,
+          "max": 42.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 12
+        },
+        {
+          "pk": 32607,
+          "count": 12,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        }
+      ]
+    },
+    {
+      "pk": 1230,
+      "name": "control",
+      "parent": {
+        "pk": 1229,
+        "name": "all",
+        "count": 12
+      },
+      "count": 6,
+      "study": {
+        "sid": "PKDB00124",
+        "name": "Perucca1979"
+      },
+      "characteristica": [
+        {
+          "pk": 32611,
+          "count": 6,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 32612,
+          "count": 6,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 32613,
+          "count": 6,
+          "measurement_type": {
+            "sid": "abstinence-medication",
+            "name": "abstinence medication",
+            "label": "abstinence medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 182.625,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 6
+        },
+        {
+          "pk": 32603,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 32605,
+          "count": 12,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 32606,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 19.0,
+          "max": 42.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 12
+        },
+        {
+          "pk": 32607,
+          "count": 12,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        }
+      ]
+    },
+    {
+      "pk": 1231,
+      "name": "epileptic",
+      "parent": {
+        "pk": 1229,
+        "name": "all",
+        "count": 12
+      },
+      "count": 6,
+      "study": {
+        "sid": "PKDB00124",
+        "name": "Perucca1979"
+      },
+      "characteristica": [
+        {
+          "pk": 32603,
+          "count": 12,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 32617,
+          "count": 6,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 32618,
+          "count": 6,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-yes",
+            "name": "Y",
+            "label": "medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 32619,
+          "count": 6,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "epilepsy",
+            "name": "epilepsy",
+            "label": "epilepsy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 6
+        },
+        {
+          "pk": 32605,
+          "count": 12,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 32606,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 19.0,
+          "max": 42.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 12
+        },
+        {
+          "pk": 32607,
+          "count": 12,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 2662,
+      "normed": true,
+      "name": "paracetamol oral",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00124",
+        "name": "Perucca1979"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 2664,
+      "normed": true,
+      "name": "paracetamol iv",
+      "route": {
+        "sid": "iv",
+        "name": "iv",
+        "label": "intravenous (iv)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00124",
+        "name": "Perucca1979"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00124",
+    "name": "Perucca1979",
+    "title": "Paracetamol disposition in normal subjects and in patients treated with antiepileptic drugs.",
+    "pmid": "760753",
+    "journal": "British journal of clinical pharmacology",
+    "year": "1979",
+    "substances": [
+      "paracetamol",
+      "paracetamol glucuronide",
+      "paracetamol sulfate",
+      "paracetamol cysteine",
+      "paracetamol glutathione",
+      "paracetamol mercapturate"
+    ],
+    "n_groups": 3,
+    "n_individuals": 0,
+    "n_interventions": 2,
+    "paper_source": "pubmed-markdown",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "pubmed-markdown",
+    "licence": null,
+    "pmcid": "PMC1429435"
+  }
+}

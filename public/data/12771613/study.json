@@ -1,0 +1,817 @@
+{
+  "sid": "12771613",
+  "name": "Wagner2003",
+  "licence": "open",
+  "access": "public",
+  "date": "2025-10-07",
+  "counts": {
+    "groups": 3,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 280,
+    "timecourses": 0
+  },
+  "reference": {
+    "pmid": "12771613",
+    "doi": null,
+    "title": "Beneficial hemodynamic and renal effects of intravenous enalaprilat following coronary artery bypass surgery complicated by left ventricular dysfunction.",
+    "abstract": "Angiotensin-converting enzyme inhibitors are an effective therapy for all stages of heart failure due to reduced systolic left ventricular function. Because sufficient data on intravenous angiotensin-converting enzyme inhibitors following coronary artery bypass surgery complicated by postoperative left ventricular dysfunction are unavailable, the efficacy and safety of intravenously administered enalaprilat were evaluated.",
+    "journal": "Critical care medicine",
+    "date": "2003-06-16",
+    "authors": [
+      "Frank Wagner",
+      "Ruhi Yeter",
+      "Susanne Bisson",
+      "Henryk Siniawski",
+      "Roland Hetzer"
+    ]
+  },
+  "curators": [
+    "Shubhankar Palwankar"
+  ],
+  "descriptions": [
+    "Forty patients (eight female, 32 male) with a mean age of 60 ± 8 yrs (range, 43–77 yrs) were included in the study",
+    "the infusion pump was started at a rate of 0.625 mg/hr at a concentration of 0.025 mg/mL enalaprilat in 0.9% NaCl or placebo.",
+    "After 1 hr, if no adverse events occurred, the infusion pump was changed to a constant infusion of 0.1 mg/mL concentration of enalaprilat infused at a rate of 0.21 mg/hr up to 72 hrs",
+    "the total dose up to 24 hrs being 5.46 mg and subsequently 5 mg",
+    "At 72 hrs the study was ended",
+    "All pulmonary and systemic hemodynamic variables were measured at baseline and at 1, 3, 6, 12, 24, 48, and 72 hrs",
+    "Oxygen consumption index, oxygen delivery index, and intrapulmonary right-to-left shunting were measured at baseline as well as 1, 3, 6, 12, 24, 48, and 72 hrs after",
+    "Serum and urine concentration of electrolytes (sodium, potassium), creatinine, and urea were measured at baseline and at 6, 12, 24, 48, and 72 hrs after",
+    "Urine volume was measured from -6 to 0 hrs (before treatment), and 0–6, 6–12, 12–24, 24–48, and 48–72 hrs.",
+    "Hormonal variables were collected at baseline and at 6, 12, 24, 48, and 72 hrs."
+  ],
+  "substances": [
+    {
+      "sid": "creatinine",
+      "name": "creatinine",
+      "label": "creatinine"
+    },
+    {
+      "sid": "urea",
+      "name": "urea",
+      "label": "urea"
+    },
+    {
+      "sid": "sodium",
+      "name": "sodium",
+      "label": "sodium"
+    },
+    {
+      "sid": "potassium",
+      "name": "potassium",
+      "label": "potassium"
+    },
+    {
+      "sid": "enalaprilat",
+      "name": "enalaprilat",
+      "label": "enalaprilat"
+    },
+    {
+      "sid": "aldosterone",
+      "name": "aldosterone",
+      "label": "aldosterone"
+    },
+    {
+      "sid": "norepinephrine",
+      "name": "norepinephrine",
+      "label": "norepinephrine"
+    },
+    {
+      "sid": "epinephrine",
+      "name": "epinephrine",
+      "label": "epinephrine"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3810,
+      "name": "all",
+      "parent": null,
+      "count": 40,
+      "study": {
+        "sid": "12771613",
+        "name": "Wagner2003"
+      },
+      "characteristica": [
+        {
+          "pk": 83888,
+          "count": 8,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        },
+        {
+          "pk": 83889,
+          "count": 32,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        },
+        {
+          "pk": 83890,
+          "count": 40,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 61.0,
+          "median": null,
+          "min": 43.0,
+          "max": 77.0,
+          "sd": null,
+          "se": 8.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 40
+        },
+        {
+          "pk": 83891,
+          "count": 40,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        },
+        {
+          "pk": 83892,
+          "count": 40,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "coronary-atherosclerosis",
+            "name": "coronary atherosclerosis",
+            "label": "coronary atherosclerosis"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        },
+        {
+          "pk": 83893,
+          "count": 40,
+          "measurement_type": {
+            "sid": "body-surface-area",
+            "name": "body surface area",
+            "label": "body surface area (BSA)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.9,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 0.2,
+          "cv": null,
+          "unit": "m^2",
+          "group_count": 40
+        },
+        {
+          "pk": 83887,
+          "count": 40,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        }
+      ]
+    },
+    {
+      "pk": 3811,
+      "name": "plac",
+      "parent": {
+        "pk": 3810,
+        "name": "all",
+        "count": 40
+      },
+      "count": 20,
+      "study": {
+        "sid": "12771613",
+        "name": "Wagner2003"
+      },
+      "characteristica": [
+        {
+          "pk": 83892,
+          "count": 40,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "coronary-atherosclerosis",
+            "name": "coronary atherosclerosis",
+            "label": "coronary atherosclerosis"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        },
+        {
+          "pk": 83903,
+          "count": 20,
+          "measurement_type": {
+            "sid": "body-surface-area",
+            "name": "body surface area",
+            "label": "body surface area (BSA)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.9,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 0.2,
+          "cv": null,
+          "unit": "m^2",
+          "group_count": 20
+        },
+        {
+          "pk": 83899,
+          "count": 20,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83900,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83901,
+          "count": 16,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83902,
+          "count": 20,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 61.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 7.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 20
+        },
+        {
+          "pk": 83887,
+          "count": 40,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        }
+      ]
+    },
+    {
+      "pk": 3812,
+      "name": "ena",
+      "parent": {
+        "pk": 3810,
+        "name": "all",
+        "count": 40
+      },
+      "count": 20,
+      "study": {
+        "sid": "12771613",
+        "name": "Wagner2003"
+      },
+      "characteristica": [
+        {
+          "pk": 83892,
+          "count": 40,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "coronary-atherosclerosis",
+            "name": "coronary atherosclerosis",
+            "label": "coronary atherosclerosis"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        },
+        {
+          "pk": 83909,
+          "count": 20,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83910,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83911,
+          "count": 16,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83912,
+          "count": 20,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 60.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 9.0,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 20
+        },
+        {
+          "pk": 83913,
+          "count": 20,
+          "measurement_type": {
+            "sid": "body-surface-area",
+            "name": "body surface area",
+            "label": "body surface area (BSA)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.8,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": 0.2,
+          "cv": null,
+          "unit": "m^2",
+          "group_count": 20
+        },
+        {
+          "pk": 83887,
+          "count": 40,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 40
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 7176,
+      "normed": true,
+      "name": "ENA5",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "multiple-dose",
+        "name": "multiple dose",
+        "label": "multiple dose"
+      },
+      "time": "S-72T1R1 | S-71T1R23 | S-48T24R2",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "12771613",
+        "name": "Wagner2003"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalaprilat",
+        "name": "enalaprilat",
+        "label": "enalaprilat"
+      },
+      "value": 0.005,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "12771613",
+    "name": "Wagner2003",
+    "title": "Beneficial hemodynamic and renal effects of intravenous enalaprilat following coronary artery bypass surgery complicated by left ventricular dysfunction.",
+    "pmid": "12771613",
+    "journal": "Critical care medicine",
+    "year": "2003",
+    "substances": [
+      "creatinine",
+      "urea",
+      "sodium",
+      "potassium",
+      "enalaprilat",
+      "aldosterone",
+      "norepinephrine",
+      "epinephrine"
+    ],
+    "n_groups": 3,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

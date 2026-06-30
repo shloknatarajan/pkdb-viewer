@@ -1,0 +1,217 @@
+{
+  "sid": "PKDB01063",
+  "name": "Franklin1998",
+  "licence": "open",
+  "access": "public",
+  "date": "2025-08-13",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 31,
+    "timecourses": 1
+  },
+  "reference": {
+    "pmid": "9498669",
+    "doi": null,
+    "title": "Improved analytical procedure for the measurement of captopril in human plasma by gas chromatography--mass spectrometry and its application to pharmacokinetic studies.",
+    "abstract": "An enhanced, sensitive GC-MS assay is presented for the highly specific angiotensin-converting enzyme (ACE) inhibitor, captopril. This method improves previously published assays by using solid NEM as stabilizer in the collection tubes, a rapid extraction technique with dichloromethane and back-extraction into base, a commercially available internal standard (thiosalicylic acid) and a capillary GC column. Captopril and the internal standard are measured as their bis-pentafluorobenzyl derivatives. The assay was linear from 10 to 5000 ng/ml with a mean recovery following solvent extraction at 50, 200 and 1000 ng/ml of 77%. At mean values of 45.9, 187 and 980 ng/ml inter-assay precision and accuracy were 4.0, 2.9 and 3.5% and 8.2, 6.5 and 3.1%, respectively. Analysis of captopril concentrations in plasma samples from 20 volunteers following oral administration of 100 mg of captopril provided the following pharmacokinetic data (mean+/-S.D.): Cmax, 1470+/-467 ng/ml; AUC(0-infinity), 1736+/-481 ng/ml.h; Tmax, 0.73 h; k(e), 0.468+/-0.122 h(-1); elimination half life, 1.58/-0.41 h.",
+    "journal": "Journal of chromatography. B, Biomedical sciences and applications",
+    "date": "1998-03-31",
+    "authors": [
+      "M E Franklin",
+      "R S Addison",
+      "P V Baker",
+      "W D Hooper"
+    ]
+  },
+  "curators": [
+    "Mariia Myshkina"
+  ],
+  "descriptions": [
+    "Improved measurement of captopril in human plasma by gas chromatography–mass spectrometry."
+  ],
+  "substances": [
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3660,
+      "name": "all",
+      "parent": null,
+      "count": 20,
+      "study": {
+        "sid": "PKDB01063",
+        "name": "Franklin1998"
+      },
+      "characteristica": [
+        {
+          "pk": 81355,
+          "count": 20,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 81356,
+          "count": 20,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 81357,
+          "count": 20,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 6944,
+      "normed": true,
+      "name": "CAP100",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB01063",
+        "name": "Franklin1998"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB01063",
+    "name": "Franklin1998",
+    "title": "Improved analytical procedure for the measurement of captopril in human plasma by gas chromatography--mass spectrometry and its application to pharmacokinetic studies.",
+    "pmid": "9498669",
+    "journal": "Journal of chromatography. B, Biomedical sciences and applications",
+    "year": "1998",
+    "substances": [
+      "captopril"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

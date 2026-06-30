@@ -1,0 +1,294 @@
+{
+  "sid": "PKDB00745",
+  "name": "Lu2009",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-01-30",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 48,
+    "timecourses": 2
+  },
+  "reference": {
+    "pmid": "19046843",
+    "doi": null,
+    "title": "Simultaneous quantification of enalapril and enalaprilat in human plasma by high-performance liquid chromatography-tandem mass spectrometry and its application in a pharmacokinetic study.",
+    "abstract": "A rapid, selective and sensitive high-performance liquid chromatography-tandem mass spectrometry (HPLC-MS/MS) method was developed to simultaneously determine enalapril and enalaprilat in human plasma. With benazepril as internal standard, sample pretreatment involved in a one-step protein precipitation (PPT) with methanol of 0.2 ml plasma. Analysis was performed on an Ultimate XB-C(18) column (50 mm x 2.1 mm, i.d., 3 microm) with mobile phase consisting of methanol-water-formic acid (62:38:0.2, v/v/v). The detection was performed on a triple quadrupole tandem mass spectrometer by multiple reaction-monitoring (MRM) mode via electrospray ionization (ESI) source. Each plasma sample was chromatographed within 2.5 min. The linear calibration curves for enalapril and enalaprilat were both obtained in the concentration range of 0.638-255 ng/ml (r(2) > or = 0.99) with the lower limit of quantification (LLOQ) of 0.638 ng/ml. The intra-day precision (R.S.D.) was below 7.2% and inter-day R.S.D. was less than 14%, while accuracy (relative error R.E.) was within +/-8.7 and +/-5.5%, determined from QC samples for enalapril and enalaprilat which corresponded to requirement of the guidance of FDA. The HPLC-MS/MS method herein described was fully validated and successfully applied to the pharmacokinetic study of enalapril maleate capsules in 20 healthy male volunteers after oral administration.",
+    "journal": "Journal of pharmaceutical and biomedical analysis",
+    "date": "2009-04-02",
+    "authors": [
+      "Shan Lu",
+      "Kun Jiang",
+      "Feng Qin",
+      "Xiumei Lu",
+      "Famei Li"
+    ]
+  },
+  "curators": [
+    "Shubhankar Palwankar",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "A rapid, selective and sensitive high-performance liquid chromatography–tandem mass spectrometry (HPLC–MS/MS) method",
+    "developed to simultaneously determine enalapril and enalaprilat in human plasma",
+    "The HPLC–MS/MS method herein described was fully validated and successfully applied to the pharmacokinetic study",
+    "enalapril maleate capsules in 20 healthy male volunteers after oral administration."
+  ],
+  "substances": [
+    {
+      "sid": "enalapril-maleate",
+      "name": "enalapril maleate",
+      "label": "enalapril maleate"
+    },
+    {
+      "sid": "enalapril",
+      "name": "enalapril",
+      "label": "enalapril"
+    },
+    {
+      "sid": "enalaprilat",
+      "name": "enalaprilat",
+      "label": "enalaprilat"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3748,
+      "name": "all",
+      "parent": null,
+      "count": 20,
+      "study": {
+        "sid": "PKDB00745",
+        "name": "Lu2009"
+      },
+      "characteristica": [
+        {
+          "pk": 83233,
+          "count": 20,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83234,
+          "count": 20,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "chinese",
+            "name": "chinese",
+            "label": "Chinese"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83235,
+          "count": 20,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83236,
+          "count": 20,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        },
+        {
+          "pk": 83237,
+          "count": 20,
+          "measurement_type": {
+            "sid": "overnight-fast",
+            "name": "overnight fast",
+            "label": "overnight fast"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "overnight-fast-yes",
+            "name": "Y",
+            "label": "overnight-fast"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 20
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 7074,
+      "normed": true,
+      "name": "ENA10",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "capsule",
+        "name": "capsule",
+        "label": "capsule"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00745",
+        "name": "Lu2009"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "enalapril-maleate",
+        "name": "enalapril maleate",
+        "label": "enalapril maleate"
+      },
+      "value": 0.01,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00745",
+    "name": "Lu2009",
+    "title": "Simultaneous quantification of enalapril and enalaprilat in human plasma by high-performance liquid chromatography-tandem mass spectrometry and its application in a pharmacokinetic study.",
+    "pmid": "19046843",
+    "journal": "Journal of pharmaceutical and biomedical analysis",
+    "year": "2009",
+    "substances": [
+      "enalapril maleate",
+      "enalapril",
+      "enalaprilat"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

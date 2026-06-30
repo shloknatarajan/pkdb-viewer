@@ -1,0 +1,487 @@
+{
+  "sid": "PKDB00121",
+  "name": "Ganetsky2013",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-14",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 2,
+    "outputs": 153,
+    "timecourses": 10
+  },
+  "reference": {
+    "pmid": "23436315",
+    "doi": "10.1002/jcph.24",
+    "title": "Effect of excipients on acetaminophen metabolism and its implications for prevention of liver injury.",
+    "abstract": "Acetaminophen poisoning is the most frequent cause of acute hepatic failure in the US. Toxicity requires reductive metabolism of acetaminophen, primarily via CYP2E1. Liquid acetaminophen preparations contain propylene glycol, a common excipient that has been shown to reduce hepatocellular injury in vitro and in rodents. Children are less susceptible to acetaminophen toxicity for unclear reasons. We conducted a pharmacokinetic single-blinded crossover study of 15 healthy adult volunteers comparing the CYP2E1 and conjugative metabolism of a 15 mg/kg dose of liquid versus solid preparations of acetaminophen. Measured AUC's for the CYP2E1 metabolites were 16-17% lower and extrapolated AUC's were 25-28% lower in the liquid formulation arm while there was no difference in conjugative metabolite production. The formation rate constants for reductive metabolites were equivalent between solid and liquid formulations indicating that enzyme inhibition was competitive. Propylene glycol, an established CYP2E1 competitive antagonist, was detected in the liquid formulation but not solid formulation arm. Since children tend to ingest liquid preparations, the protective effect of this excipient could explain their decreased susceptibility to acetaminophen toxicity. A less hepatotoxic formulation of acetaminophen could potentially be developed if co-formulated with a CYP2E1 inhibitor.",
+    "journal": "Journal of clinical pharmacology",
+    "date": "2013-10-17",
+    "authors": [
+      "Michael Ganetsky",
+      "Mark Böhlke",
+      "Luis Pereira",
+      "David Williams",
+      "Barbara LeDuc",
+      "Shiva Guatam",
+      "Steven D Salhanick"
+    ]
+  },
+  "curators": [
+    "Janosch Brandhorst",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "Acetaminophen poisoning is the most frequent cause of acute hepatic failure in the US. Toxicity requires reductive metabolism of acetaminophen, primarily via CYP2E1. Liquid acetaminophen preparations contain propylene glycol, a common excipient that has been shown to reduce hepatocellular injury in vitro and in rodents. Children are less susceptible to acetaminophen toxicity for unclear reasons. We conducted a pharmacokinetic single-blinded crossover study of 15 healthy adult volunteers comparing the CYP2E1 and conjugative metabolism of a 15mg/kg dose of liquid versus solid preparations of acetaminophen. Measured AUC's for the CYP2E1 metabolites were 16-17% lower and extrapolated AUC's were 25-28% lower in the liquid formulation arm while there was no difference in conjugative metabolite production. The formation rate constants for reductive metabolites were equivalent between solid and liquid formulations indicating that enzyme inhibition was competitive. Propylene glycol, an established CYP2E1 competitive antagonist, was detected in the liquid formulation but not solid formulation arm. Since children tend to ingest liquid preparations, the protective effect of this excipient could explain their decreased susceptibility to acetaminophen toxicity. A less hepatotoxic formulation of acetaminophen could potentially be developed if co-formulated with a CYP2E1 inhibitor."
+  ],
+  "substances": [
+    {
+      "sid": "apap",
+      "name": "paracetamol",
+      "label": "paracetamol"
+    },
+    {
+      "sid": "apapglu",
+      "name": "paracetamol glucuronide",
+      "label": "paracetamol glucuronide"
+    },
+    {
+      "sid": "apapsul",
+      "name": "paracetamol sulfate",
+      "label": "paracetamol sulfate"
+    },
+    {
+      "sid": "apapcys",
+      "name": "paracetamol cysteine",
+      "label": "paracetamol cysteine"
+    },
+    {
+      "sid": "apapmer",
+      "name": "paracetamol mercapturate",
+      "label": "paracetamol mercapturate"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 1114,
+      "name": "all",
+      "parent": null,
+      "count": 15,
+      "study": {
+        "sid": "PKDB00121",
+        "name": "Ganetsky2013"
+      },
+      "characteristica": [
+        {
+          "pk": 30034,
+          "count": 15,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 15
+        },
+        {
+          "pk": 30035,
+          "count": 10,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 15
+        },
+        {
+          "pk": 30036,
+          "count": 5,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 15
+        },
+        {
+          "pk": 30037,
+          "count": 15,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "apap",
+            "name": "paracetamol",
+            "label": "paracetamol"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 2.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 15
+        },
+        {
+          "pk": 30038,
+          "count": 15,
+          "measurement_type": {
+            "sid": "fasting-duration",
+            "name": "fasting (duration)",
+            "label": "fasting (duration)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.041666666666666664,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 15
+        },
+        {
+          "pk": 30039,
+          "count": 15,
+          "measurement_type": {
+            "sid": "abstinence-alcohol",
+            "name": "abstinence alcohol",
+            "label": "abstinence alcohol"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 2.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 15
+        },
+        {
+          "pk": 30040,
+          "count": 15,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 15
+        },
+        {
+          "pk": 30041,
+          "count": 15,
+          "measurement_type": {
+            "sid": "liver-function-test",
+            "name": "liver function test",
+            "label": "liver function test"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "biochemistry-normal",
+            "name": "normal",
+            "label": "biochemistry normal"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 15
+        },
+        {
+          "pk": 30042,
+          "count": 15,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 28.0,
+          "median": null,
+          "min": 18.0,
+          "max": 40.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 15
+        },
+        {
+          "pk": 30043,
+          "count": 15,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 82.0,
+          "median": null,
+          "min": 60.0,
+          "max": 128.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 15
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 2458,
+      "normed": true,
+      "name": "solid",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00121",
+        "name": "Ganetsky2013"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 0.015,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / kilogram"
+    },
+    {
+      "pk": 2460,
+      "normed": true,
+      "name": "liquid",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "solution",
+        "name": "solution",
+        "label": "solution"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00121",
+        "name": "Ganetsky2013"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "apap",
+        "name": "paracetamol",
+        "label": "paracetamol"
+      },
+      "value": 0.015,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / kilogram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00121",
+    "name": "Ganetsky2013",
+    "title": "Effect of excipients on acetaminophen metabolism and its implications for prevention of liver injury.",
+    "pmid": "23436315",
+    "journal": "Journal of clinical pharmacology",
+    "year": "2013",
+    "substances": [
+      "paracetamol",
+      "paracetamol glucuronide",
+      "paracetamol sulfate",
+      "paracetamol cysteine",
+      "paracetamol mercapturate"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 2,
+    "paper_source": "bioc",
+    "paper_licence": "author_manuscript"
+  },
+  "paper": {
+    "source": "bioc",
+    "licence": "author_manuscript",
+    "pmcid": "PMC4383763"
+  }
+}

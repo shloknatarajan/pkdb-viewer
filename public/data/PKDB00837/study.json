@@ -1,0 +1,323 @@
+{
+  "sid": "PKDB00837",
+  "name": "Vancea2009",
+  "licence": "open",
+  "access": "public",
+  "date": "2024-06-15",
+  "counts": {
+    "groups": 1,
+    "individuals": 1,
+    "interventions": 1,
+    "outputs": 34,
+    "timecourses": 2
+  },
+  "reference": {
+    "pmid": "19559901",
+    "doi": null,
+    "title": "Determination of free captopril in human plasma by liquid chromatography with mass spectrometry detection.",
+    "abstract": "A new simple, sensitive and selective liquid chromatography coupled with mass spectrometry (LC/MS) method for quantification of captopril after precolumn derivatization with p-bromo-phenacyl-bromide in human plasma was validated. Plasma samples were analysed on a monolithic column (Cromolith Performance-RP 18e, 100 mm x 4.6 mm I.D., 3 microm) under isocratic conditions using a mobile phase of a 40:60 (v/v) mixture of acetonitrile and 0.1% (v/v) formic acid in water. The flow rate was 1 mL/min at the column temperature of 30 degrees C. In these chromatographic conditions, the retention time was 4.4 min for captopril derivative. The detection of the analyte was in MRM mode using an ion trap mass spectrometer with electrospray positive ionisation. The monitored ions were 216, 253, 255, 268, 270 m/z derived from 415 m/z for derivatized captopril. The sample preparation was very simple and consisted in plasma protein precipitation from 0.2 mL plasma using 0.3 mL methanol after the derivatization reaction was completed. Calibration curves were generated over the range of 10-3000 ng/mL with values for coefficient of correlation greater than 0.993 and by using a weighted (1/y(2)) quadratic regression. The values for precision (CV %) and accuracy (relative error %) at quantification limit were less than 9.9% and 3.9%, for within- and between-run, respectively. The mean recovery of the analyte was 99%. Derivatized samples demonstrated good short-term, long-term, post-preparative and freeze-thaw stability. This is the first reported LC-MS/MS method for analysis of captopril in human plasma that uses protein precipitation as sample processing procedure. The method is very simple and allows obtaining a very good recovery of the analyte. The validated LC-MS/MS method has been applied to a pharmacokinetic study of 50mg captopril tablets on healthy volunteers.",
+    "journal": "Talanta",
+    "date": "2009-09-09",
+    "authors": [
+      "Szende Vancea",
+      "Silvia Imre",
+      "Gabriella Donáth-Nagy",
+      "Tokés Béla",
+      "Mária Nyulas",
+      "Teofil Muntean",
+      "Réka Borka-Balás"
+    ]
+  },
+  "curators": [
+    "Mariia Myshkina",
+    "Matthias König"
+  ],
+  "descriptions": [
+    "Determination of free captopril in human plasma by liquid chromatography with mass spectrometry detection."
+  ],
+  "substances": [
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3704,
+      "name": "all",
+      "parent": null,
+      "count": 1,
+      "study": {
+        "sid": "PKDB00837",
+        "name": "Vancea2009"
+      },
+      "characteristica": [
+        {
+          "pk": 82843,
+          "count": 1,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 1
+        },
+        {
+          "pk": 82844,
+          "count": 1,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 1
+        },
+        {
+          "pk": 82845,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 1
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 20968,
+      "name": "I1",
+      "study": {
+        "sid": "PKDB00837",
+        "name": "Vancea2009"
+      },
+      "group": {
+        "pk": 3704,
+        "name": "all",
+        "count": 1
+      },
+      "characteristica": [
+        {
+          "pk": 82844,
+          "count": 1,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-not-reported",
+            "name": "NR",
+            "label": "Not reported healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 1
+        },
+        {
+          "pk": 82845,
+          "count": 1,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 1
+        },
+        {
+          "pk": 82847,
+          "count": 1,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": null,
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": null
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 7010,
+      "normed": true,
+      "name": "CAP100",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00837",
+        "name": "Vancea2009"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00837",
+    "name": "Vancea2009",
+    "title": "Determination of free captopril in human plasma by liquid chromatography with mass spectrometry detection.",
+    "pmid": "19559901",
+    "journal": "Talanta",
+    "year": "2009",
+    "substances": [
+      "captopril"
+    ],
+    "n_groups": 1,
+    "n_individuals": 1,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

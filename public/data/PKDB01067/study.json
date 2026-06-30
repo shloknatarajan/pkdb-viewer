@@ -1,0 +1,923 @@
+{
+  "sid": "PKDB01067",
+  "name": "Massana1997",
+  "licence": "open",
+  "access": "public",
+  "date": "2025-08-13",
+  "counts": {
+    "groups": 3,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 110,
+    "timecourses": 6
+  },
+  "reference": {
+    "pmid": "9368913",
+    "doi": null,
+    "title": "No sex-related pharmacokinetic and pharmacodynamic differences of captopril.",
+    "abstract": "Captopril is an angiotensin-converting enzyme inhibitor (ACEI) used in the treatment of hypertension and congestive heart failure and has demonstrated its cardiovascular effects in experimental animal models, healthy volunteers and patients. The aim of this study was to find out whether or not differences in the pharmacokinetic profile and the haemodynamic response of a 100-mg single oral dose of captopril appeared between subjects of both sexes. Twenty-four young healthy volunteers (12 males and 12 females) took part in the trial. Blood samples to assess captopril plasma concentrations, determined by reverse phase high performance liquid chromatography (HPLC), as well as haemodynamic variables, were obtained before and at different times following drug intake. Pharmacokinetic parameters did not show significant sex differences. Systolic and diastolic blood pressure exhibited a statistically significant decrease between 0.5 and 8 h in both sexes. No significant sex-related differences were found. The drug exhibited a good tolerability.",
+    "journal": "Pharmacological research",
+    "date": "1998-01-13",
+    "authors": [
+      "E Massana",
+      "M J Barbanoj",
+      "C Moros",
+      "A Morte",
+      "I Gich",
+      "F Jané"
+    ]
+  },
+  "curators": [
+    "Mariia Myshkina"
+  ],
+  "descriptions": [
+    "Comparison of the pharmacokinetics and pharmacodynamics of captopril between healthy males and females."
+  ],
+  "substances": [
+    {
+      "sid": "captopril",
+      "name": "captopril",
+      "label": "captopril"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3680,
+      "name": "all",
+      "parent": null,
+      "count": 24,
+      "study": {
+        "sid": "PKDB01067",
+        "name": "Massana1997"
+      },
+      "characteristica": [
+        {
+          "pk": 82153,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82154,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82155,
+          "count": 12,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82156,
+          "count": 24,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82157,
+          "count": 24,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        }
+      ]
+    },
+    {
+      "pk": 3681,
+      "name": "males",
+      "parent": {
+        "pk": 3680,
+        "name": "all",
+        "count": 24
+      },
+      "count": 12,
+      "study": {
+        "sid": "PKDB01067",
+        "name": "Massana1997"
+      },
+      "characteristica": [
+        {
+          "pk": 82153,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82154,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82156,
+          "count": 24,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82157,
+          "count": 24,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82165,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 23.83,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 1.95,
+          "se": 0.562916512459885,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 12
+        },
+        {
+          "pk": 82166,
+          "count": 12,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 72.19,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 4.6,
+          "se": 1.32790561913614,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 12
+        },
+        {
+          "pk": 82167,
+          "count": 12,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.7516999999999998,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.0534,
+          "se": 0.015415252187363001,
+          "cv": null,
+          "unit": "meter",
+          "group_count": 12
+        },
+        {
+          "pk": 82168,
+          "count": 12,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 82169,
+          "count": 12,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 120.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 6.42,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 12
+        },
+        {
+          "pk": 82170,
+          "count": 12,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 60.67,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 7.67,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 12
+        },
+        {
+          "pk": 82171,
+          "count": 12,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.0888333333333333,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.15466666666666665,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": 12
+        }
+      ]
+    },
+    {
+      "pk": 3682,
+      "name": "females",
+      "parent": {
+        "pk": 3680,
+        "name": "all",
+        "count": 24
+      },
+      "count": 12,
+      "study": {
+        "sid": "PKDB01067",
+        "name": "Massana1997"
+      },
+      "characteristica": [
+        {
+          "pk": 82179,
+          "count": 12,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 22.58,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 3.03,
+          "se": 0.874685657822283,
+          "cv": null,
+          "unit": "yr",
+          "group_count": 12
+        },
+        {
+          "pk": 82180,
+          "count": 12,
+          "measurement_type": {
+            "sid": "weight",
+            "name": "weight",
+            "label": "weight"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 55.74,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 4.27,
+          "se": 1.23264282471985,
+          "cv": null,
+          "unit": "kg",
+          "group_count": 12
+        },
+        {
+          "pk": 82181,
+          "count": 12,
+          "measurement_type": {
+            "sid": "height",
+            "name": "height",
+            "label": "height"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.6333000000000002,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.0514,
+          "se": 0.014837901918173399,
+          "cv": null,
+          "unit": "meter",
+          "group_count": 12
+        },
+        {
+          "pk": 82182,
+          "count": 12,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "female",
+            "name": "F",
+            "label": "female"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 12
+        },
+        {
+          "pk": 82183,
+          "count": 12,
+          "measurement_type": {
+            "sid": "blood-pressure-systolic",
+            "name": "blood pressure systolic",
+            "label": "blood pressure systolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 112.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 10.98,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 12
+        },
+        {
+          "pk": 82184,
+          "count": 12,
+          "measurement_type": {
+            "sid": "blood-pressure-diastolic",
+            "name": "blood pressure diastolic",
+            "label": "blood pressure diastolic"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 56.83,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 5.95,
+          "se": null,
+          "cv": null,
+          "unit": "mmHg",
+          "group_count": 12
+        },
+        {
+          "pk": 82153,
+          "count": 24,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82154,
+          "count": 24,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82185,
+          "count": 12,
+          "measurement_type": {
+            "sid": "heart-rate",
+            "name": "heart rate",
+            "label": "heart rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 1.218,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 0.096,
+          "se": null,
+          "cv": null,
+          "unit": "1 / second",
+          "group_count": 12
+        },
+        {
+          "pk": 82156,
+          "count": 24,
+          "measurement_type": {
+            "sid": "fasting",
+            "name": "fasting",
+            "label": "fasting"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "fasting-yes",
+            "name": "Y",
+            "label": "fasting"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        },
+        {
+          "pk": 82157,
+          "count": 24,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 24
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 6974,
+      "normed": true,
+      "name": "CAP100",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB01067",
+        "name": "Massana1997"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "captopril",
+        "name": "captopril",
+        "label": "captopril"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB01067",
+    "name": "Massana1997",
+    "title": "No sex-related pharmacokinetic and pharmacodynamic differences of captopril.",
+    "pmid": "9368913",
+    "journal": "Pharmacological research",
+    "year": "1998",
+    "substances": [
+      "captopril"
+    ],
+    "n_groups": 3,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

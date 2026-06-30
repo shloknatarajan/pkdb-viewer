@@ -1,0 +1,493 @@
+{
+  "sid": "PKDB00136",
+  "name": "Tanaka2014",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-06-21",
+  "counts": {
+    "groups": 1,
+    "individuals": 0,
+    "interventions": 5,
+    "outputs": 194,
+    "timecourses": 13
+  },
+  "reference": {
+    "pmid": "24389476",
+    "doi": null,
+    "title": "Simultaneous LC-MS/MS analysis of the plasma concentrations of a cocktail of 5 cytochrome P450 substrate drugs and their metabolites.",
+    "abstract": "A \"cocktail\" approach, which involves simultaneous administration of multiple CYP-specific probes, concurrently detects the activity of multiple CYP enzymes. We developed and validated a rapid and selective LC-MS/MS method for determining the plasma concentrations of 5 CYP probe drugs and metabolites (caffeine/paraxanthine, CYP1A2 substrate; losartan/losartan carboxylic acid (E3174), CYP2C9 substrate; omeprazole/5-hydroxyomeprazole, CYP2C19 substrate; dextromethorphan/dextrorphan, CYP2D6 substrate; and midazolam/1'-hydroxymidazolam, CYP3A4 substrate) by single-step extraction, followed by a single LC-MS/MS run. An Ostro™ 96-well plate was used for extraction of CYP substrates and metabolites from human plasma and urine. Following optimization of the chromatographic conditions, all the peaks were well separated, and retention times ranged between 4.4 and 11.7 min. The total run time for a single injection was within 13 min. The accuracy and precision values suggested that the assay had high accuracy and reliability in plasma and urine samples. No significant matrix interference was observed. To demonstrate the efficacy of this method, plasma and urine concentrations of 5 CYP probe substrates and their metabolites were determined after simultaneous oral administration of 5 drugs to 4 healthy volunteers. All the substrates and metabolites were detected over an 8 h period, and the plasma concentrations of each substrate at 8 h after administration were above the lower limit of quantification. Urine concentrations of drugs and their metabolic ratio were evaluated after the administration. In conclusion, the advantage of our cocktail approach is that it enables in vivo assessment of the activity of various drug-metabolizing enzymes in a single assay.",
+    "journal": "Biological & pharmaceutical bulletin",
+    "date": "2014-08-26",
+    "authors": [
+      "Shimako Tanaka",
+      "Shinya Uchida",
+      "Naoki Inui",
+      "Kazuhiko Takeuchi",
+      "Hiroshi Watanabe",
+      "Noriyuki Namiki"
+    ]
+  },
+  "curators": [
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "caf",
+      "name": "caffeine",
+      "label": "caffeine (137X)"
+    },
+    {
+      "sid": "px",
+      "name": "paraxanthine",
+      "label": "paraxanthine (17X)"
+    },
+    {
+      "sid": "midazolam",
+      "name": "midazolam",
+      "label": "midazolam"
+    },
+    {
+      "sid": "1-hydroxymidazolam",
+      "name": "1-hydroxymidazolam",
+      "label": "1-hydroxymidazolam"
+    },
+    {
+      "sid": "losartan",
+      "name": "losartan",
+      "label": "losartan"
+    },
+    {
+      "sid": "exp3174",
+      "name": "exp3174",
+      "label": "Losartan carboxylic acid (E3174)"
+    },
+    {
+      "sid": "omeprazole",
+      "name": "omeprazole",
+      "label": "omeprazole"
+    },
+    {
+      "sid": "5-hydroxyomeprazole",
+      "name": "5-hydroxyomeprazole",
+      "label": "5-hydroxyomeprazole"
+    },
+    {
+      "sid": "dmt",
+      "name": "dextromethorphan",
+      "label": "dextromethorphan"
+    },
+    {
+      "sid": "dtf",
+      "name": "dextrorphan",
+      "label": "dextrorphan"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 3010,
+      "name": "all",
+      "parent": null,
+      "count": 4,
+      "study": {
+        "sid": "PKDB00136",
+        "name": "Tanaka2014"
+      },
+      "characteristica": [
+        {
+          "pk": 68530,
+          "count": 4,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 4
+        },
+        {
+          "pk": 68531,
+          "count": 4,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 4
+        },
+        {
+          "pk": 68532,
+          "count": 4,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 4
+        },
+        {
+          "pk": 68533,
+          "count": 4,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "caf",
+            "name": "caffeine",
+            "label": "caffeine (137X)"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 3.0,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 4
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 6116,
+      "normed": true,
+      "name": "CAF100",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00136",
+        "name": "Tanaka2014"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "caf",
+        "name": "caffeine",
+        "label": "caffeine (137X)"
+      },
+      "value": 0.1,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 6117,
+      "normed": true,
+      "name": "LOS50",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00136",
+        "name": "Tanaka2014"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "losartan",
+        "name": "losartan",
+        "label": "losartan"
+      },
+      "value": 0.05,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 6118,
+      "normed": true,
+      "name": "OME20",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00136",
+        "name": "Tanaka2014"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "omeprazole",
+        "name": "omeprazole",
+        "label": "omeprazole"
+      },
+      "value": 0.02,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 6119,
+      "normed": true,
+      "name": "DEX30",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00136",
+        "name": "Tanaka2014"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "dmt",
+        "name": "dextromethorphan",
+        "label": "dextromethorphan"
+      },
+      "value": 0.03,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    },
+    {
+      "pk": 6120,
+      "normed": true,
+      "name": "MID1",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00136",
+        "name": "Tanaka2014"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "midazolam",
+        "name": "midazolam",
+        "label": "midazolam"
+      },
+      "value": 0.001,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00136",
+    "name": "Tanaka2014",
+    "title": "Simultaneous LC-MS/MS analysis of the plasma concentrations of a cocktail of 5 cytochrome P450 substrate drugs and their metabolites.",
+    "pmid": "24389476",
+    "journal": "Biological & pharmaceutical bulletin",
+    "year": "2014",
+    "substances": [
+      "caffeine (137X)",
+      "paraxanthine (17X)",
+      "midazolam",
+      "1-hydroxymidazolam",
+      "losartan",
+      "Losartan carboxylic acid (E3174)",
+      "omeprazole",
+      "5-hydroxyomeprazole",
+      "dextromethorphan",
+      "dextrorphan"
+    ],
+    "n_groups": 1,
+    "n_individuals": 0,
+    "n_interventions": 5,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

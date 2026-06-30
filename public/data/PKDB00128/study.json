@@ -1,0 +1,820 @@
+{
+  "sid": "PKDB00128",
+  "name": "Cornish1957",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-24",
+  "counts": {
+    "groups": 1,
+    "individuals": 2,
+    "interventions": 3,
+    "outputs": 60,
+    "timecourses": 0
+  },
+  "reference": {
+    "pmid": "13475320",
+    "doi": null,
+    "title": "A study of the metabolism of theobromine, theophylline, and caffeine in man.",
+    "abstract": null,
+    "journal": "The Journal of biological chemistry",
+    "date": "2000-07-01",
+    "authors": [
+      "H H CORNISH",
+      "A A CHRISTMAN"
+    ]
+  },
+  "curators": [
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "caf",
+      "name": "caffeine",
+      "label": "caffeine (137X)"
+    },
+    {
+      "sid": "px",
+      "name": "paraxanthine",
+      "label": "paraxanthine (17X)"
+    },
+    {
+      "sid": "tp",
+      "name": "theophylline",
+      "label": "theophylline (13X)"
+    },
+    {
+      "sid": "13u",
+      "name": "13U",
+      "label": "1,3-dimethyluric acid (13U)"
+    },
+    {
+      "sid": "tb",
+      "name": "theobromine",
+      "label": "theobromine (37X)"
+    },
+    {
+      "sid": "1x",
+      "name": "1X",
+      "label": "1-methylxanthine (1X)"
+    },
+    {
+      "sid": "1u",
+      "name": "1U",
+      "label": "1-methyluric acid (1U)"
+    },
+    {
+      "sid": "3x",
+      "name": "3X",
+      "label": "3-methylxanthine (3X)"
+    },
+    {
+      "sid": "7x",
+      "name": "7X",
+      "label": "7-methylxanthine (7X)"
+    },
+    {
+      "sid": "7u",
+      "name": "7U",
+      "label": "7-methyluric acid (7U)"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2765,
+      "name": "all",
+      "parent": null,
+      "count": 2,
+      "study": {
+        "sid": "PKDB00128",
+        "name": "Cornish1957"
+      },
+      "characteristica": [
+        {
+          "pk": 61844,
+          "count": 2,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61845,
+          "count": 2,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61846,
+          "count": 2,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61847,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "coffee",
+            "name": "coffee",
+            "label": "coffee"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61848,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "tea",
+            "name": "tea",
+            "label": "tea"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61849,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "cocoa",
+            "name": "cocoa",
+            "label": "cocoa"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        }
+      ]
+    }
+  ],
+  "individuals": [
+    {
+      "pk": 17863,
+      "name": "H.C.",
+      "study": {
+        "sid": "PKDB00128",
+        "name": "Cornish1957"
+      },
+      "group": {
+        "pk": 2765,
+        "name": "all",
+        "count": 2
+      },
+      "characteristica": [
+        {
+          "pk": 61844,
+          "count": 2,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61845,
+          "count": 2,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61846,
+          "count": 2,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61847,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "coffee",
+            "name": "coffee",
+            "label": "coffee"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61848,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "tea",
+            "name": "tea",
+            "label": "tea"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61849,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "cocoa",
+            "name": "cocoa",
+            "label": "cocoa"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        }
+      ]
+    },
+    {
+      "pk": 17864,
+      "name": "F.M.",
+      "study": {
+        "sid": "PKDB00128",
+        "name": "Cornish1957"
+      },
+      "group": {
+        "pk": 2765,
+        "name": "all",
+        "count": 2
+      },
+      "characteristica": [
+        {
+          "pk": 61844,
+          "count": 2,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61845,
+          "count": 2,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-yes",
+            "name": "Y",
+            "label": "healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61846,
+          "count": 2,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "male",
+            "name": "M",
+            "label": "male"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61847,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "coffee",
+            "name": "coffee",
+            "label": "coffee"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61848,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "tea",
+            "name": "tea",
+            "label": "tea"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        },
+        {
+          "pk": 61849,
+          "count": 2,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": {
+            "sid": "cocoa",
+            "name": "cocoa",
+            "label": "cocoa"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 2
+        }
+      ]
+    }
+  ],
+  "interventions": [
+    {
+      "pk": 5644,
+      "normed": true,
+      "name": "theobromine",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": null,
+      "application": null,
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00128",
+        "name": "Cornish1957"
+      },
+      "measurement_type": {
+        "sid": "qualitative-dosing",
+        "name": "qualitative dosing",
+        "label": "qualitative dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "tb",
+        "name": "theobromine",
+        "label": "theobromine (37X)"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "g"
+    },
+    {
+      "pk": 5646,
+      "normed": true,
+      "name": "theophylline",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": null,
+      "application": null,
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00128",
+        "name": "Cornish1957"
+      },
+      "measurement_type": {
+        "sid": "qualitative-dosing",
+        "name": "qualitative dosing",
+        "label": "qualitative dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "tp",
+        "name": "theophylline",
+        "label": "theophylline (13X)"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "g"
+    },
+    {
+      "pk": 5648,
+      "normed": true,
+      "name": "caffeine",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": null,
+      "application": null,
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "PKDB00128",
+        "name": "Cornish1957"
+      },
+      "measurement_type": {
+        "sid": "qualitative-dosing",
+        "name": "qualitative dosing",
+        "label": "qualitative dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "caf",
+        "name": "caffeine",
+        "label": "caffeine (137X)"
+      },
+      "value": 1.0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "g"
+    }
+  ],
+  "_index": {
+    "sid": "PKDB00128",
+    "name": "Cornish1957",
+    "title": "A study of the metabolism of theobromine, theophylline, and caffeine in man.",
+    "pmid": "13475320",
+    "journal": "The Journal of biological chemistry",
+    "year": "2000",
+    "substances": [
+      "caffeine (137X)",
+      "paraxanthine (17X)",
+      "theophylline (13X)",
+      "1,3-dimethyluric acid (13U)",
+      "theobromine (37X)",
+      "1-methylxanthine (1X)",
+      "1-methyluric acid (1U)",
+      "3-methylxanthine (3X)",
+      "7-methylxanthine (7X)",
+      "7-methyluric acid (7U)"
+    ],
+    "n_groups": 1,
+    "n_individuals": 2,
+    "n_interventions": 3,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}

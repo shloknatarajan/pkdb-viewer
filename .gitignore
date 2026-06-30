@@ -1,0 +1,8 @@
+node_modules/
+dist/
+ingest/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vite/
+*.tsbuildinfo

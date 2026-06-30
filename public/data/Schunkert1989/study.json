@@ -1,0 +1,1190 @@
+{
+  "sid": "Schunkert1989",
+  "name": "Schunkert1989",
+  "licence": "open",
+  "access": "public",
+  "date": "2025-10-07",
+  "counts": {
+    "groups": 4,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 174,
+    "timecourses": 12
+  },
+  "reference": {
+    "pmid": "2474104",
+    "doi": null,
+    "title": "Steady-state kinetics of ramipril in renal failure.",
+    "abstract": "In an open trial, the pharmacokinetics of ramipril and its active metabolite ramiprilat were studied in 23 hypertensive patients with various degrees of renal insufficiency. During a 2-week treatment period, each subject took daily a 5-mg tablet of ramipril. Serum profiles and urinary excretion of the parent compound and ramiprilat, the active metabolite, were then evaluated. Peak concentrations of ramipril were slightly greater in patients with severe renal insufficiency; however, most of the ramipril was metabolized in the liver. The drug concentration-time curve was almost independent of renal function and no accumulation was observed after multiple dosing. In contrast, ramiprilat kinetics were significantly influenced by renal function. Initial apparent half-lives (8-16 h), mean trough concentrations (5-19 ng/ml), and absolute accumulation all increased with worsening renal function, and renal clearance of ramiprilat was significantly correlated with creatinine clearance. The subsequent long terminal phase at low ramiprilat serum concentration represents the slow dissociation of the angiotensin converting enzyme (ACE)-bound drug. This study indicates that in patients with severe renal insufficiency (creatinine clearance below 30 ml/min), smaller doses of ramipril will be required than in patients with normal or borderline normal renal function.",
+    "journal": "Journal of cardiovascular pharmacology",
+    "date": "1989-08-25",
+    "authors": [
+      "H Schunkert",
+      "J Kindler",
+      "M Gassmann",
+      "W Lahn",
+      "R Irmisch",
+      "E R Debusmann",
+      "J Ocón-Pujadas",
+      "H G Sieberth"
+    ]
+  },
+  "curators": [
+    "XResearch Group",
+    "Matthias König"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "ramipril",
+      "name": "ramipril",
+      "label": "ramipril"
+    },
+    {
+      "sid": "ramiprilat",
+      "name": "ramiprilat",
+      "label": "ramiprilat"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 2198,
+      "name": "all",
+      "parent": null,
+      "count": 23,
+      "study": {
+        "sid": "Schunkert1989",
+        "name": "Schunkert1989"
+      },
+      "characteristica": [
+        {
+          "pk": 50880,
+          "count": 23,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 42.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 23
+        },
+        {
+          "pk": 50881,
+          "count": 23,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50874,
+          "count": 23,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50875,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50876,
+          "count": 23,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50877,
+          "count": 23,
+          "measurement_type": {
+            "sid": "blood-pressure-categorical",
+            "name": "blood pressure (categorical)",
+            "label": "blood pressure (categorical)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "blood-pressure-elevated",
+            "name": "elevated",
+            "label": "elevated"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50878,
+          "count": 23,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50879,
+          "count": 23,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 25.0,
+          "max": 65.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "years",
+          "group_count": 23
+        }
+      ]
+    },
+    {
+      "pk": 2199,
+      "name": "group1",
+      "parent": {
+        "pk": 2198,
+        "name": "all",
+        "count": 23
+      },
+      "count": 10,
+      "study": {
+        "sid": "Schunkert1989",
+        "name": "Schunkert1989"
+      },
+      "characteristica": [
+        {
+          "pk": 50880,
+          "count": 23,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 42.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 23
+        },
+        {
+          "pk": 50881,
+          "count": 23,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50883,
+          "count": 10,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 2.8901734104046244,
+          "max": 8.670520231213873,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milliliter / meter ** 2 / minute",
+          "group_count": 10
+        },
+        {
+          "pk": 50874,
+          "count": 23,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50875,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50876,
+          "count": 23,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50877,
+          "count": 23,
+          "measurement_type": {
+            "sid": "blood-pressure-categorical",
+            "name": "blood pressure (categorical)",
+            "label": "blood pressure (categorical)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "blood-pressure-elevated",
+            "name": "elevated",
+            "label": "elevated"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50878,
+          "count": 23,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50879,
+          "count": 23,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 25.0,
+          "max": 65.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "years",
+          "group_count": 23
+        }
+      ]
+    },
+    {
+      "pk": 2200,
+      "name": "group2",
+      "parent": {
+        "pk": 2198,
+        "name": "all",
+        "count": 23
+      },
+      "count": 7,
+      "study": {
+        "sid": "Schunkert1989",
+        "name": "Schunkert1989"
+      },
+      "characteristica": [
+        {
+          "pk": 50880,
+          "count": 23,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 42.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 23
+        },
+        {
+          "pk": 50881,
+          "count": 23,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50885,
+          "count": 7,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 8.670520231213873,
+          "max": 23.121387283236995,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milliliter / meter ** 2 / minute",
+          "group_count": 7
+        },
+        {
+          "pk": 50874,
+          "count": 23,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50875,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50876,
+          "count": 23,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50877,
+          "count": 23,
+          "measurement_type": {
+            "sid": "blood-pressure-categorical",
+            "name": "blood pressure (categorical)",
+            "label": "blood pressure (categorical)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "blood-pressure-elevated",
+            "name": "elevated",
+            "label": "elevated"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50878,
+          "count": 23,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50879,
+          "count": 23,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 25.0,
+          "max": 65.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "years",
+          "group_count": 23
+        }
+      ]
+    },
+    {
+      "pk": 2201,
+      "name": "group3",
+      "parent": {
+        "pk": 2198,
+        "name": "all",
+        "count": 23
+      },
+      "count": 6,
+      "study": {
+        "sid": "Schunkert1989",
+        "name": "Schunkert1989"
+      },
+      "characteristica": [
+        {
+          "pk": 50880,
+          "count": 23,
+          "measurement_type": {
+            "sid": "abstinence",
+            "name": "abstinence",
+            "label": "abstinence"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 42.0,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day",
+          "group_count": 23
+        },
+        {
+          "pk": 50881,
+          "count": 23,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "medication-no",
+            "name": "N",
+            "label": "No medication"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50887,
+          "count": 6,
+          "measurement_type": {
+            "sid": "glomular-filtration-rate",
+            "name": "gfr",
+            "label": "Glomular filtration rate"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 23.121387283236995,
+          "max": 46.24277456647399,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "milliliter / meter ** 2 / minute",
+          "group_count": 6
+        },
+        {
+          "pk": 50874,
+          "count": 23,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo-sapiens",
+            "name": "homo sapiens",
+            "label": "Homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50875,
+          "count": 23,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "healthy-no",
+            "name": "N",
+            "label": "No healthy"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50876,
+          "count": 23,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "hypertension",
+            "name": "hypertension",
+            "label": "hypertension"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50877,
+          "count": 23,
+          "measurement_type": {
+            "sid": "blood-pressure-categorical",
+            "name": "blood pressure (categorical)",
+            "label": "blood pressure (categorical)"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "blood-pressure-elevated",
+            "name": "elevated",
+            "label": "elevated"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50878,
+          "count": 23,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sex-not-reported",
+            "name": "NR",
+            "label": "Not reported sex"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null,
+          "group_count": 23
+        },
+        {
+          "pk": 50879,
+          "count": 23,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample-mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 25.0,
+          "max": 65.0,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "years",
+          "group_count": 23
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 4524,
+      "normed": true,
+      "name": "RIL5",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "tablet",
+        "name": "tablet",
+        "label": "tablet"
+      },
+      "application": {
+        "sid": "multiple-dose",
+        "name": "multiple dose",
+        "label": "multiple dose"
+      },
+      "time": "S0T24R13",
+      "time_end": null,
+      "time_unit": "hr",
+      "study": {
+        "sid": "Schunkert1989",
+        "name": "Schunkert1989"
+      },
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "calculation_type": null,
+      "choice": null,
+      "substance": {
+        "sid": "ramipril",
+        "name": "ramipril",
+        "label": "ramipril"
+      },
+      "value": 0.005,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "_index": {
+    "sid": "Schunkert1989",
+    "name": "Schunkert1989",
+    "title": "Steady-state kinetics of ramipril in renal failure.",
+    "pmid": "2474104",
+    "journal": "Journal of cardiovascular pharmacology",
+    "year": "1989",
+    "substances": [
+      "ramipril",
+      "ramiprilat"
+    ],
+    "n_groups": 4,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "paper_source": "abstract",
+    "paper_licence": null
+  },
+  "paper": {
+    "source": "abstract",
+    "licence": null,
+    "pmcid": null
+  }
+}
