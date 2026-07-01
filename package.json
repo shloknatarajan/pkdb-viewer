@@ -11,7 +11,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "ingest": "ingest/.venv/bin/python ingest/ingest.py"
+    "ingest": "ingest/.venv/bin/python ingest/ingest_dump.py"
   },
   "dependencies": {
     "react": "^18.3.1",
