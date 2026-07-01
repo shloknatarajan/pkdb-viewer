@@ -414,6 +414,9 @@ def ingest(tables, study_row, *, fetch_paper):
         "timecourses": len(timecourses),
         "scatters": len(scatters),
     }
+    # Skip studies with no extracted entities in this snapshot (nothing to show).
+    if not any(counts.values()):
+        return None
 
     data = {
         "sid": sid,
@@ -483,6 +486,9 @@ def main():
         print(f"[{i}/{len(open_studies)}] {row['sid']} ({row.get('name')})", flush=True)
         try:
             entry = ingest(tables, row, fetch_paper=not args.no_paper)
+            if entry is None:
+                print("    - skipped (no entities in snapshot)", flush=True)
+                continue
             index.append(entry)
             print(
                 f"    groups={entry['n_groups']} indiv={entry['n_individuals']} "
