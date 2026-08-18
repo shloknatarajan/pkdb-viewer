@@ -1,0 +1,36 @@
+{
+  "pmc_total": 12160893,
+  "oa_total": 7831626,
+  "in_pmc": 152,
+  "oa_pos": 46,
+  "tiers": {
+    "1 any PK mention": {
+      "recall": 0.756578947368421,
+      "all_hits": 128298,
+      "all_est": 169576,
+      "oa_hits": 72968,
+      "oa_est": 96445
+    },
+    "2 + humans": {
+      "recall": 0.6842105263157895,
+      "all_hits": 74830,
+      "all_est": 109367,
+      "oa_hits": 40388,
+      "oa_est": 59029
+    },
+    "3 + reported PK params": {
+      "recall": 0.5,
+      "all_hits": 21256,
+      "all_est": 42512,
+      "oa_hits": 11434,
+      "oa_est": 22868
+    },
+    "4 + dosing / clinical": {
+      "recall": 0.3223684210526316,
+      "all_hits": 5715,
+      "all_est": 17728,
+      "oa_hits": 2707,
+      "oa_est": 8397
+    }
+  }
+}

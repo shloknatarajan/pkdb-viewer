@@ -56,6 +56,16 @@ npm install
 npm run dev          # http://localhost:5173
 ```
 
+## Find papers to annotate (keyword pipeline)
+
+Rule-based (no LLM) search/filter for PKDB-annotatable candidates — see
+[`paper_screening/README.md`](paper_screening/README.md):
+
+```bash
+ingest/.venv/bin/python -m paper_screening search --tier params --limit 100
+ingest/.venv/bin/python -m paper_screening local --dir variantAnnotations/papers --limit 200
+```
+
 ## Re-run ingestion
 
 Requires Python 3.11+ (stdlib only for the dump; `pubmed-markdown` optional for

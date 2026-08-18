@@ -9,3 +9,5 @@ __pycache__/
 
 # cached PK-DB CSV dump (re-downloaded by ingest_dump.py)
 ingest/.cache_*.zip
+
+.env

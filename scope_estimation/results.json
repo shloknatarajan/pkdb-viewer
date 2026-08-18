@@ -1,0 +1,182 @@
+{
+  "queries_are_logged_in": "results.json:query_log",
+  "A_tier_counts": {
+    "broad": 97961,
+    "medium": 18413,
+    "strict": 5757
+  },
+  "C_pmc_oa_denominator": 7831626,
+  "B_capture_recapture": {
+    "n1": 18413,
+    "n2": 71482,
+    "overlap": 6363,
+    "N_hat": 206832,
+    "se": 2002,
+    "ci95": [
+      202909,
+      210756
+    ]
+  },
+  "A_calibration": {
+    "known_oa_pmcids": 155,
+    "findable_in_pmc": 152,
+    "in_oa_subset": 46,
+    "tier_recall": {
+      "broad": {
+        "matched": 33,
+        "recall": 0.213
+      },
+      "medium": {
+        "matched": 14,
+        "recall": 0.09
+      },
+      "strict": {
+        "matched": 9,
+        "recall": 0.058
+      }
+    }
+  },
+  "derived": {
+    "medium_tier_count": 18413,
+    "medium_recall": 0.09,
+    "note": "multiply by sampled precision to finalize; recall-correct via /recall",
+    "recall_corrected_upper_no_precision": 204589
+  },
+  "query_log": [
+    {
+      "db": "pmc",
+      "term": "\"open access\"[filter] AND (\"Pharmacokinetics\"[MeSH Terms] OR pharmacokinetics[Subheading] OR \"Area Under Curve\"[MeSH] OR \"Metabolic Clearance Rate\"[MeSH] OR \"Half-Life\"[MeSH] OR AUC[tiab] OR Cmax[tiab] OR clearance[tiab] OR \"half-life\"[tiab] OR \"volume of distribution\"[tiab] OR \"concentration-time\"[tiab] OR bioavailability[tiab]) AND Humans[MeSH]",
+      "count": 97961
+    },
+    {
+      "db": "pmc",
+      "term": "\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND Humans[MeSH]",
+      "count": 18413
+    },
+    {
+      "db": "pmc",
+      "term": "\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND (AUC[tiab] OR Cmax[tiab] OR clearance[tiab]) AND Humans[MeSH]",
+      "count": 5757
+    },
+    {
+      "db": "pmc",
+      "term": "\"open access\"[filter]",
+      "count": 7831626
+    },
+    {
+      "db": "pmc",
+      "term": "\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND Humans[MeSH]",
+      "count": 18413
+    },
+    {
+      "db": "pmc",
+      "term": "\"open access\"[filter] AND (AUC[tiab] OR Cmax[tiab] OR clearance[tiab] OR \"half-life\"[tiab] OR \"concentration-time\"[tiab] OR \"volume of distribution\"[tiab]) AND Humans[MeSH]",
+      "count": 71482
+    },
+    {
+      "db": "pmc",
+      "term": "(\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND Humans[MeSH]) AND (\"open access\"[filter] AND (AUC[tiab] OR Cmax[tiab] OR clearance[tiab] OR \"half-life\"[tiab] OR \"concentration-time\"[tiab] OR \"volume of distribution\"[tiab]) AND Humans[MeSH])",
+      "count": 6363
+    },
+    {
+      "db": "pmc",
+      "term": "(6777419[pmcid] OR 3043256[pmcid] OR 5299073[pmcid] OR 2824477[pmcid] OR 6256010[pmcid] OR 90851[pmcid] OR 6343132[pmcid] OR 1884539[pmcid] OR 2014440[pmcid] OR 4063287[pmcid] OR 1884432[pmcid] OR 3269589[pmcid] OR 1380090[pmcid] OR 3403202[pmcid] OR 1401936[pmcid] OR 301753[pmcid] OR 1429902[pmcid] OR 1400639[pmcid] OR 439668[pmcid] OR 9683076[pmcid] OR 1368322[pmcid] OR 1401076[pmcid] OR 1380034[pmcid] OR 1380033[pmcid] OR 1368573[pmcid] OR 1368572[pmcid] OR 9321699[pmcid] OR 3093077[pmcid] OR 1885182[pmcid] OR 6719321[pmcid] OR 1386354[pmcid] OR 1427629[pmcid] OR 7993260[pmcid] OR 1427630[pmcid] OR 6175428[pmcid] OR 1400629[pmcid] OR 5394143[pmcid] OR 1365159[pmcid] OR 1368325[pmcid] OR 1463701[pmcid])",
+      "count": 40
+    },
+    {
+      "db": "pmc",
+      "term": "(1401851[pmcid] OR 1401080[pmcid] OR 1884944[pmcid] OR 1381556[pmcid] OR 1858666[pmcid] OR 1894911[pmcid] OR 5582588[pmcid] OR 172463[pmcid] OR 2792562[pmcid] OR 5762444[pmcid] OR 293343[pmcid] OR 1368232[pmcid] OR 5324621[pmcid] OR 1727147[pmcid] OR 1428933[pmcid] OR 4430775[pmcid] OR 6822839[pmcid] OR 2376067[pmcid] OR 7878668[pmcid] OR 1400690[pmcid] OR 2561122[pmcid] OR 1427583[pmcid] OR 1381380[pmcid] OR 1380095[pmcid] OR 3928318[pmcid] OR 1429941[pmcid] OR 1463596[pmcid] OR 4383763[pmcid] OR 1776534[pmcid] OR 1381492[pmcid] OR 1463861[pmcid] OR 1401133[pmcid] OR 1430020[pmcid] OR 1589913[pmcid] OR 1429435[pmcid] OR 1430174[pmcid] OR 1401868[pmcid] OR 1364644[pmcid] OR 1402535[pmcid] OR 1463700[pmcid])",
+      "count": 40
+    },
+    {
+      "db": "pmc",
+      "term": "(3579260[pmcid] OR 10299984[pmcid] OR 2361774[pmcid] OR 4153964[pmcid] OR 5330189[pmcid] OR 5698589[pmcid] OR 5854751[pmcid] OR 1401099[pmcid] OR 1378889[pmcid] OR 2597011[pmcid] OR 7016269[pmcid] OR 1379781[pmcid] OR 4382505[pmcid] OR 2810805[pmcid] OR 4898153[pmcid] OR 5297975[pmcid] OR 4558628[pmcid] OR 4569680[pmcid] OR 6661773[pmcid] OR 1884585[pmcid] OR 6783597[pmcid] OR 2978967[pmcid] OR 1429665[pmcid] OR 1379765[pmcid] OR 7067795[pmcid] OR 2014340[pmcid] OR 5411458[pmcid] OR 2882206[pmcid] OR 5599467[pmcid] OR 1548155[pmcid] OR 1432870[pmcid] OR 1884181[pmcid] OR 2311411[pmcid] OR 7496689[pmcid] OR 4269819[pmcid] OR 5465324[pmcid] OR 1432608[pmcid] OR 1419951[pmcid] OR 1884281[pmcid] OR 5383603[pmcid])",
+      "count": 37
+    },
+    {
+      "db": "pmc",
+      "term": "(5099554[pmcid] OR 7306622[pmcid] OR 5451423[pmcid] OR 8167502[pmcid] OR 8089085[pmcid] OR 6099360[pmcid] OR 5761050[pmcid] OR 425102[pmcid] OR 1411287[pmcid] OR 371754[pmcid] OR 333235[pmcid] OR 301883[pmcid] OR 2290270[pmcid] OR 424197[pmcid] OR 302637[pmcid] OR 333360[pmcid] OR 8354182[pmcid] OR 1463370[pmcid] OR 1874154[pmcid] OR 1427615[pmcid] OR 5574226[pmcid] OR 1386089[pmcid] OR 1400811[pmcid] OR 4631185[pmcid] OR 1381301[pmcid] OR 3575942[pmcid] OR 3687097[pmcid] OR 10128151[pmcid] OR 10079507[pmcid] OR 6590304[pmcid] OR 6653833[pmcid] OR 4010224[pmcid] OR 1381577[pmcid] OR 4182631[pmcid] OR 6680204[pmcid])",
+      "count": 35
+    },
+    {
+      "db": "pmc",
+      "term": "(6777419[pmcid] OR 3043256[pmcid] OR 5299073[pmcid] OR 2824477[pmcid] OR 6256010[pmcid] OR 90851[pmcid] OR 6343132[pmcid] OR 1884539[pmcid] OR 2014440[pmcid] OR 4063287[pmcid] OR 1884432[pmcid] OR 3269589[pmcid] OR 1380090[pmcid] OR 3403202[pmcid] OR 1401936[pmcid] OR 301753[pmcid] OR 1429902[pmcid] OR 1400639[pmcid] OR 439668[pmcid] OR 9683076[pmcid] OR 1368322[pmcid] OR 1401076[pmcid] OR 1380034[pmcid] OR 1380033[pmcid] OR 1368573[pmcid] OR 1368572[pmcid] OR 9321699[pmcid] OR 3093077[pmcid] OR 1885182[pmcid] OR 6719321[pmcid] OR 1386354[pmcid] OR 1427629[pmcid] OR 7993260[pmcid] OR 1427630[pmcid] OR 6175428[pmcid] OR 1400629[pmcid] OR 5394143[pmcid] OR 1365159[pmcid] OR 1368325[pmcid] OR 1463701[pmcid]) AND (\"open access\"[filter])",
+      "count": 9
+    },
+    {
+      "db": "pmc",
+      "term": "(1401851[pmcid] OR 1401080[pmcid] OR 1884944[pmcid] OR 1381556[pmcid] OR 1858666[pmcid] OR 1894911[pmcid] OR 5582588[pmcid] OR 172463[pmcid] OR 2792562[pmcid] OR 5762444[pmcid] OR 293343[pmcid] OR 1368232[pmcid] OR 5324621[pmcid] OR 1727147[pmcid] OR 1428933[pmcid] OR 4430775[pmcid] OR 6822839[pmcid] OR 2376067[pmcid] OR 7878668[pmcid] OR 1400690[pmcid] OR 2561122[pmcid] OR 1427583[pmcid] OR 1381380[pmcid] OR 1380095[pmcid] OR 3928318[pmcid] OR 1429941[pmcid] OR 1463596[pmcid] OR 4383763[pmcid] OR 1776534[pmcid] OR 1381492[pmcid] OR 1463861[pmcid] OR 1401133[pmcid] OR 1430020[pmcid] OR 1589913[pmcid] OR 1429435[pmcid] OR 1430174[pmcid] OR 1401868[pmcid] OR 1364644[pmcid] OR 1402535[pmcid] OR 1463700[pmcid]) AND (\"open access\"[filter])",
+      "count": 7
+    },
+    {
+      "db": "pmc",
+      "term": "(3579260[pmcid] OR 10299984[pmcid] OR 2361774[pmcid] OR 4153964[pmcid] OR 5330189[pmcid] OR 5698589[pmcid] OR 5854751[pmcid] OR 1401099[pmcid] OR 1378889[pmcid] OR 2597011[pmcid] OR 7016269[pmcid] OR 1379781[pmcid] OR 4382505[pmcid] OR 2810805[pmcid] OR 4898153[pmcid] OR 5297975[pmcid] OR 4558628[pmcid] OR 4569680[pmcid] OR 6661773[pmcid] OR 1884585[pmcid] OR 6783597[pmcid] OR 2978967[pmcid] OR 1429665[pmcid] OR 1379765[pmcid] OR 7067795[pmcid] OR 2014340[pmcid] OR 5411458[pmcid] OR 2882206[pmcid] OR 5599467[pmcid] OR 1548155[pmcid] OR 1432870[pmcid] OR 1884181[pmcid] OR 2311411[pmcid] OR 7496689[pmcid] OR 4269819[pmcid] OR 5465324[pmcid] OR 1432608[pmcid] OR 1419951[pmcid] OR 1884281[pmcid] OR 5383603[pmcid]) AND (\"open access\"[filter])",
+      "count": 15
+    },
+    {
+      "db": "pmc",
+      "term": "(5099554[pmcid] OR 7306622[pmcid] OR 5451423[pmcid] OR 8167502[pmcid] OR 8089085[pmcid] OR 6099360[pmcid] OR 5761050[pmcid] OR 425102[pmcid] OR 1411287[pmcid] OR 371754[pmcid] OR 333235[pmcid] OR 301883[pmcid] OR 2290270[pmcid] OR 424197[pmcid] OR 302637[pmcid] OR 333360[pmcid] OR 8354182[pmcid] OR 1463370[pmcid] OR 1874154[pmcid] OR 1427615[pmcid] OR 5574226[pmcid] OR 1386089[pmcid] OR 1400811[pmcid] OR 4631185[pmcid] OR 1381301[pmcid] OR 3575942[pmcid] OR 3687097[pmcid] OR 10128151[pmcid] OR 10079507[pmcid] OR 6590304[pmcid] OR 6653833[pmcid] OR 4010224[pmcid] OR 1381577[pmcid] OR 4182631[pmcid] OR 6680204[pmcid]) AND (\"open access\"[filter])",
+      "count": 15
+    },
+    {
+      "db": "pmc",
+      "term": "(6777419[pmcid] OR 3043256[pmcid] OR 5299073[pmcid] OR 2824477[pmcid] OR 6256010[pmcid] OR 90851[pmcid] OR 6343132[pmcid] OR 1884539[pmcid] OR 2014440[pmcid] OR 4063287[pmcid] OR 1884432[pmcid] OR 3269589[pmcid] OR 1380090[pmcid] OR 3403202[pmcid] OR 1401936[pmcid] OR 301753[pmcid] OR 1429902[pmcid] OR 1400639[pmcid] OR 439668[pmcid] OR 9683076[pmcid] OR 1368322[pmcid] OR 1401076[pmcid] OR 1380034[pmcid] OR 1380033[pmcid] OR 1368573[pmcid] OR 1368572[pmcid] OR 9321699[pmcid] OR 3093077[pmcid] OR 1885182[pmcid] OR 6719321[pmcid] OR 1386354[pmcid] OR 1427629[pmcid] OR 7993260[pmcid] OR 1427630[pmcid] OR 6175428[pmcid] OR 1400629[pmcid] OR 5394143[pmcid] OR 1365159[pmcid] OR 1368325[pmcid] OR 1463701[pmcid]) AND (\"open access\"[filter] AND (\"Pharmacokinetics\"[MeSH Terms] OR pharmacokinetics[Subheading] OR \"Area Under Curve\"[MeSH] OR \"Metabolic Clearance Rate\"[MeSH] OR \"Half-Life\"[MeSH] OR AUC[tiab] OR Cmax[tiab] OR clearance[tiab] OR \"half-life\"[tiab] OR \"volume of distribution\"[tiab] OR \"concentration-time\"[tiab] OR bioavailability[tiab]) AND Humans[MeSH])",
+      "count": 8
+    },
+    {
+      "db": "pmc",
+      "term": "(1401851[pmcid] OR 1401080[pmcid] OR 1884944[pmcid] OR 1381556[pmcid] OR 1858666[pmcid] OR 1894911[pmcid] OR 5582588[pmcid] OR 172463[pmcid] OR 2792562[pmcid] OR 5762444[pmcid] OR 293343[pmcid] OR 1368232[pmcid] OR 5324621[pmcid] OR 1727147[pmcid] OR 1428933[pmcid] OR 4430775[pmcid] OR 6822839[pmcid] OR 2376067[pmcid] OR 7878668[pmcid] OR 1400690[pmcid] OR 2561122[pmcid] OR 1427583[pmcid] OR 1381380[pmcid] OR 1380095[pmcid] OR 3928318[pmcid] OR 1429941[pmcid] OR 1463596[pmcid] OR 4383763[pmcid] OR 1776534[pmcid] OR 1381492[pmcid] OR 1463861[pmcid] OR 1401133[pmcid] OR 1430020[pmcid] OR 1589913[pmcid] OR 1429435[pmcid] OR 1430174[pmcid] OR 1401868[pmcid] OR 1364644[pmcid] OR 1402535[pmcid] OR 1463700[pmcid]) AND (\"open access\"[filter] AND (\"Pharmacokinetics\"[MeSH Terms] OR pharmacokinetics[Subheading] OR \"Area Under Curve\"[MeSH] OR \"Metabolic Clearance Rate\"[MeSH] OR \"Half-Life\"[MeSH] OR AUC[tiab] OR Cmax[tiab] OR clearance[tiab] OR \"half-life\"[tiab] OR \"volume of distribution\"[tiab] OR \"concentration-time\"[tiab] OR bioavailability[tiab]) AND Humans[MeSH])",
+      "count": 3
+    },
+    {
+      "db": "pmc",
+      "term": "(3579260[pmcid] OR 10299984[pmcid] OR 2361774[pmcid] OR 4153964[pmcid] OR 5330189[pmcid] OR 5698589[pmcid] OR 5854751[pmcid] OR 1401099[pmcid] OR 1378889[pmcid] OR 2597011[pmcid] OR 7016269[pmcid] OR 1379781[pmcid] OR 4382505[pmcid] OR 2810805[pmcid] OR 4898153[pmcid] OR 5297975[pmcid] OR 4558628[pmcid] OR 4569680[pmcid] OR 6661773[pmcid] OR 1884585[pmcid] OR 6783597[pmcid] OR 2978967[pmcid] OR 1429665[pmcid] OR 1379765[pmcid] OR 7067795[pmcid] OR 2014340[pmcid] OR 5411458[pmcid] OR 2882206[pmcid] OR 5599467[pmcid] OR 1548155[pmcid] OR 1432870[pmcid] OR 1884181[pmcid] OR 2311411[pmcid] OR 7496689[pmcid] OR 4269819[pmcid] OR 5465324[pmcid] OR 1432608[pmcid] OR 1419951[pmcid] OR 1884281[pmcid] OR 5383603[pmcid]) AND (\"open access\"[filter] AND (\"Pharmacokinetics\"[MeSH Terms] OR pharmacokinetics[Subheading] OR \"Area Under Curve\"[MeSH] OR \"Metabolic Clearance Rate\"[MeSH] OR \"Half-Life\"[MeSH] OR AUC[tiab] OR Cmax[tiab] OR clearance[tiab] OR \"half-life\"[tiab] OR \"volume of distribution\"[tiab] OR \"concentration-time\"[tiab] OR bioavailability[tiab]) AND Humans[MeSH])",
+      "count": 11
+    },
+    {
+      "db": "pmc",
+      "term": "(5099554[pmcid] OR 7306622[pmcid] OR 5451423[pmcid] OR 8167502[pmcid] OR 8089085[pmcid] OR 6099360[pmcid] OR 5761050[pmcid] OR 425102[pmcid] OR 1411287[pmcid] OR 371754[pmcid] OR 333235[pmcid] OR 301883[pmcid] OR 2290270[pmcid] OR 424197[pmcid] OR 302637[pmcid] OR 333360[pmcid] OR 8354182[pmcid] OR 1463370[pmcid] OR 1874154[pmcid] OR 1427615[pmcid] OR 5574226[pmcid] OR 1386089[pmcid] OR 1400811[pmcid] OR 4631185[pmcid] OR 1381301[pmcid] OR 3575942[pmcid] OR 3687097[pmcid] OR 10128151[pmcid] OR 10079507[pmcid] OR 6590304[pmcid] OR 6653833[pmcid] OR 4010224[pmcid] OR 1381577[pmcid] OR 4182631[pmcid] OR 6680204[pmcid]) AND (\"open access\"[filter] AND (\"Pharmacokinetics\"[MeSH Terms] OR pharmacokinetics[Subheading] OR \"Area Under Curve\"[MeSH] OR \"Metabolic Clearance Rate\"[MeSH] OR \"Half-Life\"[MeSH] OR AUC[tiab] OR Cmax[tiab] OR clearance[tiab] OR \"half-life\"[tiab] OR \"volume of distribution\"[tiab] OR \"concentration-time\"[tiab] OR bioavailability[tiab]) AND Humans[MeSH])",
+      "count": 11
+    },
+    {
+      "db": "pmc",
+      "term": "(6777419[pmcid] OR 3043256[pmcid] OR 5299073[pmcid] OR 2824477[pmcid] OR 6256010[pmcid] OR 90851[pmcid] OR 6343132[pmcid] OR 1884539[pmcid] OR 2014440[pmcid] OR 4063287[pmcid] OR 1884432[pmcid] OR 3269589[pmcid] OR 1380090[pmcid] OR 3403202[pmcid] OR 1401936[pmcid] OR 301753[pmcid] OR 1429902[pmcid] OR 1400639[pmcid] OR 439668[pmcid] OR 9683076[pmcid] OR 1368322[pmcid] OR 1401076[pmcid] OR 1380034[pmcid] OR 1380033[pmcid] OR 1368573[pmcid] OR 1368572[pmcid] OR 9321699[pmcid] OR 3093077[pmcid] OR 1885182[pmcid] OR 6719321[pmcid] OR 1386354[pmcid] OR 1427629[pmcid] OR 7993260[pmcid] OR 1427630[pmcid] OR 6175428[pmcid] OR 1400629[pmcid] OR 5394143[pmcid] OR 1365159[pmcid] OR 1368325[pmcid] OR 1463701[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND Humans[MeSH])",
+      "count": 4
+    },
+    {
+      "db": "pmc",
+      "term": "(1401851[pmcid] OR 1401080[pmcid] OR 1884944[pmcid] OR 1381556[pmcid] OR 1858666[pmcid] OR 1894911[pmcid] OR 5582588[pmcid] OR 172463[pmcid] OR 2792562[pmcid] OR 5762444[pmcid] OR 293343[pmcid] OR 1368232[pmcid] OR 5324621[pmcid] OR 1727147[pmcid] OR 1428933[pmcid] OR 4430775[pmcid] OR 6822839[pmcid] OR 2376067[pmcid] OR 7878668[pmcid] OR 1400690[pmcid] OR 2561122[pmcid] OR 1427583[pmcid] OR 1381380[pmcid] OR 1380095[pmcid] OR 3928318[pmcid] OR 1429941[pmcid] OR 1463596[pmcid] OR 4383763[pmcid] OR 1776534[pmcid] OR 1381492[pmcid] OR 1463861[pmcid] OR 1401133[pmcid] OR 1430020[pmcid] OR 1589913[pmcid] OR 1429435[pmcid] OR 1430174[pmcid] OR 1401868[pmcid] OR 1364644[pmcid] OR 1402535[pmcid] OR 1463700[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND Humans[MeSH])",
+      "count": 2
+    },
+    {
+      "db": "pmc",
+      "term": "(3579260[pmcid] OR 10299984[pmcid] OR 2361774[pmcid] OR 4153964[pmcid] OR 5330189[pmcid] OR 5698589[pmcid] OR 5854751[pmcid] OR 1401099[pmcid] OR 1378889[pmcid] OR 2597011[pmcid] OR 7016269[pmcid] OR 1379781[pmcid] OR 4382505[pmcid] OR 2810805[pmcid] OR 4898153[pmcid] OR 5297975[pmcid] OR 4558628[pmcid] OR 4569680[pmcid] OR 6661773[pmcid] OR 1884585[pmcid] OR 6783597[pmcid] OR 2978967[pmcid] OR 1429665[pmcid] OR 1379765[pmcid] OR 7067795[pmcid] OR 2014340[pmcid] OR 5411458[pmcid] OR 2882206[pmcid] OR 5599467[pmcid] OR 1548155[pmcid] OR 1432870[pmcid] OR 1884181[pmcid] OR 2311411[pmcid] OR 7496689[pmcid] OR 4269819[pmcid] OR 5465324[pmcid] OR 1432608[pmcid] OR 1419951[pmcid] OR 1884281[pmcid] OR 5383603[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND Humans[MeSH])",
+      "count": 4
+    },
+    {
+      "db": "pmc",
+      "term": "(5099554[pmcid] OR 7306622[pmcid] OR 5451423[pmcid] OR 8167502[pmcid] OR 8089085[pmcid] OR 6099360[pmcid] OR 5761050[pmcid] OR 425102[pmcid] OR 1411287[pmcid] OR 371754[pmcid] OR 333235[pmcid] OR 301883[pmcid] OR 2290270[pmcid] OR 424197[pmcid] OR 302637[pmcid] OR 333360[pmcid] OR 8354182[pmcid] OR 1463370[pmcid] OR 1874154[pmcid] OR 1427615[pmcid] OR 5574226[pmcid] OR 1386089[pmcid] OR 1400811[pmcid] OR 4631185[pmcid] OR 1381301[pmcid] OR 3575942[pmcid] OR 3687097[pmcid] OR 10128151[pmcid] OR 10079507[pmcid] OR 6590304[pmcid] OR 6653833[pmcid] OR 4010224[pmcid] OR 1381577[pmcid] OR 4182631[pmcid] OR 6680204[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND Humans[MeSH])",
+      "count": 4
+    },
+    {
+      "db": "pmc",
+      "term": "(6777419[pmcid] OR 3043256[pmcid] OR 5299073[pmcid] OR 2824477[pmcid] OR 6256010[pmcid] OR 90851[pmcid] OR 6343132[pmcid] OR 1884539[pmcid] OR 2014440[pmcid] OR 4063287[pmcid] OR 1884432[pmcid] OR 3269589[pmcid] OR 1380090[pmcid] OR 3403202[pmcid] OR 1401936[pmcid] OR 301753[pmcid] OR 1429902[pmcid] OR 1400639[pmcid] OR 439668[pmcid] OR 9683076[pmcid] OR 1368322[pmcid] OR 1401076[pmcid] OR 1380034[pmcid] OR 1380033[pmcid] OR 1368573[pmcid] OR 1368572[pmcid] OR 9321699[pmcid] OR 3093077[pmcid] OR 1885182[pmcid] OR 6719321[pmcid] OR 1386354[pmcid] OR 1427629[pmcid] OR 7993260[pmcid] OR 1427630[pmcid] OR 6175428[pmcid] OR 1400629[pmcid] OR 5394143[pmcid] OR 1365159[pmcid] OR 1368325[pmcid] OR 1463701[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND (AUC[tiab] OR Cmax[tiab] OR clearance[tiab]) AND Humans[MeSH])",
+      "count": 3
+    },
+    {
+      "db": "pmc",
+      "term": "(1401851[pmcid] OR 1401080[pmcid] OR 1884944[pmcid] OR 1381556[pmcid] OR 1858666[pmcid] OR 1894911[pmcid] OR 5582588[pmcid] OR 172463[pmcid] OR 2792562[pmcid] OR 5762444[pmcid] OR 293343[pmcid] OR 1368232[pmcid] OR 5324621[pmcid] OR 1727147[pmcid] OR 1428933[pmcid] OR 4430775[pmcid] OR 6822839[pmcid] OR 2376067[pmcid] OR 7878668[pmcid] OR 1400690[pmcid] OR 2561122[pmcid] OR 1427583[pmcid] OR 1381380[pmcid] OR 1380095[pmcid] OR 3928318[pmcid] OR 1429941[pmcid] OR 1463596[pmcid] OR 4383763[pmcid] OR 1776534[pmcid] OR 1381492[pmcid] OR 1463861[pmcid] OR 1401133[pmcid] OR 1430020[pmcid] OR 1589913[pmcid] OR 1429435[pmcid] OR 1430174[pmcid] OR 1401868[pmcid] OR 1364644[pmcid] OR 1402535[pmcid] OR 1463700[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND (AUC[tiab] OR Cmax[tiab] OR clearance[tiab]) AND Humans[MeSH])",
+      "count": 2
+    },
+    {
+      "db": "pmc",
+      "term": "(3579260[pmcid] OR 10299984[pmcid] OR 2361774[pmcid] OR 4153964[pmcid] OR 5330189[pmcid] OR 5698589[pmcid] OR 5854751[pmcid] OR 1401099[pmcid] OR 1378889[pmcid] OR 2597011[pmcid] OR 7016269[pmcid] OR 1379781[pmcid] OR 4382505[pmcid] OR 2810805[pmcid] OR 4898153[pmcid] OR 5297975[pmcid] OR 4558628[pmcid] OR 4569680[pmcid] OR 6661773[pmcid] OR 1884585[pmcid] OR 6783597[pmcid] OR 2978967[pmcid] OR 1429665[pmcid] OR 1379765[pmcid] OR 7067795[pmcid] OR 2014340[pmcid] OR 5411458[pmcid] OR 2882206[pmcid] OR 5599467[pmcid] OR 1548155[pmcid] OR 1432870[pmcid] OR 1884181[pmcid] OR 2311411[pmcid] OR 7496689[pmcid] OR 4269819[pmcid] OR 5465324[pmcid] OR 1432608[pmcid] OR 1419951[pmcid] OR 1884281[pmcid] OR 5383603[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND (AUC[tiab] OR Cmax[tiab] OR clearance[tiab]) AND Humans[MeSH])",
+      "count": 3
+    },
+    {
+      "db": "pmc",
+      "term": "(5099554[pmcid] OR 7306622[pmcid] OR 5451423[pmcid] OR 8167502[pmcid] OR 8089085[pmcid] OR 6099360[pmcid] OR 5761050[pmcid] OR 425102[pmcid] OR 1411287[pmcid] OR 371754[pmcid] OR 333235[pmcid] OR 301883[pmcid] OR 2290270[pmcid] OR 424197[pmcid] OR 302637[pmcid] OR 333360[pmcid] OR 8354182[pmcid] OR 1463370[pmcid] OR 1874154[pmcid] OR 1427615[pmcid] OR 5574226[pmcid] OR 1386089[pmcid] OR 1400811[pmcid] OR 4631185[pmcid] OR 1381301[pmcid] OR 3575942[pmcid] OR 3687097[pmcid] OR 10128151[pmcid] OR 10079507[pmcid] OR 6590304[pmcid] OR 6653833[pmcid] OR 4010224[pmcid] OR 1381577[pmcid] OR 4182631[pmcid] OR 6680204[pmcid]) AND (\"open access\"[filter] AND \"Pharmacokinetics\"[MeSH Terms] AND (AUC[tiab] OR Cmax[tiab] OR clearance[tiab]) AND Humans[MeSH])",
+      "count": 1
+    }
+  ]
+}

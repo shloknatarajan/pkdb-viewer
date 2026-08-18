@@ -1,0 +1,199 @@
+# pkdb_annotation_search.yaml — readable search/scoring config
+# Encapsulates the keyword/logic pipeline for finding papers worth annotating
+# into PK-DB. No LLM calls. Retrieve from PMC, then score title/abstract locally.
+#
+# Implemented by: paper_screening/{queries,score,pipeline}.py
+# Docs: paper_screening/README.md
+version: 1
+name: pkdb-annotatable-papers
+description: >
+  Keyword/logic pipeline for finding papers worth annotating into PK-DB.
+  No LLM calls. Retrieve from PMC, then score title/abstract locally.
+
+defaults:
+  database: pmc
+  oa_only: true                 # "open access"[filter]
+  tier: params                  # recommended default
+  exclude_already_annotated: true
+  return_passed_only: true
+  rate_limit_sleep_sec: 0.34
+
+# ---------------------------------------------------------------------------
+# Stage 1 — NCBI retrieval funnel
+# ---------------------------------------------------------------------------
+retrieval:
+  filters:
+    open_access: '"open access"[filter]'
+    humans: 'Humans[MeSH]'
+
+  blocks:
+    pk_signal:
+      label: Any PK framing
+      terms:
+        - pharmacokinetics[MeSH Terms]
+        - pharmacokinetics[MeSH Subheading]
+        - pharmacokinetic*[Title/Abstract]
+        - '"concentration-time"[Title/Abstract]'
+
+    pk_params:
+      label: Reported PK endpoints
+      terms:
+        - '"area under the curve"[Title/Abstract]'
+        - AUC[Title/Abstract]
+        - Cmax[Title/Abstract]
+        - clearance[Title/Abstract]
+        - '"half-life"[Title/Abstract]'
+        - '"volume of distribution"[Title/Abstract]'
+        - bioavailability[Title/Abstract]
+
+    clinical_dose:
+      label: Clinical / dosing cues (healthy-volunteer skewed)
+      terms:
+        - '"single dose"[Title/Abstract]'
+        - '"oral administration"[Title/Abstract]'
+        - '"healthy volunteers"[Title/Abstract]'
+        - '"healthy subjects"[Title/Abstract]'
+        - '"steady state"[Title/Abstract]'
+
+  # Each tier = AND of selected blocks (+ optional OA)
+  tiers:
+    broad:
+      description: Upper-bound recall — any PK mention
+      require: [pk_signal]
+
+    human:
+      description: Drop animal / in-vitro-only
+      require: [pk_signal, humans]
+
+    params:                     # DEFAULT
+      description: Human studies that mention PK endpoints (~best tradeoff)
+      require: [pk_signal, humans, pk_params]
+
+    strict:
+      description: Highest precision; misses patient-population PK
+      require: [pk_signal, humans, pk_params, clinical_dose]
+
+    medium:
+      description: MeSH-only sweep (scope_estimation alias)
+      require_raw: '"Pharmacokinetics"[MeSH Terms] AND Humans[MeSH]'
+
+# ---------------------------------------------------------------------------
+# Stage 2 — Local lexical scorer (title + abstract [+ optional fulltext])
+# ---------------------------------------------------------------------------
+scoring:
+  input:
+    fields: [title, abstract]
+    fulltext_char_cap: 20000      # for local .md screening only
+
+  # Hard reject → score 0, grade reject
+  hard_rejects:
+    - id: ml_auc_context
+      when: "≥2 ML/ROC cues AND has 'AUC' AND no true PK framing"
+      meaning: AUC is ROC area-under-curve, not pharmacokinetic AUC
+      cues: [radiomic, machine learning, deep learning, ROC, AUROC, classifier,
+             xgboost, random forest, SHAP, predictive model]
+
+    - id: likely_roc_auc
+      when: "≥1 ML cue AND has 'AUC' AND no PK framing AND no PK endpoint tokens"
+      meaning: Weaker form of the same trap
+
+    - id: non_pk_clearance
+      when: "bacterial/viral/tumor/... clearance AND no true PK framing"
+      cues: [bacterial clearance, viral clearance, tumor clearance,
+             mucus clearance, neutrophil clearance, pathogen clearance]
+
+  # Positive / soft-negative signal families
+  signals:
+    pk_core:
+      weight: 2.5
+      cap: 3
+      patterns:
+        - pharmacokinetics / pharmacokinetic
+        - pk profile|parameter|study|analysis
+        - concentration-time
+        - plasma|serum concentration
+        - disposition … drug|compound|metabolite
+
+    pk_params:
+      weight: 1.5
+      cap: 5
+      patterns:
+        - Cmax, Tmax, AUC(+inf/0/ss), area under … curve
+        - half-life, t1/2
+        - volume of distribution, Vd(ss|z)
+        - bioavailability
+        - clearance, CL/F
+
+    clinical:
+      weight: 1.2
+      cap: 4
+      patterns:
+        - healthy volunteers|subjects|adults
+        - single|multiple dose
+        - oral|intravenous administration
+        - steady-state, phase I, crossover
+        - bioequivalence, drug-drug interaction
+        - plasma levels|profiles
+
+    curve:
+      weight: 1.5
+      cap: 2
+      meaning: Proxy for digitizable concentration–time figures
+      patterns:
+        - concentration-time curve|profile|plot|figure
+        - pk profile(s)
+        - timecourse / time-course
+
+    soft_neg:
+      weight: -1.0
+      cap: 3
+      patterns:
+        - nanoparticle, nanomedicine, liposom*
+        - in vitro, murine, mouse, rat(s)
+        - this/we/narrative/systematic review, meta-analysis, educational
+
+  # Combinatorial boosts (additive)
+  boosts:
+    - when: [pk_core, pk_params]
+      add: 1.5
+      id: pk_core+params
+    - when: [curve, pk_core_or_params]
+      add: 1.0
+      id: concentration_time_curve
+    - when: [clinical, pk_params]
+      add: 0.8
+      id: clinical+params
+
+  formula: |
+    score = 2.5*min(pk_core,3)
+          + 1.5*min(pk_params,5)
+          + 1.2*min(clinical,4)
+          + 1.5*min(curve,2)
+          - 1.0*min(soft_neg,3)
+          + boosts
+
+  pass_rule:
+    min_score: 4.0
+    require_any:
+      - pk_core >= 1
+      - (pk_params >= 2 AND clinical >= 1)
+      - (curve >= 1 AND pk_params >= 1)
+
+  grades:
+    strong:   { passed: true,  min_score: 8.0 }
+    moderate: { passed: true,  min_score: 4.0 }
+    weak:     { passed: false, min_score: 0.01 }
+    reject:   { passed: false, score: 0 }
+
+# ---------------------------------------------------------------------------
+# Outputs / exclusions
+# ---------------------------------------------------------------------------
+exclusions:
+  known_annotated_sources:
+    - pkdb_papers.txt            # pmid, pmcid, title, abstract
+    - pkdb-api/pmid_to_pmcid.csv
+
+output:
+  sort_by: [-score, pmid]
+  formats: [jsonl, csv]
+  fields: [score, grade, passed, pmid, pmcid, year, journal, title, reasons]

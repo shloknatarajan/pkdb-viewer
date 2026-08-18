@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 """
-PKDB viewer ingestion.
+PKDB viewer ingestion — live PK-DB API (relational entities + paper text).
+
+NOTE: This is the legacy live-API ingester and is no longer the primary path.
+The anonymous PK-DB API cannot return the measurement data (outputs,
+timecourses, scatters), so the viewer's data is now built by ingest_dump.py,
+which reads those from a curated CSV dump (see below). This module remains for
+the relational entities and, crucially, for the NCBI paper/reference pipeline
+that ingest_dump.py imports and reuses.
 
 For every open-access study in PK-DB (https://pk-db.com), download:
   - study metadata + reference (title, abstract, authors, journal, pmid, doi)
@@ -23,9 +30,18 @@ Paper text:
   full text plus the article licence. If neither yields full text we keep the
   abstract so the paper pane is never empty.
 
-Outputs / timecourses / scatters are NOT exposed by the anonymous PK-DB API
-(they require a curator login; the official data export returns them empty for
-anonymous users), so they are intentionally absent from the data panel.
+Outputs / timecourses / scatters are NOT retrievable from the anonymous PK-DB
+API: PK-DB serves them from an Elasticsearch backend that returns zero rows
+without a curator login, so this module cannot fetch them. The primary ingester
+(ingest/ingest_dump.py) recovers them instead from the curated CSV dump the
+PK-DB maintainers publish on GitHub:
+
+    matthiaskoenig/pkdb_analysis @ develop
+      -> tests/data/testdata_concise_false.zip   (pkdb_analysis export, 2021-12-03)
+
+Downloaded via raw.githubusercontent.com, cached locally, and reshaped into the
+same study.json entities. So in the current data panel those entities ARE
+present — just sourced from the dump, not from this live-API module.
 
 Usage:
   python ingest.py                # all open studies, skip ones already done
@@ -45,11 +61,16 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 API = "https://pk-db.com/api/v1/"
 BIOC = "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/{pmcid}/unicode"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 
 ROOT = Path(__file__).resolve().parent.parent
+# Prefer repo .env over any stale shell export of NCBI_EMAIL.
+load_dotenv(ROOT / ".env", override=True)
+
 DATA_DIR = ROOT / "public" / "data"
 EMAIL = os.environ.get("NCBI_EMAIL", "shlok@gxl.ai")
 
@@ -562,8 +583,10 @@ def main() -> None:
             {
                 "generated": time.strftime("%Y-%m-%d"),
                 "count": len(index),
-                "note": "Open-access PK-DB studies. Outputs/timecourses are "
-                "not available via the anonymous PK-DB API.",
+                "note": "Open-access PK-DB studies (relational entities + paper "
+                "only). Outputs/timecourses/scatters are not retrievable from the "
+                "anonymous PK-DB API; ingest_dump.py adds them from the curated "
+                "pkdb_analysis CSV dump. Prefer ingest_dump.py to build the viewer.",
                 "studies": index,
             },
             indent=2,
