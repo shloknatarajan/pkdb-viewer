@@ -225,10 +225,6 @@ needed for the recall intersection.
 Estimate total PK-OA papers **N** from the overlap of **two independent captures of the same
 population**. Standard ecology/epidemiology technique for counting an unknown population.
 
-> ⚠️ Do **not** pair PK-DB with PharmGKB. They are near-**disjoint** (overlap ≈ 0 in
-> `pmcid_articles.csv`): PK-DB is pharmacokinetics, PharmGKB is pharmacogenomics. Their union
-> is not the PK population, so their overlap does not estimate it.
-
 Use two **independent search strategies** over PMC-OA instead:
 
 - **Capture 1** (MeSH-based): `"open access"[filter] AND "Pharmacokinetics"[MeSH] AND Humans[MeSH]`

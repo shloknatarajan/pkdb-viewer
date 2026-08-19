@@ -18,7 +18,7 @@
       "n_interventions": 1,
       "n_outputs": 244,
       "n_timecourses": 2,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -79,7 +79,7 @@
       "n_interventions": 3,
       "n_outputs": 87,
       "n_timecourses": 2,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -98,7 +98,7 @@
       "n_interventions": 1,
       "n_outputs": 290,
       "n_timecourses": 8,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -116,7 +116,7 @@
       "n_interventions": 1,
       "n_outputs": 94,
       "n_timecourses": 0,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -143,7 +143,7 @@
       "n_interventions": 9,
       "n_outputs": 1846,
       "n_timecourses": 4,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -165,7 +165,7 @@
       "n_interventions": 5,
       "n_outputs": 144,
       "n_timecourses": 4,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -314,7 +314,7 @@
       "n_interventions": 1,
       "n_outputs": 148,
       "n_timecourses": 3,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -335,7 +335,7 @@
       "n_interventions": 1,
       "n_outputs": 318,
       "n_timecourses": 20,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -354,7 +354,7 @@
       "n_interventions": 2,
       "n_outputs": 152,
       "n_timecourses": 0,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -396,7 +396,7 @@
       "n_interventions": 4,
       "n_outputs": 50,
       "n_timecourses": 0,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -416,7 +416,7 @@
       "n_interventions": 2,
       "n_outputs": 209,
       "n_timecourses": 6,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -435,7 +435,7 @@
       "n_interventions": 4,
       "n_outputs": 811,
       "n_timecourses": 36,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -584,7 +584,7 @@
       "n_interventions": 4,
       "n_outputs": 151,
       "n_timecourses": 8,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -630,7 +630,7 @@
       "n_interventions": 3,
       "n_outputs": 716,
       "n_timecourses": 18,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -668,7 +668,7 @@
       "n_interventions": 1,
       "n_outputs": 32,
       "n_timecourses": 2,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -686,7 +686,7 @@
       "n_interventions": 3,
       "n_outputs": 81,
       "n_timecourses": 3,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -709,7 +709,7 @@
       "n_interventions": 1,
       "n_outputs": 41,
       "n_timecourses": 0,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -799,7 +799,7 @@
       "n_interventions": 2,
       "n_outputs": 130,
       "n_timecourses": 6,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -817,7 +817,7 @@
       "n_interventions": 4,
       "n_outputs": 180,
       "n_timecourses": 5,
-      "paper_source": "abstract",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -841,7 +841,7 @@
       "n_interventions": 3,
       "n_outputs": 138,
       "n_timecourses": 6,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -1107,7 +1107,7 @@
       "n_interventions": 2,
       "n_outputs": 301,
       "n_timecourses": 0,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -1133,7 +1133,7 @@
       "n_interventions": 1,
       "n_outputs": 52,
       "n_timecourses": 0,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -1161,7 +1161,7 @@
       "n_interventions": 2,
       "n_outputs": 121,
       "n_timecourses": 7,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     },
     {
@@ -1189,7 +1189,7 @@
       "n_interventions": 11,
       "n_outputs": 1072,
       "n_timecourses": 11,
-      "paper_source": "pubmed-markdown",
+      "paper_source": "pdf-text",
       "paper_licence": null
     }
   ]

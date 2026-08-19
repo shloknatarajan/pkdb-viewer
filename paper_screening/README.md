@@ -30,7 +30,7 @@ ingest/.venv/bin/python -m paper_screening search --tier params --limit 100 \
 
 # Score downloaded markdown papers
 ingest/.venv/bin/python -m paper_screening local \
-  --dir variantAnnotations/papers --limit 200 \
+  --dir path/to/papers --limit 200 \
   --out paper_screening/out/local_ranked.jsonl
 
 # Inspect one abstract

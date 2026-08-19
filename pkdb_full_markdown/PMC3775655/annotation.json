@@ -1,0 +1,2839 @@
+{
+  "sid": "PKDB00106",
+  "name": "Shord2009",
+  "licence": "open",
+  "access": "public",
+  "date": "2019-05-08",
+  "snapshot": "2021-12-03",
+  "counts": {
+    "groups": 3,
+    "individuals": 0,
+    "interventions": 1,
+    "outputs": 38,
+    "timecourses": 2,
+    "scatters": 0
+  },
+  "reference": {
+    "pmid": "19357842",
+    "doi": "10.1007/s00228-009-0646-3",
+    "title": "The pharmacokinetics of codeine and its metabolites in Blacks with sickle cell disease.",
+    "abstract": null,
+    "journal": "European journal of clinical pharmacology",
+    "date": "2009-08-18",
+    "authors": [
+      "Shord SS",
+      "Cavallari LH",
+      "Gao W",
+      "Jeong HY",
+      "Deyo K",
+      "Patel SR",
+      "Camp JR",
+      "Labott SM",
+      "Molokie RE"
+    ]
+  },
+  "curators": [
+    "Matthias König",
+    "janekg",
+    "dimitra"
+  ],
+  "descriptions": [],
+  "substances": [
+    {
+      "sid": "codeine",
+      "name": "codeine",
+      "label": "codeine"
+    },
+    {
+      "sid": "codeine sulfate anhydrous",
+      "name": "codeine sulfate anhydrous",
+      "label": "codeine sulfate anhydrous"
+    },
+    {
+      "sid": "morphine",
+      "name": "morphine",
+      "label": "morphine"
+    },
+    {
+      "sid": "morphine-3-glucuronide",
+      "name": "morphine-3-glucuronide",
+      "label": "morphine-3-glucuronide"
+    }
+  ],
+  "groups": [
+    {
+      "pk": 998,
+      "name": "all",
+      "parent": null,
+      "count": 54,
+      "characteristica": [
+        {
+          "pk": 20000,
+          "count": 54,
+          "measurement_type": {
+            "sid": "fasting (duration)",
+            "name": "fasting (duration)",
+            "label": "fasting (duration)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.3333333333333333,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day"
+        },
+        {
+          "pk": 19992,
+          "count": 54,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19993,
+          "count": 54,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "african american",
+            "name": "african american",
+            "label": "african american"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19994,
+          "count": 54,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sickle cell disease",
+            "name": "sickle cell disease",
+            "label": "sickle cell disease"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19995,
+          "count": 54,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 32,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 12,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 19996,
+          "count": 18,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19997,
+          "count": 36,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19998,
+          "count": 54,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19999,
+          "count": 54,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": {
+            "sid": "codeine containing medication",
+            "name": "codeine containing medication",
+            "label": "codeine containing medication"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 999,
+      "name": "Group1",
+      "parent": {
+        "pk": 998
+      },
+      "count": 30,
+      "characteristica": [
+        {
+          "pk": 20000,
+          "count": 54,
+          "measurement_type": {
+            "sid": "fasting (duration)",
+            "name": "fasting (duration)",
+            "label": "fasting (duration)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.3333333333333333,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day"
+        },
+        {
+          "pk": 20009,
+          "count": 30,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 30,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 12,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 20010,
+          "count": 9,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20011,
+          "count": 21,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20012,
+          "count": 21,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*other/*other",
+            "name": "*other/*other",
+            "label": "*other/*other"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20013,
+          "count": 5,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*other/*17",
+            "name": "*other/*17",
+            "label": "*other/*17"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20014,
+          "count": 2,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*other/*29",
+            "name": "*other/*29",
+            "label": "*other/*29"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20015,
+          "count": 1,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*other/*41",
+            "name": "*other/*41",
+            "label": "*other/*41"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20016,
+          "count": 1,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*17/*17",
+            "name": "*17/*17",
+            "label": "*17/*17"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19992,
+          "count": 54,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19993,
+          "count": 54,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "african american",
+            "name": "african american",
+            "label": "african american"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19994,
+          "count": 54,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sickle cell disease",
+            "name": "sickle cell disease",
+            "label": "sickle cell disease"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19998,
+          "count": 54,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19999,
+          "count": 54,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": {
+            "sid": "codeine containing medication",
+            "name": "codeine containing medication",
+            "label": "codeine containing medication"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "pk": 1000,
+      "name": "Group2",
+      "parent": {
+        "pk": 998
+      },
+      "count": 24,
+      "characteristica": [
+        {
+          "pk": 20000,
+          "count": 54,
+          "measurement_type": {
+            "sid": "fasting (duration)",
+            "name": "fasting (duration)",
+            "label": "fasting (duration)"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": 0.3333333333333333,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": "day"
+        },
+        {
+          "pk": 20032,
+          "count": 1,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*29/*29",
+            "name": "*29/*29",
+            "label": "*29/*29"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20030,
+          "count": 4,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*other/*29",
+            "name": "*other/*29",
+            "label": "*other/*29"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20031,
+          "count": 4,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*17/*17",
+            "name": "*17/*17",
+            "label": "*17/*17"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20025,
+          "count": 24,
+          "measurement_type": {
+            "sid": "age",
+            "name": "age",
+            "label": "age"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": null,
+          "substance": null,
+          "value": null,
+          "mean": 31,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": 14,
+          "se": null,
+          "cv": null,
+          "unit": "year"
+        },
+        {
+          "pk": 20026,
+          "count": 9,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "M",
+            "name": "M",
+            "label": "M"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19992,
+          "count": 54,
+          "measurement_type": {
+            "sid": "species",
+            "name": "species",
+            "label": "species"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "homo sapiens",
+            "name": "homo sapiens",
+            "label": "homo sapiens"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19993,
+          "count": 54,
+          "measurement_type": {
+            "sid": "ethnicity",
+            "name": "ethnicity",
+            "label": "ethnicity"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "african american",
+            "name": "african american",
+            "label": "african american"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19994,
+          "count": 54,
+          "measurement_type": {
+            "sid": "disease",
+            "name": "disease",
+            "label": "disease"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "sickle cell disease",
+            "name": "sickle cell disease",
+            "label": "sickle cell disease"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20027,
+          "count": 15,
+          "measurement_type": {
+            "sid": "sex",
+            "name": "sex",
+            "label": "sex"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "F",
+            "name": "F",
+            "label": "F"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20028,
+          "count": 13,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*other/*other",
+            "name": "*other/*other",
+            "label": "*other/*other"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 20029,
+          "count": 2,
+          "measurement_type": {
+            "sid": "cyp2d6 genotype",
+            "name": "cyp2d6 genotype",
+            "label": "cyp2d6 genotype"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "*other/*17",
+            "name": "*other/*17",
+            "label": "*other/*17"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19998,
+          "count": 54,
+          "measurement_type": {
+            "sid": "healthy",
+            "name": "healthy",
+            "label": "healthy"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "N",
+            "name": "N",
+            "label": "N"
+          },
+          "substance": null,
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        },
+        {
+          "pk": 19999,
+          "count": 54,
+          "measurement_type": {
+            "sid": "medication",
+            "name": "medication",
+            "label": "medication"
+          },
+          "calculation_type": {
+            "sid": "sample mean",
+            "name": "sample mean",
+            "label": "sample mean"
+          },
+          "choice": {
+            "sid": "Y",
+            "name": "Y",
+            "label": "Y"
+          },
+          "substance": {
+            "sid": "codeine containing medication",
+            "name": "codeine containing medication",
+            "label": "codeine containing medication"
+          },
+          "value": null,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "sd": null,
+          "se": null,
+          "cv": null,
+          "unit": null
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "pk": 1946,
+      "normed": true,
+      "name": "COD",
+      "route": {
+        "sid": "oral",
+        "name": "oral",
+        "label": "oral (po)"
+      },
+      "form": {
+        "sid": "nr-form",
+        "name": "nr-form",
+        "label": "Not reported (administration form)"
+      },
+      "application": {
+        "sid": "single-dose",
+        "name": "single-dose",
+        "label": "single dose"
+      },
+      "time": "0",
+      "time_end": null,
+      "time_unit": "hr",
+      "measurement_type": {
+        "sid": "dosing",
+        "name": "dosing",
+        "label": "dosing"
+      },
+      "choice": null,
+      "substance": {
+        "sid": "cod-s",
+        "name": "cod-s",
+        "label": "codeine sulfate anhydrous"
+      },
+      "value": 0.03,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram"
+    }
+  ],
+  "outputs": [
+    {
+      "pk": 99234,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.9,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.45,
+      "se": 0.08215838362577492,
+      "cv": 0.5,
+      "unit": "hour"
+    },
+    {
+      "pk": 99236,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00036666666666666667,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00038333333333333334,
+      "se": 6.998677123677123e-05,
+      "cv": 1.0454545454545454,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99237,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "mor",
+        "name": "mor",
+        "label": "morphine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.7666666666666666,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.4166666666666667,
+      "se": 0.07607257743127308,
+      "cv": 0.5434782608695653,
+      "unit": "hour"
+    },
+    {
+      "pk": 99239,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "mor",
+        "name": "mor",
+        "label": "morphine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.7000000000000014e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.100000000000001e-06,
+      "se": 7.485541619237273e-07,
+      "cv": 1.1081081081081081,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99246,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.45,
+      "se": 0.0918558653543692,
+      "cv": 0.225,
+      "unit": "hour"
+    },
+    {
+      "pk": 99254,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.800000000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.1000000000000002e-05,
+      "se": 4.286607049870563e-06,
+      "cv": 0.5526315789473684,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99255,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00015333333333333334,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8.833333333333333e-05,
+      "se": 1.8030966162153952e-05,
+      "cv": 0.5760869565217391,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99257,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.300000000000002e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 4.500000000000001e-06,
+      "se": 9.18558653543692e-07,
+      "cv": 0.5421686746987951,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99275,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group1",
+      "time": 240,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.9762830000000005e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99276,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group1",
+      "time": 360,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.7235136000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99277,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group2",
+      "time": 0,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.873765000000001e-08,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99281,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group2",
+      "time": 240,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.5200634000000004e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99233,
+      "measurement_type": {
+        "sid": "thalf",
+        "name": "thalf",
+        "label": "elimination half-life"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.0833333333333335,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.8,
+      "se": 0.1460593486680443,
+      "cv": 0.384,
+      "unit": "hour"
+    },
+    {
+      "pk": 99235,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.100000000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.2000000000000005e-05,
+      "se": 5.842373946721773e-06,
+      "cv": 0.3950617283950617,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99240,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.7333333333333334,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.15,
+      "se": 0.20996031371031365,
+      "cv": 0.6634615384615384,
+      "unit": "hour"
+    },
+    {
+      "pk": 99243,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.033333333333333,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.3333333333333333,
+      "se": 0.2434322477800738,
+      "cv": 0.6557377049180327,
+      "unit": "hour"
+    },
+    {
+      "pk": 99244,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 9.500000000000002e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.8000000000000005e-06,
+      "se": 6.937819061732104e-07,
+      "cv": 0.39999999999999997,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99245,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.641666666666668e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.518333333333334e-05,
+      "se": 2.7720847215955917e-06,
+      "cv": 0.41693363844393594,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99249,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00023333333333333333,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.00010666666666666668,
+      "se": 2.1773242158072697e-05,
+      "cv": 0.4571428571428572,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99251,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "mor",
+        "name": "mor",
+        "label": "morphine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99256,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.1,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6666666666666666,
+      "se": 0.13608276348795434,
+      "cv": 0.31746031746031744,
+      "unit": "hour"
+    },
+    {
+      "pk": 99258,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.6950000000000005e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 8.400000000000004e-06,
+      "se": 1.7146428199482257e-06,
+      "cv": 0.49557522123893816,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99273,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group1",
+      "time": 60,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.346681000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99279,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group2",
+      "time": 60,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.4867912e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99280,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group2",
+      "time": 120,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.0358460000000006e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99282,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group2",
+      "time": 360,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.4077986000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99241,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 8.800000000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 3.800000000000001e-05,
+      "se": 6.937819061732105e-06,
+      "cv": 0.4318181818181819,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99242,
+      "measurement_type": {
+        "sid": "auc-end",
+        "name": "auc-end",
+        "label": "area under curve (AUC) end"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": 6,
+      "time_unit": "hr",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0.00036666666666666667,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.0001666666666666667,
+      "se": 3.042903097250923e-05,
+      "cv": 0.4545454545454546,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99248,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.200000000000002e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 2.4000000000000004e-05,
+      "se": 4.898979485566358e-06,
+      "cv": 0.3870967741935484,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99250,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "mor",
+        "name": "mor",
+        "label": "morphine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "hour"
+    },
+    {
+      "pk": 99252,
+      "measurement_type": {
+        "sid": "auc-inf",
+        "name": "auc-inf",
+        "label": "area under curve (AUC) infinity"
+      },
+      "substance": {
+        "sid": "mor",
+        "name": "mor",
+        "label": "morphine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 0,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram * hour / liter"
+    },
+    {
+      "pk": 99271,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group1",
+      "time": 0,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 7.789676000000001e-07,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99272,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group1",
+      "time": 30,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 6.571765000000001e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99278,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group2",
+      "time": 30,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 3.9754105000000007e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99238,
+      "measurement_type": {
+        "sid": "cmax",
+        "name": "cmax",
+        "label": "maximum concentration (Cmax)"
+      },
+      "substance": {
+        "sid": "mor",
+        "name": "mor",
+        "label": "morphine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 2.0000000000000003e-06,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 1.0000000000000002e-06,
+      "se": 1.825741858350554e-07,
+      "cv": 0.5,
+      "unit": "gram / liter"
+    },
+    {
+      "pk": 99247,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.2833333333333332,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.6,
+      "se": 0.12247448713915891,
+      "cv": 0.4675324675324676,
+      "unit": "hour"
+    },
+    {
+      "pk": 99253,
+      "measurement_type": {
+        "sid": "tmax",
+        "name": "tmax",
+        "label": "time to maximum (Tmax)"
+      },
+      "substance": {
+        "sid": "m3g",
+        "name": "m3g",
+        "label": "morphine-3-glucuronide"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": null,
+      "time": null,
+      "time_unit": null,
+      "intervention_pk": 1946,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "value": null,
+      "mean": 1.8333333333333333,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": 0.8666666666666667,
+      "se": 0.17690759253434066,
+      "cv": 0.4727272727272728,
+      "unit": "hour"
+    },
+    {
+      "pk": 99274,
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "calculation_type": {
+        "sid": "sample-mean",
+        "name": "sample-mean",
+        "label": "sample mean"
+      },
+      "choice": null,
+      "label": "Group1",
+      "time": 120,
+      "time_unit": "min",
+      "intervention_pk": 1946,
+      "group_pk": 999,
+      "individual_pk": null,
+      "value": null,
+      "mean": 5.5269245000000006e-05,
+      "median": null,
+      "min": null,
+      "max": null,
+      "sd": null,
+      "se": null,
+      "cv": null,
+      "unit": "gram / liter"
+    }
+  ],
+  "timecourses": [
+    {
+      "pk": 2014,
+      "name": "Group2",
+      "label": "Group2",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 1000,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        30.0,
+        60.0,
+        120.0,
+        240.0,
+        360.0
+      ],
+      "time_unit": "min",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        7.873765000000001e-08,
+        3.9754105000000007e-05,
+        5.4867912e-05,
+        5.0358460000000006e-05,
+        2.5200634000000004e-05,
+        1.4077986000000001e-05
+      ],
+      "sd": null
+    },
+    {
+      "pk": 2015,
+      "name": "Group1",
+      "label": "Group1",
+      "measurement_type": {
+        "sid": "concentration",
+        "name": "concentration",
+        "label": "concentration"
+      },
+      "substance": {
+        "sid": "cod",
+        "name": "cod",
+        "label": "codeine"
+      },
+      "tissue": {
+        "sid": "plasma",
+        "name": "plasma",
+        "label": "plasma"
+      },
+      "method": null,
+      "intervention_pk": null,
+      "group_pk": 999,
+      "individual_pk": null,
+      "time": [
+        0.0,
+        30.0,
+        60.0,
+        120.0,
+        240.0,
+        360.0
+      ],
+      "time_unit": "min",
+      "unit": "gram / liter",
+      "values": null,
+      "mean": [
+        7.789676000000001e-07,
+        6.571765000000001e-05,
+        7.346681000000001e-05,
+        5.5269245000000006e-05,
+        2.9762830000000005e-05,
+        1.7235136000000002e-05
+      ],
+      "sd": null
+    }
+  ],
+  "scatters": [],
+  "paper": {
+    "source": "bioc",
+    "licence": "author_manuscript",
+    "pmcid": "PMC3775655"
+  },
+  "_index": {
+    "sid": "PKDB00106",
+    "name": "Shord2009",
+    "title": "The pharmacokinetics of codeine and its metabolites in Blacks with sickle cell disease.",
+    "pmid": "19357842",
+    "journal": "European journal of clinical pharmacology",
+    "year": "2009",
+    "substances": [
+      "codeine",
+      "codeine sulfate anhydrous",
+      "morphine",
+      "morphine-3-glucuronide"
+    ],
+    "n_groups": 3,
+    "n_individuals": 0,
+    "n_interventions": 1,
+    "n_outputs": 38,
+    "n_timecourses": 2,
+    "paper_source": "bioc",
+    "paper_licence": "author_manuscript"
+  }
+}

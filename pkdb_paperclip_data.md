@@ -12,7 +12,6 @@ Counts were checked on **2026-08-19**. PK-DB's canonical website is
 | Open/downloadable comparison papers with a PMCID | **33** | The comparison cohort in `open_access_pmcids.txt`. This is the denominator for the Paperclip overlap below, not all 803 live studies. |
 | Comparison papers readable with Paperclip `cat` | **2 of 33** | **6.1%** of this PMCID cohort: `PMC3043256` and `PMC4411542`. |
 | Comparison papers not readable with Paperclip `cat` | **31 of 33** | `paperclip lookup pmc <PMCID>` returned no document, so no Paperclip paper path was available to `cat`. |
-| PMCIDs in the local candidate list | **1,636** | Unique identifiers in `all_pmcids.txt`. Presence in this file is not proof that a paper currently resolves in Paperclip. |
 
 ## Why 803 is not the downloadable total
 
@@ -85,6 +84,18 @@ For the other 31 identifiers, `paperclip lookup pmc <PMCID>` returned
 `No documents found`. Because lookup returned no Paperclip document path, a
 subsequent `cat /papers/<PMCID>/content.lines` is not available.
 
+This is a Paperclip coverage gap rather than a full-text availability gap.
+Europe PMC provides free HTML and PDF pages for all 31 identifiers. Thirty map
+to studies in the local viewer: six already had machine-readable full text and
+the other 24 now have `paper.md` files generated from the PDFs' embedded text
+layers. All 24 PDFs yielded substantial text without OCR; original scanned page
+images remain linked where they were previously available. `PMC1430174` is the
+only comparison paper without a corresponding local viewer study directory.
+
+Free access does not imply an open reuse licence. Europe PMC marks all 31 as
+outside its open-access subset, so the generated Markdown retains source links
+and does not assign a licence that the source does not report.
+
 ```text
 PMC1368322  PMC1368325  PMC1368572  PMC1368573
 PMC1380033  PMC1380034  PMC1380095  PMC1381556
@@ -154,9 +165,9 @@ paperclip cat /papers/PMC4411542/content.lines
 - Current PMCID mappings: `pkdb-api/summary.json` and
   `pkdb-api/pmid_to_pmcid.csv`.
 - Comparison cohort: `open_access_pmcids.txt` (33 unique PMCIDs).
-- Local PMCID candidate files: `all_pmcids.txt` (1,636 unique PMCIDs),
-  `pkdb_pmcids.txt` (32 unique PMCIDs), and `open_access_pmcids.txt` (33 unique
-  PMCIDs). These files were not treated as proof of live Paperclip availability.
+- Local PK-DB PMCID files: `pkdb_pmcids.txt` (32 unique PMCIDs) and
+  `open_access_pmcids.txt` (33 unique PMCIDs). These files were not treated as
+  proof of live Paperclip availability.
 - Live Paperclip availability: `paperclip lookup pmc <PMCID>` followed by
   `paperclip cat /papers/<PMCID>/meta.json` and `content.lines` when lookup
   succeeded, checked 2026-08-19.
@@ -165,8 +176,8 @@ The local-file overlap can be reproduced with the following commands, but it
 must be followed by the live Paperclip lookup/`cat` checks described above:
 
 ```bash
-comm -12 <(sort -u open_access_pmcids.txt) <(sort -u all_pmcids.txt)
-comm -23 <(sort -u open_access_pmcids.txt) <(sort -u all_pmcids.txt)
+comm -12 <(sort -u open_access_pmcids.txt) <(sort -u pkdb_pmcids.txt)
+comm -23 <(sort -u open_access_pmcids.txt) <(sort -u pkdb_pmcids.txt)
 ```
 
 --------

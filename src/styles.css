@@ -257,7 +257,8 @@ code {
 }
 .src-bioc,
 .src-pubmed-markdown,
-.src-efetch {
+.src-efetch,
+.src-pdf-text {
   color: var(--accent);
 }
 .src-abstract {

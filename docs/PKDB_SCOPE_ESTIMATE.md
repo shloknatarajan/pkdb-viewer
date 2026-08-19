@@ -78,21 +78,7 @@ conservative pool. The bottleneck is curation effort, not paper availability.
 
 ---
 
-## Other estimators considered
-
-**Capture–recapture (Lincoln–Petersen) with PharmGKB — rejected.** PharmGKB is a
-second independent curation of the literature (`variantAnnotations/`: 9,118 unique
-PMIDs, 1,605 in PMC). Overlapping two curators normally lets you estimate the
-hidden total via `N ≈ n₁·n₂/overlap`. But PK-DB (pharmacokinetics) and PharmGKB
-(pharmacogenomic *variant–drug associations*) target **near-disjoint** populations:
-their overlap is only **32 papers**, so the naïve estimator explodes to ~200k+ and
-is measuring "PK ∩ PGx," not PK-DB's universe. Capture–recapture needs two samples
-of the *same* population; these aren't. Not usable as-is.
-
-**PharmGKB as an orthogonal seed pool — useful.** Those 1,605 PMC pharmacogenomic
-papers are a ready-made, non-overlapping candidate list: pharmacogenomic studies
-routinely report the PK data PK-DB wants, yet all but 32 are un-annotated by PK-DB.
-A concrete near-term target rather than a scope estimate.
+## Recommended refinement
 
 **Abstract text classifier — best future refinement.** The sharpest scope number
 would come from a model, not keywords. We have **720 PK-DB abstracts** (positives,

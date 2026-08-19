@@ -63,7 +63,7 @@ Rule-based (no LLM) search/filter for PKDB-annotatable candidates — see
 
 ```bash
 ingest/.venv/bin/python -m paper_screening search --tier params --limit 100
-ingest/.venv/bin/python -m paper_screening local --dir variantAnnotations/papers --limit 200
+ingest/.venv/bin/python -m paper_screening local --dir path/to/papers --limit 200
 ```
 
 ## Re-run ingestion

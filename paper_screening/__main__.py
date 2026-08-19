@@ -15,7 +15,7 @@ Include weak/rejected hits for debugging the scorer::
 
 Score a local folder of markdown papers (e.g. downloaded PMC)::
 
-    python -m paper_screening local --dir variantAnnotations/papers --limit 200 \\
+    python -m paper_screening local --dir path/to/papers --limit 200 \\
         --out paper_screening/out/local_ranked.jsonl
 
 Score a single title/abstract::
