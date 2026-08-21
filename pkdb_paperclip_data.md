@@ -6,12 +6,98 @@ Counts were checked on **2026-08-19**. PK-DB's canonical website is
 
 | Measure | Count | Meaning |
 |---|---:|---|
-| Total studies currently in PK-DB | **803** | Live PK-DB study count. A study normally represents one publication or trial. |
+| Publicly listed studies currently in PK-DB | **803** | Count returned by the live `studies` endpoint. A study normally represents one publication or trial. |
 | Studies available in the historical GitHub download | **661** | Studies in the PK-DB maintainers' 2021-12-03 CSV snapshot. This is the downloadable dataset used here because the anonymous live API does not return the measurement data reliably. |
 | Current PK-DB studies mapped to a PMCID | **155** | PMCID mappings in the repository's live-API metadata snapshot (`pkdb-api/summary.json`). |
 | Open/downloadable comparison papers with a PMCID | **33** | The comparison cohort in `open_access_pmcids.txt`. This is the denominator for the Paperclip overlap below, not all 803 live studies. |
 | Comparison papers readable with Paperclip `cat` | **2 of 33** | **6.1%** of this PMCID cohort: `PMC3043256` and `PMC4411542`. |
 | Comparison papers not readable with Paperclip `cat` | **31 of 33** | `paperclip lookup pmc <PMCID>` returned no document, so no Paperclip paper path was available to `cat`. |
+
+## PK-DB curation flow
+
+Human analysis is concentrated at the start of both flows: curators reconstruct
+the study design, connect results to the correct subjects and interventions,
+and preserve statistical and unit context. Automatic PK analysis occurs only
+when concentration-time points are available.
+
+### Scale of the live database
+
+PK-DB's live [`statistics` endpoint](https://pk-db.com/api/v1/statistics/?format=json)
+reports the following totals for version 0.9.8. Averages use the endpoint's own
+denominator of 819 studies, so they are internally consistent and represent an
+average per PK-DB study (normally one paper or trial).
+
+| Record type | Total | Average per study |
+|---|---:|---:|
+| Scalar outputs | **138,411** | **169.00** |
+| Calculated scalar outputs | **25,967** | **31.71** |
+| Concentration or other timecourses | **6,103** | **7.45** |
+| Scatter records | **164** | **0.20** |
+| All measurement records above | **144,678** | **176.65** |
+
+"Calculated scalar outputs" are a subset of all outputs, not an additional
+record category, so the combined measurement total counts outputs,
+timecourses, and scatters only. A timecourse is one series containing multiple
+time-value points; 6,103 is not the number of individual coordinates.
+
+The statistics endpoint reports 819 studies while the paginated public
+`studies` endpoint currently returns 803. Because the endpoints expose
+different totals, this document uses 819 only for the averages in this table
+and retains 803 for the publicly listed study count above.
+
+### Papers with concentration-time data
+
+```text
+Paper or source dataset
+        |
+        v
+Human curation and graph digitization
+        |
+        v
+Structured study, intervention, and concentration-time data
+        |
+        v
+Validation, ontology mapping, and unit normalization
+        |
+        v
+Automatic non-compartmental analysis
+        |
+        v
+Calculated parameters stored alongside reported parameters
+        |
+        v
+Human review and second-curator quality check
+```
+
+Curators transcribe tabled timepoints or digitize graph coordinates and assign
+each series to its substance, tissue, dose, intervention, and subject group.
+PK-DB can then derive parameters such as AUC, Cmax, Tmax, half-life, clearance,
+and volume of distribution using non-compartmental analysis.
+
+### Papers without concentration-time data
+
+```text
+Paper
+  |
+  v
+Human extraction of study design and reported scalar parameters
+  |
+  v
+Unit normalization, ontology mapping, and validation
+  |
+  v
+Reported outputs stored in PK-DB
+  |
+  v
+Human review and second-curator quality check
+```
+
+When only scalar parameters are published, curators transcribe the authors'
+values and statistical context. PK-DB standardizes their representation but
+cannot reproduce the original calculation without the underlying timecourse.
+
+The two flows and calculation details are documented further in
+[`PKDB_ANALYSIS_FLOW.md`](PKDB_ANALYSIS_FLOW.md).
 
 ## Why 803 is not the downloadable total
 
