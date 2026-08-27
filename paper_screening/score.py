@@ -1,11 +1,10 @@
 """Rule-based keyword scorer for PKDB annotation relevance.
 
 No LLM calls. Scores title + abstract (+ optional full text) using positive /
-negative lexical signals derived from the 2026-07-08 precision labeling
-(scope_estimation/precision_labels.json) and abstract term signature of
+negative lexical signals and the abstract term signature of
 pkdb-api/pkdb_papers.txt.
 
-Design notes from that work:
+Design notes:
 - "AUC" is heavily contaminated by ML/radiomics ROC-AUC papers → gated.
 - "clearance" alone is weak (renal/bacterial/viral).
 - Concentration-time + human dosing cues are strong positives.

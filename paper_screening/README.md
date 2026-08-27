@@ -3,9 +3,6 @@
 Keyword- and logic-based pipeline that finds papers worth annotating into
 [PK-DB](https://pk-db.com/). **No LLM calls** — NCBI search + lexical scoring only.
 
-Built from the 2026-07-08 scope / precision findings in `docs/PKDB_SCOPE_ESTIMATE.md`
-and `docs/PKDB_SCOPE_ESTIMATION.md`.
-
 Readable config (retrieval tiers + scoring rules):
 [`pkdb_annotation_search.yaml`](pkdb_annotation_search.yaml).
 
@@ -53,7 +50,7 @@ Optional env vars: `NCBI_EMAIL`, `NCBI_API_KEY` (raises rate limit ~3 → 10 req
 | `human` | + Humans MeSH | drop animal/in-vitro-only |
 | **`params`** | + AUC/Cmax/clearance/half-life/Vd/bioavailability | **default** |
 | `strict` | + dosing/healthy-volunteer cues | highest precision, misses patient-pop PK |
-| `medium` | MeSH Pharmacokinetics only (scope_estimation alias) | broader OA sweep |
+| `medium` | MeSH Pharmacokinetics only | broader OA sweep |
 
 Default search is **OA-subset only** (`"open access"[filter]`). Pass `--all-pmc` for all PMC full text (not necessarily redistributable).
 

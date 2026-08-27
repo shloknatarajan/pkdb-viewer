@@ -12,9 +12,8 @@ studies: the **original paper on the left**, the **extracted data on the right**
 - `research_data/` — offline research snapshots not shipped with the viewer
 - `ingest/` — current and legacy ingestion pipelines
 - `paper_screening/` — candidate-paper search and ranking CLI
-- `scope_estimation/` — scope research scripts, samples, and results
 - `pkdb-api/` — PK-DB API snapshots and source-identifier datasets
-- `docs/` — design, methodology, evidence schema, and analysis reports
+- `docs/` — design, evidence schema, and analysis reports
 
 ## What it shows
 

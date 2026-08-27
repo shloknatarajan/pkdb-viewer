@@ -74,7 +74,7 @@ retrieval:
       require: [pk_signal, humans, pk_params, clinical_dose]
 
     medium:
-      description: MeSH-only sweep (scope_estimation alias)
+      description: MeSH-only sweep
       require_raw: '"Pharmacokinetics"[MeSH Terms] AND Humans[MeSH]'
 
 # ---------------------------------------------------------------------------

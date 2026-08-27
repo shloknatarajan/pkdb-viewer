@@ -1,11 +1,7 @@
 """NCBI query terms for PKDB-annotatable paper discovery.
 
-Tier vocabulary comes from the 2026-07-08 scope estimation work
-(docs/PKDB_SCOPE_ESTIMATE.md, docs/PKDB_SCOPE_ESTIMATION.md): keyword
-funnels calibrated against PK-DB's own annotated papers.
-
-Tier 3 ("params") is the recommended default search — best tradeoff of
-recall (~50% on known PMC positives) vs precision.
+Tier 3 ("params") is the recommended default search because requiring human
+studies and reported PK parameters filters common keyword false positives.
 """
 from __future__ import annotations
 
@@ -33,7 +29,7 @@ DOSE = (
     'OR "steady state"[Title/Abstract])'
 )
 
-# Expanded PK signal used by the OA-scope estimator (includes MeSH param headings)
+# Expanded PK signal including MeSH parameter headings
 PK_SIGNAL_EXPANDED = (
     '("Pharmacokinetics"[MeSH Terms] OR pharmacokinetics[Subheading] '
     'OR "Area Under Curve"[MeSH] OR "Metabolic Clearance Rate"[MeSH] OR "Half-Life"[MeSH] '
@@ -52,7 +48,7 @@ TIERS: dict[str, str] = {
     "params": f"{PK} AND {HUMANS} AND {PARAM}",
     # Tier 4 — high-precision / healthy-volunteer biased floor
     "strict": f"{PK} AND {HUMANS} AND {PARAM} AND {DOSE}",
-    # Alias matching scope_estimation medium (MeSH-only, no param requirement)
+    # MeSH-only tier with no parameter requirement
     "medium": f'"Pharmacokinetics"[MeSH Terms] AND {HUMANS}',
 }
 

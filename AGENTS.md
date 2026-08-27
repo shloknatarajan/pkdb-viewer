@@ -11,8 +11,8 @@ This repository combines a static PK-DB viewer with data-ingestion and paper-scr
   update them through an ingestion script when possible.
 - `ingest/` contains the current and legacy Python ingestion pipelines.
 - `paper_screening/` is a stdlib-based CLI for finding and ranking candidate papers.
-- `scope_estimation/` and `pkdb-api/` contain research scripts, snapshots, and source datasets.
-- `docs/` records design decisions and scope-estimation methodology.
+- `pkdb-api/` contains research snapshots and source datasets.
+- `docs/` records design decisions and supporting methodology.
 
 ## PK-DB Domain Context
 
