@@ -190,7 +190,7 @@ scoring:
 # ---------------------------------------------------------------------------
 exclusions:
   known_annotated_sources:
-    - pkdb_papers.txt            # pmid, pmcid, title, abstract
+    - pkdb-api/pkdb_papers.txt   # pmid, pmcid, title, abstract
     - pkdb-api/pmid_to_pmcid.csv
 
 output:

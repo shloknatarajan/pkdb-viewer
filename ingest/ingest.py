@@ -19,9 +19,9 @@ For every open-access study in PK-DB (https://pk-db.com), download:
 
 and write it all out as static files the viewer reads directly:
 
-  public/data/index.json            -> list of studies (for the picker)
-  public/data/<sid>/study.json      -> all extracted data for one study
-  public/data/<sid>/paper.md        -> the original paper as markdown
+  app_data/pkdb_annotations/index.json            -> list of studies (for the picker)
+  app_data/pkdb_annotations/<sid>/study.json      -> all extracted data for one study
+  app_data/pkdb_annotations/<sid>/paper.md        -> the original paper as markdown
 
 Paper text:
   We try the pubmed-markdown package first (per project goal). Its PMC HTML
@@ -71,7 +71,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # Prefer repo .env over any stale shell export of NCBI_EMAIL.
 load_dotenv(ROOT / ".env", override=True)
 
-DATA_DIR = ROOT / "public" / "data"
+DATA_DIR = ROOT / "app_data" / "pkdb_annotations"
 EMAIL = os.environ.get("NCBI_EMAIL", "shlok@gxl.ai")
 
 USER_AGENT = "pkdb-viewer-ingest/1.0 (+%s)" % EMAIL

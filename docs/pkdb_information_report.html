@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" class="technical-post">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What is actually in PK-DB? — A record-first tour</title>
+  <meta name="description" content="A record-first tour of PK-DB with twenty concrete examples followed by statistics for the detailed snapshot and broad catalog.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+.technical-post{--bg:#fff;--bg-offset:#fafafa;--card-bg:#f9fafb;--fg:#1a1a1a;--fg-secondary:#333;--fg-muted:#888;--muted:#6b7280;--border:#e5e7eb;--border-light:#f0f0f0;--code-bg:#f5f5f5;--accent:#1e3a5f;--accent-light:#e8f0f7;--good:#166534;--good-bg:#dcfce7;--bad:#991b1b;--bad-bg:#fee2e2;--info:#1d4ed8;--info-bg:#f0f9ff;--quote:#1e3a8a;--sans:"Inter",-apple-system,BlinkMacSystemFont,sans-serif;--mono:"JetBrains Mono","SFMono-Regular",Menlo,monospace;--header-h:0px;--content-max:920px;--layout-max:1340px;font-size:16px;scroll-behavior:smooth;scroll-padding-top:24px}
+.technical-post *,.technical-post *::before,.technical-post *::after{margin:0;padding:0;box-sizing:border-box}
+.technical-post body{min-height:100dvh;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:1rem;line-height:1.75;-webkit-font-smoothing:antialiased}
+.technical-post a{color:inherit;text-decoration:none}
+.blog-grid{display:grid;grid-template-columns:220px 1fr;max-width:var(--layout-max);margin:0 auto;min-height:calc(100vh - var(--header-h))}
+.blog-toc{padding:3rem 0 2.5rem 32px;position:sticky;top:var(--header-h);height:calc(100vh - var(--header-h));overflow-y:auto}
+.blog-toc h4{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--fg-secondary);margin:1.8rem 0 .5rem}
+.blog-toc h4:first-child{margin-top:0}
+.blog-toc a{display:block;font-size:13px;color:#71717a;padding:4px 10px;border-radius:5px;border-left:2px solid transparent;margin-left:-2px;transition:color .15s,border-color .15s}
+.blog-toc a:hover{color:var(--fg);background:var(--bg-offset)}
+.blog-toc a.active{color:var(--fg);font-weight:500;border-left-color:var(--fg)}
+.blog-toc::-webkit-scrollbar{width:4px}.blog-toc::-webkit-scrollbar-thumb{background:#ddd;border-radius:2px}
+.blog-content{padding:3rem 3rem 5rem 3.5rem;max-width:var(--content-max);min-width:0;overflow-x:hidden;border-left:1px solid var(--border-light)}
+.blog-content h1{font-size:2.2em;font-weight:700;letter-spacing:-.03em;margin-bottom:14px;line-height:1.15;color:var(--fg)}
+.blog-content h2{font-size:1.35em;font-weight:600;margin-top:64px;margin-bottom:20px;letter-spacing:-.02em;color:var(--fg)}
+.blog-content h3{font-size:1.05em;font-weight:600;margin-top:44px;margin-bottom:14px;color:var(--fg)}
+.blog-content .subtitle{font-size:1.05em;color:var(--fg-secondary);margin-bottom:48px;line-height:1.7}
+.blog-content p{margin-bottom:20px;color:var(--fg-secondary);line-height:1.75;font-size:.95em}
+.blog-content strong{font-weight:600;color:var(--fg)}
+.blog-content a{color:var(--accent);border-bottom:1px solid transparent;transition:border-color .15s}
+.blog-content a:hover{border-bottom-color:var(--accent)}
+.blog-content ul,.blog-content ol{margin:14px 0 20px;padding-left:28px;color:var(--fg-secondary)}
+.blog-content li{margin-bottom:10px;line-height:1.8}
+.blog-content code{font-family:var(--mono);font-size:.84em;background:var(--code-bg);padding:2px 6px;border-radius:3px}
+.blog-content pre{background:#f7f7f7;border:1px solid #e8e8e8;border-radius:6px;padding:18px 22px;overflow-x:auto;margin:22px 0 26px;font-size:.84em;line-height:1.6}
+.blog-content pre code{background:none;padding:0;font-size:1em}
+.blog-content blockquote{border-left:3px solid #ddd;padding:10px 18px;margin:18px 0;color:#555;font-style:italic}
+.blog-content table{display:block;overflow-x:auto;width:100%;border-collapse:collapse;margin:22px 0 30px;font-size:.9em}
+.blog-content th{text-align:left;font-weight:600;padding:10px 14px;border-bottom:2px solid var(--border);background:var(--bg-offset);font-size:.88em;text-transform:uppercase;letter-spacing:.03em}
+.blog-content td{padding:10px 14px;border-bottom:1px solid var(--border-light);color:var(--fg-secondary)}
+.blog-content tr:last-child td{border-bottom:none}
+.section-divider{border:none;border-top:1px solid var(--border);margin:3rem 0}
+.major-divider{border:none;border-top:3px solid var(--fg);margin:3rem 0}
+.cta-center{text-align:center;margin:32px 0}
+.blog-content a.cta-btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 32px;border-radius:6px;font-weight:600;font-size:.92em;letter-spacing:.01em;border-bottom:none;transition:opacity .15s}
+.blog-content a.cta-btn:hover{opacity:.9;color:#fff;border-bottom:none}
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;margin:1.5rem 0 1.75rem}
+.stat-card{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:1rem;text-align:center}
+.stat-card .num{font-size:1.5rem;font-weight:700;color:var(--fg);line-height:1.15}
+.stat-card .label{font-size:.72rem;color:var(--muted);margin-top:.25rem;line-height:1.35}
+.stat-row-2{grid-template-columns:1fr 1fr}
+.stat-row-2 .stat-card{border-width:2px;padding:1rem 1.25rem}
+.stat-row-2 .stat-card .num{font-size:2rem}
+.stat-row-2 .stat-card .label{font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.grid-eyebrow{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:1.25rem 0 .5rem;text-align:center}
+.source-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;text-align:left}
+.source-card{padding:1.1rem 1.25rem;border:1px solid var(--border);border-radius:8px;background:var(--card-bg)}
+.source-card .head{display:flex;align-items:baseline;gap:.5rem;margin-bottom:.4rem}
+.source-card .head img{height:22px;object-fit:contain}
+.source-card .head .big{font-size:1.5rem;font-weight:700}
+.source-card .head .name{font-size:.85rem;font-weight:600;color:var(--fg)}
+.source-card .desc{font-size:.78rem;color:var(--muted);line-height:1.5}
+.tile-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:.5rem;margin:0 0 2.5rem;text-align:center}
+.tile{padding:.6rem .25rem;border:1px solid var(--border);border-radius:8px}
+.tile .emoji{font-size:1rem;margin-bottom:.1rem}
+.tile .big{font-size:1.1rem;font-weight:700;color:var(--fg)}
+.tile .label{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);line-height:1.3}
+.nav-cards{margin:0 0 2rem;display:flex;flex-direction:column;gap:.5rem}
+.nav-card{display:block;padding:.7rem 1rem;border:1px solid var(--border);border-radius:8px;color:var(--fg);font-size:.9rem;line-height:1.4}
+.nav-card:hover{border-color:#a1a1aa}
+.nav-card .sub{display:block;font-size:.8rem;color:var(--muted);margin-top:.15rem}
+.tldr{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:2rem;font-size:.92rem;line-height:1.65}
+.tldr .tldr-label{display:block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:.4rem}
+.question-block{background:var(--card-bg);border-left:3px solid var(--border);padding:.8rem 1rem;margin:.75rem 0;font-size:.9rem;line-height:1.6}
+.q-label{font-size:.78rem;font-weight:600;color:var(--muted);margin:2rem 0 .25rem;text-transform:uppercase;letter-spacing:.05em}
+.verdict{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:1rem 1.25rem;margin:1rem 0;font-size:.88rem}
+.cmp-table{width:100%;border-collapse:collapse;margin:1.25rem 0 1.75rem;font-size:.86rem}
+.cmp-table thead th{background:var(--fg);color:#fff;padding:.5rem .7rem;text-align:left;font-weight:600;font-size:.82rem}
+.cmp-table thead th:not(:first-child){text-align:center}
+.cmp-table tbody td{padding:.5rem .7rem;border-bottom:1px solid var(--border);vertical-align:top}
+.cmp-table tbody td:not(:first-child){text-align:center;font-variant-numeric:tabular-nums}
+.cmp-table tbody tr:last-child td{border-bottom:2px solid var(--fg)}
+.cmp-table tbody tr:nth-child(2n){background:var(--card-bg)}
+.cmp-table td.win{background:var(--good-bg);color:var(--good);font-weight:600}
+.cmp-table td.lose{background:var(--bad-bg);color:var(--bad)}
+.side-by-side{display:grid;grid-template-columns:1fr 1fr;gap:0;margin:.75rem 0 1.5rem;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.side-col{padding:1rem 1.15rem;font-size:.86rem;line-height:1.55}
+.side-col:first-child{background:var(--info-bg);border-right:1px solid var(--border)}
+.side-col:last-child{background:var(--bg)}
+.col-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.5rem;padding-bottom:.3rem;border-bottom:1px solid var(--border)}
+.side-col:first-child .col-label{color:var(--info)}
+.side-col:last-child .col-label{color:var(--muted)}
+.side-col blockquote{margin:0;padding:0;border:none;font-style:italic;color:#374151;font-size:.84rem;line-height:1.5}
+.side-col .note{font-size:.76rem;color:var(--muted);margin-top:.5rem;font-style:normal}
+.example-label{font-size:.82rem;font-weight:600;color:var(--fg);margin:1.25rem 0 .2rem}
+.absent{color:var(--bad);font-size:.82rem;font-style:italic}
+.cmp-card{border:1px solid var(--border);border-radius:8px;overflow:hidden;margin:1.25rem 0}
+.cmp-card .card-header{background:var(--card-bg);padding:.6rem 1rem;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);border-bottom:1px solid var(--border)}
+.cmp-card .card-body{display:grid;grid-template-columns:1fr 1fr}
+.cmp-card .card-col{padding:1rem 1.15rem;font-size:.86rem;line-height:1.55}
+.cmp-card .card-col:first-child{background:var(--info-bg);border-right:1px solid var(--border)}
+.cmp-card .card-col .col-label{font-size:.68rem;margin-bottom:.4rem;padding-bottom:0;border-bottom:none}
+.cmp-card .card-col:first-child .col-label{color:var(--info)}
+.cmp-card .card-col:last-child .col-label{color:var(--muted)}
+.cmp-card .card-col ul{margin:.25rem 0 0 1.1rem;font-size:.84rem}
+.cmp-card .card-col li{margin-bottom:.25rem}
+.cmp-card .card-col p{font-size:.84rem;margin-bottom:.5rem}
+.cmp-card .card-col p:last-child{margin-bottom:0}
+.fda-quote,.doc-quote{color:var(--quote);font-weight:700}
+.fig-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin:1.5rem 0;align-items:stretch}
+.fig-card{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:.75rem .75rem .5rem;display:flex;flex-direction:column}
+.fig-card h3{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 .4rem;text-align:center}
+.fig-bars{display:flex;align-items:flex-end;justify-content:space-around;padding:18px 18px 0;gap:18px;flex:1}
+.fig-bar-col{flex:1;display:flex;flex-direction:column;align-items:center;max-width:90px}
+.fig-bar-value{font-size:12px;font-weight:700;color:var(--fg);margin-bottom:4px;font-variant-numeric:tabular-nums}
+.fig-bar-track{position:relative;width:100%;height:110px}
+.fig-bar{position:absolute;bottom:0;left:0;right:0;width:100%;min-height:2px;border-radius:4px 4px 0 0}
+.fig-bar.good{background:var(--good)}.fig-bar.bad{background:var(--bad)}
+.fig-bar-label{font-size:11px;color:var(--fg);margin-top:6px;text-align:center;line-height:1.2}
+.fig-callout{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:1rem 1.25rem;margin:0 0 1.75rem;text-align:center;font-size:1.05rem;line-height:1.5;color:var(--fg)}
+.fig-callout .num{color:var(--info);font-weight:700;font-variant-numeric:tabular-nums}
+.terminal{background:#1e1e2e;border-radius:10px;overflow:hidden;margin:22px 0 26px;font-family:var(--mono);font-size:.82em;line-height:1.65;color:#d4d4d4}
+.terminal-bar{display:flex;align-items:center;gap:5px;border-bottom:1px solid #313244;background:#181825;padding:7px 12px}
+.terminal-bar .dot{width:7px;height:7px;border-radius:50%}
+.terminal-bar .dot-r{background:#f38ba8}.terminal-bar .dot-y{background:#f9e2af}.terminal-bar .dot-g{background:#a6e3a1}
+.terminal-body{padding:14px 18px}
+.terminal .prompt{color:#a6e3a1}.terminal .comment{color:#585b70;font-style:italic}.terminal .output{color:#9399b2}.terminal .highlight{color:#ce9178}.terminal .number{color:#b5cea8}.terminal .flag{color:#569cd6}
+.terminal code{background:none;padding:0;color:inherit}
+.terminal-block{margin:24px 0;border-radius:10px;overflow:hidden;border:1px solid #333}
+.terminal-block .inner{background:#1a1a2e;padding:14px 20px;font-family:var(--mono);font-size:11px;line-height:1.8;color:#d4d4d4;overflow-x:auto}
+.terminal-block .prompt{color:#6a9955}.terminal-block .path{color:#f0f0f0}.terminal-block .comment{color:#808080}
+.figure-box{margin:1.5rem auto;padding:1.25rem 1.5rem;background:var(--card-bg);border:1px solid var(--border);border-radius:8px;max-width:100%}
+.figure-box .fig-title{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:.75rem;text-align:center}
+.figure-box .fig-caption{font-size:.72rem;color:var(--muted);margin-top:.5rem;text-align:center;font-style:italic}
+.table-scroll,.assay-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.blog-footer{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border-light);text-align:center}
+.blog-footer a,.blog-footer span{font-size:12px;color:var(--fg-muted)}
+@media (max-width:1000px){.blog-grid{grid-template-columns:1fr}.blog-toc{display:none}.blog-content{padding-left:3rem;border-left:none}}
+@media (max-width:768px){.tile-grid{grid-template-columns:repeat(4,1fr)}.stat-row{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.blog-content h1{font-size:1.5rem}.stat-row{grid-template-columns:repeat(2,1fr)}.stat-row-2,.source-grid,.side-by-side,.cmp-card .card-body{grid-template-columns:1fr}.fig-grid{grid-template-columns:1fr}.tile-grid{grid-template-columns:repeat(3,1fr)}.cmp-card .card-col:first-child,.side-col:first-child{border-right:none;border-bottom:1px solid var(--border)}.blog-content{padding:2rem 1.5rem 3rem}}
+@media (max-width:400px){.blog-content h1{font-size:1.3rem}.tile-grid{grid-template-columns:repeat(2,1fr)}.stat-row{grid-template-columns:1fr}}
+.technical-post{--warning-bg:var(--accent-light)}
+.bar-list{display:grid;gap:.65rem}
+.bar-row{display:grid;grid-template-columns:4.5rem 1fr 3rem;gap:.75rem;align-items:center;font-size:.78rem;color:var(--fg-secondary)}
+.bar-track{height:.7rem;background:var(--border);border-radius:6px;overflow:hidden}
+.bar-fill{height:100%;background:var(--accent);border-radius:6px}
+.bar-value{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.note-box{background:var(--warning-bg);border:1px solid var(--border);border-radius:8px;padding:1rem 1.25rem;margin:1rem 0 1.5rem;font-size:.86rem;line-height:1.65;color:var(--fg-secondary)}
+.mini-label{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.meter{height:.45rem;background:var(--border);border-radius:4px;overflow:hidden;margin:.35rem 0 .2rem}
+.meter span{display:block;height:100%;background:var(--good);border-radius:4px}
+.footnote{font-size:.78rem!important;color:var(--muted)!important}
+.record-chain{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin:1.25rem 0 1.5rem}
+.record-node{position:relative;border:1px solid var(--border);border-radius:8px;background:var(--card-bg);padding:.9rem;min-width:0}
+.record-node.featured{background:var(--info-bg);border-color:var(--info)}
+.record-node .kind,.example-card .kind{display:block;font-family:var(--mono);font-size:.65rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-bottom:.35rem}
+.record-node .value{font-size:.84rem;font-weight:600;color:var(--fg);line-height:1.4}
+.record-node .detail{font-size:.7rem;color:var(--muted);line-height:1.45;margin-top:.25rem}
+.example-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1rem 0 1.75rem}
+.example-card{border:1px solid var(--border);border-radius:8px;background:var(--card-bg);padding:1rem 1.1rem;min-width:0}
+.example-card .title{font-size:.9rem;font-weight:600;color:var(--fg);line-height:1.4;margin-bottom:.35rem}
+.example-card .facts{font-size:.78rem;color:var(--fg-secondary);line-height:1.6}
+.example-card .provenance{font-family:var(--mono);font-size:.66rem;color:var(--muted);margin-top:.55rem;overflow-wrap:anywhere}
+.field-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin:1rem 0 1.5rem}
+.field{padding:.8rem .9rem;border-right:1px solid var(--border);border-bottom:1px solid var(--border);min-width:0}
+.field:nth-child(3n){border-right:none}.field:nth-last-child(-n+3){border-bottom:none}
+.field .key{display:block;font-family:var(--mono);font-size:.63rem;color:var(--muted);margin-bottom:.2rem}
+.field .val{display:block;font-size:.79rem;color:var(--fg);line-height:1.4;overflow-wrap:anywhere}
+.example-number{display:inline-flex;align-items:center;justify-content:center;width:1.45rem;height:1.45rem;border-radius:50%;background:var(--accent);color:var(--bg);font-family:var(--mono);font-size:.66rem;font-weight:600;margin-right:.4rem;vertical-align:middle}
+.curve{color:var(--accent);overflow-x:auto}
+.curve svg{display:block;width:100%;min-width:500px;height:auto}
+.legend-line{display:flex;gap:1rem;flex-wrap:wrap;font-size:.7rem;color:var(--muted);margin-top:.5rem}
+.legend-line span::before{content:"";display:inline-block;width:.7rem;height:.16rem;background:var(--accent);margin-right:.3rem;vertical-align:middle}
+@media (max-width:768px){.record-chain{grid-template-columns:1fr 1fr}.example-grid{grid-template-columns:1fr}.field-grid{grid-template-columns:1fr 1fr}.field:nth-child(n){border-right:1px solid var(--border);border-bottom:1px solid var(--border)}.field:nth-child(2n){border-right:none}.field:nth-last-child(-n+2){border-bottom:none}}
+@media (max-width:400px){.record-chain,.field-grid{grid-template-columns:1fr}.field:nth-child(n){border-right:none}.field:not(:last-child){border-bottom:1px solid var(--border)}}
+@media print{.blog-toc{display:none}.blog-grid{display:block}.blog-content{border:0;max-width:none;padding:1.5rem}.blog-footer{margin-top:1rem}.technical-post body{font-size:12px}.blog-content h2{break-after:avoid}.figure-box,.stat-card,.source-card,.note-box{break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <div class="blog-grid">
+    <aside class="blog-toc">
+      <h4>Start with a record</h4>
+      <a href="#one-observation">One observation</a>
+      <a href="#how-it-connects">How the data connects</a>
+      <h4>20 concrete examples</h4>
+      <a href="#study-examples">Studies &amp; references</a>
+      <a href="#substance-examples">Substances</a>
+      <a href="#subject-examples">Groups &amp; individuals</a>
+      <a href="#intervention-examples">Interventions</a>
+      <a href="#output-examples">Outputs</a>
+      <a href="#series-examples">Curves &amp; correlations</a>
+      <h4>How much is there?</h4>
+      <a href="#detailed-totals">Detailed totals</a>
+      <a href="#parameter-totals">Parameter totals</a>
+      <a href="#population-totals">Population totals</a>
+      <a href="#catalog-totals">Full catalog</a>
+      <a href="#years">Years represented</a>
+      <a href="#scope-method">Scope &amp; method</a>
+    </aside>
+
+    <main class="blog-content">
+      <div style="padding-bottom:0.5rem;font-size:0.875rem;font-weight:500">26 August 2026 · record-first repository audit</div>
+      <h1>What is actually in PK-DB?</h1>
+      <p class="subtitle"><em>Start with one pharmacokinetic fact, follow every link that gives it meaning, then zoom out to twenty real records and the database-wide counts.</em></p>
+
+      <h2 id="one-observation">Start with one specific observation</h2>
+      <p>In the 1990 paper <em>The effect of propranolol on paracetamol metabolism in man</em>, PK-DB stores the following result in <a href="../app_data/pkdb_annotations/PKDB00024/study.json"><code>PKDB00024/study.json</code></a>:</p>
+
+      <div class="fig-callout">After a <span class="num">1.5 g oral dose</span> of paracetamol, a group of <span class="num">10 healthy volunteers</span> had a mean plasma elimination half-life of <span class="num">3.4 ± 0.3 hours</span>.</div>
+
+      <p>That sentence is assembled from four separate records. The output itself does not repeat the paper, cohort, or dose; it carries foreign keys that point to them.</p>
+
+      <div class="record-chain">
+        <div class="record-node">
+          <span class="kind">Study · PKDB00024</span>
+          <div class="value">Baraka1990</div>
+          <div class="detail">PMID 2306420 · published 1990</div>
+        </div>
+        <div class="record-node">
+          <span class="kind">Group · pk 143</span>
+          <div class="value">“all” · n = 10</div>
+          <div class="detail">Healthy, nonsmoking, 6 male / 4 female</div>
+        </div>
+        <div class="record-node">
+          <span class="kind">Intervention · pk 218</span>
+          <div class="value">Paracetamol · 1.5 g</div>
+          <div class="detail">Oral · single dose · time 0 h</div>
+        </div>
+        <div class="record-node featured">
+          <span class="kind">Output · pk 7255</span>
+          <div class="value">Half-life · 3.4 h</div>
+          <div class="detail">Mean · SD 0.3 · plasma</div>
+        </div>
+      </div>
+
+      <div class="field-grid">
+        <div class="field"><span class="key">measurement_type.sid</span><span class="val">thalf</span></div>
+        <div class="field"><span class="key">substance.sid</span><span class="val">apap</span></div>
+        <div class="field"><span class="key">tissue.sid</span><span class="val">plasma</span></div>
+        <div class="field"><span class="key">calculation_type</span><span class="val">sample mean</span></div>
+        <div class="field"><span class="key">mean / sd / unit</span><span class="val">3.4 / 0.3 / hour</span></div>
+        <div class="field"><span class="key">group_pk / intervention_pk</span><span class="val">143 / 218</span></div>
+      </div>
+
+      <p>The cohort record adds details that would otherwise be lost: ages 21–32 years, median weight 68 kg with a 51–85 kg range, overnight fasting, no regular medication, and no oral contraceptive use. The study also stores paracetamol metabolites, antipyrine, and propranolol-related experimental context rather than reducing the paper to one headline result.</p>
+
+      <h3 id="how-it-connects">The same experiment also becomes a curve</h3>
+      <p>PK-DB stores a group-mean paracetamol plasma concentration series for the same study. It has 11 observations from 0.5 to 24 hours, each with a mean and SD. The database value is normalized to grams per liter; 0.0262 g/L is 26.2 mg/L.</p>
+
+      <div class="figure-box">
+        <div class="fig-title">Paracetamol plasma concentration · group 143 · time course pk 119</div>
+        <div class="curve">
+          <svg viewBox="0 0 700 220" role="img" aria-label="Paracetamol concentration declines from 0.0262 grams per liter at 0.5 hours to 0.0006 grams per liter at 24 hours">
+            <line x1="48" y1="182" x2="675" y2="182" stroke="var(--border)" stroke-width="1" />
+            <line x1="48" y1="28" x2="48" y2="182" stroke="var(--border)" stroke-width="1" />
+            <polyline points="61,35 74,81 87,96 100,102 126,122 152,135 178,146 204,155 256,163 360,171 674,179" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <g fill="currentColor">
+              <circle cx="61" cy="35" r="4"/><circle cx="74" cy="81" r="4"/><circle cx="87" cy="96" r="4"/><circle cx="100" cy="102" r="4"/><circle cx="126" cy="122" r="4"/><circle cx="152" cy="135" r="4"/><circle cx="178" cy="146" r="4"/><circle cx="204" cy="155" r="4"/><circle cx="256" cy="163" r="4"/><circle cx="360" cy="171" r="4"/><circle cx="674" cy="179" r="4"/>
+            </g>
+            <g fill="var(--muted)" font-family="var(--mono)" font-size="11">
+              <text x="48" y="205">0</text><text x="195" y="205">6</text><text x="351" y="205">12</text><text x="660" y="205">24 h</text>
+              <text x="4" y="39">0.026</text><text x="4" y="108">0.013</text><text x="19" y="183">0</text>
+            </g>
+          </svg>
+        </div>
+        <div class="table-scroll"><table>
+          <thead><tr><th>Time (h)</th><th>0.5</th><th>1</th><th>2</th><th>4</th><th>8</th><th>12</th><th>24</th></tr></thead>
+          <tbody><tr><td>Mean (g/L)</td><td>0.02621</td><td>0.01724</td><td>0.01337</td><td>0.00774</td><td>0.00282</td><td>0.00165</td><td>0.00060</td></tr></tbody>
+        </table></div>
+        <div class="fig-caption">Selected points shown in the table; all 11 stored time/value pairs are plotted.</div>
+      </div>
+
+      <div class="verdict"><strong>What PK-DB contributes:</strong> not merely “paracetamol half-life = 3.4 h,” but the publication provenance, subject definition, dose, route, tissue, statistic, variability, normalized unit, related metabolites, and—when available—the underlying concentration trajectory.</div>
+
+      <hr class="major-divider">
+
+      <h2 id="study-examples">Twenty real examples: studies and references</h2>
+      <p>The examples below are exact records from the checked-in 55-study snapshot. Together they show the range of shapes the data can take; they are not synthetic examples.</p>
+
+      <div class="example-grid">
+        <div class="example-card">
+          <span class="kind"><span class="example-number">1</span>Study + reference</span>
+          <div class="title">Paracetamol metabolism under propranolol</div>
+          <div class="facts"><strong>Baraka1990</strong> · Br J Clin Pharmacol · 1990 · PMID 2306420. Contains 1 group, 3 interventions, 87 outputs, 2 time courses, and 7 substances including four paracetamol metabolites.</div>
+          <div class="provenance">PKDB00024 · paper source: PDF text</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">2</span>Study + reference</span>
+          <div class="title">Caffeine disposition in obesity</div>
+          <div class="facts"><strong>Abernethy1985a</strong> · Br J Clin Pharmacol · 1985 · PMID 4027137. Includes obese and normal-weight groups, individual-linked outputs, 2 concentration curves, and 4 digitized correlations.</div>
+          <div class="provenance">PKDB00427 · 3 groups · 244 outputs · 4 scatters</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">3</span>Study + reference</span>
+          <div class="title">Codeine pharmacokinetics in sickle cell disease</div>
+          <div class="facts"><strong>Shord2009</strong> · Eur J Clin Pharmacol · 2009 · PMID 19357842. Models African American participants with sickle cell disease and CYP2D6 genotype strata; measures codeine, morphine, and glucuronide metabolites.</div>
+          <div class="provenance">PKDB00106 · 3 groups · 38 outputs · 2 time courses</div>
+        </div>
+      </div>
+
+      <h2 id="substance-examples">Substances are an ontology, not just a drug list</h2>
+      <p>A substance node has a stable identifier and display label. It may describe what was administered, what was measured, a metabolite, an endogenous biomarker, or even a dietary interaction.</p>
+
+      <div class="example-grid">
+        <div class="example-card">
+          <span class="kind"><span class="example-number">4</span>Substance family</span>
+          <div class="title">One administered drug, several measured metabolites</div>
+          <div class="facts">The Baraka study names <strong>paracetamol</strong> (<code>apap</code>), paracetamol glucuronide (<code>apapglu</code>), sulfate, cysteine, and mercapturate. A result can point to any one of these nodes.</div>
+          <div class="provenance">PKDB00024 · 7 study substances</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">5</span>Substance family</span>
+          <div class="title">Parent drug, hydroxylated products, inducer</div>
+          <div class="facts">A midazolam phenotyping study contains <strong>midazolam</strong>, 1-hydroxymidazolam, 4-hydroxymidazolam, the 1-hydroxy glucuronide, and <strong>rifampicin</strong>. Plasma and saliva can be represented as separate tissues.</div>
+          <div class="provenance">PKDB00248 · 5 substances · 716 outputs · 18 curves</div>
+        </div>
+      </div>
+
+      <h2 id="subject-examples">Groups and individuals describe who was measured</h2>
+      <p>Groups carry cohort-level characteristics and may have parent/child structure. Individuals carry subject-level characteristics and can inherit context from a group. The word “individual” means a PK-DB entity, not necessarily a deduplicated participant across all extracted endpoints.</p>
+
+      <div class="example-grid">
+        <div class="example-card">
+          <span class="kind"><span class="example-number">6</span>Group</span>
+          <div class="title">Ten healthy, fasting volunteers</div>
+          <div class="facts">Group <code>143</code>, name “all”: n=10; Homo sapiens; 6 male and 4 female; ages 21–32; median weight 68 kg (51–85); nonsmoking; no medication; overnight fast.</div>
+          <div class="provenance">PKDB00024 · 10 characteristic rows</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">7</span>Child groups</span>
+          <div class="title">Obese versus normal-weight cohorts</div>
+          <div class="facts">Under a parent group of 39 healthy volunteers: <strong>obese</strong> n=16, mean weight 120 kg, mean BMI 39.1; <strong>normal</strong> n=23, mean weight 64 kg, mean BMI 22. Both retain sex, smoking, fasting, and medication context.</div>
+          <div class="provenance">PKDB00427 · group pks 634 and 635</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">8</span>Genotype subgroup</span>
+          <div class="title">Sickle cell disease with CYP2D6 strata</div>
+          <div class="facts">The parent cohort has 54 African American participants with sickle cell disease. Child groups of 30 and 24 encode CYP2D6 choices such as <code>*other/*17</code>, <code>*other/*29</code>, <code>*29/*29</code>, and <code>*17/*17</code>, plus sex and age summaries.</div>
+          <div class="provenance">PKDB00106 · group pks 998–1000</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">9</span>Individual</span>
+          <div class="title">An obese female subject record</div>
+          <div class="facts">Individual <code>3379</code>, name “F_obese”: female, age 29, weight 123 kg, nonsmoking, healthy, fasting, no medication, linked to obese group <code>634</code>. Her caffeine Cmax and AUC outputs point back to this entity.</div>
+          <div class="provenance">PKDB00427 · individual name F_obese</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">10</span>Individual</span>
+          <div class="title">A normal-weight comparison subject</div>
+          <div class="facts">Individual <code>3380</code>, “F_normal”: female, age 26, weight 46 kg, healthy, nonsmoking, fasting, no medication, linked to normal group <code>635</code>. A 13-point HPLC caffeine curve links directly to her.</div>
+          <div class="provenance">PKDB00427 · individual-linked time course pk 1255</div>
+        </div>
+      </div>
+
+      <h2 id="intervention-examples">Interventions encode dose, route, form, and timing</h2>
+      <div class="example-grid">
+        <div class="example-card">
+          <span class="kind"><span class="example-number">11</span>Oral single dose</span>
+          <div class="title">Paracetamol, 1.5 g by mouth</div>
+          <div class="facts">Substance <code>apap</code>; value 1.5; unit gram; oral route; single-dose application; time 0 h. Administration form is explicitly “not reported.”</div>
+          <div class="provenance">PKDB00024 · intervention pk 218</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">12</span>Route comparison</span>
+          <div class="title">The same 650 mg paracetamol by IV and oral solution</div>
+          <div class="facts">One intervention is 0.65 g intravenous solution; another is 0.65 g oral solution (“elixir”), both single dose at 0 h. This supports direct absorption and bioavailability comparisons.</div>
+          <div class="provenance">PKDB00131 · intervention pks 62 and 64</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">13</span>Repeated dosing</span>
+          <div class="title">Caffeine at 18.75 mg per hour</div>
+          <div class="facts">An oral capsule intervention is stored as 0.01875 gram/hour with application “multiple dose.” The study links this dosing regimen to plasma/urine concentrations and renal-clearance outputs.</div>
+          <div class="provenance">PKDB00012 · intervention pk 1208</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">14</span>Weight-normalized infusion</span>
+          <div class="title">Exenatide constant IV infusion</div>
+          <div class="facts">Exenatide is encoded as an intravenous solution, constant infusion, at <code>3.96e-12 mole/hour/kilogram</code>. The study also contains glucose, insulin, C-peptide, glucagon, and counter-regulatory hormones.</div>
+          <div class="provenance">PKDB00070 · intervention pk 2588</div>
+        </div>
+      </div>
+
+      <h2 id="output-examples">Outputs can be group statistics or individual values</h2>
+      <p>An output is one typed result. Alongside its numeric fields, it can identify substance, tissue, method, calculation type, unit, intervention, and either group or individual context.</p>
+
+      <div class="example-grid">
+        <div class="example-card">
+          <span class="kind"><span class="example-number">15</span>Group output</span>
+          <div class="title">Paracetamol half-life: 3.4 ± 0.3 h</div>
+          <div class="facts">Measurement type “elimination half-life”; plasma; sample mean 3.4 h; SD 0.3 h; SE 0.0949 h; CV 0.0882; linked to group 143 and oral paracetamol intervention 218.</div>
+          <div class="provenance">PKDB00024 · output pk 7255</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">16</span>Group comparison</span>
+          <div class="title">Caffeine clearance in obesity</div>
+          <div class="facts">After 162 mg oral caffeine: obese group mean clearance <strong>8.10 L/h</strong> (SD 3.36) versus normal group <strong>6.72 L/h</strong> (SD 3.45), both measured in plasma.</div>
+          <div class="provenance">PKDB00427 · outputs 69897 and 69898</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">17</span>Individual output</span>
+          <div class="title">Caffeine Cmax for one subject</div>
+          <div class="facts">“F_obese” has plasma Cmax <strong>0.00260993 g/L</strong> after 0.162 g oral caffeine. “F_normal” has 0.00529237 g/L. Both are individual values rather than group means.</div>
+          <div class="provenance">PKDB00427 · outputs 70521 and 70503</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">18</span>Dimensionless PK output</span>
+          <div class="title">Midazolam bioavailability: median 0.19</div>
+          <div class="facts">Measurement type “bioavailability”; substance midazolam; tissue plasma; median 0.19; unit dimensionless; linked to the “all” group and a 7.5 mg oral midazolam intervention.</div>
+          <div class="provenance">PKDB00248 · output pk 169807</div>
+        </div>
+      </div>
+
+      <h2 id="series-examples">Time courses and scatters preserve shapes and relationships</h2>
+      <div class="example-grid">
+        <div class="example-card">
+          <span class="kind"><span class="example-number">19</span>Time course</span>
+          <div class="title">Individual caffeine concentration over 24 hours</div>
+          <div class="facts">For “F_normal,” PK-DB stores 13 HPLC plasma concentrations from 0 to 24 h. Cmax is 0.00529237 g/L at 1.383 h, falling to 0.00007856 g/L at 24 h. Times and values remain paired arrays.</div>
+          <div class="provenance">PKDB00427 · time course pk 1255</div>
+        </div>
+        <div class="example-card">
+          <span class="kind"><span class="example-number">20</span>Scatter</span>
+          <div class="title">Obesity index versus caffeine clearance</div>
+          <div class="facts">A digitized female series contains 27 paired points: x = obesity index (%) and y = plasma caffeine clearance (L/h). A separate 12-point male series preserves the same axes without pooling sexes.</div>
+          <div class="provenance">PKDB00427 · scatter pks 1251 and 1252</div>
+        </div>
+      </div>
+
+      <hr class="major-divider">
+
+      <h2 id="detailed-totals">Now zoom out: totals in the detailed snapshot</h2>
+      <p>The examples above come from the row-level snapshot that this repository can actually inspect. It contains 55 usable open-license studies from a PK-DB export dated 3 December 2021.</p>
+
+      <div class="stat-row">
+        <div class="stat-card"><div class="num">55</div><div class="label">Studies with detailed rows</div></div>
+        <div class="stat-card"><div class="num">88</div><div class="label">Study substance nodes</div></div>
+        <div class="stat-card"><div class="num">144</div><div class="label">Groups</div></div>
+        <div class="stat-card"><div class="num">1,093</div><div class="label">Individual entities</div></div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-card"><div class="num">161</div><div class="label">Interventions</div></div>
+        <div class="stat-card"><div class="num">19,494</div><div class="label">Outputs</div></div>
+        <div class="stat-card"><div class="num">453</div><div class="label">Time courses</div></div>
+        <div class="stat-card"><div class="num">7</div><div class="label">Scatter datasets</div></div>
+      </div>
+
+      <div class="table-scroll"><table class="cmp-table">
+        <thead><tr><th>Data type</th><th>What one row/entity represents</th><th>Total</th><th>Studies containing it</th></tr></thead>
+        <tbody>
+          <tr><td>Study</td><td>One publication/trial container with reference and curation metadata</td><td>55</td><td>55</td></tr>
+          <tr><td>Substance</td><td>An ontology node named by a study</td><td>88 unique</td><td>55</td></tr>
+          <tr><td>Group</td><td>A cohort or subgroup with structured characteristics</td><td>144</td><td>55</td></tr>
+          <tr><td>Individual</td><td>An individual-linked subject entity</td><td>1,093</td><td>27</td></tr>
+          <tr><td>Intervention</td><td>A dose, infusion, co-treatment, or experimental change</td><td>161</td><td>55</td></tr>
+          <tr><td>Output</td><td>One scalar, categorical, or time-indexed result row</td><td>19,494</td><td>55</td></tr>
+          <tr><td>Time course</td><td>Paired time/value arrays, optionally with mean and SD</td><td>453</td><td>42</td></tr>
+          <tr><td>Scatter</td><td>Paired x/y arrays for a correlation</td><td>7</td><td>4</td></tr>
+        </tbody>
+      </table></div>
+
+      <div class="note-box"><strong>Do not read 1,093 “individuals” as 1,093 unique people.</strong> Some studies create multiple individual-linked entities for separately digitized endpoints, as the names <code>F_obese</code>, <code>HLObese_1</code>, and <code>CLObese_3</code> illustrate. Likewise, group counts can overlap through parent/child or crossover designs. PK-DB preserves the source structure; it does not provide a globally deduplicated participant census.</div>
+
+      <h2 id="parameter-totals">What parameters and measurements are common?</h2>
+      <p>The detailed snapshot contains <strong>37 distinct output measurement types</strong>. Nearly half of all output rows are concentrations, because a curve may also be represented point-by-point. Classic scalar PK parameters are nevertheless broad: half-life appears in 42 studies, clearance in 41, Cmax and Tmax in 40 each, and AUC variants in 38–39.</p>
+
+      <div class="table-scroll"><table class="cmp-table">
+        <thead><tr><th>Measurement type</th><th>Output rows</th><th>Studies</th><th>Example meaning</th></tr></thead>
+        <tbody>
+          <tr><td>Concentration</td><td>9,705</td><td>45</td><td>Drug or metabolite amount per tissue volume</td></tr>
+          <tr><td>Secretion rate</td><td>1,169</td><td>3</td><td>Hormone secretion over time</td></tr>
+          <tr><td>Elimination half-life</td><td>963</td><td>42</td><td>Time for terminal concentration to halve</td></tr>
+          <tr><td>Recovery</td><td>917</td><td>11</td><td>Fraction recovered, often in urine</td></tr>
+          <tr><td>AUC to infinity</td><td>841</td><td>38</td><td>Total extrapolated exposure</td></tr>
+          <tr><td>Cmax</td><td>812</td><td>40</td><td>Maximum observed concentration</td></tr>
+          <tr><td>Tmax</td><td>714</td><td>40</td><td>Time of maximum concentration</td></tr>
+          <tr><td>Clearance</td><td>676</td><td>41</td><td>Apparent volume cleared per time</td></tr>
+          <tr><td>AUC to end</td><td>593</td><td>39</td><td>Exposure to last sampled time</td></tr>
+          <tr><td>Metabolic ratio</td><td>551</td><td>11</td><td>Metabolite-to-parent ratio</td></tr>
+          <tr><td>Volume of distribution</td><td>517</td><td>35</td><td>Apparent distribution volume</td></tr>
+          <tr><td>Renal clearance</td><td>416</td><td>8</td><td>Clearance into urine</td></tr>
+          <tr><td>Elimination rate (Kel)</td><td>294</td><td>33</td><td>Terminal first-order rate constant</td></tr>
+          <tr><td>Vd at steady state</td><td>283</td><td>30</td><td>Steady-state distribution volume</td></tr>
+          <tr><td>Other 23 types</td><td>1,043</td><td>—</td><td>Bioavailability, absorption, unbound fractions, glucose indices, and more</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>There are also <strong>453 time-course series with 6,176 usable time/value pairs</strong>: 381 concentration curves, 29 secretion-rate series, 18 rates of appearance, 12 rates of disappearance, 11 metabolic-ratio series, and 2 endogenous-glucose-production series. Measurements span plasma (15,979 output/series records), urine (2,914), saliva (488), serum (488), and spinal fluid (78).</p>
+
+      <h2 id="population-totals">What subjects, drugs, and interventions are represented?</h2>
+      <div class="source-grid">
+        <div class="source-card"><div class="head"><span class="big">36</span><span class="name">Characteristic dimensions</span></div><div class="desc">Sex, age, health, species, smoking, medication, fasting, weight, ethnicity, BMI, genotype, renal function, and more.</div></div>
+        <div class="source-card"><div class="head"><span class="big">12,506</span><span class="name">Characteristic rows</span></div><div class="desc">Group and individual facts, including categorical values, numeric summaries, counts, and units.</div></div>
+        <div class="source-card"><div class="head"><span class="big">70</span><span class="name">Measured substances</span></div><div class="desc">Substances appearing on output or time-course records.</div></div>
+        <div class="source-card"><div class="head"><span class="big">37</span><span class="name">Administered substances</span></div><div class="desc">Named substances appearing in intervention records; seven intervention rows omit the substance.</div></div>
+      </div>
+
+      <div class="table-scroll"><table class="cmp-table">
+        <thead><tr><th>Subject characteristic</th><th>Studies with group-level data</th><th>Examples of stored values</th></tr></thead>
+        <tbody>
+          <tr><td>Sex</td><td>55</td><td>F, M, mixed, not reported; counts per category</td></tr>
+          <tr><td>Health status</td><td>55</td><td>Healthy yes/no/not reported</td></tr>
+          <tr><td>Species</td><td>55</td><td>Homo sapiens in 54 studies; one NR</td></tr>
+          <tr><td>Age</td><td>45</td><td>Value, mean, median, min/max; 6.9–92 years across all records</td></tr>
+          <tr><td>Weight</td><td>33</td><td>Value or group summary in kilograms</td></tr>
+          <tr><td>Medication</td><td>28</td><td>Yes/no and sometimes a linked substance</td></tr>
+          <tr><td>Smoking</td><td>23</td><td>Yes/no, plus cigarettes/day in some studies</td></tr>
+          <tr><td>Ethnicity</td><td>12</td><td>Caucasian, Chinese, Hispanic, Korean, African/African American, Japanese, Asian</td></tr>
+          <tr><td>BMI</td><td>10</td><td>Numeric kg/m² and categorical weight status</td></tr>
+          <tr><td>Disease</td><td>8</td><td>Cancer, renal disease, T1DM, T2DM, sickle cell disease, epilepsy, impaired glucose tolerance</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>Of 161 interventions, 129 are oral and 20 intravenous; 12 omit route. There are 124 single-dose, 11 multiple-dose, 8 constant-infusion, and 1 variable-infusion records, with application unreported for 17. The most frequent named administered substances are paracetamol (30 intervention rows across 16 studies), codeine phosphate (16/6), caffeine (15/15), midazolam (14/9), and codeine (11/4).</p>
+
+      <h2 id="catalog-totals">The broader catalog is much larger, but less inspectable</h2>
+      <p>A separate local API catalog contains 803 studies. It is useful for breadth, but only supplies study metadata, substance lists, and advertised entity counts here—not the corresponding output rows. The detailed examples and parameter distributions above therefore use the 55-study export, not this catalog.</p>
+
+      <div class="stat-row">
+        <div class="stat-card"><div class="num">803</div><div class="label">Catalog studies</div></div>
+        <div class="stat-card"><div class="num">448</div><div class="label">Unique substances</div></div>
+        <div class="stat-card"><div class="num">137,703</div><div class="label">Outputs advertised</div></div>
+        <div class="stat-card"><div class="num">6,055</div><div class="label">Time courses advertised</div></div>
+      </div>
+
+      <div class="table-scroll"><table class="cmp-table">
+        <thead><tr><th>Advertised catalog entity</th><th>Total</th><th>Studies with ≥1</th><th>Median per study</th><th>Maximum</th></tr></thead>
+        <tbody>
+          <tr><td>Groups</td><td>2,418</td><td>787</td><td>3</td><td>32</td></tr>
+          <tr><td>Individuals</td><td>17,242</td><td>339</td><td>0</td><td>1,152</td></tr>
+          <tr><td>Interventions</td><td>2,381</td><td>741</td><td>2</td><td>56</td></tr>
+          <tr><td>Outputs</td><td>137,703</td><td>739</td><td>118</td><td>3,404</td></tr>
+          <tr><td>Calculated outputs</td><td>25,909</td><td>554</td><td>18</td><td>1,341</td></tr>
+          <tr><td>Time courses</td><td>6,055</td><td>583</td><td>4</td><td>179</td></tr>
+          <tr><td>Scatters</td><td>164</td><td>55</td><td>0</td><td>18</td></tr>
+        </tbody>
+      </table></div>
+
+      <p>The catalog labels 88 studies open-license and 715 closed-license. Its most common study-associated substances are caffeine (105 studies), paracetamol (86), paraxanthine (52), dextromethorphan (49), midazolam (49), and morphine (49). “Substance” remains broader than “drug”: metabolites, endogenous molecules, food products, and placebo also count.</p>
+
+      <h2 id="years">What years does the data span?</h2>
+      <p>The broad catalog has usable reference dates for 801 of 803 studies and spans <strong>1963–2024</strong>. The row-level detailed snapshot spans <strong>1971–2017</strong>, so detailed parameter analysis does not include the catalog’s most recent publications.</p>
+
+      <div class="figure-box">
+        <div class="fig-title">Broad catalog studies by publication decade · n = 801 dated studies</div>
+        <div class="bar-list">
+          <div class="bar-row"><span>1960s</span><div class="bar-track"><div class="bar-fill" style="width:2.4%"></div></div><span class="bar-value">5</span></div>
+          <div class="bar-row"><span>1970s</span><div class="bar-track"><div class="bar-fill" style="width:24.2%"></div></div><span class="bar-value">50</span></div>
+          <div class="bar-row"><span>1980s</span><div class="bar-track"><div class="bar-fill" style="width:76.3%"></div></div><span class="bar-value">158</span></div>
+          <div class="bar-row"><span>1990s</span><div class="bar-track"><div class="bar-fill" style="width:86.5%"></div></div><span class="bar-value">179</span></div>
+          <div class="bar-row"><span>2000s</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-value">207</span></div>
+          <div class="bar-row"><span>2010s</span><div class="bar-track"><div class="bar-fill" style="width:80.2%"></div></div><span class="bar-value">166</span></div>
+          <div class="bar-row"><span>2020s</span><div class="bar-track"><div class="bar-fill" style="width:17.4%"></div></div><span class="bar-value">36</span></div>
+        </div>
+        <div class="fig-caption">The 2020s are incomplete; two catalog studies lack usable reference dates.</div>
+      </div>
+
+      <h2 id="scope-method">Scope, provenance, and how counts were made</h2>
+      <div class="tldr"><span class="tldr-label">Read this before reusing a number</span>The repository contains <strong>two non-synchronized snapshots</strong>. Use the 803-study API catalog for broad study-level coverage. Use the 55-study 2021 export for examples, parameters, subject attributes, interventions, and actual result rows.</div>
+      <ul>
+        <li><strong>Detailed source:</strong> the 55 entries in <a href="../app_data/pkdb_annotations/index.json"><code>app_data/pkdb_annotations/index.json</code></a> and their checked-in <code>study.json</code> files. The upstream export is documented as having 56 open studies; ingestion skips one with no extracted entities.</li>
+        <li><strong>Catalog source:</strong> all 803 records in <a href="../pkdb-api/studies_full.json"><code>pkdb-api/studies_full.json</code></a>.</li>
+        <li><strong>Unique concepts:</strong> substances and measurement types were keyed by their ontology SID, not display text.</li>
+        <li><strong>Time-course points:</strong> counted only positions with a non-null time and a non-null individual value or mean.</li>
+        <li><strong>Missingness:</strong> explicit nulls and “not reported” choices were retained. No values were inferred from the papers.</li>
+        <li><strong>Linkage:</strong> all 19,494 detailed outputs link to an intervention and to either a group (10,726) or individual entity (8,768). Units are present on 19,459 outputs (99.8%).</li>
+      </ul>
+
+      <div class="note-box"><strong>Snapshot mismatch:</strong> only 35 of the 55 detailed study IDs occur in the 803-study catalog; 20 older IDs are absent. The files should be analyzed as separate snapshots, not force-joined into one supposedly current database state.</div>
+    </main>
+  </div>
+
+  <div class="blog-footer">
+    <span>PK-DB record-first data audit · generated from repository snapshots · 26 August 2026</span>
+  </div>
+
+  <script>
+    (function () {
+      var links = document.querySelectorAll('.blog-toc a[href^="#"]');
+      if (!links.length) return;
+      var ids = [];
+      links.forEach(function (a) { ids.push(a.getAttribute('href').slice(1)); });
+      function update() {
+        var current = '';
+        for (var i = ids.length - 1; i >= 0; i--) {
+          var el = document.getElementById(ids[i]);
+          if (el && el.getBoundingClientRect().top <= 80) { current = ids[i]; break; }
+        }
+        links.forEach(function (a) {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+        });
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>

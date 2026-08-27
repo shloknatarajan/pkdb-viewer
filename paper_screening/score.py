@@ -3,7 +3,7 @@
 No LLM calls. Scores title + abstract (+ optional full text) using positive /
 negative lexical signals derived from the 2026-07-08 precision labeling
 (scope_estimation/precision_labels.json) and abstract term signature of
-pkdb_papers.txt.
+pkdb-api/pkdb_papers.txt.
 
 Design notes from that work:
 - "AUC" is heavily contaminated by ML/radiomics ROC-AUC papers → gated.

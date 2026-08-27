@@ -9,7 +9,8 @@ contain annotatable pharmacokinetic data — so we can size the runway beyond th
 > single estimate of **~40,000** human PK studies that report PK parameters
 > (~20,000 of them in the machine-mineable CC-licensed Open Access Subset).
 > PK-DB's 803 curated studies are **~2% of the mid estimate** → roughly a **50×
-> runway**. Numbers computed 2026-07-08; reproduce with `estimate_pmc_scope.py`.
+> runway**. Numbers computed 2026-07-08; reproduce with
+> `scope_estimation/estimate_pmc_scope.py`.
 
 ---
 
@@ -82,7 +83,7 @@ conservative pool. The bottleneck is curation effort, not paper availability.
 
 **Abstract text classifier — best future refinement.** The sharpest scope number
 would come from a model, not keywords. We have **720 PK-DB abstracts** (positives,
-in `pkdb_papers.txt`) — train a classifier (embeddings or an LLM judge) on those
+in `pkdb-api/pkdb_papers.txt`) — train a classifier (embeddings or an LLM judge) on those
 vs. random PMC abstracts, score a random sample of PMC, and multiply the positive
 rate by 12.16 M. This replaces the leaky keyword *precision* with a learned one and
 would tighten the ±5× band above to perhaps ±2×. Recommended next step.
@@ -172,7 +173,8 @@ takes the **numeric** accession, not the `PMC` prefix — `1368322[pmcid]` → 1
 ## Reproduce
 
 ```bash
-python3 estimate_pmc_scope.py      # ~1 min, stdlib only; writes pmc_scope_estimate.json
+python3 scope_estimation/estimate_pmc_scope.py
+# ~1 min, stdlib only; writes scope_estimation/pmc_scope_estimate.json
 ```
 
 Inputs: `pkdb-api/pmid_to_pmcid.csv` (the 152 labeled positives). The script hits
@@ -185,7 +187,8 @@ doesn't overflow the URL. Swap the `FUNNEL` query blocks to test other vocabular
 
 Everything about each tier in one place: what the query does, the numbers, and —
 crucially — *which of PK-DB's own 152 in-PMC papers it fails to find*. The missed
-papers come from `esearch` `idlist` ∩ positives, with titles from `pkdb_papers.txt`.
+papers come from `esearch` `idlist` ∩ positives, with titles from
+`pkdb-api/pkdb_papers.txt`.
 The misses are **not random**: each constraint has a characteristic blind spot, and
 almost every miss is a *true* PK paper lost for a lexical/indexing reason — not a
 non-PK paper correctly excluded. This is why the recall correction matters and why

@@ -13,7 +13,8 @@ Readable config (retrieval tiers + scoring rules):
 
 1. **Search** PMC with a calibrated keyword funnel (`broad` → `human` → `params` → `strict`).
 2. **Fetch** titles/abstracts via NCBI E-utilities.
-3. **Filter out** papers already curated in PK-DB (`pkdb_papers.txt` / `pkdb-api/pmid_to_pmcid.csv`).
+3. **Filter out** papers already curated in PK-DB
+   (`pkdb-api/pkdb_papers.txt` / `pkdb-api/pmid_to_pmcid.csv`).
 4. **Score** each abstract with rule-based positive/negative signals (clinical PK vs
    ML/ROC-AUC traps, non-PK “clearance”, etc.).
 5. **Rank** and write JSONL / CSV candidates.

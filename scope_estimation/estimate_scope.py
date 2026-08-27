@@ -30,7 +30,7 @@ import csv
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-PKDB_PAPERS = ROOT / "pkdb_papers.txt"
+PKDB_PAPERS = ROOT / "pkdb-api" / "pkdb_papers.txt"
 RESULTS = HERE / "results.json"
 
 ESEARCH = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"

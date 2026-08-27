@@ -1,13 +1,16 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { loadPaper, loadStudy } from "../data";
-import type { Study } from "../types";
+import { loadPaper, loadProposal, loadStudy } from "../data";
+import type { ProposedAnnotation, Study } from "../types";
+import AnnotationComparison from "./AnnotationComparison";
 import DataPanel from "./DataPanel";
 
 export default function StudyView({ sid }: { sid: string }) {
   const [study, setStudy] = useState<Study | null>(null);
   const [paper, setPaper] = useState<string>("");
+  const [proposal, setProposal] = useState<ProposedAnnotation | null>(null);
+  const [view, setView] = useState<"paper" | "compare">("paper");
   const [err, setErr] = useState<string | null>(null);
 
   // resizable split: percentage width of the left (paper) pane
@@ -41,11 +44,12 @@ export default function StudyView({ sid }: { sid: string }) {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadStudy(sid), loadPaper(sid)])
-      .then(([s, p]) => {
+    Promise.all([loadStudy(sid), loadPaper(sid), loadProposal(sid)])
+      .then(([s, p, proposed]) => {
         if (cancelled) return;
         setStudy(s);
         setPaper(p);
+        setProposal(proposed);
       })
       .catch((e) => {
         if (!cancelled) setErr(String(e));
@@ -121,43 +125,63 @@ export default function StudyView({ sid }: { sid: string }) {
             <a href={pkdbUrl} target="_blank" rel="noreferrer">
               PK-DB ↗
             </a>
+            {proposal && (
+              <div className="view-switch" aria-label="Viewer mode">
+                <button
+                  className={view === "paper" ? "active" : ""}
+                  onClick={() => setView("paper")}
+                >
+                  Paper & data
+                </button>
+                <button
+                  className={view === "compare" ? "active" : ""}
+                  onClick={() => setView("compare")}
+                >
+                  Compare annotations
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
 
-      <div className="split" ref={splitRef}>
-        <section className="pane pane-paper" style={{ width: `${leftPct}%` }}>
-          <div className="pane-label">
-            Original paper
-            {study.paper.source === "abstract" ? (
-              <span className="pane-note">
-                abstract only — full text not in PMC OA
-              </span>
-            ) : (
-              <span className="pane-note">
-                full text via {study.paper.source}
-                {study.paper.licence ? ` · ${study.paper.licence}` : ""}
-              </span>
-            )}
-          </div>
-          <article className="paper markdown">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{paper}</ReactMarkdown>
-          </article>
-        </section>
+      {view === "compare" && proposal ? (
+        <AnnotationComparison study={study} proposal={proposal} />
+      ) : (
+        <div className="split" ref={splitRef}>
+          <section className="pane pane-paper" style={{ width: `${leftPct}%` }}>
+            <div className="pane-label">
+              Original paper
+              {study.paper.source === "abstract" ? (
+                <span className="pane-note">
+                  abstract only — full text not in PMC OA
+                </span>
+              ) : (
+                <span className="pane-note">
+                  full text via {study.paper.source}
+                  {study.paper.licence ? ` · ${study.paper.licence}` : ""}
+                </span>
+              )}
+            </div>
+            <article className="paper markdown">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{paper}</ReactMarkdown>
+            </article>
+          </section>
 
-        <div
-          className="split-divider"
-          role="separator"
-          aria-orientation="vertical"
-          onPointerDown={onDividerDown}
-          onDoubleClick={() => setLeftPct(50)}
-        />
+          <div
+            className="split-divider"
+            role="separator"
+            aria-orientation="vertical"
+            onPointerDown={onDividerDown}
+            onDoubleClick={() => setLeftPct(50)}
+          />
 
-        <section className="pane pane-data">
-          <div className="pane-label">Extracted data</div>
-          <DataPanel study={study} />
-        </section>
-      </div>
+          <section className="pane pane-data">
+            <div className="pane-label">Extracted data</div>
+            <DataPanel study={study} />
+          </section>
+        </div>
+      )}
     </div>
   );
 }
