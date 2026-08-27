@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_PAPERS = ROOT / "pkdb_papers.txt"
+DEFAULT_PAPERS = ROOT / "pkdb-api" / "pkdb_papers.txt"
 DEFAULT_PMID_CSV = ROOT / "pkdb-api" / "pmid_to_pmcid.csv"
 
 

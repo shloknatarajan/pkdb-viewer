@@ -1,0 +1,179 @@
+population,administered_substance,count
+"1623898 / all (n=16; human; healthy; sex: M=12, F=4; age: median 24 year)","codeine",1
+"1623898 / all (n=16; human; healthy; sex: M=12, F=4; age: median 24 year)","quinidine",1
+"1623898 / all (n=16; human; healthy; sex: M=12, F=4; age: median 24 year)","sparteine sulfate",1
+"17541571 / all (n=8; human; healthy; sex: M=8; age: mean 25 year; weight: mean 75.4 kilogram; smoking: N=8)","morphine-6-glucuronide",2
+"17541571 / all (n=8; human; healthy; sex: M=8; age: mean 25 year; weight: mean 75.4 kilogram; smoking: N=8)","paracetamol",1
+"17541571 / all (n=8; human; healthy; sex: M=8; age: mean 25 year; weight: mean 75.4 kilogram; smoking: N=8)","sulfapyridine",1
+"7983238 / all (n=13; human; healthy; sex: M=13; age: mean 36.5 year; smoking: N=13)","codeine",1
+"7983238 / all (n=13; human; healthy; sex: M=13; age: mean 36.5 year; smoking: N=13)","codeine phosphate",2
+"PKDB00012 / all (n=6; human; healthy; sex: M=3, F=3; age: mean 21 year; weight: mean 63 kilogram; smoking: N=6)","caffeine (137X)",1
+"PKDB00019 / all (n=7; human; healthy; sex: M=6, F=1; age: mean 50 year; weight: mean 82 kilogram; smoking: N=7)","caffeine (137X)",1
+"PKDB00019 / all (n=7; human; healthy; sex: M=6, F=1; age: mean 50 year; weight: mean 82 kilogram; smoking: N=7)","fluvoxamine",4
+"PKDB00021 / chronic_pain (n=5; human; not healthy; sex: M=5; age: mean 55 year; weight: mean 60 kilogram; ethnicity: Japanese)","paracetamol",3
+"PKDB00021 / volunteers (n=5; human; healthy; sex: M=1, F=4; ethnicity: Japanese)","paracetamol",1
+"PKDB00022 / all (n=10; human; healthy; sex: M=10)","paracetamol",2
+"PKDB00024 / all (n=10; human; healthy; sex: M=6, F=4; age: 21–32 year; weight: median 68 kilogram; smoking: N=10)","antipyrine",1
+"PKDB00024 / all (n=10; human; healthy; sex: M=6, F=4; age: 21–32 year; weight: median 68 kilogram; smoking: N=10)","paracetamol",1
+"PKDB00024 / all (n=10; human; healthy; sex: M=6, F=4; age: 21–32 year; weight: median 68 kilogram; smoking: N=10)","propanolol",1
+"PKDB00033 / all (n=12; human; healthy; sex: M=4, F=8; age: mean 33.7 year; weight: mean 68 kilogram; smoking: N=6, Y=6)","caffeine (137X)",1
+"PKDB00033 / all (n=12; human; healthy; sex: M=4, F=8; age: mean 33.7 year; weight: mean 68 kilogram; smoking: N=6, Y=6)","grapefruit juice",1
+"PKDB00033 / nonsmokers (n=6; human; healthy; sex: M=2, F=4; age: mean 32.83 year; weight: mean 68.5 kilogram; smoking: N=6)","caffeine (137X)",1
+"PKDB00033 / smokers (n=6; human; healthy; sex: M=2, F=4; age: mean 34.5 year; weight: mean 67.5 kilogram; smoking: Y=6)","caffeine (137X)",1
+"PKDB00040 / all (n=10; human; healthy; sex: M=10; age: mean 26.7 year; weight: mean 76.3 kilogram; smoking: N=10)","caffeine (137X)",1
+"PKDB00040 / all (n=10; human; healthy; sex: M=10; age: mean 26.7 year; weight: mean 76.3 kilogram; smoking: N=10)","ciprofloxacin",3
+"PKDB00041 / all (n=16; human; healthy; sex: M=16; age: mean 27.1 year; weight: mean 76.7 kilogram; ethnicity: NR; smoking: N=16)","caffeine (137X)",1
+"PKDB00041 / all (n=16; human; healthy; sex: M=16; age: mean 27.1 year; weight: mean 76.7 kilogram; ethnicity: NR; smoking: N=16)","lomefloxacin",1
+"PKDB00047 / all (n=6; human; healthy; sex: M=6; age: 19–21 year; weight: 62–104 kilogram; smoking: N=6)","caffeine (137X)",1
+"PKDB00047 / all (n=6; human; healthy; sex: M=6; age: 19–21 year; weight: 62–104 kilogram; smoking: N=6)","paraxanthine (17X)",1
+"PKDB00047 / all (n=6; human; healthy; sex: M=6; age: 19–21 year; weight: 62–104 kilogram; smoking: N=6)","theobromine (37X)",1
+"PKDB00047 / all (n=6; human; healthy; sex: M=6; age: 19–21 year; weight: 62–104 kilogram; smoking: N=6)","theophylline (13X)",1
+"PKDB00063 / all (n=30; human; healthy; sex: M=30; smoking: N=30)","caffeine (137X)",1
+"PKDB00063 / all (n=30; human; healthy; sex: M=30; smoking: N=30)","metoprolol",1
+"PKDB00063 / all (n=30; human; healthy; sex: M=30; smoking: N=30)","midazolam",1
+"PKDB00063 / all (n=30; human; healthy; sex: M=30; smoking: N=30)","omeprazole",1
+"PKDB00063 / all (n=30; human; healthy; sex: M=30; smoking: N=30)","warfarin",1
+"PKDB00067 / lean good tolerance (n=5; human; healthy; sex: M=5)","D-glucose",1
+"PKDB00067 / lean lower tolerance (n=3; human; healthy; sex: M=3)","D-glucose",1
+"PKDB00067 / obese good tolerance (n=3; human; healthy; sex: F=3)","D-glucose",1
+"PKDB00067 / obese lower tolerance (n=7; human; healthy; sex: F=7)","D-glucose",1
+"PKDB00070 / all (n=12; human; healthy; sex: M=12; age: mean 27.5 year; ethnicity: Caucasian)","exenatide",1
+"PKDB00070 / all (n=12; human; healthy; sex: M=12; age: mean 27.5 year; ethnicity: Caucasian)","Not reported",1
+"PKDB00072 / all (n=17; human; healthy; sex: M=3, F=14; age: mean 25 year; weight: mean 58 kilogram)","D-glucose",1
+"PKDB00075 / control (n=7; human; healthy; sex: M=1, F=6; age: mean 51 year; weight: mean 89 kilogram)","D-glucose",1
+"PKDB00075 / t2dm (n=13; human; not healthy; disease: t2dm; sex: M=4, F=9; age: mean 56 year; weight: mean 84 kilogram)","D-glucose",1
+"PKDB00077 / all (n=6; human; healthy; sex: M=6; age: mean 33 year)","D-glucose",1
+"PKDB00079 / normal (n=6; human; healthy; sex: M=4, F=2; age: mean 14 year)","Not reported",5
+"PKDB00079 / t1dm (n=8; human; not healthy; disease: t1dm; sex: M=4, F=4; age: mean 15 year)","Not reported",5
+"PKDB00081 / control (n=10; human; healthy; sex: M=8, F=2; age: mean 58 year)","D-glucose",1
+"PKDB00081 / control (n=10; human; healthy; sex: M=8, F=2; age: mean 58 year)","Not reported",1
+"PKDB00081 / t2dm (n=10; human; not healthy; disease: t2dm; sex: M=8, F=2; age: mean 62 year)","D-glucose",1
+"PKDB00081 / t2dm (n=10; human; not healthy; disease: t2dm; sex: M=8, F=2; age: mean 62 year)","Not reported",1
+"PKDB00083 / nonobese igt (n=8; human; healthy; disease: impaired glucose tolerance; sex: M=7, F=1; age: mean 49 year; weight: mean 73 kilogram)","D-glucose",1
+"PKDB00083 / nonobese normal (n=9; human; healthy; sex: M=5, F=4; age: mean 47 year; weight: mean 74 kilogram)","D-glucose",1
+"PKDB00083 / obese igt (n=7; human; healthy; disease: impaired glucose tolerance; sex: M=2, F=5; age: mean 55 year; weight: mean 84 kilogram)","D-glucose",1
+"PKDB00083 / obese normal (n=7; human; healthy; sex: M=3, F=4; age: mean 47 year; weight: mean 84 kilogram)","D-glucose",1
+"PKDB00084 / all (n=17; human; healthy/not healthy; sex: M=9, F=8)","C-peptide",3
+"PKDB00084 / control (n=10; human; healthy; sex: M=5, F=5; age: mean 28 year)","C-peptide",2
+"PKDB00084 / t1dm (n=7; human; not healthy; disease: t1dm; sex: M=4, F=3; age: mean 20 year)","C-peptide",2
+"PKDB00086 / DM_1990 (n=353; human; health NR; sex: M=162, F=191; age: mean 51.14 year; weight: mean 65.4 kilogram; ethnicity: Korean)","D-glucose",1
+"PKDB00086 / DM_2000 (n=245; human; health NR; sex: M=128, F=117; age: mean 52.36 year; weight: mean 65.58 kilogram; ethnicity: Korean)","D-glucose",1
+"PKDB00086 / NGT_1990 (n=127; human; health NR; sex: M=55, F=72; age: mean 41 year; weight: mean 63.33 kilogram; ethnicity: Korean)","D-glucose",1
+"PKDB00086 / NGT_2000 (n=89; human; health NR; sex: M=30, F=59; age: mean 42.58 year; weight: mean 60.95 kilogram; ethnicity: Korean)","D-glucose",1
+"PKDB00086 / PREDM_1990 (n=98; human; health NR; sex: M=49, F=49; age: mean 48.85 year; weight: mean 66.16 kilogram; ethnicity: Korean)","D-glucose",1
+"PKDB00086 / PREDM_2000 (n=170; human; health NR; sex: M=82, F=88; age: mean 51.02 year; weight: mean 66.07 kilogram; ethnicity: Korean)","D-glucose",1
+"PKDB00091 / all (n=8; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","codeine",7
+"PKDB00091 / all (n=8; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","codeine phosphate",1
+"PKDB00091 / EM (n=7; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","codeine",7
+"PKDB00091 / EM (n=7; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","codeine phosphate",1
+"PKDB00091 / EM (n=7; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","dextromethorphan",1
+"PKDB00091 / PM (n=1; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","codeine",7
+"PKDB00091 / PM (n=1; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","codeine phosphate",1
+"PKDB00091 / PM (n=1; human; healthy; sex: M=7, F=1; age: mean 27.3 year; weight: mean 67.9 kilogram; smoking: Y=4)","dextromethorphan",1
+"PKDB00094 / all (n=19; human; healthy; sex: M=12, F=7; age: mean 34.8 year; weight: mean 78 kilogram; ethnicity: African, Caucasian, Hispanic)","codeine sulfate anhydrous",1
+"PKDB00094 / all_13 (n=13; human; healthy; sex: M=12, F=7; age: mean 34.8 year; weight: mean 78 kilogram; ethnicity: African, Caucasian, Hispanic)","codeine sulfate anhydrous",2
+"PKDB00094 / all_14 (n=14; human; healthy; sex: M=12, F=7; age: mean 34.8 year; weight: mean 78 kilogram; ethnicity: African, Caucasian, Hispanic)","codeine sulfate anhydrous",1
+"PKDB00094 / all_16 (n=16; human; healthy; sex: M=12, F=7; age: mean 34.8 year; weight: mean 78 kilogram; ethnicity: African, Caucasian, Hispanic)","codeine sulfate anhydrous",1
+"PKDB00094 / all_17 (n=17; human; healthy; sex: M=12, F=7; age: mean 34.8 year; weight: mean 78 kilogram; ethnicity: African, Caucasian, Hispanic)","codeine sulfate anhydrous",2
+"PKDB00106 / Group1 (n=30; human; not healthy; disease: sickle cell disease; sex: M=9, F=21; age: mean 30 year; ethnicity: african american; CYP2D6: *other/*other, *other/*17, *other/*29, *other/*41, *17/*17)","codeine sulfate anhydrous",1
+"PKDB00106 / Group2 (n=24; human; not healthy; disease: sickle cell disease; sex: M=9, F=15; age: mean 31 year; ethnicity: african american; CYP2D6: *29/*29, *other/*29, *17/*17, *other/*other, *other/*17)","codeine sulfate anhydrous",1
+"PKDB00107 / all (n=17; human; health NR; sex: F=2, M=15)","codeine",1
+"PKDB00107 / all (n=17; human; health NR; sex: F=2, M=15)","quinidine",1
+"PKDB00107 / all (n=17; human; health NR; sex: F=2, M=15)","sparteine sulfate",1
+"PKDB00112 / Caucasian (n=149; human; healthy; sex: M=67, F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: N=121, Y=28)","codeine phosphate",1
+"PKDB00112 / Caucasian_F (n=82; human; healthy; sex: F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: N=121, Y=28)","codeine phosphate",1
+"PKDB00112 / Caucasian_F_CONRTA (n=19; human; healthy; sex: F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: N=121, Y=28)","codeine phosphate",1
+"PKDB00112 / Caucasian_F_NONCONRTA (n=63; human; healthy; sex: F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: N=121, Y=28)","codeine phosphate",1
+"PKDB00112 / Caucasian_F_NONSMOKE (n=69; human; healthy; sex: F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: N=69)","codeine phosphate",1
+"PKDB00112 / Caucasian_F_SMOKE (n=13; human; healthy; sex: F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: Y=13)","codeine phosphate",1
+"PKDB00112 / Caucasian_M (n=67; human; healthy; sex: M=67; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: N=121, Y=28)","codeine phosphate",1
+"PKDB00112 / Caucasian_NONSMOKE (n=121; human; healthy; sex: M=67, F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: N=121)","codeine phosphate",1
+"PKDB00112 / Caucasian_SMOKE (n=28; human; healthy; sex: M=67, F=82; age: mean 33 year; weight: mean 66 kilogram; ethnicity: Caucasian; smoking: Y=28)","codeine phosphate",1
+"PKDB00112 / Chinese (n=133; human; healthy; sex: M=110, F=23; age: mean 38 year; weight: mean 63 kilogram; ethnicity: Chinese; smoking: N=107, Y=26)","codeine phosphate",1
+"PKDB00112 / Chinese_F (n=23; human; healthy; sex: F=23; age: mean 38 year; weight: mean 63 kilogram; ethnicity: Chinese; smoking: N=23)","codeine phosphate",1
+"PKDB00112 / Chinese_M (n=110; human; healthy; sex: M=110; age: mean 38 year; weight: mean 63 kilogram; ethnicity: Chinese; smoking: N=107, Y=26)","codeine phosphate",1
+"PKDB00112 / Chinese_M_NONSMOKE (n=84; human; healthy; sex: M=110; age: mean 38 year; weight: mean 63 kilogram; ethnicity: Chinese; smoking: N=84)","codeine phosphate",1
+"PKDB00112 / Chinese_M_SMOKE (n=26; human; healthy; sex: M=110; age: mean 38 year; weight: mean 63 kilogram; ethnicity: Chinese; smoking: Y=26)","codeine phosphate",1
+"PKDB00112 / Chinese_NONSMOKE (n=107; human; healthy; sex: M=110, F=23; age: mean 38 year; weight: mean 63 kilogram; ethnicity: Chinese; smoking: N=107)","codeine phosphate",1
+"PKDB00112 / Chinese_SMOKE (n=26; human; healthy; sex: M=110, F=23; age: mean 38 year; weight: mean 63 kilogram; ethnicity: Chinese; smoking: Y=26)","codeine phosphate",1
+"PKDB00113 / all (n=132; human; healthy; sex: M=50, F=82; age: 15–74 year; smoking: N=93, Y=39)","codeine phosphate",1
+"PKDB00113 / all_EM (n=114; human; healthy; sex: M=50, F=82; age: 15–74 year; smoking: N=93, Y=39)","codeine phosphate",1
+"PKDB00113 / all_EM (n=114; human; healthy; sex: M=50, F=82; age: 15–74 year; smoking: N=93, Y=39)","debrisoquine",1
+"PKDB00113 / all_PM (n=18; human; healthy; sex: M=50, F=82; age: 15–74 year; smoking: N=93, Y=39)","codeine phosphate",1
+"PKDB00113 / all_PM (n=18; human; healthy; sex: M=50, F=82; age: 15–74 year; smoking: N=93, Y=39)","debrisoquine",1
+"PKDB00114 / all (n=8; human; healthy; sex: M=5, F=3; age: mean 34.375 year; weight: mean 60.5 kilogram; ethnicity: Chinese; smoking: Y=1, N=7)","codeine phosphate",1
+"PKDB00114 / all (n=8; human; healthy; sex: M=5, F=3; age: mean 34.375 year; weight: mean 60.5 kilogram; ethnicity: Chinese; smoking: Y=1, N=7)","debrisoquine",1
+"PKDB00115 / EM_MultiDose (n=3; human; healthy; sex: NR=3; age: 27–33 year; ethnicity: Caucasian)","codeine phosphate",10
+"PKDB00115 / EM_MultiDose (n=3; human; healthy; sex: NR=3; age: 27–33 year; ethnicity: Caucasian)","debrisoquine",1
+"PKDB00115 / EM_SingleDose (n=8; human; healthy; sex: F=5, M=3; age: mean 33.375 year; weight: mean 66.125 kilogram; ethnicity: Caucasian)","codeine phosphate",1
+"PKDB00115 / EM_SingleDose (n=8; human; healthy; sex: F=5, M=3; age: mean 33.375 year; weight: mean 66.125 kilogram; ethnicity: Caucasian)","debrisoquine",1
+"PKDB00115 / PM_MultiDose (n=3; human; healthy; sex: NR=3; age: 28–41 year; ethnicity: Caucasian)","codeine phosphate",10
+"PKDB00115 / PM_MultiDose (n=3; human; healthy; sex: NR=3; age: 28–41 year; ethnicity: Caucasian)","debrisoquine",1
+"PKDB00115 / PM_SingleDose (n=6; human; healthy; sex: F=4, M=2; age: mean 26.127 year; weight: mean 60.413 kilogram; ethnicity: Caucasian)","codeine phosphate",1
+"PKDB00115 / PM_SingleDose (n=6; human; healthy; sex: F=4, M=2; age: mean 26.127 year; weight: mean 60.413 kilogram; ethnicity: Caucasian)","debrisoquine",1
+"PKDB00119 / all (n=6; human; healthy; sex: M=6; smoking: N=6)","paracetamol",3
+"PKDB00121 / all (n=15; human; healthy; sex: M=10, F=5; age: mean 28 year; weight: mean 82 kilogram)","paracetamol",2
+"PKDB00124 / control (n=6; human; healthy; sex: NR=12; age: 19–42 year)","paracetamol",2
+"PKDB00124 / epileptic (n=6; human; not healthy; disease: epilepsy; sex: NR=12; age: 19–42 year)","paracetamol",2
+"PKDB00125 / all (n=24; human; healthy; sex: M=12, F=12; age: median 26 year)","caffeine (137X)",1
+"PKDB00125 / all (n=24; human; healthy; sex: M=12, F=12; age: median 26 year)","paracetamol",1
+"PKDB00128 / all (n=2; human; healthy; sex: M=2)","caffeine (137X)",1
+"PKDB00128 / all (n=2; human; healthy; sex: M=2)","theobromine (37X)",1
+"PKDB00128 / all (n=2; human; healthy; sex: M=2)","theophylline (13X)",1
+"PKDB00130 / elderly subjects (n=8; human; healthy; sex: M=16; age: mean 79.3 year; weight: mean 77.2 kilogram; smoking: N=16)","paracetamol",1
+"PKDB00130 / young subjects (n=8; human; healthy; sex: M=16; age: mean 20.8 year; weight: mean 74.9 kilogram; smoking: N=16)","paracetamol",1
+"PKDB00131 / elderly men (n=6; human; healthy; sex: M=6; age: mean 70.7 year; weight: 45.5–90.9 kilogram)","paracetamol",3
+"PKDB00131 / elderly subjects (n=12; human; healthy; sex: M=6, F=6; age: mean 70.7 year; weight: 45.5–90.9 kilogram)","paracetamol",3
+"PKDB00131 / young subjects (n=16; human; healthy; sex: M=8, F=8; age: mean 28.4 year; weight: 47.4–86.4 kilogram)","paracetamol",3
+"PKDB00136 / all (n=4; human; healthy; sex: M=4)","caffeine (137X)",1
+"PKDB00136 / all (n=4; human; healthy; sex: M=4)","dextromethorphan",1
+"PKDB00136 / all (n=4; human; healthy; sex: M=4)","losartan",1
+"PKDB00136 / all (n=4; human; healthy; sex: M=4)","midazolam",1
+"PKDB00136 / all (n=4; human; healthy; sex: M=4)","omeprazole",1
+"PKDB00140 / control (n=12; human; healthy; sex: M=12, M=12)","cimetidine",1
+"PKDB00140 / control (n=12; human; healthy; sex: M=12, M=12)","paracetamol",1
+"PKDB00140 / control (n=12; human; healthy; sex: M=12, M=12)","sulfinpyrazone",1
+"PKDB00140 / epileptic patients (n=6; human; healthy; sex: NR=6; age: mean 26 year; weight: mean 73.7 kilogram; smoking: Y=1, N=5)","paracetamol",2
+"PKDB00140 / nonsmokers (n=6; human; healthy; sex: M=12, M=12; age: mean 25.3 year; weight: mean 76 kilogram; smoking: N=6)","paracetamol",1
+"PKDB00140 / smokers (n=6; human; healthy; sex: M=12, M=12; age: mean 25.8 year; weight: mean 73 kilogram; smoking: Y=6)","paracetamol",1
+"PKDB00150 / all (n=24; human; healthy; sex: M=8, F=16; smoking: N=24)","paracetamol",1
+"PKDB00150 / Females (n=8; human; healthy; sex: F=8; age: mean 22.5 year; weight: mean 64.9 kilogram; smoking: N=24)","paracetamol",1
+"PKDB00150 / Males (n=8; human; healthy; sex: M=8; age: mean 24.8 year; weight: mean 73.8 kilogram; smoking: N=24)","paracetamol",1
+"PKDB00150 / OCS-Females (n=8; human; healthy; sex: F=8; age: mean 22.2 year; weight: mean 61.7 kilogram; smoking: N=24)","paracetamol",1
+"PKDB00151 / patients (n=15; human; health NR; sex: M=12, F=3; age: mean 41 year; weight: mean 71 kilogram)","antipyrine",1
+"PKDB00151 / patients (n=15; human; health NR; sex: M=12, F=3; age: mean 41 year; weight: mean 71 kilogram)","caffeine (137X)",1
+"PKDB00151 / patients (n=15; human; health NR; sex: M=12, F=3; age: mean 41 year; weight: mean 71 kilogram)","paracetamol",1
+"PKDB00151 / volunteers (n=12; human; health NR; sex: M=11, F=1; age: mean 31 year; weight: mean 67 kilogram)","antipyrine",1
+"PKDB00151 / volunteers (n=12; human; health NR; sex: M=11, F=1; age: mean 31 year; weight: mean 67 kilogram)","caffeine (137X)",1
+"PKDB00151 / volunteers (n=12; human; health NR; sex: M=11, F=1; age: mean 31 year; weight: mean 67 kilogram)","paracetamol",1
+"PKDB00154 / 20to40 (n=10; human; healthy; sex: M=7, F=3; age: mean 27 year; weight: mean 81 kilogram; ethnicity: Caucasian; smoking: N=38, Y=2)","paracetamol",1
+"PKDB00154 / 60to70 (n=10; human; healthy; sex: M=5, F=5; age: mean 66 year; weight: mean 83 kilogram; ethnicity: Caucasian; smoking: N=38, Y=2)","paracetamol",1
+"PKDB00154 / 70to80 (n=10; human; healthy; sex: M=6, F=4; age: mean 77 year; weight: mean 82 kilogram; ethnicity: Caucasian; smoking: N=38, Y=2)","paracetamol",1
+"PKDB00154 / 80to90 (n=10; human; healthy; sex: M=1, F=9; age: mean 84 year; weight: mean 68 kilogram; ethnicity: Caucasian; smoking: N=38, Y=2)","paracetamol",1
+"PKDB00156 / all (n=3; human; healthy; sex: M=3; age: 24–36 year; weight: 62–85 kilogram)","L-cysteine",5
+"PKDB00156 / all (n=3; human; healthy; sex: M=3; age: 24–36 year; weight: 62–85 kilogram)","paracetamol",2
+"PKDB00156 / all (n=3; human; healthy; sex: M=3; age: 24–36 year; weight: 62–85 kilogram)","salicylamide",2
+"PKDB00178 / all (n=6; human; healthy; sex: NR=6; age: 22–27 year; weight: 55–77 kilogram)","midazolam",4
+"PKDB00178 / po10 (n=4; human; healthy; sex: NR=6; age: 22–27 year; weight: 55–77 kilogram)","midazolam",1
+"PKDB00178 / po40 (n=2; human; healthy; sex: NR=6; age: 22–27 year; weight: 55–77 kilogram)","midazolam",1
+"PKDB00195 / all (n=5; human; healthy; sex: M=5; age: mean 33.4 year; weight: mean 72.4 kilogram)","caffeine (137X)",1
+"PKDB00195 / all (n=5; human; healthy; sex: M=5; age: mean 33.4 year; weight: mean 72.4 kilogram)","paracetamol",4
+"PKDB00245 / all (n=9; human; healthy; sex: M=9; age: mean 29 year; weight: mean 74 kilogram; smoking: N=9)","alfentanil",1
+"PKDB00245 / all (n=9; human; healthy; sex: M=9; age: mean 29 year; weight: mean 74 kilogram; smoking: N=9)","midazolam",1
+"PKDB00245 / all (n=9; human; healthy; sex: M=9; age: mean 29 year; weight: mean 74 kilogram; smoking: N=9)","rifampicin",1
+"PKDB00245 / all (n=9; human; healthy; sex: M=9; age: mean 29 year; weight: mean 74 kilogram; smoking: N=9)","troleandomycin",1
+"PKDB00248 / all (n=8; human; healthy; sex: M=8; age: mean 27.7 year; weight: mean 70 kilogram; smoking: N=8)","midazolam",2
+"PKDB00248 / all (n=8; human; healthy; sex: M=8; age: mean 27.7 year; weight: mean 70 kilogram; smoking: N=8)","rifampicin",1
+"PKDB00249 / all (n=8; human; not healthy; disease: renal disease, cancer; sex: M=1, F=7; age: median 54 year)","grapefruit juice",1
+"PKDB00249 / all (n=8; human; not healthy; disease: renal disease, cancer; sex: M=1, F=7; age: median 54 year)","midazolam",1
+"PKDB00252 / all (n=12; human; healthy; sex: M=4, F=8; age: mean 30.8 year; ethnicity: Caucasian, Hispanic, african american, Asian; smoking: N=12)","grapefruit juice",2
+"PKDB00252 / all (n=12; human; healthy; sex: M=4, F=8; age: mean 30.8 year; ethnicity: Caucasian, Hispanic, african american, Asian; smoking: N=12)","midazolam",1
+"PKDB00323 / all (n=10; human; healthy; sex: M=6, F=4; age: 21–26 year; weight: mean 70.4 kilogram; ethnicity: Caucasian, Asian, Hispanic)","clotrimazole",1
+"PKDB00323 / all (n=10; human; healthy; sex: M=6, F=4; age: 21–26 year; weight: mean 70.4 kilogram; ethnicity: Caucasian, Asian, Hispanic)","midazolam",2
+"PKDB00325 / ambulant (n=13; human; healthy; sex: F=7, M=6)","midazolam",1
+"PKDB00325 / supine (n=13; human; healthy; sex: F=7, M=6)","midazolam",1
+"PKDB00427 / all (n=39; human; healthy; sex: F=27, M=12; smoking: Y=13, N=26)","caffeine (137X)",1
+"PKDB00427 / normal (n=23; human; healthy; sex: F=16, M=7; age: mean 28 year; weight: mean 64 kilogram; smoking: Y=5, N=18)","caffeine (137X)",1
+"PKDB00427 / obese (n=16; human; healthy; sex: F=11, M=5; age: mean 32 year; weight: mean 120 kilogram; smoking: Y=8, N=8)","caffeine (137X)",1
+"PKDB00450 / saliva_plasma_group (n=6; human; health NR; sex: NR=13)","caffeine (137X)",1
+"PKDB00484 / all (n=42; NR; health NR; sex: NR=42)","caffeine (137X)",1

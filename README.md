@@ -5,6 +5,17 @@ studies: the **original paper on the left**, the **extracted data on the right**
 
 ![viewer](docs/study.png)
 
+## Repository layout
+
+- `src/` — React/TypeScript viewer
+- `app_data/` — generated PK-DB and proposed annotations served by Vite
+- `research_data/` — offline research snapshots not shipped with the viewer
+- `ingest/` — current and legacy ingestion pipelines
+- `paper_screening/` — candidate-paper search and ranking CLI
+- `scope_estimation/` — scope research scripts, samples, and results
+- `pkdb-api/` — PK-DB API snapshots and source-identifier datasets
+- `docs/` — design, methodology, evidence schema, and analysis reports
+
 ## What it shows
 
 For every open-access PK-DB study (those with `licence=open`):
@@ -24,7 +35,7 @@ The study list is searchable by title, drug, journal, or PMID.
 
 ## Data, and what is / isn't available
 
-All data is **downloaded ahead of time** into `public/data/` — the app is fully
+All data is **downloaded ahead of time** into `app_data/pkdb_annotations/` — the app is fully
 static and makes no API calls at runtime.
 
 - **Findings come from a curated CSV dump, not the live API.** pk-db.com serves
@@ -86,12 +97,31 @@ ingest/.venv/bin/python ingest/ingest_dump.py --no-paper # data only, skip NCBI
 reference; it cannot retrieve outputs/time-courses (the API returns them empty),
 so it only produces groups/individuals/interventions.
 
+**Complete raw snapshot** (`ingest/ingest_raw_dump.py`). Builds a
+study-partitioned dump of all 661 studies without fetching paper Markdown or
+filtering non-normalized rows. Reference metadata is enriched with saved
+PMID/PMCID/DOI mappings when available:
+
+```bash
+python ingest/ingest_raw_dump.py
+```
+
+The generated files are written to `research_data/raw_data/`: `index.json`, the global
+`info_nodes.json`, and one study JSON organized by source identifier type:
+
+```text
+research_data/raw_data/
+  pkdb/PKDB00024/study.json
+  pmid/10340911/study.json
+  legacy/Bochner1999/study.json
+```
+
 Output layout:
 
 ```
-public/data/index.json          # study list for the picker
-public/data/<sid>/study.json    # extracted data + findings for one study
-public/data/<sid>/paper.md      # the paper as markdown
+app_data/pkdb_annotations/index.json          # study list for the picker
+app_data/pkdb_annotations/<sid>/study.json    # extracted data + findings for one study
+app_data/pkdb_annotations/<sid>/paper.md      # the paper as markdown
 ```
 
 ## Build

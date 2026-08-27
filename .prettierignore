@@ -1,4 +1,7 @@
 dist
-public/data
+app_data
+research_data
+pkdb_full_markdown
+pkdb-api/*.json
 package-lock.json
 ingest

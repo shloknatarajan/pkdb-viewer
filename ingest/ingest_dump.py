@@ -21,9 +21,9 @@ snapshot. Reference metadata + paper text still come from NCBI (reused from
 ingest.py); for studies already on disk we reuse the saved reference/paper.
 
 Output layout (unchanged, plus findings):
-  public/data/index.json
-  public/data/<sid>/study.json   # now includes outputs / timecourses / scatters
-  public/data/<sid>/paper.md
+  app_data/pkdb_annotations/index.json
+  app_data/pkdb_annotations/<sid>/study.json   # includes outputs / timecourses / scatters
+  app_data/pkdb_annotations/<sid>/paper.md
 
 Attribution: PK-DB (Grzegorzewski et al., Nucleic Acids Res. 2021,
 doi:10.1093/nar/gkaa990). Terms: no restriction beyond the original data
@@ -60,7 +60,7 @@ ZIP_URL = (
 )
 SNAPSHOT = "2021-12-03"
 ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "public" / "data"
+DATA_DIR = ROOT / "app_data" / "pkdb_annotations"
 CACHE = Path(__file__).resolve().parent / ".cache_testdata_concise_false.zip"
 
 # PK-DB curator usernames -> display names (best-effort; falls back to username).

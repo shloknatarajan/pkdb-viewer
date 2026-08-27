@@ -5,7 +5,10 @@
 This repository combines a static PK-DB viewer with data-ingestion and paper-screening tools.
 
 - `src/` contains the React/TypeScript application. Put reusable UI in `src/components/`, shared interfaces in `src/types.ts`, and data-loading helpers in `src/data.ts`.
-- `public/` holds generated study JSON and paper Markdown consumed by the viewer. Treat these as generated assets; update them through an ingestion script when possible.
+- `app_data/pkdb_annotations/` and `app_data/proposed_annotations/` hold
+  generated assets consumed by the viewer. `research_data/` holds offline
+  snapshots that are not shipped with the app. Treat both as generated assets;
+  update them through an ingestion script when possible.
 - `ingest/` contains the current and legacy Python ingestion pipelines.
 - `paper_screening/` is a stdlib-based CLI for finding and ranking candidate papers.
 - `scope_estimation/` and `pkdb-api/` contain research scripts, snapshots, and source datasets.

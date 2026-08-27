@@ -1,0 +1,2734 @@
+{
+  "schema_version": 1,
+  "document_id": "PMC3043256",
+  "existing_pkdb_sid": "PKDB00249",
+  "reference": {
+    "title": "Marginal increase of sunitinib exposure by grapefruit juice",
+    "authors": [
+      "Nielka P. van Erp",
+      "Sharyn D. Baker",
+      "Anthe S. Zandvliet",
+      "Bart A. Ploeger",
+      "Margaret den Hollander",
+      "Zhaoyuan Chen",
+      "Jan den Hartigh",
+      "Jacqueline M. C. König-Quartel",
+      "Henk-Jan Guchelaar",
+      "Hans Gelderblom"
+    ],
+    "journal": "Cancer Chemotherapy and Pharmacology",
+    "publication_date": "2010",
+    "doi": "10.1007/s00280-010-1367-0",
+    "pmid": "20512335",
+    "pmcid": "PMC3043256",
+    "evidence": [
+      {
+        "kind": "text",
+        "source_path": "/papers/PMC3043256/content.lines",
+        "start_line": 1,
+        "end_line": 3,
+        "quote": "Marginal increase of sunitinib exposure by grapefruit juice; Cancer Chemotherapy and Pharmacology (2010)",
+        "panel": null,
+        "visual_label": null,
+        "extraction_model": null
+      }
+    ]
+  },
+  "study_design": "Within-patient, two-period clinical grapefruit juice–drug interaction study in eight cancer patients receiving steady-state sunitinib monotherapy during one 6-week treatment cycle. Serial pharmacokinetic sampling occurred first without prior grapefruit juice between days 14–20 and again on day 28 after grapefruit juice three times daily on days 25–27. A single oral midazolam dose was administered on both pharmacokinetic days as an intestinal CYP3A4 phenotypic probe.",
+  "substances": [
+    {
+      "local_id": "substance-001",
+      "reported_name": "bergamottin (BG)",
+      "normalized_id": null,
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 22,
+          "end_line": 22,
+          "quote": "bergamottin (BG)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "The concentration of BG and DHB in the selected lot of GJ was 33.1 and 2.7 μmol/L, respectively",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "substance-002",
+      "reported_name": "6′,7′-dihydroxybergamottin (DHB)",
+      "normalized_id": null,
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 22,
+          "end_line": 22,
+          "quote": "6′,7′-dihydroxybergamottin (DHB)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "The concentration of BG and DHB in the selected lot of GJ was 33.1 and 2.7 μmol/L, respectively",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "substance-003",
+      "reported_name": "grapefruit juice",
+      "normalized_id": null,
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 29,
+          "end_line": 29,
+          "quote": "On days 25, 26 and 27, the patients used 200-ml grapefruit juice",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "substance-004",
+      "reported_name": "midazolam",
+      "normalized_id": null,
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 29,
+          "end_line": 29,
+          "quote": "patients were given one midazolam 7.5-mg tablet",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 34,
+          "end_line": 37,
+          "quote": "Blood samples were collected ... for assessing sunitinib and midazolam plasma concentrations",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "substance-005",
+      "reported_name": "sunitinib malate",
+      "normalized_id": null,
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 29,
+          "end_line": 29,
+          "quote": "All patients were treated with commercially available hard capsule sunitinib malate",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 34,
+          "end_line": 36,
+          "quote": "Sunitinib was measured using a validated liquid chromatographic-tandem mass spectrometric (LC–MS/MS) assay",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "local_id": "group-001",
+      "name": "Cancer patients receiving sunitinib",
+      "parent_id": null,
+      "count": 8,
+      "characteristics": [
+        {
+          "local_id": "characteristic-001",
+          "name": "Population",
+          "choice": "cancer patients",
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "eight cancer patients",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": null,
+            "minimum": null,
+            "maximum": null,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": null
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 12,
+              "end_line": 12,
+              "quote": "Sunitinib PK was evaluated in eight cancer patients",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-002",
+          "name": "Evaluable for pharmacokinetic analysis",
+          "choice": "all enrolled patients",
+          "substance_id": null,
+          "count": 8,
+          "summary": {
+            "as_reported": "all were evaluable for PK analysis",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": null,
+            "minimum": null,
+            "maximum": null,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": null
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 47,
+              "end_line": 48,
+              "quote": "Eight patients were enrolled into the study and all were evaluable for PK analysis.",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-003",
+          "name": "Age",
+          "choice": null,
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "54 (41–78)",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": 54.0,
+            "minimum": 41.0,
+            "maximum": 78.0,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": "years"
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "Age, years* 54 (41–78) ... * Median values (range)",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-004",
+          "name": "Baseline ALT",
+          "choice": null,
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "39 (18–68)",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": 39.0,
+            "minimum": 18.0,
+            "maximum": 68.0,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": "units/L"
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "ALT, units/L* 39 (18–68)",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-005",
+          "name": "Baseline serum creatinine",
+          "choice": null,
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "77 (56–122)",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": 77.0,
+            "minimum": 56.0,
+            "maximum": 122.0,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": "μM"
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "Creatinine, μM* 77 (56–122)",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-006",
+          "name": "Baseline hemoglobin",
+          "choice": null,
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "8.7 (7–9.4)",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": 8.7,
+            "minimum": 7.0,
+            "maximum": 9.4,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": "mM"
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "Hb, mM* 8.7 (7–9.4)",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-007",
+          "name": "Severe or unexpected side effects during grapefruit juice or midazolam coadministration",
+          "choice": "none observed",
+          "substance_id": null,
+          "count": 0,
+          "summary": {
+            "as_reported": "No severe or unexpected side effects were observed",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": null,
+            "minimum": null,
+            "maximum": null,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": null
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "No severe or unexpected side effects were observed during the 3 days of GJ or midazolam coadministration on both PK days.",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-008",
+          "name": "Sex",
+          "choice": "female",
+          "substance_id": null,
+          "count": 1,
+          "summary": {
+            "as_reported": "1 female",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": null,
+            "minimum": null,
+            "maximum": null,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": null
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "Sex (female/male) 1/7",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-009",
+          "name": "Sex",
+          "choice": "male",
+          "substance_id": null,
+          "count": 7,
+          "summary": {
+            "as_reported": "7 male",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": null,
+            "minimum": null,
+            "maximum": null,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": null
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "Sex (female/male) 1/7",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-010",
+          "name": "Baseline thrombocyte count",
+          "choice": null,
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "196 (149–318)",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": 196.0,
+            "minimum": 149.0,
+            "maximum": 318.0,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": "× 10^9/L"
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "Thrombocytes, × 10 9 /L* 196 (149–318)",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-011",
+          "name": "Baseline total bilirubin",
+          "choice": null,
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "9 (6–15)",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": 9.0,
+            "minimum": 6.0,
+            "maximum": 15.0,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": "μM"
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "Total bilirubin, μM* 9 (6–15)",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        },
+        {
+          "local_id": "characteristic-012",
+          "name": "Baseline white blood cell count",
+          "choice": null,
+          "substance_id": null,
+          "count": null,
+          "summary": {
+            "as_reported": "5.5 (3.5–38.2)",
+            "value": null,
+            "values": null,
+            "mean": null,
+            "geometric_mean": null,
+            "median": 5.5,
+            "minimum": 3.5,
+            "maximum": 38.2,
+            "sd": null,
+            "se": null,
+            "cv": null,
+            "ci_lower": null,
+            "ci_upper": null,
+            "unit": "× 10^9/L"
+          },
+          "evidence": [
+            {
+              "kind": "text",
+              "source_path": "/papers/PMC3043256/content.lines",
+              "start_line": 48,
+              "end_line": 48,
+              "quote": "WBC, × 10 9 /L* 5.5 (3.5–38.2)",
+              "panel": null,
+              "visual_label": null,
+              "extraction_model": null
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 12,
+          "end_line": 12,
+          "quote": "Sunitinib PK was evaluated in eight cancer patients",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 47,
+          "end_line": 48,
+          "quote": "Eight patients were enrolled into the study and all were evaluable for PK analysis.",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    }
+  ],
+  "individuals": [],
+  "interventions": [
+    {
+      "local_id": "intervention-001",
+      "name": "Midazolam CYP3A4 probe administration",
+      "substance_id": "substance-004",
+      "intervention_type": "phenotypic probe administration",
+      "route": "oral",
+      "formulation": "7.5-mg tablet",
+      "regimen": "One tablet on each of the two pharmacokinetic days; first day between days 14–20 and second day on day 28",
+      "dose": {
+        "as_reported": "one midazolam 7.5-mg tablet",
+        "value": 7.5,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "mg"
+      },
+      "time": {
+        "as_reported": "both PK days; first between days 14–20 and second on day 28",
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "group_ids": ["group-001"],
+      "individual_ids": [],
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 12,
+          "end_line": 12,
+          "quote": "On both PK days, patients received a single oral dose of 7.5-mg midazolam",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 29,
+          "end_line": 29,
+          "quote": "patients were given one midazolam 7.5-mg tablet",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "intervention-002",
+      "name": "Grapefruit juice coadministration",
+      "substance_id": "substance-003",
+      "intervention_type": "food–drug interaction intervention",
+      "route": "oral",
+      "formulation": "preselected lot of commercially available grapefruit juice; a second lot of the same brand was used for the last two patients",
+      "regimen": "200 mL three times daily on days 25, 26 and 27; sunitinib was taken simultaneously with the morning grapefruit juice consumption",
+      "dose": {
+        "as_reported": "200-mL GJ",
+        "value": 200.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "mL"
+      },
+      "time": {
+        "as_reported": "days 25, 26 and 27",
+        "value": null,
+        "values": [25.0, 26.0, 27.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "study day"
+      },
+      "group_ids": ["group-001"],
+      "individual_ids": [],
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 29,
+          "end_line": 29,
+          "quote": "On days 25, 26 and 27, the patients used 200-ml grapefruit juice ... 3 times daily.",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "a second lot of the same brand was selected for the last two patients of the study",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "intervention-003",
+      "name": "Sunitinib treatment",
+      "substance_id": "substance-005",
+      "intervention_type": "drug administration",
+      "route": "oral",
+      "formulation": "commercially available hard capsule sunitinib malate",
+      "regimen": "25/37.5/50 mg once daily in a “4 weeks on followed by 2 weeks off” regimen; study performed during one 6-week treatment cycle",
+      "dose": {
+        "as_reported": "25/37.5/50 mg",
+        "value": null,
+        "values": [25.0, 37.5, 50.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "mg"
+      },
+      "time": {
+        "as_reported": "one sunitinib treatment cycle of 6 weeks",
+        "value": 6.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "weeks"
+      },
+      "group_ids": ["group-001"],
+      "individual_ids": [],
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 29,
+          "end_line": 29,
+          "quote": "sunitinib malate ... at an oral dose of 25/37.5/50 mg once daily in a “4 weeks on followed by 2 weeks off” dose regimen",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "local_id": "output-001",
+      "measurement_type": "AUC 0–24 h",
+      "substance_id": "substance-004",
+      "matrix": "plasma",
+      "calculation_type": "non-compartmental analysis; arithmetic mean ± SEM; second pharmacokinetic day after grapefruit juice",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": [
+        "intervention-003",
+        "intervention-001",
+        "intervention-002"
+      ],
+      "time": {
+        "as_reported": "0–24 h",
+        "value": null,
+        "values": [0.0, 24.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "182.0 (± 52.2) ng h/mL",
+        "value": null,
+        "values": null,
+        "mean": 182.0,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": 52.2,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "ng h/mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 14,
+          "end_line": 14,
+          "quote": "increase ... from 122.1 to 182.0 ng h/mL",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 53,
+          "end_line": 53,
+          "quote": "Midazolam exposure ... increased after prior intake of GJ ... 122.1 (± 32.9) and 182.0 (± 52.2) ng h/mL",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-002",
+      "measurement_type": "Change in mean AUC 0–24 h with grapefruit juice",
+      "substance_id": "substance-004",
+      "matrix": "plasma",
+      "calculation_type": "reported approximate relative increase",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": [
+        "intervention-003",
+        "intervention-001",
+        "intervention-002"
+      ],
+      "time": {
+        "as_reported": "0–24 h",
+        "value": null,
+        "values": [0.0, 24.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "~50%",
+        "value": 50.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 14,
+          "end_line": 14,
+          "quote": "an increase of ~50% of mean midazolam exposure",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-003",
+      "measurement_type": "AUC 0–24 h",
+      "substance_id": "substance-004",
+      "matrix": "plasma",
+      "calculation_type": "non-compartmental analysis; arithmetic mean ± SEM; first pharmacokinetic day without prior grapefruit juice",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-001"],
+      "time": {
+        "as_reported": "0–24 h",
+        "value": null,
+        "values": [0.0, 24.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "122.1 (± 32.9) ng h/mL",
+        "value": null,
+        "values": null,
+        "mean": 122.1,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": 32.9,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "ng h/mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 14,
+          "end_line": 14,
+          "quote": "increase ... from 122.1 to 182.0 ng h/mL",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 53,
+          "end_line": 53,
+          "quote": "Midazolam exposure ... increased after prior intake of GJ ... 122.1 (± 32.9) and 182.0 (± 52.2) ng h/mL",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-004",
+      "measurement_type": "Paired comparison P value for AUC 0–24 h",
+      "substance_id": "substance-004",
+      "matrix": "plasma",
+      "calculation_type": "two-sided paired Student's t test",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": [
+        "intervention-003",
+        "intervention-001",
+        "intervention-002"
+      ],
+      "time": {
+        "as_reported": "0–24 h",
+        "value": null,
+        "values": [0.0, 24.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "P = .034",
+        "value": 0.034,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 39,
+          "end_line": 39,
+          "quote": "Statistical analysis included the two-sided paired Student’s t test",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 53,
+          "end_line": 53,
+          "quote": "P = .034",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-005",
+      "measurement_type": "Grapefruit juice constituent amount per administered volume",
+      "substance_id": "substance-001",
+      "matrix": "grapefruit juice",
+      "calculation_type": "reported corresponding amount in first selected lot",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "2.2 mg/200 mL BG",
+        "value": 2.2,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "mg/200 mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "corresponding to 2.2 mg/200 mL BG",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-006",
+      "measurement_type": "Grapefruit juice constituent concentration",
+      "substance_id": "substance-001",
+      "matrix": "grapefruit juice",
+      "calculation_type": "measured concentration in first selected lot",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "33.1 μmol/L",
+        "value": 33.1,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "μmol/L"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "The concentration of BG and DHB in the selected lot of GJ was 33.1 and 2.7 μmol/L, respectively",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-007",
+      "measurement_type": "Grapefruit juice constituent amount per administered volume",
+      "substance_id": "substance-001",
+      "matrix": "grapefruit juice",
+      "calculation_type": "reported corresponding amount in second selected lot",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "1.6 mg/200 mL BG",
+        "value": 1.6,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "mg/200 mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "corresponding to 1.6 mg/200 mL BG",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-008",
+      "measurement_type": "Grapefruit juice constituent concentration",
+      "substance_id": "substance-001",
+      "matrix": "grapefruit juice",
+      "calculation_type": "measured concentration in second selected lot used for the last two patients",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "23.5 μmol/L BG",
+        "value": 23.5,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "μmol/L"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "The concentrations in the second lot selected were 23.5 μmol/L BG and 5.7 μmol/L DHB",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-009",
+      "measurement_type": "Grapefruit juice constituent amount per administered volume",
+      "substance_id": "substance-002",
+      "matrix": "grapefruit juice",
+      "calculation_type": "reported corresponding amount in first selected lot",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "0.2 mg/200 mL DHB",
+        "value": 0.2,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "mg/200 mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "0.2 mg/200 mL DHB",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-010",
+      "measurement_type": "Grapefruit juice constituent concentration",
+      "substance_id": "substance-002",
+      "matrix": "grapefruit juice",
+      "calculation_type": "measured concentration in first selected lot",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "2.7 μmol/L",
+        "value": 2.7,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "μmol/L"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "The concentration of BG and DHB in the selected lot of GJ was 33.1 and 2.7 μmol/L, respectively",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-011",
+      "measurement_type": "Grapefruit juice constituent amount per administered volume",
+      "substance_id": "substance-002",
+      "matrix": "grapefruit juice",
+      "calculation_type": "reported corresponding amount in second selected lot",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "0.4 mg/200 mL DHB",
+        "value": 0.4,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "mg/200 mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "0.4 mg/200 mL DHB",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-012",
+      "measurement_type": "Grapefruit juice constituent concentration",
+      "substance_id": "substance-002",
+      "matrix": "grapefruit juice",
+      "calculation_type": "measured concentration in second selected lot used for the last two patients",
+      "group_id": null,
+      "individual_id": null,
+      "intervention_ids": ["intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "5.7 μmol/L DHB",
+        "value": 5.7,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "μmol/L"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 50,
+          "end_line": 50,
+          "quote": "The concentrations in the second lot selected were 23.5 μmol/L BG and 5.7 μmol/L DHB",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-013",
+      "measurement_type": "Observed plasma concentration count used in model evaluation",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "count of observed sunitinib concentrations",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "268 observed sunitinib plasma concentrations",
+        "value": 268.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "concentrations"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "Out of 268 observed sunitinib plasma concentrations",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-014",
+      "measurement_type": "Numerical predictive check proportion above P25–P75 prediction interval",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model diagnostic",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "21.3% was above",
+        "value": 21.3,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "21.3% was above the P25–P75 prediction interval",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-015",
+      "measurement_type": "Numerical predictive check proportion below P25–P75 prediction interval",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model diagnostic",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "21.6% was below",
+        "value": 21.6,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "21.6% was below the P25–P75 (interquartile) prediction interval",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-016",
+      "measurement_type": "Numerical predictive check proportion within P25–P75 prediction interval",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model diagnostic",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "57.1% was within",
+        "value": 57.1,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "57.1% was within the interval",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-017",
+      "measurement_type": "Absorption lag time",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic final-model estimate; RSE 6.8%; IIV not determined",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "0.487; RSE 6.8%; IIV nd",
+        "value": 0.487,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "Absorption lag time (h) 0.487 6.8 nd nd",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-018",
+      "measurement_type": "Absorption rate constant ka",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic final-model estimate; RSE 27.6%; IIV 63.9% CV with RSE 42.9%",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "0.468; RSE 27.6%; IIV 63.9% CV; RSE of IIV 42.9%",
+        "value": 0.468,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": 63.9,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h−1"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "ka (h −1 ) 0.468 27.6 63.9 42.9",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-019",
+      "measurement_type": "AUC 0–24 h at steady-state pharmacokinetics",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "derived from population pharmacokinetic model; mean and range; simultaneous grapefruit juice and sunitinib",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": "0–24 h",
+        "value": null,
+        "values": [0.0, 24.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "1245 (308–2663)",
+        "value": null,
+        "values": null,
+        "mean": 1245.0,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": 308.0,
+        "maximum": 2663.0,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "ng h/mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 68,
+          "quote": "AUC 0–24 h (ng h/mL) 1122 (277–2399) 1245 (308–2663) ... Derived parameters are calculated from estimated parameters and are demonstrated as mean values (range)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-020",
+      "measurement_type": "AUC 0–24 h at steady-state pharmacokinetics",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "derived from population pharmacokinetic model; mean and range; without grapefruit juice",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003"],
+      "time": {
+        "as_reported": "0–24 h",
+        "value": null,
+        "values": [0.0, 24.0],
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "1122 (277–2399)",
+        "value": null,
+        "values": null,
+        "mean": 1122.0,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": 277.0,
+        "maximum": 2399.0,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "ng h/mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 68,
+          "quote": "AUC 0–24 h (ng h/mL) 1122 (277–2399) 1245 (308–2663) ... Derived parameters are calculated from estimated parameters and are demonstrated as mean values (range)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-021",
+      "measurement_type": "Apparent clearance Cl/F",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic final-model estimate; RSE 20.6%; IIV 67.9% CV with RSE 42.7%",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "50.5; RSE 20.6%; IIV 67.9% CV; RSE of IIV 42.7%",
+        "value": 50.5,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": 67.9,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "L/h"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "Cl/F (L/h) 50.5 20.6 67.9 42.7",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-022",
+      "measurement_type": "Cmax",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "derived from population pharmacokinetic model; mean and range; simultaneous grapefruit juice and sunitinib",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "14.4 (11.1–16.2)",
+        "value": null,
+        "values": null,
+        "mean": 14.4,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": 11.1,
+        "maximum": 16.2,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "ng/mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 68,
+          "quote": "Cmax (ng/mL) 13.0 (10.0–14.6) 14.4 (11.1–16.2)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-023",
+      "measurement_type": "Cmax",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "derived from population pharmacokinetic model; mean and range; without grapefruit juice",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "13.0 (10.0–14.6)",
+        "value": null,
+        "values": null,
+        "mean": 13.0,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": 10.0,
+        "maximum": 14.6,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "ng/mL"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 68,
+          "quote": "Cmax (ng/mL) 13.0 (10.0–14.6) 14.4 (11.1–16.2)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-024",
+      "measurement_type": "Elimination half-life",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "derived from population pharmacokinetic model; mean and range",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "53 (12–107)",
+        "value": null,
+        "values": null,
+        "mean": 53.0,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": 12.0,
+        "maximum": 107.0,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 68,
+          "quote": "t 1/2 (h) 53 (12–107)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-025",
+      "measurement_type": "Relative bioavailability",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic final-model estimate for simultaneous grapefruit juice and sunitinib; RSE 70%; 95% CI reported separately with estimate",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": "simultaneous intake",
+        "value": 0.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h interval"
+      },
+      "result": {
+        "as_reported": "1.11 (95%CI 1.042–1.182); RSE 70%",
+        "value": 1.11,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": 1.042,
+        "ci_upper": 1.182,
+        "unit": null
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "Relative F 1.11 70 nd nd",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        },
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 69,
+          "end_line": 69,
+          "quote": "increased relative bioavailability 1.11, 95%CI 1.042–1.182",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-026",
+      "measurement_type": "Proportional residual error",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic final-model estimate; RSE 22.9%",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "16.3%; RSE 22.9%",
+        "value": 16.3,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "Proportional residual error (%) 16.3 22.9 nd nd",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-027",
+      "measurement_type": "Apparent volume of distribution Vd/F",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic final-model estimate; RSE 7.8%; IIV not determined",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "3210; RSE 7.8%; IIV nd",
+        "value": 3210.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "L"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 60,
+          "end_line": 60,
+          "quote": "Vd/F(L) 3210 7.8 nd nd",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-028",
+      "measurement_type": "Tmax",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "derived from population pharmacokinetic model; mean and range",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003"],
+      "time": {
+        "as_reported": null,
+        "value": null,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": null
+      },
+      "result": {
+        "as_reported": "8.2 (2.8–12.4)",
+        "value": null,
+        "values": null,
+        "mean": 8.2,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": 2.8,
+        "maximum": 12.4,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 63,
+          "end_line": 68,
+          "quote": "Tmax (h) 8.2 (2.8–12.4)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-029",
+      "measurement_type": "Model-estimated increase in sunitinib exposure",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model; simultaneous grapefruit juice and sunitinib",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": "simultaneous intake",
+        "value": 0.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h interval"
+      },
+      "result": {
+        "as_reported": "11%",
+        "value": 11.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 69,
+          "end_line": 69,
+          "quote": "simultaneous intake of sunitinib and grapefruit juice ... increase of sunitinib exposure of 11%",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-030",
+      "measurement_type": "Model-estimated increase in sunitinib exposure",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model; interval after last grapefruit juice consumption",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": "1 week after the last GJ consumption",
+        "value": 1.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "week"
+      },
+      "result": {
+        "as_reported": "~0.07%",
+        "value": 0.07,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 70,
+          "end_line": 70,
+          "quote": "1 week after the last GJ consumption ... negligible (~0.07%)",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-031",
+      "measurement_type": "Model-estimated increase in sunitinib exposure",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model; interval after last grapefruit juice consumption",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": "after 24 h",
+        "value": 24.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "~5.3%",
+        "value": 5.3,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 70,
+          "end_line": 70,
+          "quote": "after 24 h the effect is ~5.3%",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-032",
+      "measurement_type": "Model-estimated increase in sunitinib exposure",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model; interval after last grapefruit juice consumption",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": "after 72 h",
+        "value": 72.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "~1.3%",
+        "value": 1.3,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 70,
+          "end_line": 70,
+          "quote": "after 72 h it is ~1.3%",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    },
+    {
+      "local_id": "output-033",
+      "measurement_type": "Model-estimated increase in sunitinib exposure",
+      "substance_id": "substance-005",
+      "matrix": "plasma",
+      "calculation_type": "population pharmacokinetic model; grapefruit juice consumed before sunitinib",
+      "group_id": "group-001",
+      "individual_id": null,
+      "intervention_ids": ["intervention-003", "intervention-002"],
+      "time": {
+        "as_reported": "7 h before the sunitinib dose",
+        "value": 7.0,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "h"
+      },
+      "result": {
+        "as_reported": "~8.9%",
+        "value": 8.9,
+        "values": null,
+        "mean": null,
+        "geometric_mean": null,
+        "median": null,
+        "minimum": null,
+        "maximum": null,
+        "sd": null,
+        "se": null,
+        "cv": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "unit": "%"
+      },
+      "evidence": [
+        {
+          "kind": "text",
+          "source_path": "/papers/PMC3043256/content.lines",
+          "start_line": 70,
+          "end_line": 70,
+          "quote": "when GJ is consumed 7 h before the sunitinib dose, the sunitinib exposure is increased by ~8.9%",
+          "panel": null,
+          "visual_label": null,
+          "extraction_model": null
+        }
+      ]
+    }
+  ],
+  "timecourses": [],
+  "scatters": [],
+  "sources": [
+    {
+      "path": "/papers/PMC3043256/content.lines",
+      "sha256": "1c0f798aced3d6f7b014f707e1eb81d792e7d96d372b3cec71044425f07bb9cd",
+      "line_count": 133,
+      "kind": "paper"
+    }
+  ],
+  "unresolved_issues": [
+    {
+      "code": "MISSING_ARTICLE_IDENTIFIERS",
+      "message": "A DOI and PMID for the study article are not reported in the supplied paper text.",
+      "severity": "info",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 1,
+      "end_line": 3
+    },
+    {
+      "code": "SUNITINIB_DOSE_ASSIGNMENT_UNREPORTED",
+      "message": "The study reports possible sunitinib doses of 25, 37.5, or 50 mg once daily but does not report each patient's assigned dose.",
+      "severity": "warning",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 29,
+      "end_line": 29
+    },
+    {
+      "code": "INDIVIDUAL_PATIENT_CONTEXT_UNREPORTED",
+      "message": "Patient identifiers and patient-level demographics, diagnoses, doses, concentrations, and grapefruit juice lot assignments are not reported in the supplied text; individual records cannot be created.",
+      "severity": "warning",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 47,
+      "end_line": 50
+    },
+    {
+      "code": "ACTUAL_TUMOR_TYPES_UNREPORTED",
+      "message": "Eligibility included metastatic renal cell carcinoma, gastrointestinal stromal tumor, or tumors with no remaining treatment options, but the diagnosis distribution among the eight enrolled patients is not reported.",
+      "severity": "warning",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 26,
+      "end_line": 26
+    },
+    {
+      "code": "GRAPEFRUIT_JUICE_LOT_CHANGE",
+      "message": "A second lot of the same grapefruit juice brand was used for the last two patients because of the first lot's expiry date; the affected patient identities are not reported.",
+      "severity": "warning",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 50,
+      "end_line": 50
+    },
+    {
+      "code": "MIDAZOLAM_CONDITION_ORDER_CONTRADICTION",
+      "message": "Line 53 labels 122.1 and 182.0 ng h/mL as occurring 'with and without GJ,' respectively, but also states that exposure increased after grapefruit juice; line 14 explicitly describes an increase from 122.1 to 182.0 ng h/mL. The records assign 122.1 to the condition without prior grapefruit juice and 182.0 to the condition after grapefruit juice while retaining this source inconsistency.",
+      "severity": "warning",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 14,
+      "end_line": 53
+    },
+    {
+      "code": "FIGURE_VALUES_NOT_AVAILABLE",
+      "message": "Figures 3–5 contain individual midazolam AUC values and measured sunitinib concentrations, but no digitized figure values or figure image source was supplied; patient-level points and concentration–time courses cannot be curated.",
+      "severity": "warning",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 52,
+      "end_line": 59
+    },
+    {
+      "code": "SUNITINIB_RESULTS_MODEL_DERIVED",
+      "message": "Sunitinib pharmacokinetic parameters, AUC, Cmax, half-life, Tmax, relative bioavailability, and interval effects are population-model estimates or values derived from estimated parameters, not direct observed summary measurements.",
+      "severity": "info",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 60,
+      "end_line": 70
+    },
+    {
+      "code": "SECOND_PK_DAY_NOT_AT_SUNITINIB_STEADY_STATE_WITH_GJ",
+      "message": "After three days of grapefruit juice coadministration, sunitinib had not reached a new steady state on the second pharmacokinetic day; the grapefruit juice effect was therefore evaluated using a compartmental population pharmacokinetic approach.",
+      "severity": "warning",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 79,
+      "end_line": 79
+    },
+    {
+      "code": "SUNITINIB_METABOLITE_NOT_QUANTIFIED",
+      "message": "The active metabolite SU12662 was not quantified; only sunitinib was quantified in this study.",
+      "severity": "info",
+      "source_path": "/papers/PMC3043256/content.lines",
+      "start_line": 76,
+      "end_line": 76
+    }
+  ],
+  "status": "complete"
+}

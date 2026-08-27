@@ -24,16 +24,16 @@ half-life, volume of distribution).
 
 ## The ground truth we calibrate against
 
-`pkdb_papers.txt` (repo root) is a CSV — `pmid,pmcid,title,abstract` — of the **779 papers
+`pkdb-api/pkdb_papers.txt` is a CSV — `pmid,pmcid,title,abstract` — of the **779 papers
 PK-DB has already annotated**. It is the positive/"done" set and the anchor for every method
 below. Measured facts:
 
 | Fact | Value | Source |
 |---|---|---|
 | Curated studies / papers | 803 studies / **779** papers | `pkdb-api/summary.json` |
-| Papers with a PMID | 779 (100%) | `pkdb_papers.txt` |
-| Papers with a **PMCID** (in PMC) | **155 (19.9%)** | `pkdb_papers.txt` |
-| Papers with an abstract | 720 | `pkdb_papers.txt` |
+| Papers with a PMID | 779 (100%) | `pkdb-api/pkdb_papers.txt` |
+| Papers with a **PMCID** (in PMC) | **155 (19.9%)** | `pkdb-api/pkdb_papers.txt` |
+| Papers with an abstract | 720 | `pkdb-api/pkdb_papers.txt` |
 | Studies by licence | 88 open / 715 closed | `pkdb-api/studies_full.json` |
 
 **Abstract term signature** (fraction of the 779 abstracts containing the term) — this is the
@@ -263,7 +263,8 @@ The most assumption-light method and the best independent check on Method A.
    # (line count − 1 header = |PMC-OA|; on the order of a few million)
    ```
 2. **Random sample** 500–1,000 PMCIDs from that list.
-3. **Classify** each as PK-DB-annotatable using a classifier seeded on the `pkdb_papers.txt`
+3. **Classify** each as PK-DB-annotatable using a classifier seeded on the
+   `pkdb-api/pkdb_papers.txt`
    signature (keyword rules, or an LLM prompt given a few positive/negative abstracts from the
    779). Get prevalence `p̂ = annotatable / sampled`.
 4. **Estimate + interval** (Wilson binomial CI, robust for small `p`):

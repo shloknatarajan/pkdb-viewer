@@ -3,27 +3,38 @@ import type {
   IndexFile,
   Intervention,
   Output,
+  ProposedAnnotation,
   Study,
 } from "./types";
 
 const BASE = import.meta.env.BASE_URL; // "./" in this build
 
 export async function loadIndex(): Promise<IndexFile> {
-  const r = await fetch(`${BASE}data/index.json`);
+  const r = await fetch(`${BASE}pkdb_annotations/index.json`);
   if (!r.ok) throw new Error(`Could not load study index (${r.status})`);
   return r.json();
 }
 
 export async function loadStudy(sid: string): Promise<Study> {
-  const r = await fetch(`${BASE}data/${sid}/study.json`);
+  const r = await fetch(`${BASE}pkdb_annotations/${sid}/study.json`);
   if (!r.ok) throw new Error(`Could not load study ${sid} (${r.status})`);
   return r.json();
 }
 
 export async function loadPaper(sid: string): Promise<string> {
-  const r = await fetch(`${BASE}data/${sid}/paper.md`);
+  const r = await fetch(`${BASE}pkdb_annotations/${sid}/paper.md`);
   if (!r.ok) throw new Error(`Could not load paper for ${sid} (${r.status})`);
   return r.text();
+}
+
+export async function loadProposal(
+  sid: string
+): Promise<ProposedAnnotation | null> {
+  if (sid !== "PKDB00249") return null;
+  const r = await fetch(`${BASE}proposed_annotations/${sid}.json`);
+  if (!r.ok)
+    throw new Error(`Could not load proposal for ${sid} (${r.status})`);
+  return r.json();
 }
 
 const num = (n: number) =>
