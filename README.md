@@ -12,6 +12,7 @@ studies: the **original paper on the left**, the **extracted data on the right**
 - `research_data/` — offline research snapshots not shipped with the viewer
 - `ingest/` — current and legacy ingestion pipelines
 - `paper_screening/` — candidate-paper search and ranking CLI
+- `paperclip_full_text_annotations/` — PK-DB annotations for papers with full text in Paperclip
 - `pkdb-api/` — PK-DB API snapshots and source-identifier datasets
 - `docs/` — design, evidence schema, and analysis reports
 
